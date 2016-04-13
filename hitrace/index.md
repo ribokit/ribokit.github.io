@@ -20,7 +20,11 @@ An online user-friendly GUI is available at the [**HiTRACE Web**](http://hitrace
 
 To install **HiTRACE**, simply:
 
-- Download the zip or tar file of the repository and unpack; or `git clone https://github.com/hitrace/hitrace.git`.
+- Download the zip or tar file of the repository and unpack; or 
+
+```bash
+git clone https://github.com/hitrace/hitrace.git
+```
 
 - In *MATLAB*, go to "**Set Path**". Then "**Add with Subfolders**" of the target `path/to/hitrace/Scripts/`.
 
