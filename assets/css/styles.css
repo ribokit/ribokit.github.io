@@ -544,7 +544,7 @@ h3 {
 
 a {
   color: #3399cc;
-  font-weight: 400;
+  /*font-weight: 400;*/
   text-decoration: none;
 }
 
@@ -557,11 +557,6 @@ a small {
 
 ul {
   list-style-image: url("../images/bullet.png");
-}
-
-strong {
-  font-weight: bold;
-  color: #333;
 }
 
 .wrapper {
@@ -583,18 +578,18 @@ blockquote {
 
 code {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  font-size: 13px;
+  font-size: 12px;
   color: #efefef;
-  text-shadow: 0px 1px 0px #000;
+  /*text-shadow: 0px 1px 0px #000;*/
   margin: 0 4px;
-  padding: 2px 6px;
+  padding: 2px 6px 3px 6px;
   background: #333;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
-  border-radius: 2px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
 }
 
 pre {
@@ -691,9 +686,9 @@ header p {
 #banner {
   z-index: 100;
   left: 0;
-  right: 50%;
+  right: 25%;
   height: 50px;
-  margin-right: -382px;
+  margin-right: -182px;
   position: fixed;
   top: 115px;
   background: #ffcc00;
@@ -794,7 +789,7 @@ header p {
 }
 
 section {
-  width: 590px;
+  width: 770px;
   padding: 30px 30px 50px 30px;
   margin: 20px 0;
   margin-top: 190px;

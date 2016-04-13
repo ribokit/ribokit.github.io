@@ -1,0 +1,31 @@
+# Site settings
+title: RiboKit
+email: rhiju@stanford.edu
+description: ""
+baseurl: ""
+url: "http://ribokit.github.io"
+github_username:  ribokit
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+
+# Markdown Processors
+kramdown:
+  input: GFM
+
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+  coderay:
+    coderay_wrap:              div
+    coderay_line_numbers:      inline
+    coderay_line_number_start: 1
+    coderay_tab_width:         4
+    coderay_bold_every:        10
+    coderay_css:               style
