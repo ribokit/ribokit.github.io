@@ -1,7 +1,7 @@
 ---
 layout: home
 title: RiboKit
-description: _[RiboKit subtitle needed]_
+description: Research Tools for RNA Modeling &amp; Design
 ---
 
 # RiboKit
