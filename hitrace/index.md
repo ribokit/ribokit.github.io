@@ -1,7 +1,7 @@
 ---
 layout: default
 title: HiTRACE
-description: High-Throughput Robust Analysis for Capillary Electrophoresis
+description: "<u>Hi</u>gh-<u>T</u>hroughput <u>R</u>obust <u>A</u>nalysis for <u>C</u>apillary <u>E</u>lectrophoresis"
 repo: hitrace/hitrace
 permalink: /hitrace/
 ---
@@ -31,7 +31,7 @@ git clone https://github.com/hitrace/hitrace.git
 <hr/>
 ## Usage 
 
-*MATLAB* Tutorial is available [**here**](https://ribokit.github.io/hitrace/).
+### *MATLAB* Tutorial is available at: [**tutorial/**](tutorial/).
 
 <hr/>
 ## License
