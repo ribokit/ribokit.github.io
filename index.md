@@ -1,7 +1,7 @@
 ---
 layout: default
 title: RiboKit
-description: Das Lab RNA Research Toolkit
+description: Research tools for RNA modeling/design
 ---
 
 # RiboKit
