@@ -625,8 +625,13 @@ table {
 th {
   text-align: left;
   padding: 5px 10px;
-  border-bottom: 1px solid #e5e5e5;
   color: #444;
+  background-color: #eee;
+  border-bottom: 2px solid #ffcc00;
+  border-right: 1px solid #ffcc00;
+}
+th:first-child {
+  border-left: 1px solid #ffcc00;
 }
 
 td {
@@ -639,6 +644,9 @@ td:first-child {
   border-left: 1px solid #ffcc00;
 }
 
+tr:nth-child(even) > td {
+  background-color: #eee;
+}
 hr {
   border: 0;
   outline: none;
