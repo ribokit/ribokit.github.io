@@ -3,6 +3,13 @@
         <small>Project maintained by</small>
         <br/>
         <a href="https://github.com/DasLab"><b>Das Lab</b></a>&nbsp;
+        {% if page.author %}
+        <br/>
+        <small>Page created by</small>
+        <br/>
+        <span style="color: #39c;"><i>{{ page.author }}</i></span>&nbsp;
+        
+        {% endif %}
     </p>
     <p>
         <small>Hosted on</small> GitHub Pages
