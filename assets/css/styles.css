@@ -647,6 +647,7 @@ td:first-child {
 tr:nth-child(even) > td {
   background-color: #eee;
 }
+
 hr {
   border: 0;
   outline: none;
@@ -997,7 +998,7 @@ footer {
     color: #444;
   }
 }
-@media print, screen and (max-height: 680px) {
+/*@media print, screen and (max-height: 680px) {
   footer {
     text-align: center;
     margin: 20px auto;
@@ -1006,18 +1007,18 @@ footer {
     bottom: auto;
     width: auto;
   }
-}
+}*/
 @media print, screen and (max-height: 480px) {
   nav {
     display: none;
   }
 
-  footer {
+/*  footer {
     text-align: center;
     margin: 20px auto;
     position: relative;
     left: auto;
     bottom: auto;
     width: auto;
-  }
+  }*/
 }

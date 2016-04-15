@@ -60,6 +60,6 @@ Copyright &copy; of **HiTRACE** _Source Code_ is described in [LICENSE.md](https
 >*Bioinformatics* **27 (13)**: 1798 - 1805.
 
 <hr/>
-Developedby **Das lab** (_Leland Stanford Junior University_) and **Yoon lab** (_Seoul National University_) and colleagues.
+Developed by **Das lab** (_Leland Stanford Junior University_) and **Yoon lab** (_Seoul National University_) and colleagues.
 
 README by [**t47**](http://t47.io/), *April 2016*.

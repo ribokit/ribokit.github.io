@@ -1,6 +1,8 @@
 ---
 layout: docs
 permalink: /hitrace/tutorial/step_1/
+prev: step_0/
+next: step_2/
 
 title: HiTRACE
 description: "<u>Hi</u>gh-<u>T</u>hroughput <u>R</u>obust <u>A</u>nalysis for <u>C</u>apillary <u>E</u>lectrophoresis"

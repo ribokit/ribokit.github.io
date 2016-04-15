@@ -6,7 +6,13 @@
     <div class="downloads">
       <span style="text-transform: none; font-size: 120%;"><u>{{ page.permalink }}</u></span>
       <ul>
-        <li><a href="../" class="button">&#x226A;</a></li>
+        <li><a href="../" class="button">&#x21E7;</a></li>
+        {% if page.prev %}
+        <li><a href="../{{ page.prev }}" class="button">&#x21E6;</a></li>
+        {% endif %}
+        {% if page.next %}
+        <li><a href="../{{ page.next }}" class="button">&#x21E8;</a></li>
+        {% endif %}
       </ul>
     </div>
   </div>

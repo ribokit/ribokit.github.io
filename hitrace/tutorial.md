@@ -22,6 +22,9 @@ Example scripts and data are included in the HiTRACE repository. For a new analy
 
 The complete HiTRACE analysis pipeline is composed of the following steps.
 
+* ### #0: [Get Started](step_0/)
+Checklist before kick off.
+
 * ### #1: [Load and Preview Data](step_1/)
 Read in data and provide a quick look.
 
