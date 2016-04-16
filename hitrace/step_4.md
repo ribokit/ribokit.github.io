@@ -111,9 +111,8 @@ As mentioned before, the _auto-assign_ result need to be double checked before a
 
 If you have the _GAGUA_ reference hairpin at both ends (or either end) of your RNA transcript, they serve as good checkpoints for your sequence assignment.
 
-[![annotate_sequence Figure GAGUA 5'](/hitrace/res/pfl_1D_xsel_GAGUA_5.png "annotate_sequence Figure (GAGUA 5')"){: style="width:90%;"}](/hitrace/res/pfl_1D_xsel_GAGUA_5.png)
-
-[![annotate_sequence Figure GAGUA 3'](/hitrace/res/pfl_1D_xsel_GAGUA_3.png "annotate_sequence Figure (GAGUA 3')"){: style="width:90%;"}](/hitrace/res/pfl_1D_xsel_GAGUA_3.png)
+[![annotate_sequence Figure GAGUA 5'](/hitrace/res/pfl_1D_xsel_GAGUA_5.png "annotate_sequence Figure (GAGUA 5')")](/hitrace/res/pfl_1D_xsel_GAGUA_5.png)
+[![annotate_sequence Figure GAGUA 3'](/hitrace/res/pfl_1D_xsel_GAGUA_3.png "annotate_sequence Figure (GAGUA 3')")](/hitrace/res/pfl_1D_xsel_GAGUA_3.png)
 
 All 5 residues of **_GAGUA_** are reactive to SHAPE; (only) both **_A_**s are reactive to DMS; and only the **_U_** residue is reactive to CMCT.
 
@@ -146,7 +145,7 @@ Yes, for **2D** datasets, you should aim for **120/120**, excluding the _bottom_
 
 > In **Mutate-and-Map** data, we process it into *Z_score* as pseudo-free energy bonus instead of absolute reactivity. The calculation of *Z_score* is row by row (nucleotide by nucleotide), with the attenuation cancelled out. Thus, there is no need to include the full-length extended band for quantitation.
 
-[![annotate_sequence Figure 2D](/hitrace/res/pfl_2D_xsel.png "annotate_sequence Figure (2D)"){: style="width:90%;"}](/hitrace/res/pfl_1D_xsel.png)
+[![annotate_sequence Figure 2D](/hitrace/res/pfl_2D_xsel.png "annotate_sequence Figure (2D)"){: style="width:90%;"}](/hitrace/res/pfl_2D_xsel.png)
 
 Because we are using number strings in `data_types`, the red circles mark where the predicted pertubation would show up based on `structure` and `mutpos`. It is obvious that these red circles form a main diagonal marking mutations (_bottom left_ -> _top right_), as well as cross-diagonals marking helices based on given `structure`.
 
