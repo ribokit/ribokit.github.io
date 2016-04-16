@@ -26,7 +26,7 @@ The collected **1D** data contains conditions of _nomod_, SHAPE, DMS, CMCT, and 
 
 <hr/>
 
-To load and preview data, we use the `quick_look` command. It is a script that we use on daily basis to rapidly evaluate whether an experiment is successful. It also provides print-outs for keeping in notebooks.
+To load and preview data, we use the `quick_look()` command. It is a script that we use on daily basis to rapidly evaluate whether an experiment is successful. It also provides print-outs for keeping in notebooks.
 
 First, let's define the data directories and lane ordering:
 
@@ -41,7 +41,7 @@ ylimit = [2501, 6000];
 reorder = [1:8, 17:64, 9, 13, 10, 14, 11, 15, 12, 16];
 ```
 
-The `ylimit` variable defines the window of data time-series. When not specified (or as empty `[]`), `quick_look` can make a best guess of the relevant time window. Usually, we run with `[]` first. If the resulting auto-selected `ylimit` is unsatisfactory, we adujst it manually and rerun.
+The `ylimit` variable defines the window of data time-series. When not specified (or as empty `[]`), `quick_look()` can make a best guess of the relevant time window. Usually, we run with `[]` first. If the resulting auto-selected `ylimit` is unsatisfactory, we adujst it manually and rerun.
 
 The `reorder` variable defines the display order of data lanes. When not specified (or as empty `[]`), it follows the order of directories as defined in the `filenames`. Inside each directory, it sorts lanes according to a _96-wll plate_ layout by column, i.e. A01 - > B01 -> ... -> G01 -> H01 -> A02 -> ... -> H02 -> A03 -> ... -> H12. Note that the indices in `reorder` should not exceed the total number of **.ab1** files of all directories.
 
@@ -65,10 +65,10 @@ It reads in the data, subtracts a constant offset from all the profiles, and nor
 | --- | --- | --- |
 | `d_align` | _MxN double_ | Final trace/data matrix of the signal channel (by default, _FAM_ channel). _M_ rows speficied by the `ylimit` time window; _N_ columns speficied by the `reorder` lanes ordering. |
 | `d_ref_ailign` | _MxN double_ | Final trace/data matrix of the referene channel (by default, _ROX_ channel). |
-| `ylimit` | _1x2 double_ | Auto-selected or manually specified `[ymin, ymax]` of time window. |
+| `ylimit` | _1x2 int_ | Auto-selected or manually specified `[ymin, ymax]` of time window. |
 | `labels` | _1xN cell_ | Lane labels after reordering (extracted from **.ab1** filenames). |
 
-You'll see several windows that show steps along the automated read-in and first-pass alignment. **Please DO NOT close figure windows before `quick_look` finishes!** Otherwise you may see an error about saving figures to **.eps** files.
+You'll see several windows that show steps along the automated read-in and first-pass alignment. **Please DO NOT close figure windows before `quick_look()` finishes!** Otherwise you may see an error about saving figures to **.eps** files.
 
 [![quick_look Figure 2](/hitrace/res/pfl_1D_fig_2.png "quick_look Figure 2"){: style="width:90%;"}](/hitrace/res/pfl_1D_fig_2.png)
 
@@ -80,7 +80,7 @@ You'll see several windows that show steps along the automated read-in and first
 
 ### Figure 1: Time-series view of fluorescence profiles
 
-The 4 channels are colored in <span style="color: #3677a9;">blue</span>, <span style="color: #40ffff;">cyan</span>, <span style="color: #6ab825;">green</span>, and <span style="color: #d22323;">red</span>. Only the last 16 lanes are shown. In our standard setup, the signal channel (_FAM_) shows up in <span style="color: #3677a9;">blue</span>; and the reference channel (_ROX_) shows up in <span style="color: #d22323;">red</span>.
+The 4 channels are colored in <span style="color: #5496d7;">blue</span>, <span style="color: #03a9f4;">cyan</span>, <span style="color: #9fc906;">green</span>, and <span style="color: #f44336;">red</span>. Only the last 16 lanes are shown. In our standard setup, the signal channel (_FAM_) shows up in <span style="color: #5496d7;">blue</span>; and the reference channel (_ROX_) shows up in <span style="color: #f44336;">red</span>.
 
 > The _ROX_ channel should appear as digital spikes. The ssDNA sizes of _ROX350_ ladder used is described [here](https://www.thermofisher.com/order/catalog/product/401735).
 
@@ -114,7 +114,7 @@ The reference channel data visualized as heatmap. This is after all processing, 
 
 > The _ROX350_ ladders should line up very well across all lanes
 
-If you need to turn off the baseline subtraction or alignment, you can do so by changing the input to `quick_look`. You can also apply leakage correction, or select other color channels to define which channel is the signal or which is the reference. For more information on command arguments and returns, please refer to `help quick_look`.
+If you need to turn off the baseline subtraction or alignment, you can do so by changing the input to `quick_look()`. You can also apply leakage correction, or select other color channels to define which channel is the signal or which is the reference. For more information on command arguments and returns, please refer to `help quick_look`.
 
 <hr/>
 
@@ -139,8 +139,8 @@ So your _**Figure 4**_ looks more like the _**Figure 3**_ in the **1D** example.
 
 If no luck, check _**Figure 2**_ instead:
 
-> Although not aligned at all, all lanes should be roughly the same migration rate, i.e. the length of _top_ to _bottom_ of signals should be the same. If a lane is compressed or stretched (possibly due to buffer or voltage variations), `quick_look` might not be able to rescue it.
+> Although not aligned at all, all lanes should be roughly the same migration rate, i.e. the length of _top_ to _bottom_ of signals should be the same. If a lane is compressed or stretched (possibly due to buffer or voltage variations), `quick_look()` might not be able to rescue it.
 
 * ### Error on saving figure.
 
-Please `close all` windows and retry. Make sure you don't switch between _MATLAB_ windows, or close any figure windows while `quick_look` is running. It saves the figures in the end, and a closed figure window will cause error.
+Please `close all` windows and retry. Make sure you don't switch between _MATLAB_ windows, or close any figure windows while `quick_look()` is running. It saves the figures in the end, and a closed figure window will cause error.

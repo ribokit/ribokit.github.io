@@ -34,7 +34,7 @@ structure = '...((((((.....))))))....(((((((....[[[[....(((((....))))).....)))))
 
 Next, we should register any information that we have about features or data that might show up in individual lanes. This requires creating a variable `data_types` which is a _cell_ of _string_s, one label for each profile/lane. 
 
-In our example **1D** data, the first 8 lanes are _nomod_ (regardless of ligand or dilution), followed by 16 of DMS, CMCT, and SHAPE in order. Last, it has 2 lanes of each ddNTPs (_A_, _T_, _C_, _G_). The following code declares the `data_types` with help with built-in function `repmat`.
+In our example **1D** data, the first 8 lanes are _nomod_ (regardless of ligand or dilution), followed by 16 of DMS, CMCT, and SHAPE in order. Last, it has 2 lanes of each ddNTPs (_A_, _T_, _C_, _G_). The following code declares the `data_types` with help with built-in function `repmat()`.
 
 ```matlab
 data_types = [ ...
@@ -45,11 +45,11 @@ data_types = [ ...
 
 Next, we need to play with some numbers. The first one is `offset`. This is used for adjusting sequence numbers for two reasons:
 
-* Offset for the 5´ flanking sequence.
+* Offset for the 5&prime; flanking sequence.
 
 * Follow conventional numbering.
 
-In our example **1D** data, we added 24 nucleotides on the 5´ end (_GGAGACCTCGAGTAGAGGTCAAAA_) before our region of interest (ROI) _GGGTCG..._. We would like the first _G_ in ROI to be numbered as 1. Thus, the `offset` is:
+In our example **1D** data, we added 24 nucleotides on the 5&prime; end (_GGAGACCTCGAGTAGAGGTCAAAA_) before our region of interest (ROI) _GGGTCG..._. We would like the first _G_ in ROI to be numbered as 1. Thus, the `offset` is:
 
 ```matlab
 % offset = - length_of_5_flanking_region + N_first_nt_ROI_should_be - 1
