@@ -11,6 +11,8 @@ author: Siqi Tian
 
 # Step 0: Get Started
 
+<br/>
+
 * ### Please follow the [**installation**](/hitrace#installation) guidelines to download HiTRACE scripts, and register to _MATLAB_ path.
 
 * ### For all of the commands used, use `help func_name` to retrieve help information on syntax usage.

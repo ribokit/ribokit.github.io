@@ -12,6 +12,8 @@ author: Siqi Tian
 
 # Step 1: Load and Preview Data
 
+<br/>
+
 ### If you have chemical mapping data on different RNA sequences, especially if they are not the same length, please separate data of each sequence into individual analyses.
 
 As you can see in [**Step #3**](../step_3/) and [**Step #4**](../step_4/), you need to specify sequence information and annotate bands to match sequence. Thus, it only works for one input sequence.
@@ -61,7 +63,7 @@ It reads in the data, subtracts a constant offset from all the profiles, and nor
 
 | Variable | Type | Description |
 | --- | --- | --- |
-| `d_align` | _MxN double_ | Final trace/data matrix of the signal channel (by default, _FAM_ channel). |
+| `d_align` | _MxN double_ | Final trace/data matrix of the signal channel (by default, _FAM_ channel). _M_ rows speficied by the `ylimit` time window; _N_ columns speficied by the `reorder` lanes ordering. |
 | `d_ref_ailign` | _MxN double_ | Final trace/data matrix of the referene channel (by default, _ROX_ channel). |
 | `ylimit` | _1x2 double_ | Auto-selected or manually specified `[ymin, ymax]` of time window. |
 | `labels` | _1xN cell_ | Lane labels after reordering (extracted from **.ab1** filenames). |
