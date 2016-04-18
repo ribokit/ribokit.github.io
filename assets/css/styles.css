@@ -326,7 +326,7 @@ img {
   /* 2 */
 }
 
-p img {
+img.full, img.half {
   border: 1px solid #e5e5e5;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -335,7 +335,16 @@ p img {
   -khtml-border-radius: 4px;
   border-radius: 4px;
   display: inline-block;
-  width: 45%;
+}
+img.full {
+  max-width: 90%;
+}
+img.half {
+  max-width: 45%;
+}
+
+.center {
+  text-align: center;
 }
 
 /*

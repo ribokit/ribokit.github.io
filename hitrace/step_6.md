@@ -108,13 +108,15 @@ The run goes through the 4 processes, and waits you to continue between steps:
 
 * **Unsaturation**
 
-[![get_reactivities Figure Unsaturation](/hitrace/res/pfl_1D_rx_unsat.png "get_reactivities Figure (Unsaturation)"){: style="width:90%;"}](/hitrace/res/pfl_1D_rx_unsat.png)
+[![get_reactivities Figure Unsaturation](/hitrace/res/pfl_1D_rx_unsat.png "get_reactivities Figure (Unsaturation)"){: .full}](/hitrace/res/pfl_1D_rx_unsat.png)
+{: .center}
 
 The _saturated_ sample is on the _left_, _diluted_ sample (after scaling up to match _saturated_ sample) is in the _middle_, and the result after `unsaturate()` is on the _right_. The red lines show where a plateaued reactivity is found in _saturated_ sample (by comparing to scaled _diluted_ sample).
 
 * **Attenuation Correction**
 
-[![get_reactivities Figure Attenuation Correction](/hitrace/res/pfl_1D_rx_attcorr.png "get_reactivities Figure (Attenuation Correction)"){: style="width:90%;"}](/hitrace/res/pfl_1D_rx_attcorr.png)
+[![get_reactivities Figure Attenuation Correction](/hitrace/res/pfl_1D_rx_attcorr.png "get_reactivities Figure (Attenuation Correction)"){: .full}](/hitrace/res/pfl_1D_rx_attcorr.png)
+{: .center}
 
 The data is now plotted by `seqpos`: 5&prime; on the _top_. The attenuation (lighter from _bottom_ to _top_) is now corrected.
 
@@ -122,13 +124,15 @@ The data is now plotted by `seqpos`: 5&prime; on the _top_. The attenuation (lig
 
 * **Background Subtraction**
 
-[![get_reactivities Figure Background Subtraction](/hitrace/res/pfl_1D_rx_bkgsub.png "get_reactivities Figure (Background Subtraction)"){: style="width:90%;"}](/hitrace/res/pfl_1D_rx_bkgsub.png)
+[![get_reactivities Figure Background Subtraction](/hitrace/res/pfl_1D_rx_bkgsub.png "get_reactivities Figure (Background Subtraction)"){: .full}](/hitrace/res/pfl_1D_rx_bkgsub.png)
+{: .center}
 
 After subtracting the background, the data now looks cleaner. Of course the _nomod_lanes are completely blank now.
 
 * **Normalization**
 
-[![get_reactivities Figure Normalization](/hitrace/res/pfl_1D_rx_norm.png "get_reactivities Figure (Normalization)"){: style="width:90%;"}](/hitrace/res/pfl_1D_rx_norm.png)
+[![get_reactivities Figure Normalization](/hitrace/res/pfl_1D_rx_norm.png "get_reactivities Figure (Normalization)"){: .full}](/hitrace/res/pfl_1D_rx_norm.png)
+{: .center}
 
 > Reactive residues in _GAGUA_ reference loops are scaled to reactivity of 1.0 on average.
 

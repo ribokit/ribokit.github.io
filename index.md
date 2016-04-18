@@ -5,6 +5,9 @@ description: Research Tools for RNA Modeling &amp; Design
 
 # RiboKit
 
+[![RiboKit Logo](/assets/ribokit.gif "RiboKit Logo"){: .full}](/assets/ribokit.gif)
+{: .center}
+
 _[RiboKit description paragraph needed]_
 
 <hr/>

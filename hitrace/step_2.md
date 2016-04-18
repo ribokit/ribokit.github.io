@@ -31,7 +31,8 @@ d_align_dp_fine = align_by_DP_fine(d_align_before_more_alignment, align_blocks);
 
 The above code specified 8 groups for finer alignment in `align_blocks`. It treats _nomod_, DMS, CMCT, SHAPE, ddATP, ddTTP, ddCTP, and ddGTP separately from each other. It also copies the `d_align` into `d_align_before_more_alignment` as a back-up, in case `align_by_DP_fine()` yields unsatisfactory results.
 
-[![align_by_DP_fine Figure](/hitrace/res/pfl_1D_fig_dp.png "align_by_DP_fine Figure"){: style="width:90%;"}](/hitrace/res/pfl_1D_fig_dp.png)
+[![align_by_DP_fine Figure](/hitrace/res/pfl_1D_fig_dp.png "align_by_DP_fine Figure"){: .full}](/hitrace/res/pfl_1D_fig_dp.png)
+{: .center}
 
 You'll see a figure window showing the result side by side. It is obvious that _after_ further alignment the "waviness" is minimized. The red lines are guidelines of alignment anchors. (In this case, due to multiple `align_blocks`, it is misplaced. Please ignore.) 
 
@@ -58,5 +59,5 @@ d_align = d_align_dp_fine;
 
 This alignes all lanes (except 56) in 1 block. Lane 56 has bad data, thus is excluded here.
 
-[![align_by_DP_fine Figure](/hitrace/res/pfl_2D_fig_dp.png "align_by_DP_fine Figure"){: style="width:90%;"}](/hitrace/res/pfl_2D_fig_dp.png)
-
+[![align_by_DP_fine Figure](/hitrace/res/pfl_2D_fig_dp.png "align_by_DP_fine Figure"){: .full}](/hitrace/res/pfl_2D_fig_dp.png)
+{: .center}

@@ -71,13 +71,14 @@ It reads in the data, subtracts a constant offset from all the profiles, and nor
 
 You'll see several windows that show steps along the automated read-in and first-pass alignment. **Please DO NOT close figure windows before `quick_look()` finishes!** Otherwise you may see an error about saving figures to **.eps** files.
 
-[![quick_look Figure 2](/hitrace/res/pfl_1D_fig_2.png "quick_look Figure 2"){: style="width:90%;"}](/hitrace/res/pfl_1D_fig_2.png)
+[![quick_look Figure 2](/hitrace/res/pfl_1D_fig_2.png "quick_look Figure 2"){: .full}](/hitrace/res/pfl_1D_fig_2.png)
+{: .center}
 
-[![quick_look Figure 1](/hitrace/res/pfl_1D_fig_1.png "quick_look Figure 1")](/hitrace/res/pfl_1D_fig_1.png)
-[![quick_look Figure 1](/hitrace/res/pfl_1D_fig_3.png "quick_look Figure 3")](/hitrace/res/pfl_1D_fig_3.png)
-[![quick_look Figure 1](/hitrace/res/pfl_1D_fig_4.png "quick_look Figure 4")](/hitrace/res/pfl_1D_fig_4.png)
-[![quick_look Figure 1](/hitrace/res/pfl_1D_fig_5.png "quick_look Figure 5")](/hitrace/res/pfl_1D_fig_5.png)
-
+[![quick_look Figure 1](/hitrace/res/pfl_1D_fig_1.png "quick_look Figure 1"){: .half}](/hitrace/res/pfl_1D_fig_1.png)
+[![quick_look Figure 1](/hitrace/res/pfl_1D_fig_3.png "quick_look Figure 3"){: .half}](/hitrace/res/pfl_1D_fig_3.png)
+[![quick_look Figure 1](/hitrace/res/pfl_1D_fig_4.png "quick_look Figure 4"){: .half}](/hitrace/res/pfl_1D_fig_4.png)
+[![quick_look Figure 1](/hitrace/res/pfl_1D_fig_5.png "quick_look Figure 5"){: .half}](/hitrace/res/pfl_1D_fig_5.png)
+{: .center}
 
 ### Figure 1: Time-series view of fluorescence profiles
 
@@ -126,12 +127,14 @@ filenames = {'pfl_2D_plus_SHAPE_409193'};
 [d_align, d_ref_align, ylimit, labels] = quick_look(filenames, [], 1:72);
 ```
 
-[![quick_look Figure 2](/hitrace/res/pfl_2D_fig_2.png "quick_look Figure 2"){: style="width:90%;"}](/hitrace/res/pfl_2D_fig_2.png)
+[![quick_look Figure 2](/hitrace/res/pfl_2D_fig_2.png "quick_look Figure 2"){: .full}](/hitrace/res/pfl_2D_fig_2.png)
+{: .center}
 
-[![quick_look Figure 1](/hitrace/res/pfl_2D_fig_1.png "quick_look Figure 1")](/hitrace/res/pfl_2D_fig_1.png)
-[![quick_look Figure 1](/hitrace/res/pfl_2D_fig_3.png "quick_look Figure 3")](/hitrace/res/pfl_2D_fig_3.png)
-[![quick_look Figure 1](/hitrace/res/pfl_2D_fig_4.png "quick_look Figure 4")](/hitrace/res/pfl_2D_fig_4.png)
-[![quick_look Figure 1](/hitrace/res/pfl_2D_fig_5.png "quick_look Figure 5")](/hitrace/res/pfl_2D_fig_5.png)
+[![quick_look Figure 1](/hitrace/res/pfl_2D_fig_1.png "quick_look Figure 1"){: .half}](/hitrace/res/pfl_2D_fig_1.png)
+[![quick_look Figure 1](/hitrace/res/pfl_2D_fig_3.png "quick_look Figure 3"){: .half}](/hitrace/res/pfl_2D_fig_3.png)
+[![quick_look Figure 1](/hitrace/res/pfl_2D_fig_4.png "quick_look Figure 4"){: .half}](/hitrace/res/pfl_2D_fig_4.png)
+[![quick_look Figure 1](/hitrace/res/pfl_2D_fig_5.png "quick_look Figure 5"){: .half}](/hitrace/res/pfl_2D_fig_5.png)
+{: .center}
 
 It is obvious that there is a _bad_ lane showing no data in _**Figure 2**_. The pattern for that lane in _**Figure 3**_ and _**Figure 4**_ is an artifact/amplification of normalization. We will exclude this lane in the downstream analysis.
 
