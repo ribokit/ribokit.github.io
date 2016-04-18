@@ -125,6 +125,15 @@ filenames = {'pfl_2D_plus_SHAPE_409193'};
 [d_align, d_ref_align, ylimit, labels] = quick_look(filenames, [], 1:72);
 ```
 
+[![quick_look Figure 2](/hitrace/res/pfl_2D_fig_2.png "quick_look Figure 2"){: style="width:90%;"}](/hitrace/res/pfl_2D_fig_2.png)
+
+[![quick_look Figure 1](/hitrace/res/pfl_2D_fig_1.png "quick_look Figure 1")](/hitrace/res/pfl_2D_fig_1.png)
+[![quick_look Figure 1](/hitrace/res/pfl_2D_fig_3.png "quick_look Figure 3")](/hitrace/res/pfl_2D_fig_3.png)
+[![quick_look Figure 1](/hitrace/res/pfl_2D_fig_4.png "quick_look Figure 4")](/hitrace/res/pfl_2D_fig_4.png)
+[![quick_look Figure 1](/hitrace/res/pfl_2D_fig_5.png "quick_look Figure 5")](/hitrace/res/pfl_2D_fig_5.png)
+
+It is obvious that there is a _bad_ lane showing no data in _**Figure 2**_. The pattern for that lane in _**Figure 3**_ and _**Figure 4**_ is an artifact/amplification of normalization. We will exclude this lane in the downstream analysis.
+
 <hr/>
 
 ## Troubleshooting

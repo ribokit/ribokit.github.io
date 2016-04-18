@@ -10,7 +10,7 @@ repo: hitrace/hitrace
 author: Siqi Tian
 ---
 
-# Step 2: Further Alignment <small>(optional)</small>
+# Step 2: Further Alignment _<small>(optional)</small>_
 
 <br/>
 

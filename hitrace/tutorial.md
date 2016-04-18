@@ -47,10 +47,10 @@ Perform unsaturation, attenuation correction, background subtraction, and normal
 Print well-annotated figures of your analysis for archiving.
 
 * ### #8: [Output RDAT File](step_8/)
-Write analyzed result to file in RDAT format, for use of Z-score and prediction.
+Write analyzed result to file in RDAT format, for use of _Z-score_ and prediction.
 
 * ### #9: [Calculate Z-score](step_9/) <small>*(for 2D data only)*</small>
-Transfrom 2D chemical mapping data into Z-score for use as 2D pseudo-free energy bonus for RNAstructure.
+Transfrom 2D chemical mapping data into _Z-score_ for use as 2D pseudo-free energy bonus for RNAstructure.
 
 * ### #10: [Visualize Secondary Structure](/biers/varna/) <small>*(optional)*</small>
 Draw secondary structure using [VARNA](http://varna.lri.fr/) with nucleotides color-coded by reactivity, and mark difference between secondary structure models.
