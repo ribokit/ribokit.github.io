@@ -1,6 +1,5 @@
 ---
 layout: home
-title: RiboKit
 description: Research Tools for RNA Modeling &amp; Design
 ---
 

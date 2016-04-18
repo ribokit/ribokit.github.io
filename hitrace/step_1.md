@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /hitrace/tutorial/step_1/
+root: /hitrace/
 prev: step_0/
 next: step_2/
 

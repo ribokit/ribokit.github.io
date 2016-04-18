@@ -1,6 +1,7 @@
 ---
 layout: docs
 permalink: /hitrace/tutorial/step_7/
+root: /hitrace/
 prev: step_6/
 next: step_8/
 
@@ -14,3 +15,8 @@ author: Siqi Tian
 
 <br/>
 
+print_xsel
+print_ce
+
+image
+1d plots
