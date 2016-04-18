@@ -141,5 +141,8 @@ Once finished, the `get_reactivities()` command returns the following variables:
 | `normalized_error` | _SxP double_ | Error estimates for `normalized_reactivity` that are propagated. |
 | `seqpos_out` | _1xS int_ | Numbers of sequence positions from 5&prime; to 3&prime; end. Note that is has the full-length extended band position removed compared to `seqpos`. |
 
+<hr/>
+
+Again, you do not need to process your **2D** dataset using this step!
 
 
