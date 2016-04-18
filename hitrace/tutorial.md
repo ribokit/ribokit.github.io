@@ -44,19 +44,22 @@ Integrate band intensities into nucleotide peak readings.
 * ### #6: [Data Corrections](step_6/) <small>*(for 1D data only)*</small>
 Perform unsaturation, attenuation correction, background subtraction, and normalization for 1D data.
 
-* ### #7: [Save your Work](step_7/) <small>*(optional)*</small>
+* ### #7: [Error Estimates](step_7/) <small>*(for 1D data only)*</small>
+Evaluate data and estimate errors across replicates.
+
+* ### #8: [Save your Work](step_8/) <small>*(optional)*</small>
 Print well-annotated figures of your analysis for archiving.
 
-* ### #8: [Output RDAT File](step_8/)
+* ### #9: [Output RDAT File](step_9/)
 Write analyzed result to file in RDAT format, for use of _Z-score_ and prediction.
 
-* ### #9: [Calculate Z-score](step_9/) <small>*(for 2D data only)*</small>
+* ### #10: [Calculate Z-score](step_10/) <small>*(for 2D data only)*</small>
 Transfrom 2D chemical mapping data into _Z-score_ for use as 2D pseudo-free energy bonus for RNAstructure.
 
-* ### #10: [Visualize Secondary Structure](/biers/varna/) <small>*(optional)*</small>
+* ### #11: [Visualize Secondary Structure](/biers/varna/) <small>*(optional)*</small>
 Draw secondary structure using [VARNA](http://varna.lri.fr/) with nucleotides color-coded by reactivity, and mark difference between secondary structure models.
 
-* ### #11: [Predict Secondary Structure](/biers/rnastructure/)
+* ### #12: [Predict Secondary Structure](/biers/rnastructure/)
 Run structural prediction using [RNAstructure](http://rna.urmc.rochester.edu/RNAstructure.html) based on chemical mapping reactivity data, with bootstrapping for helix-wise confidence score.
 
 <hr/>
