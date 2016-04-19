@@ -717,6 +717,11 @@ header p {
   font-size: 20px;
   margin: 10px 0px;
 }
+header p:hover u {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
 header a {
   color: #f3f3f3;
 }
