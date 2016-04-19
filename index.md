@@ -15,13 +15,13 @@ _[RiboKit description paragraph needed]_
 
 | Package | Description | Language |
 | --- | --- | ---: |
-| ~~**Biers**~~ <small>(external)<small> | From MCM (MOHCA) to 3D | `MATLAB` |
+| [**Biers**](/biers) | From MCM (MOHCA) to 3D | `MATLAB` |
 | [**HiTRACE**](/hitrace) | The standard tool for MCM analysis of CE | `MATLAB` |
 | ~~**LIFFT**~~ <small>(external)<small> | The standard tool for titration analysis | `MATLAB` |
 | ~~**Map2D**~~ <small>(external)<small> | The standard tool for MCM analysis of RING-MaP | `Python` |
 | ~~**MAPSeeker**~~ <small>(external)<small> | The standard tool for MCM analysis of NGS | `MATLAB` / `C++` |
 | ~~**Primerize**~~ <small>(external)<small> | First stop for assembling templates for RNA synthesis | `Python` |
-| ~~**RDATKit**~~ <small>(external)<small> | Utils for anyone working with MCM data | `Python` |
+| [**RDATKit**](https://rmdb.stanford.edu/rdatkit) <small>(external)<small> | Utils for anyone working with MCM data | `Python` |
 | ~~**REEFFIT**~~ <small>(external)<small> | The standard tool for MCM analysis of multi-state RNAs | `Python` |
 
 <hr/>
