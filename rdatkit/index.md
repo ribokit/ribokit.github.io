@@ -56,7 +56,9 @@ xlwt >= 1.0.0
 <hr/>
 ## Documentation
 
-### *MATLAB* Tutorial is available at: [**tutorial/**](tutorial/).
+* #### *MATLAB* Tutorial is available [**here**](/hitrace/tutorial/step_9/).
+
+* #### *Python* Documentation is available at: [**docs/**](docs/).
 
 <hr/>
 ## License

@@ -3,7 +3,7 @@ layout: docs
 permalink: /hitrace/tutorial/step_10/
 root: /hitrace/
 prev: step_9/
-next: ../../biers/varna/
+next: ../../biers/rnastructure/
 
 title: HiTRACE
 description: "<u>Hi</u>gh-<u>T</u>hroughput <u>R</u>obust <u>A</u>nalysis for <u>C</u>apillary <u>E</u>lectrophoresis"
@@ -24,6 +24,17 @@ For **Mutate-and-Map** data, we care the most about 'release' events, i.e. a nuc
 > Nucleotide position that is originally reactive above certain cutoff is ignored, since we can't tell the 'release' for something already reactive.
 
 > Final _Z-score_ are multiplied by -1.0 for the use as pseudo-free energies.
+
+For more information, see these papers:
+
+>Tian, S., Cordero, P., Kladwang, W., and Das, R. (**2014**)<br/>
+>[High-throughput mutate-map-rescue evaluates SHAPE-directed RNA structure and uncovers excited states](http://rnajournal.cshlp.org/content/20/11/1815)<br/>
+>*RNA* **20 (11)**: 1815 - 1826.
+
+>Kladwang, W., VanLang, C.C., Cordero P., and Das, R. (**2011**)<br/>
+>[A two-dimensional mutate-and-map strategy for non-coding RNA structure](http://www.nature.com/nchem/journal/v3/n12/abs/nchem.1176.html)<br/>
+>*Nature Chemistry* **3**: 954 - 962.
+
 
 To calculate _Z-score_, we use this command that reads in the _RDAT_ file:
 

@@ -37,10 +37,12 @@ git clone https://github.com/DasLab/biers.git
 
 - Copy `Scripts/get_exe_dir.m.example` and `Scripts/get_varna.m.example` into `Scripts/get_exe_dir.m` and `Scripts/get_varna.m`. Edit `Scripts/get_exe_dir.m` and `Scripts/get_varna.m` following the instructions in these files.
 
+> **A complete guide on the whole setup**, including `gcc`, RNAstructure, VARNA, is described [here](install/).
+
 <hr/>
 ## Usage 
 
-### *MATLAB* Tutorial is available for: 
+#### *MATLAB* Tutorial is available for: 
 
 * [Predict Secondary Structure](rnastructure/)
 
@@ -50,6 +52,17 @@ git clone https://github.com/DasLab/biers.git
 ## License
 
 Copyright &copy; of **Biers** _Source Code_ is described in [LICENSE.md](https://github.com/DasLab/biers/blob/master/LICENSE.md).
+
+<hr/>
+## Reference
+
+>Tian, S., Cordero, P., Kladwang, W., and Das, R. (**2014**)<br/>
+>[High-throughput mutate-map-rescue evaluates SHAPE-directed RNA structure and uncovers excited states](http://rnajournal.cshlp.org/content/20/11/1815)<br/>
+>*RNA* **20 (11)**: 1815 - 1826.
+
+>Kladwang, W., VanLang, C.C., Cordero P., and Das, R. (**2011**)<br/>
+>[A two-dimensional mutate-and-map strategy for non-coding RNA structure](http://www.nature.com/nchem/journal/v3/n12/abs/nchem.1176.html)<br/>
+>*Nature Chemistry* **3**: 954 - 962.
 
 <hr/>
 ## Related Packages
