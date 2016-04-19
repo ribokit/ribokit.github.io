@@ -56,11 +56,11 @@ Write analyzed result to file in RDAT format, for use of _Z-score_ and predictio
 * ### #10: [Calculate Z-score](step_10/) <small>*(for 2D data only)*</small>
 Transfrom 2D chemical mapping data into _Z-score_ for use as 2D pseudo-free energy bonus for RNAstructure.
 
-* ### #11: [Visualize Secondary Structure](/biers/varna/) <small>*(optional)*</small>
-Draw secondary structure using [VARNA](http://varna.lri.fr/) with nucleotides color-coded by reactivity, and mark difference between secondary structure models.
-
-* ### #12: [Predict Secondary Structure](/biers/rnastructure/)
+* ### #11: [Predict Secondary Structure](/biers/rnastructure/)
 Run structural prediction using [RNAstructure](http://rna.urmc.rochester.edu/RNAstructure.html) based on chemical mapping reactivity data, with bootstrapping for helix-wise confidence score.
+
+* ### #12: [Visualize Secondary Structure](/biers/varna/) <small>*(optional)*</small>
+Draw secondary structure using [VARNA](http://varna.lri.fr/) with nucleotides color-coded by reactivity, and mark difference between secondary structure models.
 
 <hr/>
 ## Bonus Graphic Tools

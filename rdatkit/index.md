@@ -10,7 +10,7 @@ author: Siqi Tian
 ---
 
 
-# RDATKit (RNA Dataset ToolKit)
+# RDATKit
 
 **RDATkit** is a set of tools for parsing, analyzing, and publishing data of RNA chemical footprinting assays. It allows researchers to share their data using community standard formats, and helps them publish their results on indexable and shareable databases.
 
