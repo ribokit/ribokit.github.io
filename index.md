@@ -20,9 +20,9 @@ _[RiboKit description paragraph needed]_
 | ~~**LIFFT**~~ <small>(external)<small> | The standard tool for titration analysis | `MATLAB` |
 | ~~**Map2D**~~ <small>(external)<small> | The standard tool for MCM analysis of RING-MaP | `Python` |
 | ~~**MAPSeeker**~~ <small>(external)<small> | The standard tool for MCM analysis of NGS | `MATLAB` / `C++` |
-| ~~**Primerize**~~ <small>(external)<small> | First stop for assembling templates for RNA synthesis | `Python` |
-| [**RDATKit**](https://rmdb.stanford.edu/rdatkit) <small>(external)<small> | Utils for anyone working with MCM data | `Python` |
-| ~~**REEFFIT**~~ <small>(external)<small> | The standard tool for MCM analysis of multi-state RNAs | `Python` |
+| [**Primerize**](https://primerize.stanford.edu/docs/) <small>(external)<small> | First stop for assembling templates for RNA synthesis | `Python` |
+| [**RDATKit**](https://rmdb.stanford.edu/rdatkit/) <small>(external)<small> | Utils for anyone working with MCM data | `Python` |
+| [**REEFFIT**](https://reeffit.readthedocs.org/) <small>(external)<small> | The standard tool for MCM analysis of multi-state RNAs | `Python` |
 
 <hr/>
 ## Modeling &amp; Design

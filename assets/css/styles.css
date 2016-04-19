@@ -720,6 +720,9 @@ header p {
 header a {
   color: #f3f3f3;
 }
+header a:hover {
+  color: #FFE788;
+}
 
 #banner {
   z-index: 100;

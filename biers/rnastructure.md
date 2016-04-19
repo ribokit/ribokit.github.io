@@ -3,7 +3,7 @@ layout: docs
 permalink: /biers/rnastructure/
 root: /biers/
 prev: ../../hitrace/tutorial/step_10/
-next: ../varna/
+next: varna/
 
 title: Biers
 description: "<u>B</u>est <u>I</u>nference <u>E</u>ngine for <u>R</u>NA <u>S</u>tructure"
