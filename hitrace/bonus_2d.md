@@ -11,7 +11,7 @@ repo: hitrace/hitrace
 author: Siqi Tian
 ---
 
-# Bonus: Color Secondary Structure Diagram
+# Color Secondary Structure Diagram
 
 <br/>
 
@@ -257,3 +257,76 @@ save(mat_name);
 ```
 
 This will save `imagex_3` to the filename given here, with resolution 300 _dpi_.
+
+<hr/>
+
+## More Fun
+
+Since we have spent so much time on `pick_points()`, let's make more diagrams with no effort:
+
+```matlab
+whattoplot = d_SHAPE_minus;
+color_profile = color_palette(whattoplot, 1.5, 0, color_scheme, seqpos, sequence);
+imagex_1 = color_residues(imagex, residue_locations, whichres, whattoplot, color_profile, square_width);
+
+whattoplot = d_DMS_CMCT_minus;
+color_profile = color_palette(whattoplot, 1.5, 0, color_scheme, seqpos, sequence);
+imagex_2 = color_bases(imagex_1, base_locations, residue_locations, whichres, whattoplot, color_profile, square_width/2);
+
+imagex_3 = color_legend(imagex_2, color_profile, square_width, orient_legend, pos_legend, labels, font_size);
+image_output(imagex_3, 'pfl_secstr_color_minus', 300);
+```
+
+The above code does the same thing for **(-)** ligand data. We can also plot the difference between **(-)** and **(+)** conditions. In this case, we choose a different `color_scheme` that is blue-white-red (faded).
+
+```matlab
+color_scheme = 1;
+
+whattoplot = d_SHAPE_plus - d_SHAPE_minus;
+color_profile = color_palette(whattoplot, 1, -1, color_scheme, seqpos, sequence);
+imagex_1 = color_residues(imagex, residue_locations, whichres, whattoplot, color_profile, square_width);
+
+whattoplot = d_DMS_CMCT_plus - d_DMS_CMCT_minus;
+color_profile = color_palette(whattoplot, 1, -1, color_scheme, seqpos, sequence);
+imagex_2 = color_bases(imagex_1, base_locations, residue_locations, whichres, whattoplot, color_profile, square_width/2);
+
+labels = {'1', '-1', 'SHAPE  '};
+imagex_3 = color_legend(imagex_2, color_profile, square_width, orient_legend, pos_legend, labels, font_size);
+image_output(imagex_3, 'pfl_secstr_color_diff', 300);
+save(mat_name);
+```
+
+[![Color diff Figure](/hitrace/res/pfl_clr_color_diff.png "Color diff Figure"){: .half}](/hitrace/res/pfl_clr_color_diff.png)
+{: .center}
+
+<hr/>
+
+## Bonus: Vectorized Figures
+
+The previous **.tiff** files are rasterized with fixed resolution (300 _dpi_). We created a variant function that produces vectorized color diagrams. It is in same style with VARNA (white-orange-red circles, not squares).
+
+```matlab
+color_scheme = 12   % publication-use red-yellow-white
+whattoplot = d_SHAPE_plus;
+color_profile = color_palette(whattoplot, 1.5, 0, color_scheme, seqpos, sequence);
+
+color_circles(imagex, residue_locations, whichres, whattoplot, color_profile, square_width, 'circ_SHAPE_plus');
+```
+
+Same for difference plots:
+
+```matlab
+color_scheme = 13   % publication-use red-white-blue
+whattoplot = d_SHAPE_plus - d_SHAPE_minus;
+color_profile = color_palette(whattoplot, 1, -1, color_scheme, seqpos, sequence);
+
+color_circles(imagex, residue_locations, whichres, whattoplot, color_profile, square_width, 'circ_SHAPE_diff');
+```
+
+[![color_circles plus Figure](/hitrace/res/pfl_clr_circ_plus.png "color_circles plus Figure"){: .half}](/hitrace/res/pfl_clr_circ_plus.png)
+[![color_circles diff Figure](/hitrace/res/pfl_clr_circ_diff.png "color_circles diff Figure"){: .half}](/hitrace/res/pfl_clr_circ_diff.png)
+{: .center}
+
+The circles are written to a **.eps** file named after the last argument in `color_circles()`. Now you can open the **.eps** file in _Illustrator_, copy over all the circles into your original diagram file, place them in the back, and resize (keep aspect-ratio) to match.
+
+
