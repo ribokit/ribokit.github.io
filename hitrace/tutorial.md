@@ -9,8 +9,8 @@ repo: hitrace/hitrace
 author: Siqi Tian
 ---
 
-## Script Template
-Example scripts and data are included in the HiTRACE repository. For a new analysis, start with these example scripts and replace relevant values with yours:
+## Example Files
+Example scripts and data are included in the **HiTRACE** [repository](https://github.com/hitrace/hitrace/). For a new analysis, start with these example scripts and replace relevant values with yours:
 
 * 1D Analysis: _[Script](https://github.com/hitrace/hitrace/blob/master/TestData/example_pfl_1D.m), [Data](https://github.com/hitrace/hitrace/blob/master/TestData/data_pfl_1D.zip)_
 
