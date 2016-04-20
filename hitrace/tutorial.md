@@ -16,7 +16,7 @@ Example scripts and data are included in the **HiTRACE** [repository](https://gi
 
 * 2D Analysis: _[Script](https://github.com/hitrace/hitrace/blob/master/TestData/example_pfl_2D.m), [Data](https://github.com/hitrace/hitrace/blob/master/TestData/data_pfl_2D.zip)_
 
-* Color Diagram: [some file]()
+* Color Diagram: _[Script](https://github.com/hitrace/hitrace/blob/master/TestData/example_pfl_color.m), [Image](https://github.com/hitrace/hitrace/blob/master/TestData/pfl_secstr.tif)_
 
 <hr/>
 ## Analysis Pipeline

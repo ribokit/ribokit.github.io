@@ -329,4 +329,3 @@ color_circles(imagex, residue_locations, whichres, whattoplot, color_profile, sq
 
 The circles are written to a **.eps** file named after the last argument in `color_circles()`. Now you can open the **.eps** file in _Illustrator_, copy over all the circles into your original diagram file, place them in the back, and resize (keep aspect-ratio) to match.
 
-
