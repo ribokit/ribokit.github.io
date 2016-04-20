@@ -39,10 +39,12 @@ For more information, see these papers:
 To calculate _Z-score_, we use this command that reads in the _RDAT_ file:
 
 ```matlab
-Z = output_Zscore_from_rdat('pfl_20150508_SHAPE_2Dbonus.txt', {filename});
+Z = output_Zscore_from_rdat('pfl_SHAPE_2Dbonus.txt', {filename});
 ```
 
 It also saves the _Z-score_ matrix into a text file with the name you give. The reason that the data does not fill the entire figure (square) is that we only mutated along the region of interest, while the `sequence` contains flanking sequences. (So it's a rectangle window!)
 
 [![output_Zscore_from_rdat Figure](/hitrace/res/pfl_2D_fig_Z.png "output_Zscore_from_rdat Figure"){: .half}](/hitrace/res/pfl_2D_fig_Z.png)
 {: .center}
+
+> If the `'mutation'` tag in `data_annotations` in you _RDAT_ file contains _T_ instead of _U_ (e.g. _A55T_ instead of _A55U_), the `output_Zscore_from_rdat()` can't function properly. Fix your _RDAT_ file.

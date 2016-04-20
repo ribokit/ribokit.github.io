@@ -99,7 +99,7 @@ Finally, we can kick off the quantitation with:
 ```matlab
 [normalized_reactivity, normalized_error, seqpos_out] = get_reactivities( ...
     saturated_array, diluted_array, saturated_error, diluted_error, ...
-    bkg_col, ref_peak, seqpos, [], data_types(saturated_idx), sequence, offset, sd_cutoff);
+    bkg_col, ref_peak, seqpos, [], data_types([1, 2, saturated_idx]), sequence, offset, sd_cutoff);
 ```
 
 > The argument `data_types(saturated_idx)` provides information of modifier identity for the lanes in `saturated_array` and `diluted_array`. Recall the numbers of nucleotides reactive in _GAGUA_ to DMS, CMCT, and SHAPE are different. This information helps normalization step to scale up properly.

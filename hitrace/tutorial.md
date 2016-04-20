@@ -12,9 +12,9 @@ author: Siqi Tian
 ## Script Template
 Example scripts and data are included in the HiTRACE repository. For a new analysis, start with these example scripts and replace relevant values with yours:
 
-* 1D Analysis: [some file]()
+* 1D Analysis: _[Script](https://github.com/hitrace/hitrace/blob/master/TestData/example_pfl_1D.m), [Data](https://github.com/hitrace/hitrace/blob/master/TestData/data_pfl_1D.zip)_
 
-* 2D Analysis: [some file]()
+* 2D Analysis: _[Script](https://github.com/hitrace/hitrace/blob/master/TestData/example_pfl_2D.m), [Data](https://github.com/hitrace/hitrace/blob/master/TestData/data_pfl_2D.zip)_
 
 * Color Diagram: [some file]()
 

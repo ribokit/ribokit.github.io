@@ -123,7 +123,7 @@ If you need to turn off the baseline subtraction or alignment, you can do so by 
 As an example of **2D** data analysis, it is the same as **1D** for this step.
 
 ```matlab
-filenames = {'pfl_2D_plus_SHAPE_409193'};
+filenames = {'pfl_2D_SHAPE_plus_409193'};
 [d_align, d_ref_align, ylimit, labels] = quick_look(filenames, [], 1:72);
 ```
 

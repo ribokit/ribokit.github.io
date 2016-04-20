@@ -25,7 +25,7 @@ the [RNA mapping database](https://rmdb.stanford.edu) and was designed to be an 
 To create a **.rdat** file, you need to define a few variables for the output -- fortunately we have most of them already. For this case, you need to provide additionally a filename and the name of the RNA:
 
 ```matlab
-filename = 'pfl_20150504_1D_ref.rdat';
+filename = 'pfl_1D.rdat';
 name = 'RNA Puzzle 13';
 ```
 
@@ -123,7 +123,7 @@ If you don't, generate it manually:
 ```matlab
 data_annotations{1} = 'mutation:WT';
 for j = 2:size(area_peak, 2); 
-    data_annotations{j} = {['mutation:', sequence(j - 1 - offset), num2str(j - 1), complement(sequence(j - 1 - offset))]};
+    data_annotations{j} = {['mutation:', sequence(j - 1 - offset), num2str(j - 1), DNA2RNA(complement(sequence(j - 1 - offset)))]};
 end;
 ```
 
@@ -147,7 +147,7 @@ annotations = { ...
 And the rest:
 
 ```matlab
-filename = 'pfl_20150508_2D_SHAPE_plus.rdat';
+filename = 'pfl_2D_SHAPE_plus.rdat';
 name = 'RNA Puzzle 13';
 comments = { ...
     'Preliminary data', ...

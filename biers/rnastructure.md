@@ -73,9 +73,9 @@ Here is an example script for running RNAstructure with different inputs:
 [structure_1D_Spkt_SHAPE_plus, bpp_1D_Spkt_SHAPE_plus] = rna_structure(sequence, d_SHAPE_plus, offset, seqpos_out, [], 100, 1);
 
 % Run Fold with 100x bootstrap on 2D SHAPE data
-[structure_2D_Fold_SHAPE, bpp_2D_Fold_SHAPE] = rna_structure(sequence, [], offset, seqpos_out, Z, 100, 0);
+[structure_2D_Fold_SHAPE, bpp_2D_Fold_SHAPE] = rna_structure(sequence, [], offset, seqpos, Z, 100, 0);
 % Run ShapeKnot with 100x bootstrap on 2D SHAPE data
-[structure_2D_Spkt_SHAPE, bpp_2D_Spkt_SHAPE] = rna_structure(sequence, [], offset, seqpos_out, Z, 100, 1);
+[structure_2D_Spkt_SHAPE, bpp_2D_Spkt_SHAPE] = rna_structure(sequence, [], offset, seqpos, Z, 100, 1);
 ```
 
 > Make sure you have an idea of the time the `ShapeKnot` run takes. Always run `ShapeKnot` with 0 bootstrap, and time it with `tic` and `toc`. Your _MATLAB_ do not respond to other operations while running `rna_structure()` (or any command).
