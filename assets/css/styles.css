@@ -874,7 +874,7 @@ nav ul {
 }
 nav ul li {
   padding: 5px 0px;
-  line-height: 16px;
+  /*line-height: 16px;*/
 }
 nav ul li.tag-h1 {
   font-size: 1.5em;
