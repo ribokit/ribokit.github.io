@@ -27,7 +27,7 @@ author: Siqi Tian
 
 To install **Biers**, simply:
 
-- Download the zip or tar file of the repository and unpack; or 
+- From GitHub or [**RMDB**](https://rmdb.stanford.edu/tools/), download the zip or tar file of the repository and unpack; or 
 
 ```bash
 git clone https://github.com/DasLab/biers.git
