@@ -54,7 +54,7 @@ _[RiboKit description paragraph needed]_
 
 | Package | Description | Language |
 | --- | --- | ---: |
-| [**Pymol DasLab**](https://docs.google.com/document/d/1uWeEEGPjAceaw07ESf9bec-FrxW4Bx6jGaBqoHbSXuo/edit) <small>(external)<small> | Utils for anyone working on RNA modeling | `Python` |
+| [**Pymol DasLab**](/pymol_daslab/) | Utils for anyone working on RNA modeling | `Python` |
 | ~~**RMDB API**~~ <small>(external)<small> | "PDB" for MCM data | |
 
 <hr/>
