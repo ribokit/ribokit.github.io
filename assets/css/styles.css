@@ -326,7 +326,7 @@ img {
   /* 2 */
 }
 
-img.full, img.half {
+img.full, img.half, img.right {
   border: 1px solid #e5e5e5;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -341,6 +341,11 @@ img.full {
 }
 img.half {
   max-width: 45%;
+}
+img.right {
+  float: right;
+  margin-left: 20px;
+  width: 150px;
 }
 
 .center {

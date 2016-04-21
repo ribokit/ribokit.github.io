@@ -11,7 +11,7 @@ author: Siqi Tian
 
 # <samp>pymol_daslab</samp>
 
-[![1q9a example image](https://raw.github.com/DasLab/pymol_daslab/master/1q9a.png){: .half}](https://raw.github.com/DasLab/pymol_daslab/master/1q9a.png)
+[![1q9a Example Image](https://raw.github.com/DasLab/pymol_daslab/master/1q9a.png "1q9a Example Image"){: .half}](https://raw.github.com/DasLab/pymol_daslab/master/1q9a.png)
 {: .center}
 
 **pymol_daslab** is a set of useful and short *Python* functions for making pictures of RNA and proteins in pymol in our 'lab style'. For a quick preview:
