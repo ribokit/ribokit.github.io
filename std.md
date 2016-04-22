@@ -15,6 +15,19 @@ This page is intended to standarize documentation and tutorial writing format fo
 > The repository is organized that each package has its own folder. Please follow this rule on contributing!
 
 <hr/>
+## Markdown
+
+A simple guide on how to use _Markdown_ syntax is [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+Here are some best practices:
+
+* Only `<h1>` and `<h2>` level headers are registered to the side navbar by _Jekyll_.
+
+* Always use syntax highlighting for code blocks.
+
+* Always separate sections with `<hr/>`.
+
+<hr/>
 ## Jekyll
 
 This site is hosted on [GitHub Pages](https://pages.github.io/), powered by [Jekyll](https://jekyllrb.com/). The **.md** and **.html** files inside the repository are automatically discovered. For _Markdown_ files, _Jekyll_ uses a [**Front Matter**](https://jekyllrb.com/docs/frontmatter/) block for configurations.
@@ -61,17 +74,9 @@ author: Siqi Tian
 | `next` | The next page, used for tutorial series. This will be used by the _right arrow_ button. The final (relative) URL is prepended with `../` (so you don't need to type it). |
 
 <hr/>
-## Markdown
+## Sphinx
 
-A simple guide on how to use _Markdown_ syntax is [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Here are some best practices:
-
-* Only `<h1>` and `<h2>` level headers are registered to the side navbar by _Jekyll_.
-
-* Always use syntax highlighting for code blocks.
-
-* Always separate sections with `<hr/>`.
+_[future]_
 
 <hr/>
 ## Images
