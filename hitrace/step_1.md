@@ -71,13 +71,7 @@ It reads in the data, subtracts a constant offset from all the profiles, and nor
 
 You'll see several windows that show steps along the automated read-in and first-pass alignment. **Please DO NOT close figure windows before `quick_look()` finishes!** Otherwise you may see an error about saving figures to **.eps** files.
 
-[![quick_look Figure 2](/hitrace/res/pfl_1D_fig_2.png "quick_look Figure 2"){: .full}](/hitrace/res/pfl_1D_fig_2.png)
-{: .center}
-
 [![quick_look Figure 1](/hitrace/res/pfl_1D_fig_1.png "quick_look Figure 1"){: .half}](/hitrace/res/pfl_1D_fig_1.png)
-[![quick_look Figure 1](/hitrace/res/pfl_1D_fig_3.png "quick_look Figure 3"){: .half}](/hitrace/res/pfl_1D_fig_3.png)
-[![quick_look Figure 1](/hitrace/res/pfl_1D_fig_4.png "quick_look Figure 4"){: .half}](/hitrace/res/pfl_1D_fig_4.png)
-[![quick_look Figure 1](/hitrace/res/pfl_1D_fig_5.png "quick_look Figure 5"){: .half}](/hitrace/res/pfl_1D_fig_5.png)
 {: .center}
 
 ### Figure 1: Time-series view of fluorescence profiles
@@ -90,17 +84,26 @@ The 4 channels are colored in <span style="color: #5496d7;">blue</span>, <span s
 
 > The _FAM_ channel should have a lot of peaks, while the peaks should be reasonably tall in the plot. Most of the peaks in the middle should not be so tall that appear plateaued. A plateaued peak is due to the sensitivity ceiling of the fluorescence camera. The full-length extended band (_right hand_) is usally very strong and thus plateaued. This is why we run diluted data as well and correct for saturation in [**Step #6**](../step_6/).
 
+[![quick_look Figure 2](/hitrace/res/pfl_1D_fig_2.png "quick_look Figure 2"){: .full}](/hitrace/res/pfl_1D_fig_2.png)
+{: .center}
+
 ### Figure 2: Raw traces
 
 The signal channel and reference channel data are visualized as black/white heatmaps, side by side. These are raw data, as directly loaded from **.ab1** files.
 
 > Check whether the `ylimit` is reasonable. None of the lanes should have their _top_ or _bottom_ truncated out. 
 
+[![quick_look Figure 3](/hitrace/res/pfl_1D_fig_3.png "quick_look Figure 3"){: .half}](/hitrace/res/pfl_1D_fig_3.png)
+{: .center}
+
 ### Figure 3: Intermediate traces after initial processing
 
 The signal channel data visualized as heatmap. This is after profile alignment by groups, and intensity normalization.
 
 > Usually, any imperfections at this step should be fixed in _**Figure 4**_.
+
+[![quick_look Figure 4](/hitrace/res/pfl_1D_fig_4.png "quick_look Figure 4"){: .half}](/hitrace/res/pfl_1D_fig_4.png)
+{: .center}
 
 ### Figure 4: Final traces after further processing
 
@@ -109,6 +112,9 @@ The signal channel data visualized as heatmap. This is after baseline subtractio
 > This is the final trace that will carry on to downstream analysis. The alignment should be largely acceptable: the full-length extended band (_bottom_) should line up across all lanes since all samples are the same RNA. The lanes with similar property (e.g. same modifier) should have their signaure bands aligned to each other. The ddNTP ladders should be well-spaced, just like an old-fasion sequencing gel.
 
 > There could be some "waviness" across lanes of similar profiles. This is more obvious in **Mutate-and-Map** experiments. [**Step 2**](../step_2/) takes care of such last refinement.
+
+[![quick_look Figure 5](/hitrace/res/pfl_1D_fig_5.png "quick_look Figure 5"){: .half}](/hitrace/res/pfl_1D_fig_5.png)
+{: .center}
 
 ### Figure 5: Final traces of reference channel
 
@@ -131,9 +137,9 @@ filenames = {'pfl_2D_SHAPE_plus_409193'};
 {: .center}
 
 [![quick_look Figure 1](/hitrace/res/pfl_2D_fig_1.png "quick_look Figure 1"){: .half}](/hitrace/res/pfl_2D_fig_1.png)
-[![quick_look Figure 1](/hitrace/res/pfl_2D_fig_3.png "quick_look Figure 3"){: .half}](/hitrace/res/pfl_2D_fig_3.png)
-[![quick_look Figure 1](/hitrace/res/pfl_2D_fig_4.png "quick_look Figure 4"){: .half}](/hitrace/res/pfl_2D_fig_4.png)
-[![quick_look Figure 1](/hitrace/res/pfl_2D_fig_5.png "quick_look Figure 5"){: .half}](/hitrace/res/pfl_2D_fig_5.png)
+[![quick_look Figure 3](/hitrace/res/pfl_2D_fig_3.png "quick_look Figure 3"){: .half}](/hitrace/res/pfl_2D_fig_3.png)
+[![quick_look Figure 4](/hitrace/res/pfl_2D_fig_4.png "quick_look Figure 4"){: .half}](/hitrace/res/pfl_2D_fig_4.png)
+[![quick_look Figure 5](/hitrace/res/pfl_2D_fig_5.png "quick_look Figure 5"){: .half}](/hitrace/res/pfl_2D_fig_5.png)
 {: .center}
 
 It is obvious that there is a _bad_ lane showing no data in _**Figure 2**_. The pattern for that lane in _**Figure 3**_ and _**Figure 4**_ is an artifact/amplification of normalization. We will exclude this lane in the downstream analysis.
