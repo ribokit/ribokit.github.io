@@ -2,7 +2,9 @@
   <div class="banner-inner">
     <span id="logo"><span class="octicon octicon-mark-github"></span></span>
 
+    {% if page.repo %}
     <a href="https://github.com/{{ page.repo }}" class="button fork"><strong>View On GitHub</strong></a>
+    {% endif %}
     <div class="downloads">
       <span style="text-transform: none; font-size: 120%;"><u>{{ page.permalink }}</u></span>
       <ul>
