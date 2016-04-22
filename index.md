@@ -8,7 +8,7 @@ description: Research Tools for RNA Modeling &amp; Design
 [![RiboKit Logo](/assets/ribokit.gif "RiboKit Logo"){: .full}](/assets/ribokit.gif)
 {: .center}
 
-_[RiboKit description paragraph needed]_
+Research Tools for RNA Modeling &amp; Design, by the Das Lab at Department of Biochemistry, School of Medicine, Stanford University.
 
 <hr/>
 ## Multidimensional Chemical Mapping

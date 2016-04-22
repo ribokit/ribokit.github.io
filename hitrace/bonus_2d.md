@@ -74,7 +74,7 @@ Now we have the image stored in pixel array named `imagex`, which is a _HxWx3 ui
 ```matlab
 residue_locations = [];
 base_locations = [];
-square_width = 50;
+square_width = 28;
 
 sequence = 'GGGUCGUGACUGGCGAACAGGUGGGAAACCACCGGGGAGCGACCCCGGCAUCGAUAGCCGCCCGCCUGGGC';
 seqpos = 1:71;
@@ -123,12 +123,12 @@ Since the 'stubs' are right next to the letters (boxes), we use `move_base_locat
 
 ```matlab
 direction_cell = { ...
-    [13:19, 34,35, 60:62, 69:71], ...    % top
-    [26, 27, 46:59, 63:65], ...          % bottom
-    [8:12, 20:24, 28, 39:45, 67,68], ... % left
-    [1:7, 25, 29:33, 36:38, 66], ...     % right
+    [25, 29:33, 46:56, 61:62], ...          % top
+    [18:24, 28, 60], ...                    % bottom
+    [8:17, 26:27, 39:45, 57:59, 67:68], ... % left
+    [1:7, 34:38, 63:66, 69:71], ...         % right
 };
-base_locations = move_base_locations(residue_locations, direction_cell, offset, square_width / 2, 10);
+base_locations = move_base_locations(residue_locations, direction_cell, offset, square_width / 2, 5);
 ```
 
 Relative locations of each residue of `base_locations` to `residue_locations` are specified by `direction_cell`, which is a _1x4 cell_ of _double_ matrix. Each matrix tells the ensemble of residues whose `base_locations` is moved upward / downward / leftward / rightward from the corresponding _(X, Y)_ coordinates of `residue_locations`.
@@ -164,7 +164,7 @@ First, tell _MATLAB_ which box is which residue. `whichres` tells the order of r
 
 ```matlab
 whichres = seqpos - offset;
-colorscheme = 17;
+color_scheme = 17;
 ```
 
 Now let's preview the color profile and make adjustments. `whattoplot` is the array containing reactivity values to be colored here.
@@ -219,7 +219,7 @@ For pros, let’s setup the following parameters first:
 
 ```matlab
 orient_legend = [1 0];
-pos_legend = [1 9 7 4];
+pos_legend = [1 3 5 4];
 labels = {'1.5', '0', 'SHAPE  '};
 font_size = 0.8;
 ```
@@ -331,7 +331,8 @@ color_circles(imagex, residue_locations, whichres, whattoplot, color_profile, sq
 
 The circles are written to a **.eps** file named after the last argument in `color_circles()`. Now you can open the **.eps** file in _Illustrator_, copy over all the circles into your original diagram file, place them in the back, and resize (keep aspect-ratio) to match.
 
-The final result is [here](/hitrace/res/pfl_clr_svg.pdf):
+The final results are here: [**(+)** SHAPE](/hitrace/res/pfl_clr_plus.pdf), and [_diff_](/hitrace/res/pfl_clr_diff.pdf):
 
-[![Vectorized Figure Final](/hitrace/res/pfl_clr_svg.png "Vectorized Figure Final"){: .half}](/hitrace/res/pfl_clr_svg.png)
+[![Vectorized Figure plus Final](/hitrace/res/pfl_clr_plus.png "Vectorized Figure plus Final"){: .half}](/hitrace/res/pfl_clr_plus.png)
+[![Vectorized Figure diff Final](/hitrace/res/pfl_clr_diff.png "Vectorized Figure diff Final"){: .half}](/hitrace/res/pfl_clr_diff.png)
 {: .center}

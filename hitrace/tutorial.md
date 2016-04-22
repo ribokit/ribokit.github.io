@@ -65,7 +65,7 @@ Draw secondary structure using [VARNA](http://varna.lri.fr/) with nucleotides co
 <hr/>
 ## Bonus Graphic Tools
 
-* ### [Color Secondary Structure Diagram](bonus_2d/)
+* ### [Color 2D Diagram](bonus_2d/)
 Make publication-ready diagram of secondary structures with nucleotides color-coded by reactivity.
 
 * ### [Color 3D Model](bonus_3d/)
