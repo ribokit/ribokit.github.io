@@ -4,7 +4,6 @@
 
     {% if page.repo %}
     <a href="https://github.com/{{ page.repo }}" class="button fork"><strong>View On GitHub</strong></a>
-    {% endif %}
     <div class="downloads">
       <span>Downloads</span>
       <ul>
@@ -12,5 +11,6 @@
         <li><a href="https://github.com/{{ page.repo }}/tarball/master" class="button">TAR</a></li>
       </ul>
     </div>
+    {% endif %}
   </div>
 </div>

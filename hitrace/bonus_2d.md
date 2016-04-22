@@ -313,6 +313,8 @@ color_profile = color_palette(whattoplot, 1.5, 0, color_scheme, seqpos, sequence
 color_circles(imagex, residue_locations, whichres, whattoplot, color_profile, square_width, 'circ_SHAPE_plus');
 ```
 
+> You can set the `is_round` argument back in `pick_points()` for circles (on display). The `color_residues()` command also supports argument `is_circle`, but its output is always rasterized TIFF matrix.
+
 Same for difference plots:
 
 ```matlab
@@ -329,3 +331,7 @@ color_circles(imagex, residue_locations, whichres, whattoplot, color_profile, sq
 
 The circles are written to a **.eps** file named after the last argument in `color_circles()`. Now you can open the **.eps** file in _Illustrator_, copy over all the circles into your original diagram file, place them in the back, and resize (keep aspect-ratio) to match.
 
+The final result is [here](/hitrace/res/pfl_clr_svg.pdf):
+
+[![Vectorized Figure Final](/hitrace/res/pfl_clr_svg.png "Vectorized Figure Final"){: .half}](/hitrace/res/pfl_clr_svg.png)
+{: .center}
