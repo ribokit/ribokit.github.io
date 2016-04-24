@@ -12,7 +12,7 @@ author: Siqi Tian
 
 This page is intended to standarize documentation and tutorial writing format for **RiboKit** website. 
 
-> The repository is organized that each package has its own folder. Please follow this rule on contributing!
+> The repository is organized that each package has its own folder. The landing page should be named as `index.md` or `index.html`. Please follow this rule on contributing! 
 
 <hr/>
 ## Markdown
@@ -24,6 +24,8 @@ Here are some best practices:
 * Only `<h1>` and `<h2>` level headers are registered to the side navbar by _Jekyll_.
 
 * Always use syntax highlighting for code blocks.
+
+* Use blockquotes `> ` for advanced tips and explanations.
 
 * Always separate sections with `<hr/>`.
 
