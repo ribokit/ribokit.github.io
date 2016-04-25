@@ -336,3 +336,15 @@ The final results are here: [**(+)** SHAPE](/hitrace/res/pfl_clr_plus.pdf), and 
 [![Vectorized Figure plus Final](/hitrace/res/pfl_clr_plus.png "Vectorized Figure plus Final"){: .half}](/hitrace/res/pfl_clr_plus.png)
 [![Vectorized Figure diff Final](/hitrace/res/pfl_clr_diff.png "Vectorized Figure diff Final"){: .half}](/hitrace/res/pfl_clr_diff.png)
 {: .center}
+
+Since we are using _Illustrator_, you can add a legend with text showing the gradient:
+
+[![Gradient Figure 1](/hitrace/res/pfl_clr_grd_1.png "Gradient Figure 1"){: .half}](/hitrace/res/pfl_clr_grd_1.png)
+[![Gradient Figure 2](/hitrace/res/pfl_clr_grd_2.png "Gradient Figure 2"){: .half}](/hitrace/res/pfl_clr_grd_2.png)
+{: .center}
+
+> For `color_scheme = 12`, use gradient: _0%_ `#ffffff`, _50%_ `#ffc107`, and _100%_ `#f44336`.
+
+> For `color_scheme = 13`, use gradient: _0%_ `#5496d7`, _25%_ `#03a9f4`, _50%_ `#ffffff`, _75%_ `#ffc107`, and _100%_ `#f44336`.
+
+
