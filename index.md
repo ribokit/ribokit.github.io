@@ -62,8 +62,9 @@ Research Tools for RNA Modeling &amp; Design, by the Das Lab at Department of Bi
 
 | Protocol | Description |
 | --- | --- |
-| [**PCR**](https://primerize.stanford.edu/protocol/#PCR) <small>(external)<small> | PCR primer assembly of DNA tempaltes, and purification |
-| [**IVT**](https://primerize.stanford.edu/protocol/#IVT) <small>(external)<small> | _in vitro_ transcription of RNA, and purification |
-| ~~**CM/QC**~~ <small>(external)<small> | Chemical mapping and quality check |
-| ~~**MOHCA**~~ <small>(external)<small> | MOHCA proximity chemical mapping |
+| [**Order Oligo**](https://primerize.stanford.edu/protocol/#IDT) <small>(external)<small> | Order primers for PCR assembly |
+| [**Make DNA**](https://primerize.stanford.edu/protocol/#PCR) <small>(external)<small> | PCR (polymerase chain reaction) primer assembly of DNA tempaltes, and purification |
+| [**Make RNA**](https://primerize.stanford.edu/protocol/#IVT) <small>(external)<small> | IVT (_in vitro_ transcription) of RNA, and purification |
+| ~~**Probe RNA**~~ <small>(external)<small> | CM (chemical mapping) and QC (quality check) |
+| ~~**MOHCA**~~ <small>(external)<small> | MOHCA-seq (multiplexed OH cleavage analysis with deep sequencing) proximity mapping |
 
