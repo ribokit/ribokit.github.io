@@ -82,6 +82,8 @@ diluted_error = [ ...
 
 > The `saturated_array` should match `saturated_error` in column orders; same for `diluted_array` and `diluted_error`.
 
+> You can **bypass** the saturation correction if you did not perform dilution in your data. To do so, first still define your `saturated_array` as above. And then use `diluted_array = saturated_array;`. In this way, it won't find anything to correct when comparing `diluted_array` to `saturated_array`.
+
 Lastly, we need to specify the background columns for background subtraction. In our `saturated_array` has the columns as: 
 
 * _nomod (-)_, _nomod (+)_, DMS (-) x4, DMS (+) x4, CMCT (-) x4, CMCT (+) x4, SHAPE (-) x4, SHAPE (+) x4. 
