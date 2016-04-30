@@ -69,6 +69,8 @@ Copyright &copy; of **HiTRACE** _Source Code_ is described in [LICENSE.md](https
 
 * [**REEFFIT**](/reeffit/)
 
+* [**LIFFT**](/lifft/)
+
 <hr/>
 Developed by **Das lab** (_Leland Stanford Junior University_) and **Yoon lab** (_Seoul National University_) and colleagues.
 
