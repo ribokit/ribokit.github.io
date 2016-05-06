@@ -110,6 +110,19 @@ There are several options that are passed from `conf.py` into _Sphinx_ when maki
 
 > For an example `source/conf.py`, see [here](conf/).
 
+You might also want to exclude certain **Theme** and Docs related files from your repository. Here is an example of `.gitignore`:
+
+```bash
+build/
+dist/
+docs/sphinx_make.sh
+docs/build
+docs/source/_theme
+
+package.egg-info/
+*.pyc
+```
+
 <br/>
 
 ### Autodoc
