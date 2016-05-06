@@ -1,0 +1,292 @@
+
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    
+    <title>primerize.primerize_3d Module &mdash; Primerize1.3.0 : PCR Assembly Primer Design | RiboKit</title>
+    
+
+    
+      <link rel="shortcut icon" href="_static/primerize_icon.png"/>
+    
+
+    
+      <link rel="stylesheet" href="/assets/css/sphinx-styles.css" type="text/css" />
+      <link rel="stylesheet" href="/assetes/css/github-dark.css" type="text/css" />
+    
+
+    
+      
+    
+
+    
+    
+      <link rel="top" title="Primerize1.3.0 : PCR Assembly Primer Design" href="index.html"/>
+          <link rel="up" title="Modules" href="content.html"/>
+          <link rel="next" title="primerize.thermo Module" href="primerize.thermo.html"/>
+          <link rel="prev" title="primerize.primerize_2d Module" href="primerize.primerize_2d.html"/> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+
+  <body>
+    <header>
+    <h1>
+        <a href="/">RiboKit</a> 
+        
+        : <a href="index.html">Primerize</a>
+        
+    </h1>
+    <p>PCR Assembly Primer Design</p>
+</header>
+    <div id="banner">
+  <div class="banner-inner">
+    <span id="logo"><span class="octicon octicon-mark-github"></span></span>
+
+    
+      <a href="https://github.com/DasLab/Primerize" target="_blank" class="button fork"><strong>View On GitHub</strong></a>
+    
+
+    
+  <form id="rtd-search-form" class="search-form" action="search.html" method="get">
+    <input type="text" name="q" class="search-box" placeholder="Search for Docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+
+    
+      
+      
+        <div class="version"><span>1.3.0</span></div>
+      
+    
+
+    
+      <div class="downloads">
+        <span style="text-transform: none; font-size: 120%;"><u>primerize.primerize_3d</u></span>
+        <ul>
+          
+            <li><a href="content.html" class="button">&#x21E7;</a></li>
+          
+          
+            <li><a href="primerize.primerize_2d.html" class="button">&#x21E6;</a></li>
+          
+          
+            <li><a href="primerize.thermo.html" class="button">&#x21E8;</a></li>
+          
+        </ul>
+      </div>
+  
+  </div>
+</div>
+
+
+    <div class="wrapper">
+      <nav>
+    <ul style="margin-bottom:0;">
+        <li class="tag-h1"><a href="index.html">Primerize Documentation</a></li>
+    </ul>
+    
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example.html">Example Scripts</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="content.html">Modules</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="primerize.primerize_1d.html"><code class="docutils literal"><span class="pre">primerize.primerize_1d</span></code> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primerize.primerize_2d.html"><code class="docutils literal"><span class="pre">primerize.primerize_2d</span></code> Module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><code class="docutils literal"><span class="pre">primerize.primerize_3d</span></code> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primerize.thermo.html"><code class="docutils literal"><span class="pre">primerize.thermo</span></code> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primerize.util.html"><code class="docutils literal"><span class="pre">primerize.util</span></code> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primerize.wrapper.html"><code class="docutils literal"><span class="pre">primerize.wrapper</span></code> Module</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="matlab.html">MATLAB <cite>(Deprecated)</cite></a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">LICENSE</a></li>
+</ul>
+
+        
+    
+</nav>
+      <section>
+      
+  <div class="section" id="module-primerize.primerize_3d">
+<span id="primerize-primerize-3d-module"></span><h1><code class="docutils literal"><span class="pre">primerize.primerize_3d</span></code> Module<a class="headerlink" href="#module-primerize.primerize_3d" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="primerize.primerize_3d.Primerize_3D">
+<em class="property">class </em><code class="descclassname">primerize.primerize_3d.</code><code class="descname">Primerize_3D</code><span class="sig-paren">(</span><em>offset=0</em>, <em>N_mutations=1</em>, <em>which_lib=1</em>, <em>is_single=True</em>, <em>is_fillWT=False</em>, <em>COL_SIZE=142</em>, <em>prefix='lib'</em><span class="sig-paren">)</span><a class="headerlink" href="#primerize.primerize_3d.Primerize_3D" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Construct a worker for 3D Primer Design (Mutation/Rescue Plates).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>offset</strong> -- <code class="docutils literal"><span class="pre">int</span></code>: <cite>(Optional)</cite> Sequence numbering offset, which is one minus the final number of the first nucleotide.</li>
+<li><strong>N_mutations</strong> -- <code class="docutils literal"><span class="pre">int</span></code>: <cite>(Optional)</cite> Number of consecutive mutations for &quot;single mutants&quot;. Valid choices are (<code class="docutils literal"><span class="pre">1</span></code>, <code class="docutils literal"><span class="pre">2</span></code>, <code class="docutils literal"><span class="pre">3</span></code>) (e.g. <code class="docutils literal"><span class="pre">2</span></code> makes &quot;single mutants&quot; like <code class="docutils literal"><span class="pre">['G13C',</span> <span class="pre">'T14A']</span></code> and &quot;double mutants&quot; like <code class="docutils literal"><span class="pre">['G13C',</span> <span class="pre">'T14A',</span> <span class="pre">'A71T',</span> <span class="pre">'C72G']</span></code>).</li>
+<li><strong>which_lib</strong> -- <p><code class="docutils literal"><span class="pre">int</span></code>: <cite>(Optional)</cite> Mutation library choice. Valid choices are (<code class="docutils literal"><span class="pre">1</span></code>, <code class="docutils literal"><span class="pre">4</span></code>):</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">*</span> <span class="mi">1</span> <span class="n">represents</span> <span class="s2">&quot;A:U-&gt;U:A, G:C-&gt;C:G&quot;</span> <span class="n">library</span> <span class="p">(</span><span class="s2">&quot;swap&quot;</span><span class="p">);</span>
+<span class="o">*</span> <span class="mi">4</span> <span class="n">represents</span> <span class="s2">&quot;A:U-&gt;C:G, G:C-&gt;U:A&quot;</span> <span class="n">library</span> <span class="p">(</span><span class="s2">&quot;cross&quot;</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Note: G:U pairs are always replaced by C:G pairs.</p>
+</li>
+<li><strong>is_single</strong> -- <code class="docutils literal"><span class="pre">bool</span></code>: <cite>(Optional)</cite> Flag for whether include single mutants on the plate.</li>
+<li><strong>is_fillWT</strong> -- <code class="docutils literal"><span class="pre">bool</span></code>: <cite>(Optional)</cite> Flag for whether include Wild-type primers at all WellPositions.</li>
+<li><strong>COL_SIZE</strong> -- <code class="docutils literal"><span class="pre">int</span></code>: <cite>(Optional)</cite> Column width for assembly output. Positive number only.</li>
+<li><strong>prefix</strong> -- <code class="docutils literal"><span class="pre">str</span></code>: <cite>(Optional)</cite> Construct prefix/name.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><code class="docutils literal"><span class="pre">primerize.Primerize_3D</span></code></p>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="primerize.primerize_3d.Primerize_3D.design">
+<code class="descname">design</code><span class="sig-paren">(</span><em>sequence</em>, <em>primer_set=[]</em>, <em>structures=[]</em>, <em>offset=None</em>, <em>N_mutations=None</em>, <em>which_lib=None</em>, <em>which_muts=[]</em>, <em>prefix=None</em>, <em>is_single=None</em>, <em>is_fillWT=False</em>, <em>is_force=False</em><span class="sig-paren">)</span><a class="headerlink" href="#primerize.primerize_3d.Primerize_3D.design" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run design code to get library plates for input sequence and structures according to specified library options. Current worker parameters are used for nonspecified optional arguments.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>job_1d</strong> -- <code class="docutils literal"><span class="pre">primerize.Design_Single</span></code>: Result of <code class="docutils literal"><span class="pre">primerize.Primerize_1D.design()</span></code>. Its <code class="docutils literal"><span class="pre">sequence</span></code>, <code class="docutils literal"><span class="pre">primer_set</span></code>, and <code class="docutils literal"><span class="pre">prefix</span></code> are used.</li>
+<li><strong>structures</strong> -- <code class="docutils literal"><span class="pre">list(str)</span></code>: Array of secondary structures. Use dot-bracket notation. Each <code class="docutils literal"><span class="pre">structure</span></code> should be the same length as <code class="docutils literal"><span class="pre">sequence</span></code>.</li>
+<li><strong>offset</strong> -- <code class="docutils literal"><span class="pre">int</span></code>: <cite>(Optional)</cite> Sequence numbering offset.</li>
+<li><strong>N_mutations</strong> -- <code class="docutils literal"><span class="pre">int</span></code>: <cite>(Optional)</cite> Number of consecutive mutations for &quot;single mutants&quot;.</li>
+<li><strong>which_lib</strong> -- <code class="docutils literal"><span class="pre">int</span></code>: <cite>(Optional)</cite> Mutation library choice.</li>
+<li><strong>which_muts</strong> -- <code class="docutils literal"><span class="pre">list(int)</span></code>: <cite>(Optional)</cite> Array of mutation positions. Use numbering based on <code class="docutils literal"><span class="pre">offset</span></code>. When nonspecified, the entire sequence is included for mutagenesis.</li>
+<li><strong>is_single</strong> -- <code class="docutils literal"><span class="pre">bool</span></code>: <cite>(Optional)</cite> Flag for whether include single mutants on the plate.</li>
+<li><strong>is_fillWT</strong> -- <code class="docutils literal"><span class="pre">bool</span></code>: <cite>(Optional)</cite> Flag for whether include Wild-type primers at all WellPositions.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><code class="docutils literal"><span class="pre">primerize.Design_Plate</span></code></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="primerize.primerize_3d.Primerize_3D.get">
+<code class="descname">get</code><span class="sig-paren">(</span><em>key</em><span class="sig-paren">)</span><a class="headerlink" href="#primerize.primerize_3d.Primerize_3D.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get current worker parameters.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>key</strong> -- <code class="docutils literal"><span class="pre">str</span></code>: Keyword of parameter. Valid keywords are <code class="docutils literal"><span class="pre">'offset'</span></code>, <code class="docutils literal"><span class="pre">'N_mutations'</span></code>, <code class="docutils literal"><span class="pre">'which_lib'</span></code>, <code class="docutils literal"><span class="pre">'is_single'</span></code>, <code class="docutils literal"><span class="pre">'is_fillWT'</span></code>, <code class="docutils literal"><span class="pre">'COL_SIZE'</span></code>, <code class="docutils literal"><span class="pre">'prefix'</span></code>; case insensitive.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">value of specified <strong>key</strong>.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><code class="xref py py-exc docutils literal"><span class="pre">AttributeError</span></code> -- For illegal <strong>key</strong>.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="primerize.primerize_3d.Primerize_3D.reset">
+<code class="descname">reset</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#primerize.primerize_3d.Primerize_3D.reset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reset current worker parameters to default.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="primerize.primerize_3d.Primerize_3D.set">
+<code class="descname">set</code><span class="sig-paren">(</span><em>key</em>, <em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#primerize.primerize_3d.Primerize_3D.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set current worker parameters.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>key</strong> -- <code class="docutils literal"><span class="pre">str</span></code>: Keyword of parameter. Valid keywords are the same as <code class="docutils literal"><span class="pre">get()</span></code>.</li>
+<li><strong>value</strong> -- <code class="docutils literal"><span class="pre">(auto)</span></code>: New value for specified keyword. Type of value must match <strong>key</strong>.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><ul class="first last simple">
+<li><code class="xref py py-exc docutils literal"><span class="pre">AttributeError</span></code> -- For illegal <strong>key</strong>.</li>
+<li><code class="xref py py-exc docutils literal"><span class="pre">ValueError</span></code> -- For illegal <strong>value</strong>.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+      </section>
+    </div>
+
+    <p class="wrapper">
+      <small>Built with</small>
+      <a href="http://sphinx-doc.org/" target="_blank">Sphinx</a>
+      <small>using a</small>
+      <a href="https://github.com/t47io/ribokit-Sphinx-theme" target="_blank">RiboKit Theme</a>
+      <small>. Hosted on</small> GitHub Pages.
+    </p>
+
+    <p class="wrapper">
+      <small>
+        &copy; Copyright 2008-2016 The Board of Trustees of the Leland Stanford Junior University. All Rights Reserved.
+      </small>
+    </p>
+
+    <p class="wrapper">
+      
+      <small>Last updated on</small> May 05, 2016.
+      
+    </p>
+
+    <footer>
+  <p style="margin:0;">
+      <small>Project maintained by</small>
+      <br/>
+      <a href="https://github.com/DasLab"><b>Das Lab</b></a>&nbsp;
+      
+        <br/>
+        <small>Page created by</small>
+        <br/>
+        <span style="color: #39c;"><i>Siqi Tian</i></span>&nbsp;
+      
+  </p>
+</footer>
+
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'1.3.0',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+      <script type="text/javascript" src="/assets/js/sphinx-main.js"></script>
+      <script type="text/javascript" src="/assets/js/sphinx-theme.js"></script>
+     
+  </body>
+</html>

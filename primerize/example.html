@@ -1,0 +1,258 @@
+
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    
+    <title>Example Scripts &mdash; Primerize1.3.0 : PCR Assembly Primer Design | RiboKit</title>
+    
+
+    
+      <link rel="shortcut icon" href="_static/primerize_icon.png"/>
+    
+
+    
+      <link rel="stylesheet" href="/assets/css/sphinx-styles.css" type="text/css" />
+      <link rel="stylesheet" href="/assetes/css/github-dark.css" type="text/css" />
+    
+
+    
+      
+    
+
+    
+    
+      <link rel="top" title="Primerize1.3.0 : PCR Assembly Primer Design" href="index.html"/>
+          <link rel="next" title="Modules" href="content.html"/>
+          <link rel="prev" title="Installation" href="install.html"/> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+
+  <body>
+    <header>
+    <h1>
+        <a href="/">RiboKit</a> 
+        
+        : <a href="index.html">Primerize</a>
+        
+    </h1>
+    <p>PCR Assembly Primer Design</p>
+</header>
+    <div id="banner">
+  <div class="banner-inner">
+    <span id="logo"><span class="octicon octicon-mark-github"></span></span>
+
+    
+      <a href="https://github.com/DasLab/Primerize" target="_blank" class="button fork"><strong>View On GitHub</strong></a>
+    
+
+    
+  <form id="rtd-search-form" class="search-form" action="search.html" method="get">
+    <input type="text" name="q" class="search-box" placeholder="Search for Docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+
+    
+      
+      
+        <div class="version"><span>1.3.0</span></div>
+      
+    
+
+    
+      <div class="downloads">
+        <span style="text-transform: none; font-size: 120%;"><u>example</u></span>
+        <ul>
+          
+            <li><a href="index.html" class="button">&#x21E7;</a></li>
+          
+          
+            <li><a href="install.html" class="button">&#x21E6;</a></li>
+          
+          
+            <li><a href="content.html" class="button">&#x21E8;</a></li>
+          
+        </ul>
+      </div>
+  
+  </div>
+</div>
+
+
+    <div class="wrapper">
+      <nav>
+    <ul style="margin-bottom:0;">
+        <li class="tag-h1"><a href="index.html">Primerize Documentation</a></li>
+    </ul>
+    
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Example Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content.html">Modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="matlab.html">MATLAB <cite>(Deprecated)</cite></a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">LICENSE</a></li>
+</ul>
+
+        
+    
+</nav>
+      <section>
+      
+  <div class="section" id="example-scripts">
+<h1>Example Scripts<a class="headerlink" href="#example-scripts" title="Permalink to this headline">¶</a></h1>
+<p>For simple Primer Design tasks, follow this example:</p>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="kn">import</span> <span class="nn">primerize</span>
+
+ <span class="n">prm_1d</span> <span class="o">=</span> <span class="n">primerize</span><span class="o">.</span><span class="n">Primerize_1D</span><span class="p">()</span>
+ <span class="n">job_1d</span> <span class="o">=</span> <span class="n">prm_1d</span><span class="o">.</span><span class="n">design</span><span class="p">(</span><span class="s1">&#39;TTCTAATACGACTCACTATAGGCCAAAGGCGUCGAGUAGACGCCAACAACGGAAUUGCGGGAAAGGGGUCAACAGCCGUUCAGUACCAAGUCUCAGGGGAAACUUUGAGAUGGCCUUGCAAAGGGUAUGGUAAUAAGCUGACGGACAUGGUCCUAACCACGCAGCCAAGUCCUAAGUCAACAGAUCUUCUGUUGAUAUGGAUGCAGUUCAAAACCAAACCGUCAGCGAGUAGCUGACAAAAAGAAACAACAACAACAAC&#39;</span><span class="p">,</span> <span class="n">MIN_TM</span><span class="o">=</span><span class="mf">60.0</span><span class="p">,</span> <span class="n">NUM_PRIMERS</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">MIN_LENGTH</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">MAX_LENGTH</span><span class="o">=</span><span class="mi">60</span><span class="p">,</span> <span class="n">prefix</span><span class="o">=</span><span class="s1">&#39;P4P6_2HP&#39;</span><span class="p">)</span>
+ <span class="k">if</span> <span class="n">job_1d</span><span class="o">.</span><span class="n">is_success</span><span class="p">:</span>
+     <span class="k">print</span> <span class="n">job_1d</span>
+
+ <span class="n">prm_2d</span> <span class="o">=</span> <span class="n">primerize</span><span class="o">.</span><span class="n">Primerize_2D</span><span class="p">()</span>
+ <span class="n">job_2d</span> <span class="o">=</span> <span class="n">prm_2d</span><span class="o">.</span><span class="n">design</span><span class="p">(</span><span class="n">job_1d</span><span class="p">,</span> <span class="n">offset</span><span class="o">=-</span><span class="mi">51</span><span class="p">,</span> <span class="n">which_muts</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="mi">102</span><span class="p">,</span> <span class="mi">261</span> <span class="o">+</span> <span class="mi">1</span><span class="p">),</span> <span class="n">which_lib</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+ <span class="k">if</span> <span class="n">job_2d</span><span class="o">.</span><span class="n">is_success</span><span class="p">:</span>
+     <span class="k">print</span> <span class="n">job_2d</span>
+     <span class="n">job_2d</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
+
+ <span class="n">prm_3d</span> <span class="o">=</span> <span class="n">primerize</span><span class="o">.</span><span class="n">Primerize_3D</span><span class="p">()</span>
+ <span class="n">job_3d</span> <span class="o">=</span> <span class="n">prm_3d</span><span class="o">.</span><span class="n">design</span><span class="p">(</span><span class="n">job_1d</span><span class="p">,</span> <span class="n">offset</span><span class="o">=-</span><span class="mi">51</span><span class="p">,</span> <span class="n">structures</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;...........................((((((.....))))))...........((((((...((((((.....(((.((((.(((..(((((((((....)))))))))..((.......))....)))......)))))))....))))))..)).))))((...((((...(((((((((...)))))))))..))))...)).............((((((.....))))))......................&#39;</span><span class="p">],</span> <span class="n">N_mutations</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">which_lib</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">is_single</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">is_fillWT</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+ <span class="k">if</span> <span class="n">job_3d</span><span class="o">.</span><span class="n">is_success</span><span class="p">:</span>
+     <span class="k">print</span> <span class="n">job_3d</span>
+     <span class="n">job_3d</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
+</pre></div>
+</td></tr></table></div>
+<p>For advanced users, the returned <code class="docutils literal"><span class="pre">Design_Single</span></code> and <code class="docutils literal"><span class="pre">Design_Plate</span></code> result classes offer methods for <code class="docutils literal"><span class="pre">get()</span></code>, <code class="docutils literal"><span class="pre">save()</span></code> and <code class="docutils literal"><span class="pre">echo()</span></code>:</p>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="n">MIN_TM</span> <span class="o">=</span> <span class="n">job_1d</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;MIN_TM&#39;</span><span class="p">)</span>
+ <span class="k">print</span> <span class="n">job_1d</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;MISPRIME&#39;</span><span class="p">)</span>
+ <span class="k">print</span> <span class="n">job_1d</span><span class="o">.</span><span class="n">echo</span><span class="p">(</span><span class="s1">&#39;WARNING&#39;</span><span class="p">)</span>
+ <span class="k">if</span> <span class="n">job_1d</span><span class="o">.</span><span class="n">is_success</span><span class="p">:</span>
+     <span class="n">job_1d</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">path</span><span class="o">=</span><span class="s1">&#39;result/&#39;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Primer&#39;</span><span class="p">)</span>
+
+ <span class="n">LIB</span> <span class="o">=</span> <span class="n">job_2d</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;which_lib&#39;</span><span class="p">)</span>
+ <span class="n">N_PRIMER</span> <span class="o">=</span> <span class="n">job_2d</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;N_PRIMER&#39;</span><span class="p">)</span>
+ <span class="k">print</span> <span class="n">job_2d</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;CONSTRUCT&#39;</span><span class="p">)</span>
+ <span class="k">if</span> <span class="n">job_2d</span><span class="o">.</span><span class="n">is_success</span><span class="p">:</span>
+     <span class="k">print</span> <span class="n">job_2d</span><span class="o">.</span><span class="n">echo</span><span class="p">(</span><span class="s1">&#39;region&#39;</span><span class="p">)</span>
+     <span class="n">job_2d</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">&#39;assembly&#39;</span><span class="p">,</span> <span class="n">path</span><span class="o">=</span><span class="s1">&#39;result/&#39;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Lib&#39;</span><span class="p">)</span>
+
+ <span class="n">N_PLATE</span> <span class="o">=</span> <span class="n">job_3d</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;N_PLATE&#39;</span><span class="p">)</span>
+ <span class="k">if</span> <span class="n">job_3d</span><span class="o">.</span><span class="n">is_success</span><span class="p">:</span>
+     <span class="k">print</span> <span class="n">job_3d</span><span class="o">.</span><span class="n">echo</span><span class="p">(</span><span class="s1">&#39;plate&#39;</span><span class="p">)</span>
+     <span class="k">print</span> <span class="nb">repr</span><span class="p">(</span><span class="n">job_3d</span><span class="p">)</span>
+</pre></div>
+</td></tr></table></div>
+<p>Besides <code class="docutils literal"><span class="pre">design()</span></code>, the <code class="docutils literal"><span class="pre">Primerize_1D</span></code>, <code class="docutils literal"><span class="pre">Primerize_2D</span></code>, and <code class="docutils literal"><span class="pre">Primerize_3D</span></code> worker classes offer methods for <code class="docutils literal"><span class="pre">get()</span></code>, <code class="docutils literal"><span class="pre">set()</span></code>, and <code class="docutils literal"><span class="pre">reset()</span></code>:</p>
+<div class="highlight-python"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="n">COL_SIZE</span> <span class="o">=</span> <span class="n">prm_1d</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;COL_SIZE&#39;</span><span class="p">)</span>
+ <span class="n">prm_1d</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s1">&#39;MIN_LENGTH&#39;</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
+ <span class="n">prm_1d</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+</pre></div>
+</td></tr></table></div>
+<p>There are also <code class="docutils literal"><span class="pre">Assembly</span></code>, <code class="docutils literal"><span class="pre">Mutation</span></code>, <code class="docutils literal"><span class="pre">Construct_List</span></code>, and <code class="docutils literal"><span class="pre">Plate_96Well</span></code> helper classes. For more details, please refer to the <strong>Documentation</strong>.</p>
+</div>
+
+
+      </section>
+    </div>
+
+    <p class="wrapper">
+      <small>Built with</small>
+      <a href="http://sphinx-doc.org/" target="_blank">Sphinx</a>
+      <small>using a</small>
+      <a href="https://github.com/t47io/ribokit-Sphinx-theme" target="_blank">RiboKit Theme</a>
+      <small>. Hosted on</small> GitHub Pages.
+    </p>
+
+    <p class="wrapper">
+      <small>
+        &copy; Copyright 2008-2016 The Board of Trustees of the Leland Stanford Junior University. All Rights Reserved.
+      </small>
+    </p>
+
+    <p class="wrapper">
+      
+      <small>Last updated on</small> May 05, 2016.
+      
+    </p>
+
+    <footer>
+  <p style="margin:0;">
+      <small>Project maintained by</small>
+      <br/>
+      <a href="https://github.com/DasLab"><b>Das Lab</b></a>&nbsp;
+      
+        <br/>
+        <small>Page created by</small>
+        <br/>
+        <span style="color: #39c;"><i>Siqi Tian</i></span>&nbsp;
+      
+  </p>
+</footer>
+
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'1.3.0',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+      <script type="text/javascript" src="/assets/js/sphinx-main.js"></script>
+      <script type="text/javascript" src="/assets/js/sphinx-theme.js"></script>
+     
+  </body>
+</html>

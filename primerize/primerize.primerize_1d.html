@@ -1,0 +1,290 @@
+
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    
+    <title>primerize.primerize_1d Module &mdash; Primerize1.3.0 : PCR Assembly Primer Design | RiboKit</title>
+    
+
+    
+      <link rel="shortcut icon" href="_static/primerize_icon.png"/>
+    
+
+    
+      <link rel="stylesheet" href="/assets/css/sphinx-styles.css" type="text/css" />
+      <link rel="stylesheet" href="/assetes/css/github-dark.css" type="text/css" />
+    
+
+    
+      
+    
+
+    
+    
+      <link rel="top" title="Primerize1.3.0 : PCR Assembly Primer Design" href="index.html"/>
+          <link rel="up" title="Modules" href="content.html"/>
+          <link rel="next" title="primerize.primerize_2d Module" href="primerize.primerize_2d.html"/>
+          <link rel="prev" title="Modules" href="content.html"/> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+
+  <body>
+    <header>
+    <h1>
+        <a href="/">RiboKit</a> 
+        
+        : <a href="index.html">Primerize</a>
+        
+    </h1>
+    <p>PCR Assembly Primer Design</p>
+</header>
+    <div id="banner">
+  <div class="banner-inner">
+    <span id="logo"><span class="octicon octicon-mark-github"></span></span>
+
+    
+      <a href="https://github.com/DasLab/Primerize" target="_blank" class="button fork"><strong>View On GitHub</strong></a>
+    
+
+    
+  <form id="rtd-search-form" class="search-form" action="search.html" method="get">
+    <input type="text" name="q" class="search-box" placeholder="Search for Docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+
+    
+      
+      
+        <div class="version"><span>1.3.0</span></div>
+      
+    
+
+    
+      <div class="downloads">
+        <span style="text-transform: none; font-size: 120%;"><u>primerize.primerize_1d</u></span>
+        <ul>
+          
+            <li><a href="content.html" class="button">&#x21E7;</a></li>
+          
+          
+            <li><a href="content.html" class="button">&#x21E6;</a></li>
+          
+          
+            <li><a href="primerize.primerize_2d.html" class="button">&#x21E8;</a></li>
+          
+        </ul>
+      </div>
+  
+  </div>
+</div>
+
+
+    <div class="wrapper">
+      <nav>
+    <ul style="margin-bottom:0;">
+        <li class="tag-h1"><a href="index.html">Primerize Documentation</a></li>
+    </ul>
+    
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example.html">Example Scripts</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="content.html">Modules</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><code class="docutils literal"><span class="pre">primerize.primerize_1d</span></code> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primerize.primerize_2d.html"><code class="docutils literal"><span class="pre">primerize.primerize_2d</span></code> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primerize.primerize_3d.html"><code class="docutils literal"><span class="pre">primerize.primerize_3d</span></code> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primerize.thermo.html"><code class="docutils literal"><span class="pre">primerize.thermo</span></code> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primerize.util.html"><code class="docutils literal"><span class="pre">primerize.util</span></code> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primerize.wrapper.html"><code class="docutils literal"><span class="pre">primerize.wrapper</span></code> Module</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="matlab.html">MATLAB <cite>(Deprecated)</cite></a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">LICENSE</a></li>
+</ul>
+
+        
+    
+</nav>
+      <section>
+      
+  <div class="section" id="module-primerize.primerize_1d">
+<span id="primerize-primerize-1d-module"></span><h1><code class="docutils literal"><span class="pre">primerize.primerize_1d</span></code> Module<a class="headerlink" href="#module-primerize.primerize_1d" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="primerize.primerize_1d.Primerize_1D">
+<em class="property">class </em><code class="descclassname">primerize.primerize_1d.</code><code class="descname">Primerize_1D</code><span class="sig-paren">(</span><em>MIN_TM=60.0</em>, <em>NUM_PRIMERS=0</em>, <em>MIN_LENGTH=15</em>, <em>MAX_LENGTH=60</em>, <em>COL_SIZE=142</em>, <em>WARN_CUTOFF=3</em>, <em>prefix='primer'</em><span class="sig-paren">)</span><a class="headerlink" href="#primerize.primerize_1d.Primerize_1D" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Construct a worker for 1D Primer Design (Simple Assembly).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>MIN_TM</strong> -- <code class="docutils literal"><span class="pre">float</span></code>: <cite>(Optional)</cite> Minimum annealing temperature for overlapping regions. Unit in Celsius. Positive number only.</li>
+<li><strong>NUM_PRIMERS</strong> -- <code class="docutils literal"><span class="pre">int</span></code>: <cite>(Optional)</cite> Exact limit of number of primers in design. Non-negative even number only. <cite>0</cite> represents &quot;No limit&quot;.</li>
+<li><strong>MIN_LENGTH</strong> -- <code class="docutils literal"><span class="pre">int</span></code>: <cite>(Optional)</cite> Minimum length allowed for each primer. Positive number only.</li>
+<li><strong>MAX_LENGTH</strong> -- <code class="docutils literal"><span class="pre">int</span></code>: <cite>(Optional)</cite> Maximum length allowed for each primer. Positive number only.</li>
+<li><strong>COL_SIZE</strong> -- <code class="docutils literal"><span class="pre">int</span></code>: <cite>(Optional)</cite> Column width for assembly output. Positive number only.</li>
+<li><strong>WARN_CUTOFF</strong> -- <code class="docutils literal"><span class="pre">int</span></code>: <cite>(Optional)</cite> Threshold of pairing region length for misprime warning. Positive number only.</li>
+<li><strong>prefix</strong> -- <code class="docutils literal"><span class="pre">str</span></code>: <cite>(Optional)</cite> Construct prefix/name.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><code class="docutils literal"><span class="pre">primerize.Primerize_1D</span></code></p>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="primerize.primerize_1d.Primerize_1D.__repr__">
+<code class="descname">__repr__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#primerize.primerize_1d.Primerize_1D.__repr__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Representation of the <code class="docutils literal"><span class="pre">Primerize_1D</span></code> class.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="primerize.primerize_1d.Primerize_1D.design">
+<code class="descname">design</code><span class="sig-paren">(</span><em>sequence</em>, <em>MIN_TM=None</em>, <em>NUM_PRIMERS=None</em>, <em>MIN_LENGTH=None</em>, <em>MAX_LENGTH=None</em>, <em>prefix=None</em><span class="sig-paren">)</span><a class="headerlink" href="#primerize.primerize_1d.Primerize_1D.design" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run design code to get a PCR Assembly solution for input sequence under specified conditions. Current worker parameters are used for nonspecified optional arguments.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>sequence</strong> -- <code class="docutils literal"><span class="pre">str</span></code>: Sequence for assembly design. Valid RNA/DNA sequence only, case insensitive.</li>
+<li><strong>MIN_TM</strong> -- <code class="docutils literal"><span class="pre">float</span></code>: <cite>(Optional)</cite> Minimum annealing temperature for overlapping regions.</li>
+<li><strong>NUM_PRIMERS</strong> -- <code class="docutils literal"><span class="pre">int</span></code>: <cite>(Optional)</cite> Exact limit of number of primers in design.</li>
+<li><strong>MIN_LENGTH</strong> -- <code class="docutils literal"><span class="pre">int</span></code>: <cite>(Optional)</cite> Minimum length allowed for each primer.</li>
+<li><strong>MAX_LENGTH</strong> -- <code class="docutils literal"><span class="pre">int</span></code>: <cite>(Optional)</cite> Maximum length allowed for each primer.</li>
+<li><strong>prefix</strong> -- <code class="docutils literal"><span class="pre">str</span></code>: <cite>(Optional)</cite> Construct prefix/name.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><code class="docutils literal"><span class="pre">primerize.Design_Single</span></code></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="primerize.primerize_1d.Primerize_1D.get">
+<code class="descname">get</code><span class="sig-paren">(</span><em>key</em><span class="sig-paren">)</span><a class="headerlink" href="#primerize.primerize_1d.Primerize_1D.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get current worker parameters.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>key</strong> -- <code class="docutils literal"><span class="pre">str</span></code>: Keyword of parameter. Valid keywords are <code class="docutils literal"><span class="pre">'MIN_TM'</span></code>, <code class="docutils literal"><span class="pre">'NUM_PRIMERS'</span></code>, <code class="docutils literal"><span class="pre">'MIN_LENGTH'</span></code>, <code class="docutils literal"><span class="pre">'MAX_LENGTH'</span></code>, <code class="docutils literal"><span class="pre">'prefix'</span></code>; case insensitive.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">value of specified <strong>key</strong>.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><code class="xref py py-exc docutils literal"><span class="pre">AttributeError</span></code> -- For illegal <strong>key</strong>.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="primerize.primerize_1d.Primerize_1D.reset">
+<code class="descname">reset</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#primerize.primerize_1d.Primerize_1D.reset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reset current worker parameters to default.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="primerize.primerize_1d.Primerize_1D.set">
+<code class="descname">set</code><span class="sig-paren">(</span><em>key</em>, <em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#primerize.primerize_1d.Primerize_1D.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set current worker parameters.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>key</strong> -- <code class="docutils literal"><span class="pre">str</span></code>: Keyword of parameter. Valid keywords are the same as <code class="docutils literal"><span class="pre">get()</span></code>.</li>
+<li><strong>value</strong> -- <code class="docutils literal"><span class="pre">(auto)</span></code>: New value for specified keyword. Type of value must match <strong>key</strong>.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><ul class="first last simple">
+<li><code class="xref py py-exc docutils literal"><span class="pre">AttributeError</span></code> -- For illegal <strong>key</strong>.</li>
+<li><code class="xref py py-exc docutils literal"><span class="pre">ValueError</span></code> -- For illegal <strong>value</strong>.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+      </section>
+    </div>
+
+    <p class="wrapper">
+      <small>Built with</small>
+      <a href="http://sphinx-doc.org/" target="_blank">Sphinx</a>
+      <small>using a</small>
+      <a href="https://github.com/t47io/ribokit-Sphinx-theme" target="_blank">RiboKit Theme</a>
+      <small>. Hosted on</small> GitHub Pages.
+    </p>
+
+    <p class="wrapper">
+      <small>
+        &copy; Copyright 2008-2016 The Board of Trustees of the Leland Stanford Junior University. All Rights Reserved.
+      </small>
+    </p>
+
+    <p class="wrapper">
+      
+      <small>Last updated on</small> May 05, 2016.
+      
+    </p>
+
+    <footer>
+  <p style="margin:0;">
+      <small>Project maintained by</small>
+      <br/>
+      <a href="https://github.com/DasLab"><b>Das Lab</b></a>&nbsp;
+      
+        <br/>
+        <small>Page created by</small>
+        <br/>
+        <span style="color: #39c;"><i>Siqi Tian</i></span>&nbsp;
+      
+  </p>
+</footer>
+
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'1.3.0',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+      <script type="text/javascript" src="/assets/js/sphinx-main.js"></script>
+      <script type="text/javascript" src="/assets/js/sphinx-theme.js"></script>
+     
+  </body>
+</html>

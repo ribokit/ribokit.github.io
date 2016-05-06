@@ -1,0 +1,214 @@
+
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    
+    <title>Primerize Documentation &mdash; Primerize1.3.0 : PCR Assembly Primer Design | RiboKit</title>
+    
+
+    
+      <link rel="shortcut icon" href="_static/primerize_icon.png"/>
+    
+
+    
+      <link rel="stylesheet" href="/assets/css/sphinx-styles.css" type="text/css" />
+      <link rel="stylesheet" href="/assetes/css/github-dark.css" type="text/css" />
+    
+
+    
+      
+    
+
+    
+    
+      <link rel="top" title="Primerize1.3.0 : PCR Assembly Primer Design" href="#"/>
+          <link rel="next" title="Installation" href="install.html"/> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+
+  <body>
+    <header>
+    <h1>
+        <a href="/">RiboKit</a> 
+        
+        : <a href="index.html">Primerize</a>
+        
+    </h1>
+    <p>PCR Assembly Primer Design</p>
+</header>
+    <div id="banner">
+  <div class="banner-inner">
+    <span id="logo"><span class="octicon octicon-mark-github"></span></span>
+
+    
+      <a href="https://github.com/DasLab/Primerize" target="_blank" class="button fork"><strong>View On GitHub</strong></a>
+    
+
+    
+  <form id="rtd-search-form" class="search-form" action="search.html" method="get">
+    <input type="text" name="q" class="search-box" placeholder="Search for Docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+
+    
+      
+      
+        <div class="version"><span>1.3.0</span></div>
+      
+    
+
+    
+    
+      <div class="downloads">
+        <span>Downloads</span>
+        <ul>
+          <li><a href="https://github.com/DasLab/Primerize/zipball/master" target="_blank" class="button">ZIP</a></li>
+          <li><a href="https://github.com/DasLab/Primerize/tarball/master" target="_blank" class="button">TAR</a></li>
+        </ul>
+      </div>
+    
+  
+  </div>
+</div>
+
+
+    <div class="wrapper">
+      <nav>
+    <ul style="margin-bottom:0;">
+        <li class="tag-h1"><a href="index.html">Primerize Documentation</a></li>
+    </ul>
+    
+        
+        
+            <ul>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example.html">Example Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content.html">Modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="matlab.html">MATLAB <cite>(Deprecated)</cite></a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">LICENSE</a></li>
+</ul>
+
+        
+    
+</nav>
+      <section>
+      
+  <div class="section" id="primerize-documentation">
+<h1><code class="docutils literal"><span class="pre">Primerize</span></code> Documentation<a class="headerlink" href="#primerize-documentation" title="Permalink to this headline">¶</a></h1>
+<a class="reference external image-reference" href="https://primerize.stanford.edu/"><img alt="Primerize Logo" class="align-right" src="_images/primerize_logo.png" style="width: 241.5px; height: 154.5px;" /></a>
+<p><code class="docutils literal"><span class="pre">Primerize</span></code> (previously named <code class="docutils literal"><span class="pre">NA_thermo</span></code>), is an archive of <em>Python</em> and <em>MATLAB</em> scripts for primer design and nucleic acid thermodynamic scripts developed by the <a class="reference external" href="https://daslab.stanford.edu/">Das Lab</a> at Stanford University for high-throughput RNA synthesis and design.</p>
+<p>The algorithm designs <em>forward</em> (sense strand) and <em>reverse</em> (anti-sense strand) primers that minimize the total length, and therefore the total synthesis cost, of the oligonucleotides. Although developed independently, <code class="docutils literal"><span class="pre">Primerize</span></code> is a special case of the general ‘<em>Gapped Oligo Design</em>’ algorithm, optimizing the mispriming score and sequence span instead of T<sub>m</sub>.</p>
+<p>An online user-friendly GUI is available as the <a class="reference external" href="https://primerize.stanford.edu/">Primerize Server</a>.</p>
+<hr class="docutils" />
+<div class="section" id="table-of-contents">
+<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example.html">Example Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content.html">Modules</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="primerize.primerize_1d.html"><code class="docutils literal"><span class="pre">primerize.primerize_1d</span></code> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primerize.primerize_2d.html"><code class="docutils literal"><span class="pre">primerize.primerize_2d</span></code> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primerize.primerize_3d.html"><code class="docutils literal"><span class="pre">primerize.primerize_3d</span></code> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primerize.thermo.html"><code class="docutils literal"><span class="pre">primerize.thermo</span></code> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primerize.util.html"><code class="docutils literal"><span class="pre">primerize.util</span></code> Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="primerize.wrapper.html"><code class="docutils literal"><span class="pre">primerize.wrapper</span></code> Module</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="matlab.html">MATLAB <cite>(Deprecated)</cite></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="matlab.html#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="matlab.html#usage">Usage</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">LICENSE</a></li>
+</ul>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="reference">
+<h2>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line">Tian, S., <em>et al.</em> (<strong>2015</strong>)</div>
+<div class="line"><a class="reference external" href="http://nar.oxfordjournals.org/content/43/W1/W522.full">Primerize: Automated Primer Assembly for Transcribing Interesting RNAs.</a></div>
+<div class="line"><em>Nucleic Acid Research</em> <strong>43 (W1)</strong>: W522-W526.</div>
+<div class="line"><br /></div>
+<div class="line">Thachuk, C., and Condon, A. (<strong>2007</strong>)</div>
+<div class="line"><a class="reference external" href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4375554">On the Design of Oligos for Gene Synthesis.</a></div>
+<div class="line"><em>Proceedings of the 7th IEEE International Conference on Bioinformatics and Bioengineering</em> <strong>2007</strong>: 123-130.</div>
+</div>
+<hr class="docutils" />
+<p>Developed by <strong>Das lab</strong>, <cite>Leland Stanford Junior University</cite>.</p>
+<p>README by <a class="reference external" href="http://t47.io/">t47</a>, <em>January 2016</em>.</p>
+</div>
+</div>
+
+
+      </section>
+    </div>
+
+    <p class="wrapper">
+      <small>Built with</small>
+      <a href="http://sphinx-doc.org/" target="_blank">Sphinx</a>
+      <small>using a</small>
+      <a href="https://github.com/t47io/ribokit-Sphinx-theme" target="_blank">RiboKit Theme</a>
+      <small>. Hosted on</small> GitHub Pages.
+    </p>
+
+    <p class="wrapper">
+      <small>
+        &copy; Copyright 2008-2016 The Board of Trustees of the Leland Stanford Junior University. All Rights Reserved.
+      </small>
+    </p>
+
+    <p class="wrapper">
+      
+      <small>Last updated on</small> May 05, 2016.
+      
+    </p>
+
+    <footer>
+  <p style="margin:0;">
+      <small>Project maintained by</small>
+      <br/>
+      <a href="https://github.com/DasLab"><b>Das Lab</b></a>&nbsp;
+      
+        <br/>
+        <small>Page created by</small>
+        <br/>
+        <span style="color: #39c;"><i>Siqi Tian</i></span>&nbsp;
+      
+  </p>
+</footer>
+
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'1.3.0',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+      <script type="text/javascript" src="/assets/js/sphinx-main.js"></script>
+      <script type="text/javascript" src="/assets/js/sphinx-theme.js"></script>
+     
+  </body>
+</html>

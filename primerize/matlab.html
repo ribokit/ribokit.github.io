@@ -1,0 +1,218 @@
+
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    
+    <title>MATLAB (Deprecated) &mdash; Primerize1.3.0 : PCR Assembly Primer Design | RiboKit</title>
+    
+
+    
+      <link rel="shortcut icon" href="_static/primerize_icon.png"/>
+    
+
+    
+      <link rel="stylesheet" href="/assets/css/sphinx-styles.css" type="text/css" />
+      <link rel="stylesheet" href="/assetes/css/github-dark.css" type="text/css" />
+    
+
+    
+      
+    
+
+    
+    
+      <link rel="top" title="Primerize1.3.0 : PCR Assembly Primer Design" href="index.html"/>
+          <link rel="next" title="LICENSE" href="license.html"/>
+          <link rel="prev" title="primerize.wrapper Module" href="primerize.wrapper.html"/> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+
+  <body>
+    <header>
+    <h1>
+        <a href="/">RiboKit</a> 
+        
+        : <a href="index.html">Primerize</a>
+        
+    </h1>
+    <p>PCR Assembly Primer Design</p>
+</header>
+    <div id="banner">
+  <div class="banner-inner">
+    <span id="logo"><span class="octicon octicon-mark-github"></span></span>
+
+    
+      <a href="https://github.com/DasLab/Primerize" target="_blank" class="button fork"><strong>View On GitHub</strong></a>
+    
+
+    
+  <form id="rtd-search-form" class="search-form" action="search.html" method="get">
+    <input type="text" name="q" class="search-box" placeholder="Search for Docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+
+    
+      
+      
+        <div class="version"><span>1.3.0</span></div>
+      
+    
+
+    
+      <div class="downloads">
+        <span style="text-transform: none; font-size: 120%;"><u>matlab</u></span>
+        <ul>
+          
+            <li><a href="index.html" class="button">&#x21E7;</a></li>
+          
+          
+            <li><a href="primerize.wrapper.html" class="button">&#x21E6;</a></li>
+          
+          
+            <li><a href="license.html" class="button">&#x21E8;</a></li>
+          
+        </ul>
+      </div>
+  
+  </div>
+</div>
+
+
+    <div class="wrapper">
+      <nav>
+    <ul style="margin-bottom:0;">
+        <li class="tag-h1"><a href="index.html">Primerize Documentation</a></li>
+    </ul>
+    
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example.html">Example Scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content.html">Modules</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">MATLAB <cite>(Deprecated)</cite></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#usage">Usage</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">LICENSE</a></li>
+</ul>
+
+        
+    
+</nav>
+      <section>
+      
+  <div class="section" id="matlab-deprecated">
+<h1>MATLAB <cite>(Deprecated)</cite><a class="headerlink" href="#matlab-deprecated" title="Permalink to this headline">¶</a></h1>
+<p>Please note that <em>MATLAB</em> code is no longer actively under development or fully maintained.</p>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>To install <code class="docutils literal"><span class="pre">NA_Thermo</span></code>, simply:</p>
+<ul class="simple">
+<li>Download the zip or tar file of the repository and unpack; or:</li>
+</ul>
+<div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span> git clone https://github.com/DasLab/Primerize.git
+</pre></div>
+</td></tr></table></div>
+<ul class="simple">
+<li>In <em>MATLAB</em>, go to &quot;<strong>Set Path</strong>&quot;. Then &quot;<strong>Add with Subfolders</strong>&quot; of the target <code class="docutils literal"><span class="pre">path/to/Primerize/MATLAB/Scripts/</span></code>.</li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<p>To design primers for your sequence, just follow these easy steps:</p>
+<ol class="arabic simple">
+<li>Define your sequence. For example:</li>
+</ol>
+<div class="highlight-matlab"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="n">sequence</span> <span class="p">=</span> <span class="s">&#39;TTCTAATACGACTCACTATAGGCCAAAACAACGGAATTGCGGGAAAGGGGTCAACAGCCGTTCAGTACCAAGTCTCAGGGGAAACTTTGAGATGGCCTTGCAAAGGGTATGGTAATAAGCTGACGGACATGGTCCTAACCACGCAGCCAAGTCCTAAGTCAACAGATCTTCTGTTGATATGGATGCAGTTCAAAACCAAACCAAAGAAACAACAACAACAAC&#39;</span><span class="p">;</span>
+ <span class="n">tag</span> <span class="p">=</span> <span class="s">&#39;P4P6&#39;</span><span class="p">;</span>
+</pre></div>
+</td></tr></table></div>
+<p>This sequences includes a 20-nucleotide <cite>T7 promoter</cite> sequence at the beginning, and then a construct (starting with <code class="docutils literal"><span class="pre">GG...</span></code>) encoding the <cite>P4-P6 domain</cite> of the Tetrahymena ribozyme along with flanking sequences.</p>
+<ol class="arabic simple" start="2">
+<li>Run with:</li>
+</ol>
+<div class="highlight-matlab"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="n">primers</span> <span class="p">=</span> <span class="n">design_primers</span><span class="p">(</span><span class="n">sequence</span><span class="p">,</span> <span class="n">tag</span><span class="p">);</span>
+</pre></div>
+</td></tr></table></div>
+<p>This will compute primers with minimal length, annealing temperatures above a cutoff (<strong>60 C</strong>, by default), through a recursive strategy. An additional score term helps avoid primers that share multiple 3' nucleotides with other parts of the sequence, as a heuristic to reduce mispriming. The algorithm has similarities (but was developed independently) of <cite>Thachuk &amp; Condon (2007), BIBE, Proc. of 7th IEEE International Conf., p. 123-130</cite>.</p>
+<p>If you want to use our original script (in use from 2008-2011), use <code class="docutils literal"><span class="pre">design_primers_OLD()</span></code>. (This was slower and did not rigorously optimize length.)</p>
+<ol class="arabic simple" start="3">
+<li>We usually copy/paste these to a Word or Excel document for easy look-up later. If you add primer labels, you can copy/paste these to the IDT website or wherever.</li>
+</ol>
+</div>
+</div>
+
+
+      </section>
+    </div>
+
+    <p class="wrapper">
+      <small>Built with</small>
+      <a href="http://sphinx-doc.org/" target="_blank">Sphinx</a>
+      <small>using a</small>
+      <a href="https://github.com/t47io/ribokit-Sphinx-theme" target="_blank">RiboKit Theme</a>
+      <small>. Hosted on</small> GitHub Pages.
+    </p>
+
+    <p class="wrapper">
+      <small>
+        &copy; Copyright 2008-2016 The Board of Trustees of the Leland Stanford Junior University. All Rights Reserved.
+      </small>
+    </p>
+
+    <p class="wrapper">
+      
+      <small>Last updated on</small> May 05, 2016.
+      
+    </p>
+
+    <footer>
+  <p style="margin:0;">
+      <small>Project maintained by</small>
+      <br/>
+      <a href="https://github.com/DasLab"><b>Das Lab</b></a>&nbsp;
+      
+        <br/>
+        <small>Page created by</small>
+        <br/>
+        <span style="color: #39c;"><i>Siqi Tian</i></span>&nbsp;
+      
+  </p>
+</footer>
+
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'1.3.0',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+      <script type="text/javascript" src="/assets/js/sphinx-main.js"></script>
+      <script type="text/javascript" src="/assets/js/sphinx-theme.js"></script>
+     
+  </body>
+</html>
