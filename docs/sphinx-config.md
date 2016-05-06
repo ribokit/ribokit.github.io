@@ -1,11 +1,6 @@
 ---
-layout: docs
-permalink: /std/sphinx/config/
-root: /std/
-
-title: Doc Standards
-description: "Internal Guideline on Writing <u>St</u>an<u>d</u>ards"
-author: Siqi Tian
+permalink: /docs/sphinx/config/
+level: 2
 ---
 
 # Example `conf.py` for _Sphinx_

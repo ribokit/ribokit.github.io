@@ -1,11 +1,5 @@
 ---
-layout: docs
-permalink: /std/
-root: /std/
-
-title: Doc Standards
-description: "Internal Guideline on Writing <u>St</u>an<u>d</u>ards"
-author: Siqi Tian
+permalink: /docs/
 ---
 
 # Documentation Standards
