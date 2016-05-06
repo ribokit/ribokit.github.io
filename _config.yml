@@ -6,6 +6,23 @@ baseurl: ""
 url: "http://ribokit.github.io"
 github_username:  ribokit
 
+# Default variables
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      level: 1
+      author: "Siqi Tian"
+  -
+    scope:
+      path: "docs"
+    values:
+      title: "Doc Standards"
+      description: "Internal Guideline on Writing <u>St</u>an<u>d</u>ards"
+      root: "/docs/"
+
 # Build settings
 markdown: kramdown
 permalink: pretty

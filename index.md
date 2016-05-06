@@ -1,5 +1,5 @@
 ---
-layout: home
+level: 0
 description: Research Tools for RNA Modeling &amp; Design
 ---
 
