@@ -16,13 +16,13 @@ Research Tools for RNA Modeling &amp; Design, by the Das Lab at Department of Bi
 | Package | Description | Language |
 | --- | --- | ---: |
 | [**Biers**](/biers) | From MCM (MOHCA) to 3D | `MATLAB` |
-| [**HiTRACE**](/hitrace) | The standard tool for MCM analysis of CE | `MATLAB` |
-| ~~**LIFFT**~~ <small>(external)<small> | The standard tool for titration analysis | `MATLAB` |
-| ~~**Map2D**~~ <small>(external)<small> | The standard tool for MCM analysis of RING-MaP | `Python` |
-| ~~**MAPSeeker**~~ <small>(external)<small> | The standard tool for MCM analysis of NGS | `MATLAB` / `C++` |
+| [**HiTRACE**](/hitrace) | MCM analysis of CE | `MATLAB` |
+| ~~**LIFFT**~~ <small>(external)<small> | Titration analysis | `MATLAB` |
+| ~~**Map2D**~~ <small>(external)<small> | MCM analysis of RING-MaP | `Python` |
+| ~~**MAPSeeker**~~ <small>(external)<small> | MCM analysis of NGS | `MATLAB` / `C++` |
 | [**Primerize**](/primerize) | First stop for assembling templates for RNA synthesis | `Python` |
 | [**RDATKit**](/rdatkit) | Utils for anyone working with MCM data | `Python` |
-| [**REEFFIT**](/reeffit) <small>(external)<small> | The standard tool for MCM analysis of multi-state RNAs | `Python` |
+| [**REEFFIT**](/reeffit) <small>(external)<small> | MCM analysis of multi-state RNAs | `Python` |
 
 <hr/>
 ## Modeling &amp; Design
