@@ -29,3 +29,8 @@ kramdown:
     coderay_tab_width:         4
     coderay_bold_every:        10
     coderay_css:               style
+
+# Sphinx static/image force
+include: 
+    - _images
+    - _static
