@@ -3,16 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{{ page.title }} | RiboKit</title>
+    {% if page.level == 0 %}
+      <title>RiboKit</title>
+    {% else%}
+      <title>{{ page.title }} | RiboKit</title>
+    {% endif %}
 
-    <link rel="shortcut icon" href="/assets/ribokit.gif" />
-    <link rel="icon" type-"image/gif" href="/assets/ribokit.gif" />
+    <link rel="shortcut icon" type="image/gif" href="/assets/ribokit.gif" />
+    <link rel="icon" type="image/gif" href="/assets/ribokit.gif" />
 
-    <link rel="stylesheet" href="/assets/css/jekyll-styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="/assets/css/github-dark.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
-    <script src="/assets/js/jekyll-main.js"></script>
+    <script src="/assets/js/main.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -21,7 +25,7 @@
 
   <body>
     {% include header.html %}
-    {% include banner_parent.html %}
+    {% include banner.html %}
 
     <div class="wrapper">
       {% include navbar.html %}
