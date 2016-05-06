@@ -81,7 +81,7 @@ author: Siqi Tian
 <hr/>
 ## Sphinx
 
-> The **.html** files made by _Sphinx_ should be using the [**RiboKit Theme**](https://github.com/t47io/ribokit-Sphinx-theme). Please see more details on configurations [here](/std/sphinx/).
+> The **.html** files made by _Sphinx_ should be using the [**RiboKit Theme**](https://github.com/t47io/ribokit-Sphinx-theme). Please see more details on configurations here: [**_Sphinx_ Integration**](/std/sphinx/).
 
 For basic _Python_ docstring standards, see [PEP 257](https://www.python.org/dev/peps/pep-0257/). When using `sphinxcontrib-napoleon`, see this [example](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html) and [module](http://www.sphinx-doc.org/en/stable/ext/napoleon.html) for **Google Style** writing.
 

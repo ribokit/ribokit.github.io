@@ -108,7 +108,9 @@ There are several options that are passed from `conf.py` into _Sphinx_ when maki
 <hr/>
 ## Configuration
 
-For an example `source/conf.py`, see [here](conf/).
+> For an example `source/conf.py`, see [here](conf/).
+
+<br/>
 
 ### Autodoc
 
