@@ -20,7 +20,7 @@ Research Tools for RNA Modeling &amp; Design, by the Das Lab at Department of Bi
 | ~~**LIFFT**~~ <small>(external)<small> | The standard tool for titration analysis | `MATLAB` |
 | ~~**Map2D**~~ <small>(external)<small> | The standard tool for MCM analysis of RING-MaP | `Python` |
 | ~~**MAPSeeker**~~ <small>(external)<small> | The standard tool for MCM analysis of NGS | `MATLAB` / `C++` |
-| [**Primerize**](/primerize) <small>(external)<small> | First stop for assembling templates for RNA synthesis | `Python` |
+| [**Primerize**](/primerize) | First stop for assembling templates for RNA synthesis | `Python` |
 | [**RDATKit**](/rdatkit) | Utils for anyone working with MCM data | `Python` |
 | [**REEFFIT**](/reeffit) <small>(external)<small> | The standard tool for MCM analysis of multi-state RNAs | `Python` |
 
