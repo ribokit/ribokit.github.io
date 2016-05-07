@@ -14,6 +14,7 @@ defaults:
     values:
       layout: "default"
       level: 1
+      title: 
       author: "Siqi Tian"
   -
     scope:
@@ -22,13 +23,6 @@ defaults:
       title: "Doc Standards"
       description: "Internal Guideline on Writing <u>St</u>an<u>d</u>ards"
       root: "/docs/"
-  -
-    scope:
-      path: "navs"
-    values:
-      title: "Packages"
-      description: ""
-      root: "/"
   -
     scope:
       path: "repos/ribovis"

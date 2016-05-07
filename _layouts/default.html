@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    {% if page.level == 0 %}
-      <title>RiboKit</title>
-    {% else%}
+    {% if page.title %}
       <title>{{ page.title }} | RiboKit</title>
+    {% else %}
+      <title>RiboKit</title>
     {% endif %}
 
     <link rel="shortcut icon" type="image/gif" href="/assets/ribokit.gif" />
