@@ -1,17 +1,11 @@
 ---
-layout: docs
-permalink: /pymol_daslab/docs/
-root: /pymol_daslab/
-
-title: pymol_daslab
-description: "<u>PyMol</u> Commands by the <u>Das</u> <u>Lab</u> Style"
-repo: DasLab/pymol_daslab
-author: Siqi Tian
+permalink: /RiboVis/docs/
+level: 2
 ---
 
 ## Most Useful Commands
 
-[![rr() Example Image](../res/rr.png "rr() Example Image"){: .right}](../res/rr.png)
+[![rr() Example Image](/repos/ribovis/res/rr.png "rr() Example Image"){: .right}](/repos/ribovis/res/rr.png)
 
 * #### `rr()`, or `render_rna()`
 
@@ -19,7 +13,7 @@ author: Siqi Tian
 
 <br/>
 
-[![rrs() Example Image](../res/rrs.png "rrs() Example Image"){: .right}](../res/rrs.png)
+[![rrs() Example Image](/repos/ribovis/res/rrs.png "rrs() Example Image"){: .right}](/repos/ribovis/res/rrs.png)
 
 * #### `rrs()`, or `render_rna_sticks()`
 
@@ -29,7 +23,7 @@ author: Siqi Tian
 <br/>
 <br/>
 
-[![color_by_data() Example Image](../res/color_by_data.png "color_by_data() Example Image"){: .right}](../res/color_by_data.png)
+[![color_by_data() Example Image](/repos/ribovis/res/color_by_data.png "color_by_data() Example Image"){: .right}](/repos/ribovis/res/color_by_data.png)
 
 * #### `color_by_data( filename [, offset = 0, min = 0, max = 1] )`
 
@@ -46,7 +40,7 @@ author: Siqi Tian
 
 For instructions on coloring 3D models using analyzed reactivity data from **HiTRACE**, see instructions [here](/hitrace/tutorial/bonus_3d/).
 
-[![rd() Example Image](../res/rd.png "rd() Example Image"){: .right}](../res/rd.png)
+[![rd() Example Image](/repos/ribovis/res/rd.png "rd() Example Image"){: .right}](/repos/ribovis/res/rd.png)
 
 * #### `rd()`, or `render_molecules()`
 
@@ -56,7 +50,7 @@ For instructions on coloring 3D models using analyzed reactivity data from **HiT
 <br/>
 <br/>
 
-[![loop_color() Example Image](../res/loop_color.png "loop_color() Example Image"){: .right}](../res/loop_color.png)
+[![loop_color() Example Image](/repos/ribovis/res/loop_color.png "loop_color() Example Image"){: .right}](/repos/ribovis/res/loop_color.png)
 
 * #### `loop_color( start, end, native=None, zoom=False )`
 
@@ -72,7 +66,7 @@ For instructions on coloring 3D models using analyzed reactivity data from **HiT
 
 ## Additional Commands
 
-[![rc() Example Image](../res/rc.png "rc() Example Image"){: .right}](../res/rc.png)
+[![rc() Example Image](/repos/ribovis/res/rc.png "rc() Example Image"){: .right}](/repos/ribovis/res/rc.png)
 
 
 * #### `rc()`, or `render_cartoon()`
@@ -85,7 +79,7 @@ For instructions on coloring 3D models using analyzed reactivity data from **HiT
 <br/>
 <br/>
 
-[![sa() Example Image](../res/sa.png "sa() Example Image"){: .right}](../res/sa.png)
+[![sa() Example Image](/repos/ribovis/res/sa.png "sa() Example Image"){: .right}](/repos/ribovis/res/sa.png)
 
 * #### `sa( [intra=False, rainbow=True] )`, or `superimpose_all()`
 
@@ -97,7 +91,7 @@ For instructions on coloring 3D models using analyzed reactivity data from **HiT
 
 > Run chainbow on all molecules, one by one.
 
-[![rx() Example Image](../res/rx.png "rx() Example Image"){: .right}](../res/rx.png)
+[![rx() Example Image](/repos/ribovis/res/rx.png "rx() Example Image"){: .right}](/repos/ribovis/res/rx.png)
 
 * #### `rx()`, or `render_x()`
 
@@ -105,7 +99,7 @@ For instructions on coloring 3D models using analyzed reactivity data from **HiT
 
 <br/>
 
-[![rj() Example Image](../res/rj.png "rj() Example Image"){: .right}](../res/rj.png)
+[![rj() Example Image](/repos/ribovis/res/rj.png "rj() Example Image"){: .right}](/repos/ribovis/res/rj.png)
 
 * #### `rj()`, or `render_rhiju()`
 
@@ -126,7 +120,7 @@ For instructions on coloring 3D models using analyzed reactivity data from **HiT
 
 > Load up these commands again after, say, an edit.
 
-[![rb() Example Image](../res/rb.png "rb() Example Image"){: .right}](../res/rb.png)
+[![rb() Example Image](/repos/ribovis/res/rb.png "rb() Example Image"){: .right}](/repos/ribovis/res/rb.png)
 
 * #### `rb()`
 

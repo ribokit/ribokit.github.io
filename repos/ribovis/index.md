@@ -1,20 +1,13 @@
 ---
-layout: default
-permalink: /pymol_daslab/
-root: /pymol_daslab/
-
-title: pymol_daslab
-description: "<u>PyMol</u> Commands by the <u>Das</u> <u>Lab</u> Style"
-repo: DasLab/pymol_daslab
-author: Siqi Tian
+permalink: /RiboVis/
 ---
 
-# <samp>pymol_daslab</samp>
+# <samp>RiboVis</samp>
 
-[![1q9a Example Image](https://raw.github.com/DasLab/pymol_daslab/master/1q9a.png "1q9a Example Image"){: .half}](https://raw.github.com/DasLab/pymol_daslab/master/1q9a.png)
+[![1q9a Example Image](https://raw.github.com/ribokit/RiboVis/master/1q9a.png "1q9a Example Image"){: .half}](https://raw.github.com/ribokit/RiboVis/master/1q9a.png)
 {: .center}
 
-**pymol_daslab** is a set of useful and short *Python* functions for making pictures of RNA and proteins in pymol in our 'lab style'. For a quick preview:
+**RiboVis** is a set of useful and short *Python* functions for making pictures of RNA and proteins in pymol in our 'lab style'. For a quick preview:
 
 | Function | Description |
 | --- | --- |
@@ -27,12 +20,12 @@ And more! ...
 <hr/>
 ## Installation
 
-To install **pymol_daslab**, simply:
+To install **RiboVis**, simply:
 
 - From GitHub, download the zip or tar file of the repository and unpack; or 
 
 ```bash
-git clone https://github.com/DasLab/pymol_daslab.git
+git clone https://github.com/ribokit/RiboVis.git
 ```
 
 - In _PyMol_, type:
@@ -52,8 +45,8 @@ rr()
 
 ```python
 import sys
-sys.path.append('/path/to/pymol_daslab')
-run /path/to/pymol_daslab/pymol_daslab.py
+sys.path.append('/path/to/RiboVis')
+run /path/to/RiboVis/pymol_daslab.py
 ```
 
 > Replce with your `/path/to/pymol_daslab`.
@@ -68,12 +61,12 @@ This will automatically load `pymol_daslab` upon start every time.
 <hr/>
 ## License
 
-Copyright &copy; of **pymol_daslab** _Source Code_ is described in [LICENSE.md](https://github.com/DasLab/pymol_daslab/blob/master/LICENSE.md).
+Copyright &copy; of **RiboVis** _Source Code_ is described in [LICENSE.md](https://github.com/ribokit/RiboVis/blob/master/LICENSE.md).
 
 <hr/>
 ## Related Packages
 
-* [**HiTRACE**](/hitrace/)
+* [**HiTRACE**](https://hitrace.github.io/HiTRACE/)
 
 
 <hr/>

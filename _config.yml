@@ -22,6 +22,22 @@ defaults:
       title: "Doc Standards"
       description: "Internal Guideline on Writing <u>St</u>an<u>d</u>ards"
       root: "/docs/"
+  -
+    scope:
+      path: "navs"
+    values:
+      title: "Packages"
+      description: ""
+      root: "/"
+  -
+    scope:
+      path: "repos/ribovis"
+    values:
+      title: "RiboVis"
+      description: "PyMol Commands by the Das Lab Style"
+      repo: "ribokit/RiboVis"
+      author: "Siqi Tian"
+      root: "/RiboVis/"
 
 # Build settings
 markdown: kramdown
