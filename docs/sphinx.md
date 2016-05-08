@@ -1,9 +1,12 @@
 ---
 permalink: /docs/sphinx/
 level: 2
+prev: jekyll/
 ---
 
-# Sphinx Integration
+# Sphinx
+
+_Sphinx_ is used to generate Documentation **.html** pages from docstrings embedded in the **.py** files for a _Python_ package.
 
 <hr/>
 ## Get Started
@@ -28,6 +31,7 @@ Now creates a `docs/` folder inside the directory tree:
 │   ├── setup.py
 │   └── README
 ```
+{: style="line-height:1em"}
 
 Now at `PackageName/` (root), run `sphinx-quickstart`. It asks a lot of questions. All of them can be changed later in `conf.py`. Here are some important ones:
 
@@ -53,6 +57,7 @@ Now you should have:
 │   │   └── index.rst
 │   └── Makefile
 ```
+{: style="line-height:1em"}
 
 * You can run `make html` while under `docs/` to compile from your `source/*.rst` to `build/html/*.html`.
 
@@ -68,6 +73,8 @@ Now you should have:
 │   │   │   ├── ribokit-Sphinx-theme/
 ...
 ```
+{: style="line-height:1em"}
+
 Now in your `source/conf.py`, add the following lines:
 
 ```python
@@ -76,8 +83,7 @@ html_theme_path = ['_theme']
 html_theme_options = {
     'description': 'PCR Assembly Primer Design',
     'author': author.split(',')[0].strip(),
-    'github_repo': 'DasLab/Primerize',
-    'ribokit_flag': True
+    'github_repo': 'DasLab/Primerize'
 }
 ```
 
@@ -90,9 +96,6 @@ There are several options that are passed from `conf.py` into _Sphinx_ when maki
 | `github_repo` | The repository name in format of `organization/repository`. This powers the "View on GitHub" and "Download" buttons. |
 | `collapse_navigation` | Boolean flag for whether the `<ul>` of sidebar are expanded; default is `true`. |
 | `display_version` | Boolean flag for whether to display current package version next to search box; default is `true`. |
-| `ribokit_flag` | Flag for testing or RiboKit deployment; default is `false`. When testing the docs locally, use `false`; when generating **.html** files for RiboKit site, use `true`. This toggles the _CSS_ and _JS_ static asset path only. |
-
-> The `ribokit_flag` variable is very important. It dictates whether static _CSS_ and _JS_ files can be loaded successfully. The RiboKit server uses a different path to avoid repeated files in the repository.
 
 * Copy the `sphinx_make.sh` from **Theme** repository into `docs/sphinx_make.sh`. This script is used for final submission to RiboKit website.
 
@@ -110,7 +113,6 @@ You might also want to exclude certain **Theme** and Docs related files from you
 ```bash
 build/
 dist/
-docs/sphinx_make.sh
 docs/build
 docs/source/_theme
 
@@ -167,36 +169,107 @@ napoleon_use_rtype = False
 ```
 
 <hr/>
-## Submit to RiboKit
+# Submit to RiboKit
+
+## Mechanism
+
+The GitHub Pages are hosted either at organization level via a `organization/organization.github.io` repository, or at each repository level as a `gh-pages` branch.
+
+**For _Sphinx_ docs, we use `gh-pages` branch to keep the doc together with the code**; while _Jekyll_ tutorials are using the other option.
+
+> This choice adds overhead for branch switching and copy of RiboKit theme for each repository. The other option should work well too. But we choose this way only for keeping docs with code in same repository.
+
+The above overhead is due to:
+
+* GitHub Pages require `gh-pages` branch; `master` does not work;
+
+* The **.html** files has to be at root (`/`) of `gh-pages`, inside `build/html/` does not work;
+
+* _Sphinx_ output **.html** to `build/html` and you can't change the default path;
+
+* The docstrings are inside **.py** files, so they live in `master`.
+
+> It would work if you have a `.sh` script that moves `build/html/` to `/` after `make html`; and you keep `gh-pages` in sync with `master`. However, having a lot of **.html** files at the root(`/`) of your code base is **UGLY**{: style="color:#ff5c2b;"}! We do not recommend this option.
+
+<hr/>
+## Integration
 
 Before submitting to RiboKit, make sure you check against [**Doc Standards**](../). Once satisfactory, follow these steps:
 
-* Run `sphinx_make.sh`.
+* In `master` branch, run `sphinx_make.sh`.
 
-> Make sure that `ribokit_flag` is set to `True` in `source/conf.py` for submission!
+* Now copy and save the `build/html/` folder.
 
-* Clone or checkout `ribokit/ribokit.github.io` a copy to your local enviroment.
+* **Switch to `gh-pages` branch**.
 
-* Inside `ribokit/ribokit.github.io` repository, create a folder for your package.
+* Copy over the entire `build/html/` folder as root (see below).
 
-> Use lower case letter of package name only. **No spaces. Replace `-` with `_` (underscore).**
+* Push the changes of `gh-pages` to GitHub. **The website should be updated automatically** (may be with some delay _[< 30s]_).
 
-* Copy the entire `build/html` folder into the package folder in `ribokit/ribokit.github.io`:
+* Switch back to `master` for everyday use.
+
+For first time setup, you also need to create a `.nojekyll` and `_config.yml` file:
+
+* `.nojekyll`: to tell GitHub Pages do not parse your **.html** files using the _Jekyll_ engine;
+
+* `_config.yml`: GitHub Pages (powered by _Jekyll_) ignores all folders that start wiht underscore (`_`) by default. Sadly, _Sphinx_ creates `_static`, _etc._ folder and the name is not configurable.
+
+Thus, we create a `_config.yml` file to force include those folders. Otherwise, the static resources (_JS_, _CSS_, images) will return _404_ response. 
+
+```yaml
+include:
+    - _images
+    - _sources
+    - _static
+    - _modules
+    - _templates
+```
+
+<br/>
+
+**After `make html`, your `master` should like like this**:
 
 ```
-├── ribokit.github.io/
-│   ├── _includes/
-│   ├── _layouts/
-│   ├── assets/
-...
-│   ├── package/
-│   │   ├── _images/
-│   │   ├── _sources/
-│   │   ├── _static/
-│   │   ├── index.html
-...
+[master]
+├── PackageName/
+│   ├── package_name/
+│   │   ├── __init__.py
+│   │   └── ...
+│   │
+│   ├── docs/ 
+│   │   ├── build/
+│   │   │   ├── doctree/
+│   │   │   └── html/
+│   │   │       ├── _images/
+│   │   │       ├── _sources/
+│   │   │       ├── _static/
+│   │   │       └── index.html
+│   │   ├── source/ 
+│   │   │   ├── _static/
+│   │   │   ├── _templates/
+│   │   │   ├── conf.py
+│   │   │   └── index.rst
+│   │   └── Makefile
+│   │
+│   ├── examples/
+│   ├── setup.py
+│   └── README
+```
+{: style="line-height:1em"}
+
+**Move the entire `build/html/` to your `gh-pages`**:
+
+```
+[gh-pages]
+├── PackageName/
+│   ├── _images/
+│   ├── _sources/
+│   ├── _static/
+│   ├── index.html
+│   │
+│   ├── .nojekyll
 │   └── _config.yml
-```
 
-* Push the changes to GitHub. The website should be updated automatically (may be with some delay _[< 30s]_).
+```
+{: style="line-height:1em"}
 

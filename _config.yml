@@ -57,8 +57,10 @@ kramdown:
     coderay_bold_every:        10
     coderay_css:               style
 
-# Sphinx static/image force
-include: 
-    - _images
-    - _static
-    - _sources
+
+# Redirect url
+# gems:
+#   - jekyll-redirect-from
+
+# whitelist:
+#   - jekyll-redirect-from

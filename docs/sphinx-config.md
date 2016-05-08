@@ -76,8 +76,7 @@ html_theme_path = ['_theme']
 html_theme_options = {
     'description': 'PCR Assembly Primer Design',
     'author': author.split(',')[0].strip(),
-    'github_repo': 'DasLab/Primerize',
-    'ribokit_flag': True
+    'github_repo': 'DasLab/Primerize'
 }
 
 # Output file base name for HTML help builder.
