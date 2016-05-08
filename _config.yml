@@ -18,6 +18,13 @@ defaults:
       author: "Siqi Tian"
   -
     scope:
+      path: "redirect"
+    values:
+      layout: "redirect"
+      sitemap: false
+      title: "Redirect"
+  -
+    scope:
       path: "docs"
     values:
       title: "Doc Standards"
