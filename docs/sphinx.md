@@ -83,8 +83,10 @@ html_theme_path = ['_theme']
 html_theme_options = {
     'description': 'PCR Assembly Primer Design',
     'author': author.split(',')[0].strip(),
-    'github_repo': 'DasLab/Primerize'
+    'github_repo': 'DasLab/Primerize',
+    'ga_tracker': 'UA-12345678-9'
 }
+html_additional_pages = {'404': '404.html'}
 ```
 
 There are several options that are passed from `conf.py` into _Sphinx_ when making **.html**. Their default values are defined in `source/_theme/ribokit-Sphinx-theme/theme.conf`:
@@ -94,6 +96,7 @@ There are several options that are passed from `conf.py` into _Sphinx_ when maki
 | `description` | The subtitle for display. For acronyms, mark the initials with `<u>` for highlighting (on hover). |
 | `author` | The creator of the page. It will be displayed in the footer. |
 | `github_repo` | The repository name in format of `organization/repository`. This powers the "View on GitHub" and "Download" buttons. |
+| `ga_tracker` | Google Analytics tracker ID. |
 | `collapse_navigation` | Boolean flag for whether the `<ul>` of sidebar are expanded; default is `true`. |
 | `display_version` | Boolean flag for whether to display current package version next to search box; default is `true`. |
 
@@ -217,7 +220,13 @@ include:
 
 ### Submit
 
-Before submitting to RiboKit, make sure you check against [**Doc Standards**](../). Once satisfactory, run `docs/sphinx_make.sh` at root folder (`/`). Here is a break-down for what it does:
+Before submitting to RiboKit, make sure you check against [**Doc Standards**](../). Once satisfactory:
+
+> **First `commit` and `push` all your changes to `master`!**
+
+> Run `docs/sphinx_make.sh` at root folder (`/`). 
+
+Here is a break-down for what it does:
 
 * In `master` branch, execute `make clean && make html`.
 

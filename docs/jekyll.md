@@ -1,3 +1,4 @@
+
 ---
 permalink: /docs/jekyll/
 level: 2
@@ -37,7 +38,7 @@ author: Siqi Tian
 
 | Key | Value |
 | --- | --- |
-| `layout` | The layout template for the page. Use `default`, which is the only layout template from the RiboKit theme. |
+| `layout` | The layout template for the page. Use `default` for all pages; use `redirect` for redirecting a `permalink` to a new address (with a 301 page, see `redirect_to`). |
 | `level` | The level for the page. This controls the navigation banner: `0` displays "Visit Lab" button; used for domain index page only (e.g. `https://ribokit.github.io`). `1` displays "View GitHub" and download package for repository; used for landing page of each package (e.g. `https://ribokit.github.io/RiboVis/`). `2` displays "up", "prev", "next" navigation buttons; used for tutorial series (e.g. `https://hitrace.github.io/HiTRACE/tutorial/step_0/`). |
 | `permalink` | The URL that the page responds to. Always start and end with `/`. |
 
@@ -49,6 +50,7 @@ author: Siqi Tian
 | `description` | The subtitle for display. For acronyms, mark the initials with `<u>` for highlighting (on hover). |
 | `repo` | The repository name in format of `organization/repository`. This powers the "View on GitHub" and "Download" buttons. If left out, those buttons are hidden. |
 | `author` | The creator of the page. It will be displayed in the footer. |
+| `ga_tracker` | Google Analytics tracker ID. This should only be set once globally as defaults. |
 
 * **Navigation Fields**:
 
@@ -57,6 +59,16 @@ author: Siqi Tian
 | `root` | The root parent of the page. This will be used by the _up arrow_ button. |
 | `prev` | The previous page, used for tutorial series. This will be used by the _left arrow_ button. The final (relative) URL is prepended with `../` (so you don't need to type it). |
 | `next` | The next page, used for tutorial series. This will be used by the _right arrow_ button. The final (relative) URL is prepended with `../` (so you don't need to type it). |
+| `redirect_to` | New address to redirect a page. Only works when `layout` is `redirect`. Either relative or absolute path works. |
+
+Example of link redirection:
+
+```go
+---
+permalink: /biers/
+redirect_to:  https://daslab.github.io/Biers/
+---
+```
 
 <hr/>
 ## Defaults
@@ -73,6 +85,7 @@ defaults:
       level: 1
       title: 
       author: "Siqi Tian"
+      ga_tracker: UA-12345678-9
 ```
 
 > The settings are global when `path: ""` is empty.
