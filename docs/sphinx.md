@@ -177,7 +177,7 @@ The GitHub Pages are hosted either at organization level via a `organization/org
 
 > This choice adds overhead for branch switching and copy of RiboKit theme for each repository. The other option should work well too. But we choose this way only for keeping docs with code in same repository.
 
-The above overhead is due to:
+**The above overhead is due to:**{: style="color:#ff5c2b;"}
 
 * GitHub Pages require `gh-pages` branch; `master` does not work;
 
