@@ -217,13 +217,13 @@ include:
 
 ### Submit
 
-Before submitting to RiboKit, make sure you check against [**Doc Standards**](../). Once satisfactory, follow these steps:
+Before submitting to RiboKit, make sure you check against [**Doc Standards**](../). Once satisfactory, run `docs/sphinx_make.sh` at root folder (`/`). Here is a break-down for what it does:
 
-* In `master` branch, run `sphinx_make.sh`.
+* In `master` branch, execute `make clean && make html`.
 
-* Now copy and save the `build/html/` folder.
+* Remove unnecessary files in `build/html/_static/`.
 
-* **Switch to `gh-pages` branch**.
+* **Switch to `gh-pages` branch**, i.e. `git checkout gh-pages`.
 
 * Copy over the entire `build/html/` folder as root (see below).
 
@@ -231,7 +231,48 @@ Before submitting to RiboKit, make sure you check against [**Doc Standards**](..
 
 * Switch back to `master` for everyday use.
 
+> To take advantage of this automated script, you need to further edit your `.gitignore` file to exclude files from the other branch. For example, this is the `.gitignore` for `master` branch:
+
+```
+build/
+dist/
+docs/build
+docs/source/_theme
+
+primerize.egg-info/
+*.pyc
+
+/.nojekyll
+/*.html
+/*.js
+/objects.inv
+_static/
+_sources/
+_images/
+```
+
+And for `gh-pages`, its `.gitignore` is:
+
+```
+build/
+dist/
+docs/
+MATLAB/
+
+primerize/
+primerize.egg-info/
+setup.py
+requirements.txt
+```
+
+> The above setup saves you from the hassle of manually switch branches and keeping files. The `.gitignore` makes it easy that you do not lose any the ignored files, e.g. the `build/` and `dist/`. Otherwise, when you switch back to `master`, the previous built _Python_ packge is gone.
+
+> Some more readings: [this](https://gist.github.com/chrisjacob/833223) and [this](https://talk.jekyllrb.com/t/whats-the-best-way-to-update-github-pages/2100/3).
+
 <br/>
+
+### Double Check
+
 
 **After `make html`, your `master` should like like this**:
 
