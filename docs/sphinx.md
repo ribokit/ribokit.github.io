@@ -192,19 +192,9 @@ The GitHub Pages are hosted either at organization level via a `organization/org
 <hr/>
 ## Integration
 
-Before submitting to RiboKit, make sure you check against [**Doc Standards**](../). Once satisfactory, follow these steps:
+<br/>
 
-* In `master` branch, run `sphinx_make.sh`.
-
-* Now copy and save the `build/html/` folder.
-
-* **Switch to `gh-pages` branch**.
-
-* Copy over the entire `build/html/` folder as root (see below).
-
-* Push the changes of `gh-pages` to GitHub. **The website should be updated automatically** (may be with some delay _[< 30s]_).
-
-* Switch back to `master` for everyday use.
+### First Time
 
 For first time setup, you also need to create a `.nojekyll` and `_config.yml` file:
 
@@ -222,6 +212,24 @@ include:
     - _modules
     - _templates
 ```
+
+<br/>
+
+### Submit
+
+Before submitting to RiboKit, make sure you check against [**Doc Standards**](../). Once satisfactory, follow these steps:
+
+* In `master` branch, run `sphinx_make.sh`.
+
+* Now copy and save the `build/html/` folder.
+
+* **Switch to `gh-pages` branch**.
+
+* Copy over the entire `build/html/` folder as root (see below).
+
+* Push the changes of `gh-pages` to GitHub. **The website should be updated automatically** (may be with some delay _[< 30s]_).
+
+* Switch back to `master` for everyday use.
 
 <br/>
 
