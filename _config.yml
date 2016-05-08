@@ -16,6 +16,7 @@ defaults:
       level: 1
       title: 
       author: "Siqi Tian"
+      ga_tracker: UA-36037648-6
   -
     scope:
       path: "redirect"
