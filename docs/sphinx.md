@@ -70,7 +70,7 @@ Now you should have:
 ├── docs/
 │   ├── source/ 
 │   │   ├── _theme/
-│   │   │   ├── ribokit-Sphinx-theme/
+│   │   │   └── ribokit-Sphinx-theme/
 ...
 ```
 {: style="line-height:1em"}
@@ -98,8 +98,6 @@ There are several options that are passed from `conf.py` into _Sphinx_ when maki
 | `display_version` | Boolean flag for whether to display current package version next to search box; default is `true`. |
 
 * Copy the `sphinx_make.sh` from **Theme** repository into `docs/sphinx_make.sh`. This script is used for final submission to RiboKit website.
-
-> The `sphinx_make.sh` script removes repeated/shared _CSS_ and _JS_ files from the `build/html` folder, so you can later copy the enitre folder to the RiboKit site.
 
 > When testing, call `make clean && make html` instead, to exclude file removal.
 
