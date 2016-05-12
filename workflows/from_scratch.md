@@ -3,6 +3,7 @@ permalink: /workflows/from_scratch/
 level: 2
 description: "From Scratch workflow"
 title: "Workflow"
+author: "Rhiju Das"
 ---
 
 # I have just discovered an RNA molecule
