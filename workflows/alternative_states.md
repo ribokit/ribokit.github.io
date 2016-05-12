@@ -1,9 +1,6 @@
 ---
 permalink: /workflows/alternative_states/
-level: 2
-description: "Alternative states workflow"
-title: "Multi-state workflow"
-author: "Rhiju Das"
+description: "Alternative States (Multi-State) Workflow"
 ---
 
 # I think my RNA has interesting alternative states

@@ -1,9 +1,6 @@
 ---
-permalink: /workflows/mutation_rescue
-level: 2
-description: "Compensatory mutation/rescue"
-title: "Mutation/rescue Workflow"
-author: "Rhiju Das"
+permalink: /workflows/mutation_rescue/
+description: "Compensatory Mutation/Rescue Workflow"
 ---
 
 # I want to test an RNA secondary structure model

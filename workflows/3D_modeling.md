@@ -1,9 +1,6 @@
 ---
 permalink: /workflows/3D_modeling/
-level: 2
-description: "3D modeling workflow"
-title: "3D Modeling Workflow"
-author: "Rhiju Das"
+description: "3D Modeling Workflow"
 ---
 
 # I think my RNA has a 3D structure

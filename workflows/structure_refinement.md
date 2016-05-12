@@ -1,9 +1,6 @@
 ---
 permalink: /workflows/structure_refinement/
-level: 2
-description: "Structure Refinement workflow"
-title: "3D Structure Refinement Workflow"
-author: "Rhiju Das"
+description: "3D Structure Refinement Workflow"
 ---
 
 # I have crystallographic/cryoEM data

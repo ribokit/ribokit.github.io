@@ -1,9 +1,6 @@
 ---
-permalink: /workflows/2D_modeling
-level: 2
-description: "2D modeling workflow"
-title: "Mutate-and-map Workflow"
-author: "Rhiju Das"
+permalink: /workflows/2D_modeling/
+description: "Mutate-and-Map 2D Modeling Workflow"
 ---
 
 # I want to learn an RNA's secondary structure

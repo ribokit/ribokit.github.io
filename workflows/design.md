@@ -1,9 +1,6 @@
 ---
 permalink: /workflows/design/
-level: 2
-description: "Design workflow"
-title: "3D Design Workflow"
-author: "Rhiju Das"
+description: "3D Design workflow"
 ---
 
 # I want to design a new RNA molecule

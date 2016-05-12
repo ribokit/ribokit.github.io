@@ -1,8 +1,6 @@
 ---
 permalink: /workflows/from_scratch/
-level: 2
-description: "From Scratch workflow"
-title: "Workflow"
+description: "From Scratch Workflow"
 ---
 
 # I have just discovered an RNA molecule

@@ -1,9 +1,6 @@
 ---
 permalink: /workflows/folding_energetics/
-level: 2
-description: "Energetic prediction workflow"
-title: "Folding Energetics Workflow"
-author: "Rhiju Das"
+description: "Folding Energetic Prediction Workflow"
 ---
 
 # I want to model RNA folding energetics
