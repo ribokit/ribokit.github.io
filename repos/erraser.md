@@ -42,13 +42,13 @@ phenix.rna_validate
 ```bash
 ./convert_to_phenix.python
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;This will change the default python used by the code to phenix-built-in python, instead of using system python.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This will change the default python used by the code to phenix-built-in python, instead of using system python.
 
 - Set an environment variable `$ROSETTA` to the path to Rosetta. If you use bash, append the following lines to `~/.bashrc`:
 ```bash
 ROSETTA=/path/to/Rosetta/; export ROSETTA;
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also add the ERRASER script folder to your `$PATH`. Here is a bash example:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also add the ERRASER script folder to your `$PATH`. Here is a bash example:
 ```bash
 PATH=$PATH:/path/to/Rosetta/tools/ERRASER/
 ```
