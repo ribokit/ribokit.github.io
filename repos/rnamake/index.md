@@ -41,7 +41,7 @@ git clone https://github.com/jyesselm/RNAMake.git
 To make sure you system can find the RNAMake folder into the system's $PATH and $PYTHONPATH. In bash this can be done by adding the following lines to your ~/.bashrc or ~/.bash_profile if you are using a mac:
 
 ```bash
-export RNAMake=<RNAMake Path>
+export RNAMAKE=<RNAMake Path>
 export PATH=$PATH:<RNAMake Path>
 export PYTHONPATH=$PYTHONPATH:<RNAMake Path>
 ```
