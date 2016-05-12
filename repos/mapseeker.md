@@ -2,6 +2,7 @@
 permalink: /MAPseeker/
 title: "MAPseeker"
 description: "Software for analysis of NGS chemical mapping experiments"
+author: Clarence Cheng
 ---
 
 # <samp>MAPseeker</samp>
