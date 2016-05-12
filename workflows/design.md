@@ -6,7 +6,7 @@ title: "3D Design Workflow"
 author: "Rhiju Das"
 ---
 
-# I want to design an RNA molecule with a particular structure or function
+# I want to design a new RNA molecule
 
 <hr/>
 
