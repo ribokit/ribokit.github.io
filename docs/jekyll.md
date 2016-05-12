@@ -1,4 +1,3 @@
-
 ---
 permalink: /docs/jekyll/
 level: 2
