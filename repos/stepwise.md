@@ -42,11 +42,12 @@ Das, R. (2013) "Atomic-accuracy prediction of protein loop structures enabled by
 <hr/>
 ## Related Packages
 
-* rna_denovo
-* rna_design
-* ERRASER
-* RNAmake
-* RiboVis
+* [**rna_design**](http://ribokit.github.io/RNADesign/)
+* [**rna_denovo**](http://ribokit.github.io/RNADenovo/)
+* [**ERRASER**](http://ribokit.github.io/ERRASER/)
+* [**RNAmake**](http://ribokit.github.io/RNAMake/)
+* [**RiboVis**](http://ribokit.github.io/RiboVis/)
+
 
 
 <hr/>
