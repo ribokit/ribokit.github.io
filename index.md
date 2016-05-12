@@ -17,14 +17,14 @@ description: Research Tools for RNA Modeling &amp; Design
 
 * ##### [I have crystallographic/cryoEM data](/workflows/structure_refinement)
 
-* ##### [I want to model the energetics of an RNA helix or complex 3D fold](/workflows/folding_energetics)
+* ##### [I want to model RNA folding energetics](/workflows/folding_energetics)
 
 * ##### [I want to design an RNA molecule with a particular structure or function](/workflows/design)
 
 <hr/>
 ## About
 
-**RiboKit** provides a global overview of RNA modeling & analysis packages that have been developed and are maintained by the Das Lab and collaborators since 2009. This site is maintained at the Department of Biochemistry, Stanford University School of Medicine.
+**RiboKit** provides a global overview of RNA modeling & analysis packages that have been developed and are maintained by the Das Lab and collaborators since 2009. This site is maintained at the Department of Biochemistry, Stanford University School of Medicine. Being an academic effort, its not perfect. If you need help, or have suggestions that will help your research, please send an e-mail to ribokit2016 [at] gmail.com.
 
 <hr/>
 ## Packages in RiboKit
