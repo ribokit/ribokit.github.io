@@ -1,6 +1,6 @@
 ---
 permalink: /RDATKit/
-repo: hitrace/RDATKit
+repo: "hitrace/RDATKit"
 title: "RDATKit"
 description: "<u>R</u>NA <u>Dat</u>aset Tool<u>Kit</u>"
 ---
@@ -32,10 +32,8 @@ Copyright &copy; of **RDATKit** _Source Code_ is described in [LICENSE.md](https
 <hr/>
 ## Related Packages
 
-* ### [**HiTRACE**](/HiTRACE/)
-
-* ### [**Biers**](/Biers/)
-
+* [**HiTRACE**](/HiTRACE/)
+* [**Biers**](/Biers/)
 * [**MAPSeeker**](/MAPseeker/)
 
 <hr/>

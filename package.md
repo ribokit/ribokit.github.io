@@ -30,7 +30,7 @@ description: "RiboKit Software Packages"
 | ~~**EternaBot**~~ | Standard RNA 2D design tool | `Python` |
 | ~~**HelixMC**~~ | Modeling optical tweezers experiments | `Python` |
 | ~~**RiboLogic**~~ | Standard RNA 2D design tool | `Python` |
-| [**RNAmake**](/RNAMake/) | "Vienna" for 3D RNA folding/design | `Python` |
+| [**RNAMake**](/RNAMake/) | "Vienna" for 3D RNA folding/design | `Python` / `C++` |
 | [**Rosetta RNA _de novo_**](/RNADenovo/) | State-of-the-art solver for complex RNA 3D folds | `C++` |
 | [**Rosetta RNAdesign**](/RNADesign/) | Fast generator of RNA design hypotheses | `C++` |
 | [**Rosetta Stepwise**](/Stepwise/) | State-of-the-art solver for high-res motif modeling/design | `C++` |
