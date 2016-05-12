@@ -22,7 +22,7 @@ description: Research Tools for RNA Modeling &amp; Design
 <hr/>
 ## About
 
-Ribokit provides a global overview of RNA modeling & analysis packages that have been developed and are maintained by the Das Lab and collaborators since 2009. This site is maintained at the Department of Biochemistry, Stanford University School of Medicine.
+**RiboKit** provides a global overview of RNA modeling & analysis packages that have been developed and are maintained by the Das Lab and collaborators since 2009. This site is maintained at the Department of Biochemistry, Stanford University School of Medicine.
 
 <hr/>
 ## Packages in RiboKit
