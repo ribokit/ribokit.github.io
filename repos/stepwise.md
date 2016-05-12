@@ -1,5 +1,6 @@
 ---
 permalink: /Stepwise/
+level: 2
 title: Stepwise
 description: "<u>Stepwise</u> Monte Carlo for Modeling"
 author: Kalli Kappel
