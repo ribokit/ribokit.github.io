@@ -30,7 +30,7 @@ defaults:
     values:
       title: "Workflow"
       level: 2
-      auhtor: "Rhiju Das"
+      author: "Rhiju Das"
       root: "/"
   -
     scope:
