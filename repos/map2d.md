@@ -10,7 +10,7 @@ author: Clarence Cheng
 
 **MaP2D** is a software package for deriving 2D chemical mapping data from high-dose mutational profiling (MaP) experiments.
 In high-dose MaP experiments, RNAs are exposed to a high concentration of modifier (e.g. DMS), leading to multiple modifications per RNA.
-These multiple modifications can be read out by mutational profiling (see Homan et al. reference below).
+These multiple modifications can be read out by mutational profiling (see Homan _et al._ reference below).
 MaP2D analysis generates 2D datasets similar to mutate-and-map (M2) using high-dose MaP sequencing data analyzed by ShapeMapper.
 
 <hr/>
