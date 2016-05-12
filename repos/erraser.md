@@ -23,9 +23,9 @@ To run ERRASER, Rosetta and Phenix must be installed.
 
 To download and install Rosetta:
 
-- Request a license and download the software, [**here**](https://www.rosettacommons.org/software/license-and-download)
+- Request a license and download the software, [**here**](https://www.rosettacommons.org/software/license-and-download).
 
-- See the Rosetta installation documentation, [**here**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started)
+- See the Rosetta installation documentation, [**here**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started).
 
 To download and install Phenix:
 
