@@ -21,16 +21,19 @@ And more! ...
 
 To run ERRASER, you need to have Rosetta and Phenix installed on your machine.
 
+<br/>
 To download and install Rosetta:
 
 - Request a license and download the software, [**here**](https://www.rosettacommons.org/software/license-and-download).
 
 - See the Rosetta installation documentation, [**here**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started).
 
+<br/>
 To download and install Phenix:
 
 - Download the software, [**here**](http://www.phenix-online.org/). Phenix is free for academic users.
 
+<br/>
 Finish setup:
 
 - Ensure you have correctly setup Phenix. As a check, make sure the following command works:
@@ -53,6 +56,7 @@ ROSETTA=/path/to/Rosetta/; export ROSETTA;
 PATH=$PATH:/path/to/Rosetta/tools/ERRASER/
 ```
 
+<br/>
 Once Rosetta and Phenix have been installed, ERRASER can be run from the command line, e.g.:
 
 ```bash
