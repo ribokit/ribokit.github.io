@@ -1,12 +1,15 @@
 ---
 permalink: /RNAMake/
+title: RNAMake
+author: Joseph Yesselman
 ---
 
 # <samp>RNAMake</samp>
 
-**RNAMake** a toolkit for designing and optimizing RNA 3D structure.
+**RNAMake** is a toolkit for designing and optimizing RNA 3D structure. It allows the alignment between RNA motifs.
 
-And more! ...
+[![Aligning Motifs with RNAMake](/repos/rnamake/res/rnamake_aligning.png "Aligning Motifs with RNAMake"){: .full}](/repos/rnamake/res/rnamake_aligning.png)
+{: .center}
 
 <hr/>
 
