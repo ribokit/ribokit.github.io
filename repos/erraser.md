@@ -4,8 +4,7 @@ permalink: /ERRASER/
 
 # <samp>ERRASER</samp>
 
-[![Example Image](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg "Example Image"){: .half}](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg)
-{: .center}
+[![Example Image](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg "Example Image")](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg)
 
 **ERRASER** (Enumerative Real-space Refinment ASsisted by Electron-density under Rosetta) is an application for improving RNA crystal structures based on Rosetta and Phenix. For a quick preview:
 
