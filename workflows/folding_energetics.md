@@ -16,7 +16,7 @@ of RNA structures is less well-developed than modeling the dominant (usually low
 ## Workflow
  + **For single-molecule force spectroscopists**, the [HelixMC](HelixMC) package allows prediction of mechanical properties of long double-stranded RNA and DNA using base-pair-level models derived from RNA crystallography.
  + **For 3D RNA folders**, the [RNAMake](RNAMake) package includes predictive models for estimating free energies of folding of tertiary assembly. As with [HelixMC](HelixMC/), contributions of helix flexibility, including large effects from helix sequence, are assessed through base-pair-level models.
- + **For molecular dynamicists and epitranscriptomicists**, the [RECCES](RECCES) module in Rosetta allows estimation of nearest-neighbor parameters for helix stacked pairs and dangling ends.
+ + **For molecular dynamicists and epitranscriptomicists**, the [RECCES](RECCES) module in Rosetta allows estimation of nearest-neighbor parameters for helix stacked pairs and dangling ends, including chemically modified nucleotides.
  
 ## Limitations
 

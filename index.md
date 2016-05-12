@@ -7,7 +7,7 @@ description: Research Tools for RNA Modeling &amp; Design
 
 * ##### [I have just discovered an RNA molecule](/workflows/from_scratch)
 
-* ##### [I want to nail an RNA's secondary structure](/workflows/2D_modeling)
+* ##### [I want to learn an RNA's secondary structure](/workflows/2D_modeling)
 
 * ##### [I want to test an RNA secondary structure model](/workflows/mutation_rescue)
 

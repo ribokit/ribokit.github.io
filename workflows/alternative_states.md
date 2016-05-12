@@ -20,6 +20,10 @@ author: "Rhiju Das"
 3. **Test alternative structures** through compensatory mutation/rescue, read out through chemical mapping. See notes at [Primerize](Primerize/).
 4. Make predictions or the behavior of **the structure-stabilizing mutants** in your alternative functional assay (e.g., single molecule FRET measurements), and **test them**.
 
+## Limitations
++ REEFFIT is computationall expensive. It is not yet well optimized for RNAs beyond about 50-100 nts in length; computations for molecules of that size or with numerous mutants remain challenging, even on high-performance clusters.
++ REEFFIT typically detects helices that are present at >10% population in the starting sequence. Make sure to get bootstrapping error estimates to evaluate the significance of low population helices. 
+
 ## References
 >	
 Tian, S., and Das, R. (**2016**)  
