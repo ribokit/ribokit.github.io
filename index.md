@@ -3,8 +3,7 @@ level: 0
 description: Research Tools for RNA Modeling &amp; Design
 ---
 
-<hr/>
-## Workflows 
+## Choose Your Workflow 
 
 * ##### [I have just discovered an RNA molecule](/workflows/from_scratch)
 
@@ -20,6 +19,7 @@ description: Research Tools for RNA Modeling &amp; Design
 
 * ##### [I want to design an RNA molecule with a particular structure or function](/workflows/design)
 
+<hr/>
 ## About
 
 Ribokit provides a global overview of RNA modeling & analysis packages that have been developed and are maintained by the Das Lab and collaborators since 2009. The site is develoepd at Department of Biochemistry, School of Medicine, Stanford University.
