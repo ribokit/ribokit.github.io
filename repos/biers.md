@@ -41,22 +41,18 @@ Copyright &copy; of **Biers** _Source Code_ is described in [LICENSE.md](https:/
 ## Reference
 
 >Tian, S., Cordero, P., Kladwang, W., and Das, R. (**2014**)<br/>
->**High-throughput mutate-map-rescue evaluates SHAPE-directed RNA structure and uncovers excited states**<br/>
->*RNA* **20 (11)**: 1815 - 1826.<br/>
->[Paper](https://daslab.stanford.edu/site_data/pub_pdf/2014_Tian_RNA.pdf) | [Link](http://rnajournal.cshlp.org/content/20/11/1815)
+>**High-throughput mutate-map-rescue evaluates SHAPE-directed RNA structure and uncovers excited states**{: style="color:#3399cc"}<br/>
+>*RNA* **20 (11)**: 1815 - 1826. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2014_Tian_RNA.pdf) | [Link](http://rnajournal.cshlp.org/content/20/11/1815)
 
 >Kladwang, W., VanLang, C.C., Cordero P., and Das, R. (**2011**)<br/>
->**A two-dimensional mutate-and-map strategy for non-coding RNA structure**<br/>
->*Nature Chemistry* **3**: 954 - 962.<br/>
->[Paper](https://daslab.stanford.edu/site_data/pub_pdf/2011_Kladwang_NatChem.pdf) | [Link](http://www.nature.com/nchem/journal/v3/n12/abs/nchem.1176.html)
+>**A two-dimensional mutate-and-map strategy for non-coding RNA structure**{: style="color:#3399cc"}<br/>
+>*Nature Chemistry* **3**: 954 - 962. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2011_Kladwang_NatChem.pdf) | [Link](http://www.nature.com/nchem/journal/v3/n12/abs/nchem.1176.html)
 
 <hr/>
 ## Related Packages
 
 * [**HiTRACE**](/HiTRACE/)
-
 * [**MAPSeeker**](/MAPseeker/)
-
 * [**RDATKit**](/RDATKit/)
 
 <hr/>

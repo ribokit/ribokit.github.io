@@ -31,16 +31,14 @@ Copyright &copy; of **MaP2D** _Source Code_ is described in [LICENSE.md](https:/
 #### High-dose mutational profiling experiment
 
 >Homan, P. J., Favorov, O. V., Lavender, C. A., Kursun, O., Ge, X., Busan, S., Dokholyan, N. V., & Weeks, K. M. (**2014**)<br/>
->[Single-molecule correlated chemical probing of RNA](http://www.pnas.org/content/111/38/13858.full)<br/>
->*Proc. Nat. Acad. Sci.* **111**:13858–13863.
+>[**Single-molecule correlated chemical probing of RNA**](http://www.pnas.org/content/111/38/13858.full)<br/>
+>*Proceedings of the National Academy of Sciences U.S.A.* **111 (38)**: 13858 – 13863.
 
 <hr/>
 ## Related Packages
 
 * [**RDATKit**](/RDATKit/)
-
 * [**Biers**](/Biers/)
-
 * [**REEFFIT**](/REEFFIT/)
 
 <hr/>

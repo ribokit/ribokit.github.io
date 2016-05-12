@@ -86,26 +86,20 @@ Copyright &copy; of **ERRASER** _Source Code_ is described in [license-and-downl
 ## References
 
 >Chou, F.-C., Sripakdeevong, P., Dibrov, S.M, Hermann, T., and Das, R. (**2013**)<br/>
->"Correcting pervasive errors in RNA crystallography through enumerative structure prediction"<br/>
->*Nature Methods* **10**: 74 - 76. [For ERRASER].<br/> 
->[**Paper**](https://daslab.stanford.edu/site_data/pub_pdf/2013_Chou_NatMeth.pdf) | [**Link**](http://www.nature.com/nmeth/journal/v10/n1/full/nmeth.2262.html) | [**ERRASER Server**](http://rosie.rosettacommons.org/erraser/)
+>**Correcting pervasive errors in RNA crystallography through enumerative structure prediction**{: style="color:#3399cc"}<br/>
+>*Nature Methods* **10**: 74 - 76. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2013_Chou_NatMeth.pdf) | [Link](http://www.nature.com/nmeth/journal/v10/n1/full/nmeth.2262.html) | [Server](http://rosie.rosettacommons.org/erraser/)
 
 >Sripakdeevong, P., Kladwang, W., and Das, R. (**2012**)<br/>
->"An enumerative stepwise ansatz enables atomic-accuracy RNA loop modeling"<br/>
->*PNAS* **108 (51)** : 20573 - 20578. [For stepwise assembly (SWA) algorithm]<br/>
->[**Paper**](https://daslab.stanford.edu/site_data/pub_pdf/2012_Sripakdeevong_PNAS.pdf) | [**Link**](http://www.pnas.org/content/108/51/20573)
+>**An enumerative stepwise ansatz enables atomic-accuracy RNA loop modeling**{: style="color:#3399cc"}<br/>
+>*Proceedings of the National Academy of Sciences U.S.A.* **108 (51)** : 20573 - 20578. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2012_Sripakdeevong_PNAS.pdf) | [Link](http://www.pnas.org/content/108/51/20573)
 
 <hr/>
 ## Related Packages
 
 * [**Rosetta RNA _de novo_**](/RNADenovo/)
-
 * [**Rosetta Stepwise**](/Stepwise/)
-
 * [**Rosetta RNAdesign**](/RNADesign/)
-
 * [**RNAMake**](/RNAMake/)
-
 * [**RiboVis**](/RiboVis/)
 
 <hr/>
