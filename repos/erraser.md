@@ -96,9 +96,9 @@ Copyright &copy; of **ERRASER** _Source Code_ is described in [license-and-downl
 <hr/>
 ## Related Packages
 
-* [**RNA _de novo_**](/RNADenovo/)
+* [**RNA _de novo_**](/RNAdenovo/)
 * [**Stepwise**](/Stepwise/)
-* [**RNAdesign**](/RNADesign/)
+* [**RNAdesign**](/RNAdesign/)
 * [**RNAMake**](/RNAMake/)
 * [**RiboVis**](/RiboVis/)
 

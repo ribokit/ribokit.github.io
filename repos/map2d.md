@@ -14,11 +14,11 @@ These multiple modifications can be read out by mutational profiling (see Homan 
 MaP2D analysis generates 2D datasets similar to mutate-and-map (M2) using high-dose MaP sequencing data analyzed by ShapeMapper.
 
 <hr/>
-## Installation
+## Installation &amp; Documentation
 
 **MaP2D** can be downloaded for non-commercial use at the [**RMDB**](https://rmdb.stanford.edu/tools/). Commercial users, please [**contact us**](https://rmdb.stanford.edu/help/about/#contact).
 
-Instructions for installing MaP2D and analyzing MaP data are provided in the README.md file in the package. The package also includes example high-dose MaP sequencing data.
+Instructions for installing **MaP2D** and analyzing MaP data are provided in the README.md file in the package. The package also includes example high-dose MaP sequencing data.
 
 <hr/>
 ## License
@@ -27,8 +27,6 @@ Copyright &copy; of **MaP2D** _Source Code_ is described in [LICENSE.md](https:/
 
 <hr/>
 ## Reference
-
-#### High-dose mutational profiling experiment
 
 >Homan, P. J., Favorov, O. V., Lavender, C. A., Kursun, O., Ge, X., Busan, S., Dokholyan, N. V., & Weeks, K. M. (**2014**)<br/>
 >[**Single-molecule correlated chemical probing of RNA**](http://www.pnas.org/content/111/38/13858.full)<br/>

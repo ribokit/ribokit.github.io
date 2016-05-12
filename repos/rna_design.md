@@ -1,11 +1,11 @@
 ---
-permalink: /RNADesign/
+permalink: /RNAdesign/
 title: "RNA Design"
 description: "<u>RNA</u> <u>Design</u> for Fixed-Backbone Optimization"
 author: Kalli Kappel
 ---
 
-# <samp>rna_design</samp>
+# RNAdesign
 
 **RNAdesign** is a Rosetta application for redesigning the sequence of a given RNA structure. This method can be used to predict the primary sequence preferences of RNA structures and suggest mutations to stabilize a particular 3D motif.
 
@@ -16,11 +16,11 @@ There is a server for this application at [**RNA Redesign**](http://rnaredesign.
 
 Alternatively, rna_design is available as part of Rosetta. To download and install Rosetta:
 
-- Request a license and download the software at [**rosettacommons**](https://www.rosettacommons.org/software/license-and-download)
+- Request a license and download the software at [**rosettacommons**](https://www.rosettacommons.org/software/license-and-download).
 
-- See the Rosetta installation documentation at [**rosettacommons**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started)
+- See the Rosetta installation documentation at [**rosettacommons**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started).
 
-- Once Rosetta is installed, rna_design can be run from the command line, e.g.:
+- Once Rosetta is installed, **RNAdesign** can be run from the command line, e.g.:
 
 ```bash
 rna_design -s chunk001_uucg_RNA.pdb   -nstruct 3  -ex1:level 4 -dump -score:weights farna/rna_hires.wts
@@ -31,12 +31,12 @@ rna_design -s chunk001_uucg_RNA.pdb   -nstruct 3  -ex1:level 4 -dump -score:weig
 
 * Documentation is available at: [**rosettacommons**](https://www.rosettacommons.org/docs/latest/application_documentation/rna/rna-design).
 
-* Documentation for the server can be found at [**RNA Redesign**](http://rnaredesign.stanford.edu/res/html/Tutorial.html)
+* Documentation for the server can be found at [**RNA Redesign**](http://rnaredesign.stanford.edu/res/html/Tutorial.html).
 
 <hr/>
 ## License
 
-Copyright &copy; of **RNAdesign** _Source Code_ is described in [**license-and-download**](https://www.rosettacommons.org/software/license-and-download)
+Copyright &copy; of **RNAdesign** _Source Code_ is described in [**license-and-download**](https://www.rosettacommons.org/software/license-and-download).
 
 <hr/>
 ## References
@@ -53,13 +53,13 @@ Copyright &copy; of **RNAdesign** _Source Code_ is described in [**license-and-d
 ## Related Packages
 
 * [**Stepwise**](/Stepwise/)
-* [**RNA _de novo_**](/RNADenovo/)
+* [**RNA _de novo_**](/RNAdenovo/)
 * [**ERRASER**](/ERRASER/)
 * [**RNAmake**](/RNAMake/)
 * [**RiboVis**](/RiboVis/)
 
 <hr/>
-Developed by **Rosetta Commons**
+Developed by **Rosetta Commons**.
 
 README by [**Kalli Kappel**](https://github.com/kkappel1), *May 2016*.
 

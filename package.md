@@ -31,8 +31,8 @@ description: "RiboKit Software Packages"
 | ~~**HelixMC**~~ | Modeling optical tweezers experiments | `Python` |
 | ~~**RiboLogic**~~ | Standard RNA 2D design tool | `Python` |
 | [**RNAMake**](/RNAMake/) | "Vienna" for 3D RNA folding/design | `Python` / `C++` |
-| [**Rosetta RNA _de novo_**](/RNADenovo/) | State-of-the-art solver for complex RNA 3D folds | `C++` |
-| [**Rosetta RNAdesign**](/RNADesign/) | Fast generator of RNA design hypotheses | `C++` |
+| [**Rosetta RNA _de novo_**](/RNAdenovo/) | State-of-the-art solver for complex RNA 3D folds | `C++` |
+| [**Rosetta RNAdesign**](/RNAdesign/) | Fast generator of RNA design hypotheses | `C++` |
 | [**Rosetta Stepwise**](/Stepwise/) | State-of-the-art solver for high-res motif modeling/design | `C++` |
 
 <hr/>

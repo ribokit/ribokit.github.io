@@ -12,7 +12,7 @@ author: Clarence Cheng
 It includes an executable for performing sequence alignment and reverse transcription stop counting, as well as MATLAB scripts for calculating chemical reactivities and outputting data to RDAT text format and Python scripts for optional pre-processing of RNA fasta files.
 
 <hr/>
-## Installation
+## Installation &amp; Documentation
 
 **MAPseeker** can be downloaded for non-commercial use at the [**RMDB**](https://rmdb.stanford.edu/tools/). Commercial users, please [**contact us**](https://rmdb.stanford.edu/help/about/#contact).
 
@@ -46,4 +46,3 @@ Copyright &copy; of **MAPseeker** _Source Code_ is described in [LICENSE.md](htt
 Developed by **Das lab**, _Leland Stanford Junior University_.
 
 README by [**Clarence Cheng**](https://github.com/cyucheng), *May 2016*.
-

@@ -1,22 +1,22 @@
 ---
-permalink: /RNADenovo/
+permalink: /RNAdenovo/
 title: "RNA de novo"
 description: "3D <u>de novo</u> Models of <u>RNA</u>"
 author: Kalli Kappel
 ---
 
-# RNA <samp>de novo</samp>
+# RNA _de novo_
 
 **RNA _de novo_** is a Rosetta application for making 3D models of RNA using the Fragment Assembly of RNA with Full Atom Refinement (FARFAR) method.
 
 <hr/>
 ## Installation
 
-To run rna_denovo, Rosetta must be installed:
+To run **RNA _de novo_**, Rosetta must be installed:
 
-- Request a license and download the software at [**rosettacommons**](https://www.rosettacommons.org/software/license-and-download)
+- Request a license and download the software at [**rosettacommons**](https://www.rosettacommons.org/software/license-and-download).
 
-- See the Rosetta installation documentation at [**rosettacommons**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started)
+- See the Rosetta installation documentation at [**rosettacommons**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started).
 
 - Once Rosetta is installed, rna_denovo can be run from the command line, e.g.:
 
@@ -24,7 +24,7 @@ To run rna_denovo, Rosetta must be installed:
 rna_denovo -fasta my_rna_sequence.fasta -nstruct 100 -minimize_rna -out::file::silent my_rna_structures.out
 ```
 
-- The helper script rna_denovo_setup.py, also found within Rosetta, may be useful in setting up rna_denovo runs, see documentation at [**rosettacommons**](https://www.rosettacommons.org/docs/latest/application_documentation/rna/rna-denovo-setup)
+- The helper script rna_denovo_setup.py, also found within Rosetta, may be useful in setting up rna_denovo runs, see documentation at [**rosettacommons**](https://www.rosettacommons.org/docs/latest/application_documentation/rna/rna-denovo-setup).
 
 <hr/>
 ## Documentation
@@ -34,7 +34,7 @@ rna_denovo -fasta my_rna_sequence.fasta -nstruct 100 -minimize_rna -out::file::s
 <hr/>
 ## License
 
-Copyright &copy; of **RNA _de novo_** _Source Code_ is described in [**license-and-download**](https://www.rosettacommons.org/software/license-and-download)
+Copyright &copy; of **RNA _de novo_** _Source Code_ is described in [**license-and-download**](https://www.rosettacommons.org/software/license-and-download).
 
 <hr/>
 ## References
@@ -53,13 +53,13 @@ Copyright &copy; of **RNA _de novo_** _Source Code_ is described in [**license-a
 
 >Das, R., Kudaravalli, M., Jonikas, M., Laederach, A., Fong, R., Schwans, J.P., Baker, D., Piccirilli, J.A., Altman, R.B., and Herschlag, D. (**2008**)<br/>
 >**Structural inference of native and partially folded RNA by high throughput contact mapping**{: style="color:#3399cc"}<br/>
->Proceedings of the National Academy of Sciences U.S.A.* **105 (11)**: 4144 - 4149. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2008_Das_PNAS.pdf) | [Link](http://www.pnas.org/content/105/11/4144.long)
+>*Proceedings of the National Academy of Sciences U.S.A.* **105 (11)**: 4144 - 4149. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2008_Das_PNAS.pdf) | [Link](http://www.pnas.org/content/105/11/4144.long)
 
 <hr/>
 ## Related Packages
 
 * [**Stepwise**](/Stepwise/)
-* [**RNAdesign**](/RNADesign/)
+* [**RNAdesign**](/RNAdesign/)
 * [**ERRASER**](/ERRASER/)
 * [**RNAMake**](/RNAMake/)
 * [**RiboVis**](/RiboVis/)

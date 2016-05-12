@@ -12,11 +12,11 @@ author: Kalli Kappel
 <hr/>
 ## Installation
 
-To run stepwise, Rosetta must be installed:
+To run **Stepwise**, Rosetta must be installed:
 
-- Request a license and download the software at [**rosettacommons**](https://www.rosettacommons.org/software/license-and-download)
+- Request a license and download the software at [**rosettacommons**](https://www.rosettacommons.org/software/license-and-download).
 
-- See the Rosetta installation documentation at [**rosettacommons**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started)
+- See the Rosetta installation documentation at [**rosettacommons**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started).
 
 - Once Rosetta is installed, stepwise can be run from the command line, e.g.:
 
@@ -27,12 +27,12 @@ stepwise -fasta my_rna_sequence.fasta -s start_helix.pdb  -out:file:silent swm_r
 <hr/>
 ## Documentation
 
-* Documentation is available at: [**rosettacommons**](https://www.rosettacommons.org/docs/latest/application_documentation/stepwise/stepwise_monte_carlo/stepwise)
+* Documentation is available at: [**rosettacommons**](https://www.rosettacommons.org/docs/latest/application_documentation/stepwise/stepwise_monte_carlo/stepwise).
 
 <hr/>
 ## License
 
-Copyright &copy; of **stepwise** _Source Code_ is described in [**license-and-download**](https://www.rosettacommons.org/software/license-and-download)
+Copyright &copy; of **Stepwise** _Source Code_ is described in [**license-and-download**](https://www.rosettacommons.org/software/license-and-download).
 
 <hr/>
 ## References
@@ -50,8 +50,8 @@ Stepwise monte carlo is unpublished as of May 2016. References for the stepwise 
 <hr/>
 ## Related Packages
 
-* [**RNAdesign**](/RNADesign/)
-* [**RNA _de novo_**](/RNADenovo/)
+* [**RNAdesign**](/RNAdesign/)
+* [**RNA _de novo_**](/RNAdenovo/)
 * [**ERRASER**](/ERRASER/)
 * [**RNAMake**](/RNAMake/)
 * [**RiboVis**](/RiboVis/)
