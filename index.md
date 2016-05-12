@@ -9,11 +9,13 @@ description: Research Tools for RNA Modeling &amp; Design
 
 * ##### [I want to nail an RNA's secondary structure](/workflows/2D_modeling)
 
+* ##### [I want to test an RNA secondary structure model](/workflows/mutation_rescue)
+
 * ##### [I think my RNA has interesting alternative states](/workflows/alternative_states)
 
-* ##### [I think my RNA has a well-defined or transient 3D structure](/workflows/3D_modeling)
+* ##### [I think my RNA has a 3D structure](/workflows/3D_modeling)
 
-* ##### [I already have crystallographic/cryoEM data](/workflows/structure_refinement)
+* ##### [I have crystallographic/cryoEM data](/workflows/structure_refinement)
 
 * ##### [I want to model the energetics of an RNA helix or complex 3D fold](/workflows/folding_energetics)
 
