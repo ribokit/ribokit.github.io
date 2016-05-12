@@ -19,7 +19,7 @@ description: Research Tools for RNA Modeling &amp; Design
 
 * ##### [I want to model RNA folding energetics](/workflows/folding_energetics)
 
-* ##### [I want to design an RNA molecule with a particular structure or function](/workflows/design)
+* ##### [I want to design a new RNA molecule](/workflows/design)
 
 <hr/>
 ## About
