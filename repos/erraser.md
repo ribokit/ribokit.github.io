@@ -25,14 +25,14 @@ To run ERRASER, you need to have Rosetta and Phenix installed on your machine.
 <br/>
 To download and install Rosetta:
 
-- Request a license and download the software, [**here**](https://www.rosettacommons.org/software/license-and-download).
+- Request a license and download the software at [**rosettacommons**](https://www.rosettacommons.org/software/license-and-download).
 
-- See the Rosetta installation documentation, [**here**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started).
+- See the Rosetta installation documentation at [**rosettacommons**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started).
 
 <br/>
 To download and install Phenix:
 
-- Download the software, [**here**](http://www.phenix-online.org/). Phenix is free for academic users.
+- Download the software at [**phenix**](http://www.phenix-online.org/). Phenix is free for academic users.
 
 <br/>
 Finish setup:
@@ -73,9 +73,9 @@ erraser.py -pdb 1U8D_cut.pdb -map 1U8D_cell.ccp4 -map_reso 1.95 -fixed_res A33-3
 <hr/>
 ## Documentation
 
-* *Rosetta* Documentation is available, [**here**](https://www.rosettacommons.org/docs/latest/application_documentation/rna/erraser).
+* *Rosetta* Documentation is available at [**rosettacommons**](https://www.rosettacommons.org/docs/latest/application_documentation/rna/erraser).
 
-* *Phenix* Documentation is available, [**here**](https://www.phenix-online.org/documentation/reference/erraser.html).
+* *Phenix* Documentation is available at [**rosettacommons**](https://www.phenix-online.org/documentation/reference/erraser.html).
 
 <hr/>
 ## License
@@ -96,9 +96,9 @@ Copyright &copy; of **ERRASER** _Source Code_ is described in [license-and-downl
 <hr/>
 ## Related Packages
 
-* [**Rosetta RNA _de novo_**](/RNADenovo/)
-* [**Rosetta Stepwise**](/Stepwise/)
-* [**Rosetta RNAdesign**](/RNADesign/)
+* [**RNA _de novo_**](/RNADenovo/)
+* [**Stepwise**](/Stepwise/)
+* [**RNAdesign**](/RNADesign/)
 * [**RNAMake**](/RNAMake/)
 * [**RiboVis**](/RiboVis/)
 
