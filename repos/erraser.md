@@ -13,11 +13,6 @@ author: Caleb Geniesse
 [![Example Image](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg "Example Image")](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg)
 {: .center}
 
-| Function | Description |
-| --- | --- |
-| `erraser.py` | Run ERRASER on an entire structure. |
-| `erraser_single_res.py` | Run ERRASER on a single residue. |
-| `erraser_analysis.py` | Analyze ERRASER runs. |
 
 <hr/>
 ## Installation
