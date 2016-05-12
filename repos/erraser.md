@@ -10,11 +10,9 @@ permalink: /ERRASER/
 
 | Function | Description |
 | --- | --- |
-| `erraser.py` | Run ERRASER. |
-| `erraser-single-res.py` | Run ERRASER on single residues. |
-| `erraser-analysis.py` | Analyze ERRASER run. |
-
-And more! ...
+| `erraser.py` | Run ERRASER on an entire structure. |
+| `erraser_single_res.py` | Run ERRASER on a single residue. |
+| `erraser_analysis.py` | Analyze ERRASER runs. |
 
 <hr/>
 ## Installation
