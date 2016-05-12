@@ -6,10 +6,12 @@ description: "<u>E</u>numerative <u>R</u>eal-Space <u>R</u>efinement <u>AS</u>si
 author: Caleb Geniesse
 ---
 
-# ERRASER [![Example Image](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg "Example Image")](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg)
-{: .center}
+# ERRASER 
 
 **ERRASER** (Enumerative Real-space Refinment ASsisted by Electron-density under Rosetta) is an application for improving RNA crystal structures based on Rosetta and Phenix. For a quick preview:
+
+[![Example Image](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg "Example Image")](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg)
+{: .center}
 
 | Function | Description |
 | --- | --- |
