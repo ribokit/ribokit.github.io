@@ -13,7 +13,7 @@ LIkelihood-based Fits of Folding Transitions (**LIFFT**) models thermodynamic re
 <hr/>
 ## Installation
 
-**LIFFT** requires **HiTRACE**. To install **LIFFT**, simply:
+**LIFFT** requires [**HiTRACE**](/HiTRACE). To install **LIFFT**, simply:
 
 - From GitHub, download the zip or tar file of the repository and unpack; or 
 
