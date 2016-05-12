@@ -1,5 +1,7 @@
 ---
 permalink: /MAPseeker/
+title: "MAPseeker"
+description: "Software for analysis of NGS chemical mapping experiments"
 ---
 
 # <samp>MAPseeker</samp>
