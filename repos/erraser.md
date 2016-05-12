@@ -35,21 +35,25 @@ To download and install Phenix:
 Finish setup:
 
 - Ensure you have correctly setup Phenix. As a check, make sure the following command works:
+
 ```bash
 phenix.rna_validate
 ```
 
 - Make sure you have a Python v2.7 (`python --version`). If not, go to the `rosetta/tools/ERRASER/` folder and run:
+
 ```bash
 ./convert_to_phenix.python
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This will change the default python used by the code to phenix-built-in python, instead of using system python.
 
 - Set an environment variable `$ROSETTA` to the path to Rosetta. If you use bash, append the following lines to `~/.bashrc`:
+
 ```bash
 ROSETTA=/path/to/Rosetta/; export ROSETTA;
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also add the ERRASER script folder to your `$PATH`. Here is a bash example:
+
 ```bash
 PATH=$PATH:/path/to/Rosetta/tools/ERRASER/
 ```
