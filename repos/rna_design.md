@@ -45,11 +45,11 @@ Das, R., Karanicolas, J., and Baker, D. (2010), "Atomic accuracy in predicting a
 <hr/>
 ## Related Packages
 
-* stepwise
-* rna_denovo
-* ERRASER
-* RNAmake
-* RiboVis
+* [**Stepwise**](http://ribokit.github.io/Stepwise/)
+* [**rna_denovo**](http://ribokit.github.io/RNADenovo/)
+* [**ERRASER**](http://ribokit.github.io/ERRASER/)
+* [**RNAmake**](http://ribokit.github.io/RNAMake/)
+* [**RiboVis**](http://ribokit.github.io/RiboVis/)
 
 
 <hr/>

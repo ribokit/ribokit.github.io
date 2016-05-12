@@ -46,11 +46,12 @@ Sripakdeevong, P., Kladwang, W., and Das, R. (2011) "An enumerative stepwise ans
 <hr/>
 ## Related Packages
 
-* stepwise
-* rna_design
-* ERRASER
-* RNAmake
-* RiboVis
+* [**Stepwise**](http://ribokit.github.io/Stepwise/)
+* [**rna_design**](http://ribokit.github.io/RNADesign/)
+* [**ERRASER**](http://ribokit.github.io/ERRASER/)
+* [**RNAmake**](http://ribokit.github.io/RNAMake/)
+* [**RiboVis**](http://ribokit.github.io/RiboVis/)
+
 
 
 <hr/>
