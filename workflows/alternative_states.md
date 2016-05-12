@@ -6,37 +6,28 @@ title: "Workflow"
 author: "Rhiju Das"
 ---
 
-# I have just discovered an RNA molecule
+# I think my RNA has interesting alternative states
 
 <hr/>
 
 ## About this workflow
-This is the <b>most common workflow</b> that RiboKit tools are used for. The goal is to take a new RNA sequence, quickly synthesize it, map its chemical profile, and test if it has a dominant secondary structure. 
-
-It can take as little as 1-2 days if the capillary electrophoresis sequencer and reagents are in hand (see work on RNA puzzles and Eterna).
-
-This workflow is similar to excellent methods developed by other labs for SHAPE-directed secondary structure modeling, but emphasizes uncertainty estimation. Evaluating uncertainties prevents misleading structure inferences and allows assessment of whether multidimensional chemical mapping analysis is necessary. 
-
-Examples of successful application include solving numerous structures <i>de novo</i> for the community-wide blind trials RNA-puzzles, inferring structures for new RNA regulons that allow for <i>in vivo</i> compensatory rescue, and testing sequences designed to form target secondary structures in the <a href="http://www.eternagame.org">Eterna project</a>.
+ RNA sequences often form multiple secondary structures, some of which are functionally important, and others that need to be avoided in the biological milieu. Evidence for alternative structures often comes from single-molecule biophysics measurements or NMR, but it's hard to model the structures, even at nucleotide resolution. This new workflow allows for rapid detection and structure modeling of secondary structure ensembles.
 
 ## Workflow
 
-1. <b>Synthesize</b> your RNA using the instructions in [Primerize](Primerize/). 
-2. <b>Carry out one-dimensional (1D) chemical mapping</b> using SHAPE, DMS, and CMCT probes. See [Protocols](/protocol/).
-3. <b>Carry out RNA secondary structure prediction</b> guided by these data, with bootstrapping. 
-4. Does your secondary structure model have high bootstrap confidence for all helices? 
- + __Yes__. Then you've likely achieved the answer! If you think your RNA has a stereotyped 3D structure, check out the RiboKit [workflow for 3D modeling](/workflows/3D_modeling/)
- + __No__. You don't have the answer. Carry out multidimensional chemical mapping to [nail the RNA secondary structure](2D_modeling) and/or look for multiple secondary structures.
+1. **Carry out the mutate-and-map** experiment described in this [workflow](/workflows/2D_modeling/). 
+2. **Model sets of possible base pairs** in [REEFFIT](REEFFIT) and <b>determine which single mutants</b> might stabilize putative alternative structures. *[Coming soon: fast cluster analysis in [Biers](Biers)]*
+3. **Test alternative structures** through compensatory mutation/rescue, read out through chemical mapping. See notes at [Primerize](Primerize/).
+4. Make predictions or the behavior of **the structure-stabilizing mutants** in your alternative functional assay (e.g., single molecule FRET measurements), and **test them**.
 
- 
 ## References
 >	
-Kladwang, W., VanLang, C.C., Cordero P., and Das, R.  (**2011**) <br/>
-[Understanding the errors of SHAPE-directed RNA structure modeling](http://pubs.acs.org/doi/abs/10.1021/bi200524n) 
-*Biochemistry* **50 (37)** : 8049 - 8056. [Paper](http://pubs.acs.org/doi/abs/10.1021/bi200524n)
+Tian, S., and Das, R. (**2016**)  
+[RNA structure through multidimensional chemical mapping](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=10242118&fulltextType=RV&fileId=S0033583516000020)
+*Quarterly Review of Biophysics* **49 (e7)** : 1 - 30. [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2016_Tian_QRB.pdf)
 
->	
-Miao, Z., Adamiak, R.W., Blanchet, M-F., Boniecki, M., Bujnicki, J.M., Chen, S-J., et al. (**2015**) <br/>
-[RNA-Puzzles Round II: Assessment of RNA structure prediction programs applied to three large RNA structures](http://rnajournal.cshlp.org/content/21/6/1066) *RNA* **21 (6)** : 1066 - 1084. [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2015_Miao_RNA.pdf)
-
+>
+Tian, S., Cordero, P., Kladwang, W., and Das, R. (**2014**)<br/> 
+[High-throughput mutate-map-rescue evaluates SHAPE-directed RNA structure and uncovers excited states](http://rnajournal.cshlp.org/content/20/11/1815)
+*RNA* **20 (11)** : 1815 - 1826. [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2014_Tian_RNA.pdf) 
 

@@ -11,7 +11,7 @@ description: Research Tools for RNA Modeling &amp; Design
 
 * ##### [I think my RNA has interesting alternative states](/workflows/alternative_states)
 
-* ##### [I think my RNA has a well-defined or transient 3D structure](/workflows/3D_modeling)
+* ##### [I think my RNA has a 3D structure](/workflows/3D_modeling)
 
 * ##### [I already have crystallographic/cryoEM data](/workflows/structure_refinement)
 
