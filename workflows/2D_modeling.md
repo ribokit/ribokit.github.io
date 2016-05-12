@@ -2,7 +2,7 @@
 permalink: /workflows/2D_modeling
 level: 2
 description: "2D modeling workflow"
-title: "Workflow"
+title: "Mutate-and-map Workflow"
 author: "Rhiju Das"
 ---
 
@@ -21,7 +21,7 @@ The mutate-and-map experimental protocol gives rich data on an RNA's structure b
 4. **Analyze** the data to infer a dominant secondary structure, with bootstrapping, with [Biers](Biers/).
 5. Does your secondary structure model have high bootstrap confidence for all helices? 
  + __Yes__. Then you've likely achieved the answer! If you think your RNA has a stereotyped 3D structure, check out the RiboKit [workflow for 3D modeling](/workflows/3D_modeling/)
- + __No__. Carry out compensatory mutation/rescue experiments to test each base pair possibility, using [Primerize](Primerize/).
+ + __No__. Carry out compensatory mutation/rescue experiments to test each base pair possibility, using [this workflow](/workflows/mutation_rescue/).
 6. Do several of the mutants produce profiles that dramatically change the RNA's chemical profile? Check out the [workflow for probing alternative states](/workflows/alternative_states)
   
 
@@ -35,11 +35,6 @@ Tian, S., and Das, R. (**2016**)
 >	
 Miao, Z., Adamiak, R.W., Blanchet, M-F., Boniecki, M., Bujnicki, J.M., Chen, S-J., et al. (**2015**) <br/>
 [RNA-Puzzles Round II: Assessment of RNA structure prediction programs applied to three large RNA structures](http://rnajournal.cshlp.org/content/21/6/1066) *RNA* **21 (6)** : 1066 - 1084. [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2015_Miao_RNA.pdf)
-
->
-Tian, S., Cordero, P., Kladwang, W., and Das, R. (**2014**)<br/> 
-[High-throughput mutate-map-rescue evaluates SHAPE-directed RNA structure and uncovers excited states](http://rnajournal.cshlp.org/content/20/11/1815)
-*RNA* **20 (11)** : 1815 - 1826. [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2014_Tian_RNA.pdf) 
 
 >		
 Cordero, P., Kladwang, W., VanLang, C.C., and Das, R. (**2014**) <br/>

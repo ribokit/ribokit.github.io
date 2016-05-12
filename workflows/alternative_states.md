@@ -2,7 +2,7 @@
 permalink: /workflows/alternative_states/
 level: 2
 description: "Alternative states workflow"
-title: "Workflow"
+title: "Multi-state workflow"
 author: "Rhiju Das"
 ---
 

@@ -2,7 +2,7 @@
 permalink: /workflows/design/
 level: 2
 description: "Design workflow"
-title: "Workflow"
+title: "3D Design Workflow"
 author: "Rhiju Das"
 ---
 
