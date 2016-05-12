@@ -46,10 +46,10 @@ phenix.rna_validate
 
 - Set an environment variable `$ROSETTA` to the path to Rosetta. If you use bash, append the following lines to `~/.bashrc`:
 ```bash
-ROSETTA=/path/to/Rosetta/; export ROSETTA;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROSETTA=/path/to/Rosetta/; export ROSETTA;
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also add the ERRASER script folder to your `$PATH`. Here is a bash example:
-```bash
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```bash
 PATH=$PATH:/path/to/Rosetta/tools/ERRASER/
 ```
 
