@@ -18,7 +18,7 @@ To install **LIFFT**, simply:
 - From GitHub, download the zip or tar file of the repository and unpack; or 
 
 ```bash
-git clone https://github.com/ribokit/LIFFT.git
+git clone https://github.com/DasLab/LIFFT.git
 ```
 
 -  Add the 'scripts' directory to your MATLAB path: Click 'Set Path', and 'Add with Subfolders...', then select 'scripts'.
@@ -37,7 +37,7 @@ help lifft
 <hr/>
 ## License
 
-Copyright &copy; of **LIFFT** _Source Code_ is described in [LICENSE.md](https://github.com/ribokit/LIFFT/blob/master/LICENSE.md).
+Copyright &copy; of **LIFFT** _Source Code_ is described in [LICENSE.md](https://github.com/DasLab/LIFFT/blob/master/LICENSE.md).
 
 ## Reference
 >For fitting Mg(2+)-dependent folding transitions (incl. Hill fits)<br/>
