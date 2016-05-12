@@ -15,7 +15,7 @@ An online user-friendly GUI is available at the [**HiTRACE Web**](http://hitrace
 <hr/>
 ## Installation
 
-**HiTRACE** requires *MATLAB* version `>= R2011a` and `<= R2014a`. To install **HiTRACE**, simply follow instructions [here](https://hitrace.github.io/HiTRACE/install/).
+**HiTRACE** requires *MATLAB* version `>= R2011a` and `<= R2014a`. To install **HiTRACE**, see [hitrace.github.io](https://hitrace.github.io/HiTRACE/install/).
 
 <hr/>
 ## Documentation
