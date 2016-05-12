@@ -3,13 +3,6 @@ level: 0
 description: Research Tools for RNA Modeling &amp; Design
 ---
 
-# RiboKit
-
-[![RiboKit Logo](/assets/ribokit.gif "RiboKit Logo"){: .full}](/assets/ribokit.gif)
-{: .center}
-
-Research Tools for RNA Modeling &amp; Design
-
 <hr/>
 ## Workflows 
 
@@ -27,9 +20,12 @@ Research Tools for RNA Modeling &amp; Design
 
 * ##### [I want to design an RNA molecule with a particular structure or function](/workflows/design)
 
+## About
+
+Ribokit provides a global overview of RNA modeling & analysis packages that have been developed and are maintained by the Das Lab and collaborators since 2009. The site is develoepd at Department of Biochemistry, School of Medicine, Stanford University.
 
 <hr/>
-## Packages
+## Packages in RiboKit
 
 * ##### [Multidimensional Chemical Mapping](/package/#multidimensional-chemical-mapping)
 
@@ -39,6 +35,3 @@ Research Tools for RNA Modeling &amp; Design
 
 * ##### [Miscellaneous](/package/#miscellaneous)
 
-## About
-
-Ribokit is a simple guide to RNA modeling & analysis packages that have been developed by the Das Lab (Department of Biochemistry, School of Medicine, Stanford University) and collaborators since 2009.
