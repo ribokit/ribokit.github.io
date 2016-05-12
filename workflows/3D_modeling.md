@@ -33,7 +33,12 @@ Tian, S., and Das, R. (**2016**)
 *Quarterly Review of Biophysics* **49 (e7)** : 1 - 30. [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2016_Tian_QRB.pdf)
 
 >
-Cheng, C.Y., Chou, F.-C., and Das, R. (**2015**) <br/> [Modeling complex RNA tertiary folds with Rosetta](http://www.sciencedirect.com/science/article/pii/S0076687914000524)
+Cheng, C. Y., Chou, F.-C., Kladwang, W., Tian, S., Cordero, P. & Das, R. (**2015**) <br/> [Consistent global structures of complex RNA states through multidimensional chemical mapping](http://elifesciences.org/content/4/e07600)
+*eLife* **4**: e07600.
+[Paper](https://daslab.stanford.edu/site_data/pub_pdf/2015_Cheng_eLife.pdf)
+
+>
+Cheng, C. Y., Chou, F.-C., and Das, R. (**2015**) <br/> [Modeling complex RNA tertiary folds with Rosetta](http://www.sciencedirect.com/science/article/pii/S0076687914000524)
 *Methods in Enzymology* **553** : 35 - 64.
 [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2015_Cheng_MethEnzym.pdf)
 
