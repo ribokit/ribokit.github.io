@@ -17,7 +17,7 @@ author: Caleb Geniesse
 <hr/>
 ## Installation
 
-To run ERRASER, you need to have Rosetta and Phenix installed on your machine.
+To run **ERRASER**, you need to have Rosetta and Phenix installed on your machine.
 
 <br/>
 To download and install Rosetta:
@@ -54,14 +54,14 @@ phenix.rna_validate
 ROSETTA=/path/to/Rosetta/; export ROSETTA;
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also add the ERRASER script folder to your `$PATH`. Here is a bash example:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also add the **ERRASER** script folder to your `$PATH`. Here is a bash example:
 
 ```bash
 PATH=$PATH:/path/to/Rosetta/tools/ERRASER/
 ```
 
 <br/>
-Once Rosetta and Phenix have been installed, ERRASER can be run from the command line, e.g.:
+Once Rosetta and Phenix have been installed, **ERRASER** can be run from the command line, e.g.:
 
 ```bash
 erraser.py -pdb 1U8D_cut.pdb -map 1U8D_cell.ccp4 -map_reso 1.95 -fixed_res A33-37 A61 A65 
