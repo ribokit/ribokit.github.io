@@ -49,11 +49,9 @@ phenix.rna_validate
 ROSETTA=/path/to/Rosetta/; export ROSETTA;
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also add the ERRASER script folder to your `$PATH`. Here is a bash example:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`
-
+```bash
 PATH=$PATH:/path/to/Rosetta/tools/ERRASER/
-
-`
+```
 
 Once Rosetta and Phenix have been installed, ERRASER can be run from the command line, e.g.:
 
