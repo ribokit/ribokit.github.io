@@ -49,9 +49,9 @@ Copyright &copy; of **HiTRACE** _Source Code_ is described in [LICENSE.md](https
 <hr/>
 ## Related Packages
 
-* ### [**Biers**](/Biers/)
+* [**Biers**](/Biers/)
 
-* ### [**RDATKit**](/RDATKit/)
+* [**RDATKit**](/RDATKit/)
 
 * [**REEFFIT**](/REEFFIT/)
 

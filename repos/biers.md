@@ -51,9 +51,9 @@ Copyright &copy; of **Biers** _Source Code_ is described in [LICENSE.md](https:/
 <hr/>
 ## Related Packages
 
-* ### [**HiTRACE**](/HiTRACE/)
+* [**HiTRACE**](/HiTRACE/)
 
-* ### [**MAPSeeker**](/MAPseeker/)
+* [**MAPSeeker**](/MAPseeker/)
 
 * [**RDATKit**](/RDATKit/)
 
