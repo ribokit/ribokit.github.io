@@ -45,7 +45,7 @@ phenix.rna_validate
 ```bash
 ./convert_to_phenix.python
 ```
-  This will change the default python used by the code to phenix-built-in python, instead of using system python.
+&nbsp;&nbsp;This will change the default python used by the code to phenix-built-in python, instead of using system python.
 
 - Set an environment variable `$ROSETTA` to the path to Rosetta. If you use bash, append the following lines to `~/.bashrc`:
 
