@@ -1,5 +1,5 @@
 ---
-permalink: /RiboVis/
+permalink: /RNAMake/
 ---
 
 # <samp>RiboVis</samp>
