@@ -27,8 +27,8 @@ git clone https://github.com/DasLab/LIFFT.git
 <hr/>
 ## Documentation
 
-* #### Documentation is available in: [**docs/README.md**](docs/README.md).
-* #### An example is available in: [**examples/eterna_fit_FMN_binding/**](examples/eterna_fit_FMN_binding/).
+* #### Documentation is available in: [**docs/README.md**](https://github.com/DasLab/LIFFT/blob/master/README.md).
+* #### An example is available in: [**examples/eterna_fit_FMN_binding/**](https://github.com/DasLab/LIFFT/tree/master/examples/eterna_fit_FMN_binding).
 * #### To get more detailed documentation, in MATLAB type:
 ```MATLAB
 help lifft
