@@ -26,6 +26,13 @@ defaults:
       title: "Redirect"
   -
     scope:
+      path: "workflows"
+    values:
+      title: "Workflow"
+      auhtor: "Rhiju Das"
+      root: "/"
+  -
+    scope:
       path: "docs"
     values:
       title: "Doc Standards"
