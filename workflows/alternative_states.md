@@ -1,7 +1,7 @@
 ---
-permalink: /workflows/from_scratch/
+permalink: /workflows/alternative_states/
 level: 2
-description: "From Scratch workflow"
+description: "Alternative states workflow"
 title: "Workflow"
 author: "Rhiju Das"
 ---
