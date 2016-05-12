@@ -22,7 +22,7 @@ While many RNA segments do not form stereotyped 3D structures, for the ones that
 5. Make sure to assess uncertainties based on intra-cluster RMSD; these can range from 0.5 to 2 nm, depending on the size of the RNA and the number of tertiary proximities.
  
 ## Limitations
-+ Unlike secondary structure modeling, there are not yet ways to rapidly test tertiary contacts inferred from MOHCA-seq.
++ Unlike secondary structure modeling, there are not yet ways to prospectively and rapidly test tertiary contacts inferred from MOHCA-seq.
 + For RNA states that involve heterogenuous tertiary structures, the model ensembles above do not provide rigorous portraits of the solution flexibility of the RNA. Consider them initial visualizations to aid, e.g., further mutational experiments. 
  
 ## References

@@ -22,6 +22,9 @@ author: "Rhiju Das"
 2. **Design secondary structure**  to optimize the sequences of the helices that are least likely to misfold with your motif sequences.  Use the [EternaBot server](http://eternabot.cmu.edu/) or its implementation within [RNAMake](RNAmake/)
 3. **Experimentally test** that your designs are forming the correct structure, specifically checking for chemical protection of any tertiary contacts. Follow this [Workflow](/workflows/from_scratch/)
 
+## Limitations
+ + Automatic algorithms for 3D design are currently being tested through extensive experiments, but are not published yet.
+ + Confidence estimation in 3D design is not available yet. 
  
 ## References
 >
