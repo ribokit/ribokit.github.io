@@ -6,7 +6,7 @@ title: "Mutation/rescue Workflow"
 author: "Rhiju Das"
 ---
 
-# I want to nail an RNA's secondary structure
+# I want to test an RNA secondary structure model
 
 <hr/>
 
@@ -17,7 +17,7 @@ Compensatory mutation/rescue is a classic methodology that can give strong confi
 
 1. **Design primers** for each candidate base pair with [Primerize](Primerize/).
 2. Carry out the **chemical mapping** measurements.  
-3. *[Coming soon: Analyze the data to automatically score the likelihood of each tested base pair.]*
+3. *[Coming soon: Analyze the data to automatically score the likelihood of each tested base pair. E-mail us if interested.]*
   
  
 ## References

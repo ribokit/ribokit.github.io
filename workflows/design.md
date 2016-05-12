@@ -18,7 +18,7 @@ author: "Rhiju Das"
 
 1. **Design tertiary structure**. Do you already have a motif or tertiary contact structure that you want to stabilize?  
  + __Yes__. Use Rosetta [RNA Redesign](/RNADesign). 
- + __No__. Design a new RNA tether or nanostructure in [RNAMake](RNAmake/). The sequences of the internal junctions and tertiary contacts will be defined by the motifs, but the helices will be arbitrary. If you want to just find alternative
+ + __No__. Design a new RNA tether or nanostructure in [RNAMake](RNAmake/). The sequences of the internal junctions and tertiary contacts will be defined by the motifs, but the helices will be arbitrary. 
 2. **Design secondary structure**  to optimize the sequences of the helices that are least likely to misfold with your motif sequences.  Use the [EternaBot server](http://eternabot.cmu.edu/) or its implementation within [RNAMake](RNAmake/)
 3. **Experimentally test** that your designs are forming the correct structure, specifically checking for chemical protection of any tertiary contacts. Follow this [Workflow](/workflows/from_scratch/)
 

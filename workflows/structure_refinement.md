@@ -1,42 +1,41 @@
 ---
-permalink: /workflows/from_scratch/
+permalink: /workflows/structure_refinement/
 level: 2
-description: "From Scratch workflow"
-title: "Workflow"
+description: "Structure Refinement workflow"
+title: "3D Structure Refinement Workflow"
 author: "Rhiju Das"
 ---
 
-# I have just discovered an RNA molecule
+# I have crystallographic/cryoEM data
 
 <hr/>
 
 ## About this workflow
-This is the <b>most common workflow</b> that RiboKit tools are used for. The goal is to take a new RNA sequence, quickly synthesize it, map its chemical profile, and test if it has a dominant secondary structure. 
-
-It can take as little as 1-2 days if the capillary electrophoresis sequencer and reagents are in hand (see work on RNA puzzles and Eterna).
-
-This workflow is similar to excellent methods developed by other labs for SHAPE-directed secondary structure modeling, but emphasizes uncertainty estimation. Evaluating uncertainties prevents misleading structure inferences and allows assessment of whether multidimensional chemical mapping analysis is necessary. 
-
-Examples of successful application include solving numerous structures <i>de novo</i> for the community-wide blind trials RNA-puzzles, inferring structures for new RNA regulons that allow for <i>in vivo</i> compensatory rescue, and testing sequences designed to form target secondary structures in the <a href="http://www.eternagame.org">Eterna project</a>.
+Stereochemical & backbone building errors are common in medium-resolution experimental structures of RNAs due to the difficulty and tedium of manually fitting coordinates into density maps. We maintain tools to help correct these errors automatically.
 
 ## Workflow
 
-1. <b>Synthesize</b> your RNA using the instructions in [Primerize](Primerize/). 
-2. <b>Carry out one-dimensional (1D) chemical mapping</b> using SHAPE, DMS, and CMCT probes. See [Protocols](/protocol/).
-3. <b>Carry out RNA secondary structure prediction</b> guided by these data, with bootstrapping. 
-4. Does your secondary structure model have high bootstrap confidence for all helices? 
- + __Yes__. Then you've likely achieved the answer! If you think your RNA has a stereotyped 3D structure, check out the RiboKit [workflow for 3D modeling](/workflows/3D_modeling/)
- + __No__. You don't have the answer. Carry out multidimensional chemical mapping to [nail the RNA secondary structure](2D_modeling) and/or look for multiple secondary structures.
+1. **Prepare** your map from cryoEM or crystallography and starting coordinates. 
+2. Carry out **[ERRASER](ERRASER)** either via server, on your laptop with Rosetta, or as part of PHENIX.
+3. *[Coming soon: Test that your structure are consistent with one-dimensional chemical accessibility data easily acquired with this [basic workflow](/workflows/from-scratch/). E-mail us if interested.]*
 
- 
+## Limitations
+
++ The publicly available version of ERRASER does not handle RNA interfaces with proteins, ions, and small molecules & nonnatural nucleotides and does not take advantage of multiple processes for speed, but these functionalities are coming soon. *E-mail us if you are interested in testing.*
++ ERRASER carries out one-at-a-time remodeling of each nucleotide in the structure, and cannot refine stretches of nucleotides that have major errors. Again, we are working on updates to handle such cases. *E-mail us if you have an interesting test case.*
+
 ## References
 >	
-Kladwang, W., VanLang, C.C., Cordero P., and Das, R.  (**2011**) <br/>
-[Understanding the errors of SHAPE-directed RNA structure modeling](http://pubs.acs.org/doi/abs/10.1021/bi200524n) 
-*Biochemistry* **50 (37)** : 8049 - 8056. [Paper](http://pubs.acs.org/doi/abs/10.1021/bi200524n)
+Chou, F.-C., Echols, N., Terwilliger, T.C., and Das, R. (**2016**) <br/>
+[RNA structure refinement using the ERRASER-Phenix pipeline](http://link.springer.com/protocol/10.1007%2F978-1-4939-2763-0_17) 
+*Methods in Molecular Biology*
+**1320** : 269 - 282. [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2016_Chou_MIMB.pdf)
 
 >	
-Miao, Z., Adamiak, R.W., Blanchet, M-F., Boniecki, M., Bujnicki, J.M., Chen, S-J., et al. (**2015**) <br/>
-[RNA-Puzzles Round II: Assessment of RNA structure prediction programs applied to three large RNA structures](http://rnajournal.cshlp.org/content/21/6/1066) *RNA* **21 (6)** : 1066 - 1084. [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2015_Miao_RNA.pdf)
+Chou, F.-C., Sripakdeevong, P., Dibrov, S.M, Hermann, T., and Das, R. 
+(**2013**) <br/> 
+[Correcting pervasive errors in RNA crystallography through enumerative structure prediction](http://www.nature.com/nmeth/journal/v10/n1/full/nmeth.2262.html) 
+*Nature Methods* **10 : 74 - 76** 
+ [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2013_Chou_NatMeth.pdf)
 
 
