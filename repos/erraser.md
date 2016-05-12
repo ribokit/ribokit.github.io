@@ -19,7 +19,7 @@ And more! ...
 <hr/>
 ## Installation
 
-To run ERRASER, Rosetta and Phenix must be installed.
+To run ERRASER, you need to have Rosetta and Phenix installed on your machine.
 
 To download and install Rosetta:
 
@@ -42,13 +42,13 @@ phenix.rna_validate
 ```bash
 ./convert_to_phenix.python
 ```
-This will change the default python used by the code to phenix-built-in python, instead of using system python.
+  This will change the default python used by the code to phenix-built-in python, instead of using system python.
 
 - Set an environment variable `$ROSETTA` to the path to Rosetta. If you use bash, append the following lines to `~/.bashrc`:
 ```bash
 ROSETTA=/path/to/Rosetta/; export ROSETTA;
 ```
-Also add the ERRASER script folder to your `$PATH`. Here is a bash example:
+  Also add the ERRASER script folder to your `$PATH`. Here is a bash example:
 ```bash
 PATH=$PATH:/path/to/Rosetta/tools/ERRASER/
 ```
