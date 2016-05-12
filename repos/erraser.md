@@ -1,8 +1,11 @@
 ---
 permalink: /ERRASER/
+title: ERRASER
+description: "<u>E</u>numerative <u>R</u>eal-Space <u>R</u>efinement <u>AS</u>sitted by <u>E</u>lectron density under <u>R</u>osetta"
+author: Caleb Geniesse
 ---
 
-# <samp>ERRASER</samp>
+# ERRASER
 
 [![Example Image](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg "Example Image")](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg)
 
@@ -45,6 +48,7 @@ phenix.rna_validate
 ```bash
 ./convert_to_phenix.python
 ```
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This will change the default python used by the code to phenix-built-in python, instead of using system python.
 
 - Set an environment variable `$ROSETTA` to the path to Rosetta. If you use bash, append the following lines to `~/.bashrc`:
@@ -52,6 +56,7 @@ phenix.rna_validate
 ```bash
 ROSETTA=/path/to/Rosetta/; export ROSETTA;
 ```
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also add the ERRASER script folder to your `$PATH`. Here is a bash example:
 
 ```bash
@@ -65,11 +70,11 @@ Once Rosetta and Phenix have been installed, ERRASER can be run from the command
 erraser.py -pdb 1U8D_cut.pdb -map 1U8D_cell.ccp4 -map_reso 1.95 -fixed_res A33-37 A61 A65 
 ```
 
-
 <hr/>
 ## Documentation
 
 * *Rosetta* Documentation is available, [**here**](https://www.rosettacommons.org/docs/latest/application_documentation/rna/erraser).
+
 * *Phenix* Documentation is available, [**here**](https://www.phenix-online.org/documentation/reference/erraser.html).
 
 <hr/>
@@ -94,14 +99,17 @@ Copyright &copy; of **ERRASER** _Source Code_ is described in [license-and-downl
 ## Related Packages
 
 * [**Rosetta RNA _de novo_**](/RNADenovo/)
-* [**Rosetta Stepwise**](/Stepwise/)
-* [**Rosetta RNAdesign**](/RNADesign/)
-* [**RNAMake**](/RNAMake/)
-* [**RiboVis**](/RiboVis/)
 
+* [**Rosetta Stepwise**](/Stepwise/)
+
+* [**Rosetta RNAdesign**](/RNADesign/)
+
+* [**RNAMake**](/RNAMake/)
+
+* [**RiboVis**](/RiboVis/)
 
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.
 
-README by [**calebgeniesse**](https://github.com/calebgeniesse), *May 2016*.
+README by [**Caleb Geniesse**](https://github.com/calebgeniesse), *May 2016*.
 
