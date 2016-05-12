@@ -6,10 +6,16 @@ author: Joseph Yesselman
 
 # <samp>RNAMake</samp>
 
-**RNAMake** is a toolkit for designing and optimizing RNA 3D structure. It allows the alignment between RNA motifs.
+**RNAMake** is a toolkit for designing and optimizing RNA 3D structure. It allows the alignment
+ between RNA motifs. These motif are small modular peices of RNA that are believed to fold
+ independently, thus attaching them together with helix flanking both sides allows users of
+ RNAMake to build large segments of RNA with a high success rate of forming the predicted
+ structure in vitro.
 
 [![Aligning Motifs with RNAMake](/repos/rnamake/res/rnamake_aligning.png "Aligning Motifs with RNAMake"){: .full}](/repos/rnamake/res/rnamake_aligning.png)
 {: .center}
+
+
 
 <hr/>
 
@@ -35,6 +41,7 @@ git clone https://github.com/jyesselm/RNAMake.git
 To make sure you system can find the RNAMake folder into the system's $PATH and $PYTHONPATH. In bash this can be done by adding the following lines to your ~/.bashrc or ~/.bash_profile if you are using a mac:
 
 ```bash
+export RNAMake=<RNAMake Path>
 export PATH=$PATH:<RNAMake Path>
 export PYTHONPATH=$PYTHONPATH:<RNAMake Path>
 ```
@@ -70,7 +77,8 @@ To test run:
 python run_unittests.py
 ```
 
-This will run 
+This will run all the unittests for the c++ code. This may take a few minutes but will ensure
+everything is working properly.
 
 
 <hr/>
