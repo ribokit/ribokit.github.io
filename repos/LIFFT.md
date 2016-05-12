@@ -1,5 +1,6 @@
 ---
 permalink: /LIFFT/
+repo: DasLab/LIFFT
 title: "LIFFT"
 description: "<u>LI</u>kelihood-based <u>F</u>its of <u>F</u>olding <u>T</u>ransitions"
 author: Johan Andreasson

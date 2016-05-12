@@ -1,6 +1,7 @@
 ---
 permalink: /package/
 level: 2
+title: "Package"
 description: "RiboKit Software Packages"
 ---
 
