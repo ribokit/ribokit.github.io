@@ -6,22 +6,18 @@ description: "<u>E</u>numerative <u>R</u>eal-Space <u>R</u>efinement <u>AS</u>si
 author: Caleb Geniesse
 ---
 
-# ERRASER
-
-[![Example Image](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg "Example Image")](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg)
+# ERRASER 
 
 **ERRASER** (Enumerative Real-space Refinment ASsisted by Electron-density under Rosetta) is an application for improving RNA crystal structures based on Rosetta and Phenix. For a quick preview:
 
-| Function | Description |
-| --- | --- |
-| `erraser.py` | Run ERRASER on an entire structure. |
-| `erraser_single_res.py` | Run ERRASER on a single residue. |
-| `erraser_analysis.py` | Analyze ERRASER runs. |
+[![Example Image](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg "Example Image"){: .half}](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg)
+{: .center}
+
 
 <hr/>
 ## Installation
 
-To run ERRASER, you need to have Rosetta and Phenix installed on your machine.
+To run **ERRASER**, you need to have Rosetta and Phenix installed on your machine.
 
 <br/>
 To download and install Rosetta:
@@ -58,14 +54,14 @@ phenix.rna_validate
 ROSETTA=/path/to/Rosetta/; export ROSETTA;
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also add the ERRASER script folder to your `$PATH`. Here is a bash example:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also add the **ERRASER** script folder to your `$PATH`. Here is a bash example:
 
 ```bash
 PATH=$PATH:/path/to/Rosetta/tools/ERRASER/
 ```
 
 <br/>
-Once Rosetta and Phenix have been installed, ERRASER can be run from the command line, e.g.:
+Once Rosetta and Phenix have been installed, **ERRASER** can be run from the command line, e.g.:
 
 ```bash
 erraser.py -pdb 1U8D_cut.pdb -map 1U8D_cell.ccp4 -map_reso 1.95 -fixed_res A33-37 A61 A65 
