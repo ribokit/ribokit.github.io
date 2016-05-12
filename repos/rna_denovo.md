@@ -1,5 +1,5 @@
 ---
-permalink: /RnaDenovo/
+permalink: /RNADenovo/
 ---
 
 # <samp>rna_denovo</samp>
@@ -10,13 +10,18 @@ permalink: /RnaDenovo/
 ## Installation
 
 To run rna_denovo, Rosetta must be installed:
-* Request a license and download the software [**here**](https://www.rosettacommons.org/software/license-and-download)
-* See the Rosetta installation documentation [**here**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started)
-* Once Rosetta is installed, rna_denovo can be run from the command line, e.g.:
+
+- Request a license and download the software [**here**](https://www.rosettacommons.org/software/license-and-download)
+
+- See the Rosetta installation documentation [**here**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started)
+
+- Once Rosetta is installed, rna_denovo can be run from the command line, e.g.:
+
 ```bash
 rna_denovo -fasta my_rna_sequence.fasta -nstruct 100 -minimize_rna -out::file::silent my_rna_structures.out
 ```
-* The helper script rna_denovo_setup.py, also found within Rosetta, may be useful in setting up rna_denovo runs, see documentation [**here**](https://www.rosettacommons.org/docs/latest/application_documentation/rna/rna-denovo-setup)
+
+- The helper script rna_denovo_setup.py, also found within Rosetta, may be useful in setting up rna_denovo runs, see documentation [**here**](https://www.rosettacommons.org/docs/latest/application_documentation/rna/rna-denovo-setup)
 
 <hr/>
 ## Documentation
