@@ -32,35 +32,43 @@ git clone https://github.com/jyesselm/RNAMake.git
 To make sure you system can find the RNAMake folder into the system's $PATH and $PYTHONPATH. In bash this can be done by adding the following lines to your ~/.bashrc or ~/.bash_profile if you are using a mac:
 
 ```bash
-export PATH=$PATH:<RNAMake Path>\n
+export PATH=$PATH:<RNAMake Path>
 export PYTHONPATH=$PYTHONPATH:<RNAMake Path>
 ```
 
+Afterwards make sure to source your bashrc file.
 
-- In _PyMol_, type:
-
-```python
-run pymol_daslab.py
+```bash
+source ~/.bashrc
 ```
 
-Tested quickly with:
+To make sure everything is working run the first example module
 
-```python
-fetch 1q9a
-rr()
+```bash
+python <RNAMake Path>/examples/example_motif.py
 ```
 
-- _(Optional)_ Create or edit a `.pymolrc` file in your home directory, add these lines:
+## Compiling C++ Programs (Optional)
 
-```python
-import sys
-sys.path.append('/path/to/RiboVis')
-run /path/to/RiboVis/pymol_daslab.py
+An additional optional step is to compile the c++ verision of RNAMake. All the functionality
+is redundant but it is significantly faster. Performing large design jobs, its recommended to 
+use the C++ programs instead of python.
+
+```bash
+cd <RNAMake Path>/rnamake/lib/RNAMake/cmake/build
+python make_project.py
+cmake -G Ninja
+ninja
 ```
 
-> Replce with your `/path/to/pymol_daslab`.
+To test run:
 
-This will automatically load `pymol_daslab` upon start every time.
+```bash
+python run_unittests.py
+```
+
+This will run 
+
 
 <hr/>
 ## Documentation
@@ -82,6 +90,4 @@ Copyright &copy; of **RNAMake** _Source Code_ is described in [LICENSE.md](https
 
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.
-
-README by [**t47**](http://t47.io/), *April 2016*.
 
