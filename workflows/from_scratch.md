@@ -2,6 +2,7 @@
 permalink: /workflows/from_scratch/
 level: 2
 description: "From Scratch workflow"
+title: "Workflow"
 ---
 
 # I have just discovered an RNA molecule
@@ -19,9 +20,9 @@ Examples of successful application include solving numerous structures <i>de nov
 
 ## Workflow
 
-1. Synthesize your RNA using the instructions in [Primerize](Primerize/). 
-2. Carry out one-dimensional (1D) chemical mapping using SHAPE, DMS, and CMCT probes. See [Protocols](/protocol/).
-3. Carry out RNA secondary structure prediction guided by these data, with bootstrapping. 
+1. <b>Synthesize</b> your RNA using the instructions in [Primerize](Primerize/). 
+2. <b>Carry out one-dimensional (1D) chemical mapping</b> using SHAPE, DMS, and CMCT probes. See [Protocols](/protocol/).
+3. <b>Carry out RNA secondary structure prediction</b> guided by these data, with bootstrapping. 
 4. Does your secondary structure model have high bootstrap confidence for all helices? 
  + __Yes__. Then you've likely achieved the answer! If you think your RNA has a stereotyped 3D structure, check out the RiboKit [workflow for 3D modeling](/workflows/3D_modeling/)
  + __No__. You don't have the answer. Carry out multidimensional chemical mapping to [nail the RNA secondary structure](2D_modeling) and/or look for multiple secondary structures.
