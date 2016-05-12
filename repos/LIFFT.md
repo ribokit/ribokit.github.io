@@ -39,6 +39,8 @@ help lifft
 
 Copyright &copy; of **LIFFT** _Source Code_ is described in [LICENSE.md](https://github.com/DasLab/LIFFT/blob/master/LICENSE.md).
 
+<hr/>
+
 ## Reference
 For fitting Mg(2+)-dependent folding transitions (incl. Hill fits)<br/>
 
