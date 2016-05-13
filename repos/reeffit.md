@@ -1,5 +1,6 @@
 ---
 permalink: /REEFFIT/
+repo: DasLab/REEFFIT
 title: "REEFFIT"
 description: "<u>R</u>NA <u>E</u>nsemble <u>E</u>xtraction <u>F</u>rom <u>F</u>ootprinting <u>I</u>nstights <u>T</u>ool"
 author: Siqi Tian
