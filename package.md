@@ -27,9 +27,7 @@ description: "RiboKit Software Packages"
 | Package | Description | Language |
 | --- | --- | ---: |
 | [**ERRASER**](/ERRASER/) | Routine step in expt RNA structural biology | `Python` |
-| ~~**EternaBot**~~ | Standard RNA 2D design tool | `Python` |
 | ~~**HelixMC**~~ | Modeling optical tweezers experiments | `Python` |
-| ~~**RiboLogic**~~ | Standard RNA 2D design tool | `Python` |
 | [**RNAMake**](/RNAMake/) | "Vienna" for 3D RNA folding/design | `Python` / `C++` |
 | [**Rosetta RNA _de novo_**](/RNAdenovo/) | State-of-the-art solver for complex RNA 3D folds | `C++` |
 | [**Rosetta RNAdesign**](/RNAdesign/) | Fast generator of RNA design hypotheses | `C++` |
