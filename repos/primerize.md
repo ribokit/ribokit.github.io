@@ -19,14 +19,14 @@ An online user-friendly GUI is available as the [**Primerize Server**](https://p
 
 **Primerize** can be downloaded for non-commercial use at the [**Primerize Server**](https://primerize.stanford.edu/license/). Commercial users, please [**contact us**](https://primerize.stanford.edu/about/#contact).
 
-For instructions, see [daslab.github.io](https://daslab.github.io/Primerize/install/).
+For instructions, see [daslab.github.io](https://daslab.github.io/Primerize/install).
 
 <hr/>
 ## Documentation
 
 * #### *Python* Documentation is available [**here**](https://daslab.github.io/Primerize/).
 
-* #### *MATLAB* Documentation is available [**here**](https://daslab.github.io/Primerize/matlab/).
+* #### *MATLAB* Documentation is available [**here**](https://daslab.github.io/Primerize/matlab).
 
 <hr/>
 ## License
@@ -42,7 +42,7 @@ Copyright &copy; of **Primerize** _Source Code_ is described in [LICENSE.md](htt
 
 
 >Thachuk, C., and Condon, A. (**2007**)<br/>
->[On the Design of Oligos for Gene Synthesis.](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4375554)<br/>
+>[**On the Design of Oligos for Gene Synthesis**](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4375554)<br/>
 >*Proceedings of the 7th IEEE International Conference on Bioinformatics and Bioengineering* **2007**: 123-130.
 
 <hr/>

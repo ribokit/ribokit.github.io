@@ -20,7 +20,7 @@ For instructions, see [daslab.github.io](https://daslab.github.io/REEFFIT/instal
 <hr/>
 ## Documentation
 
-* #### *Python* Documentation is available at: [**Read the Docs**](https://reeffit.readthedocs.io/).
+* #### *Python* Documentation is available [**here**](https://daslab.github.io/REEFFIT/).
 
 <hr/>
 ## License
