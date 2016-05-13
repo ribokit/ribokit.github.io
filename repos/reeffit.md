@@ -12,7 +12,7 @@ author: Siqi Tian
 <hr/>
 ## Installation
 
-* #### [Python configuration](install/#Python)
+**REEFFIT** can be downloaded for non-commercial use at the [**RMDB**](https://rmdb.stanford.edu/tools/). Commercial users, please [**contact us**](https://rmdb.stanford.edu/help/about/#contact).
 
 <hr/>
 ## Documentation
@@ -28,15 +28,14 @@ Copyright &copy; of **REEFFIT** _Source Code_ is described in [LICENSE.md](https
 ## Reference
 
 >Cordero, P., and Das, R. (**2015**)<br/>
->[Rich structure landscapes in both natural and artificial RNAs revealed by mutate-and-map analysis](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004473)<br/>
->*PLOS Computational Biology* **11 (11)**: e1004473.
+>**Rich structure landscapes in both natural and artificial RNAs revealed by mutate-and-map analysis**{: style="color:#3399cc"}<br/>
+>*PLOS Computational Biology* **11 (11)**: e1004473. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2015_Cordero_PLOSComptBiol.pdf) | [Link](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004473)
 
 <hr/>
 ## Related Packages
 
-* ### [**HiTRACE**]((https://hitrace.github.io/HiTRACE/)
-
-* ### [**RDATKit**](https://hitrace.github.io/RDATKit/)
+* [**HiTRACE**](/HiTRACE/)
+* [**RDATKit**](/RDATKit/)
 
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.

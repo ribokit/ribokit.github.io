@@ -15,7 +15,7 @@ description: "<u>R</u>NA <u>Dat</u>aset Tool<u>Kit</u>"
 <hr/>
 ## Installation
 
-See [hitrace.github.io](https://hitrace.github.io/RDATKit/install/)
+See [hitrace.github.io](https://hitrace.github.io/RDATKit/install/).
 
 <hr/>
 ## Documentation

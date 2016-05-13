@@ -21,7 +21,7 @@ description: "<u>B</u>est <u>I</u>nference <u>E</u>ngine for <u>R</u>NA <u>S</u>
 <hr/>
 ## Installation
 
-See [daslab.github.io](https://daslab.github.io/Biers/install/)
+See [daslab.github.io](https://daslab.github.io/Biers/install/).
 
 <hr/>
 ## Usage 

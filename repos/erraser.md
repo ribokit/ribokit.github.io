@@ -1,38 +1,35 @@
 ---
 permalink: /ERRASER/
+level: 2
 title: ERRASER
 description: "<u>E</u>numerative <u>R</u>eal-Space <u>R</u>efinement <u>AS</u>sitted by <u>E</u>lectron density under <u>R</u>osetta"
 author: Caleb Geniesse
 ---
 
-# ERRASER
+# ERRASER 
 
-[![Example Image](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg "Example Image")](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg)
 
-**ERRASER** (Enumerative Real-space Refinment ASsisted by Electron-density under Rosetta) is an application for improving RNA crystal structures based on Rosetta and Phenix. For a quick preview:
+[![Example Image](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg "Example Image"){: .half}](https://daslab.stanford.edu/site_data/pub_img/2013_Chou_NatMeth.jpg)
+{: .center}
 
-| Function | Description |
-| --- | --- |
-| `erraser.py` | Run ERRASER on an entire structure. |
-| `erraser_single_res.py` | Run ERRASER on a single residue. |
-| `erraser_analysis.py` | Analyze ERRASER runs. |
+**ERRASER** (Enumerative Real-space Refinment ASsisted by Electron-density under Rosetta) is an application for improving RNA crystal structures based on Rosetta and Phenix.
 
 <hr/>
 ## Installation
 
-To run ERRASER, you need to have Rosetta and Phenix installed on your machine.
+To run **ERRASER**, you need to have Rosetta and Phenix installed on your machine.
 
 <br/>
 To download and install Rosetta:
 
-- Request a license and download the software, [**here**](https://www.rosettacommons.org/software/license-and-download).
+- Request a license and download the software at [**rosettacommons**](https://www.rosettacommons.org/software/license-and-download).
 
-- See the Rosetta installation documentation, [**here**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started).
+- See the Rosetta installation documentation at [**rosettacommons**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started).
 
 <br/>
 To download and install Phenix:
 
-- Download the software, [**here**](http://www.phenix-online.org/). Phenix is free for academic users.
+- Download the software at [**phenix**](http://www.phenix-online.org/). Phenix is free for academic users.
 
 <br/>
 Finish setup:
@@ -57,14 +54,14 @@ phenix.rna_validate
 ROSETTA=/path/to/Rosetta/; export ROSETTA;
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also add the ERRASER script folder to your `$PATH`. Here is a bash example:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also add the **ERRASER** script folder to your `$PATH`. Here is a bash example:
 
 ```bash
 PATH=$PATH:/path/to/Rosetta/tools/ERRASER/
 ```
 
 <br/>
-Once Rosetta and Phenix have been installed, ERRASER can be run from the command line, e.g.:
+Once Rosetta and Phenix have been installed, **ERRASER** can be run from the command line, e.g.:
 
 ```bash
 erraser.py -pdb 1U8D_cut.pdb -map 1U8D_cell.ccp4 -map_reso 1.95 -fixed_res A33-37 A61 A65 
@@ -73,9 +70,9 @@ erraser.py -pdb 1U8D_cut.pdb -map 1U8D_cell.ccp4 -map_reso 1.95 -fixed_res A33-3
 <hr/>
 ## Documentation
 
-* *Rosetta* Documentation is available, [**here**](https://www.rosettacommons.org/docs/latest/application_documentation/rna/erraser).
+* *Rosetta* Documentation is available at [**rosettacommons**](https://www.rosettacommons.org/docs/latest/application_documentation/rna/erraser).
 
-* *Phenix* Documentation is available, [**here**](https://www.phenix-online.org/documentation/reference/erraser.html).
+* *Phenix* Documentation is available at [**rosettacommons**](https://www.phenix-online.org/documentation/reference/erraser.html).
 
 <hr/>
 ## License
@@ -96,9 +93,9 @@ Copyright &copy; of **ERRASER** _Source Code_ is described in [license-and-downl
 <hr/>
 ## Related Packages
 
-* [**Rosetta RNA _de novo_**](/RNADenovo/)
-* [**Rosetta Stepwise**](/Stepwise/)
-* [**Rosetta RNAdesign**](/RNADesign/)
+* [**RNA _de novo_**](/RNAdenovo/)
+* [**Stepwise**](/Stepwise/)
+* [**RNAdesign**](/RNAdesign/)
 * [**RNAMake**](/RNAMake/)
 * [**RiboVis**](/RiboVis/)
 

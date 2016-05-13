@@ -1,19 +1,23 @@
 ---
-permalink: /RNADenovo/
+permalink: /RNAdenovo/
+level: 2
+title: "RNA de novo"
+description: "3D <u>de novo</u> Models of <u>RNA</u>"
+author: Kalli Kappel
 ---
 
-# <samp>rna_denovo</samp>
+# RNA _de novo_
 
-**rna_denovo** is a Rosetta application for making 3D models of RNA using the Fragment Assembly of RNA with Full Atom Refinement (FARFAR) method.
+**RNA _de novo_** is a Rosetta application for making 3D models of RNA using the Fragment Assembly of RNA with Full Atom Refinement (FARFAR) method.
 
 <hr/>
 ## Installation
 
-To run rna_denovo, Rosetta must be installed:
+To run **RNA _de novo_**, Rosetta must be installed:
 
-- Request a license and download the software [**here**](https://www.rosettacommons.org/software/license-and-download)
+- Request a license and download the software at [**rosettacommons**](https://www.rosettacommons.org/software/license-and-download).
 
-- See the Rosetta installation documentation [**here**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started)
+- See the Rosetta installation documentation at [**rosettacommons**](https://www.rosettacommons.org/docs/latest/getting_started/Getting-Started).
 
 - Once Rosetta is installed, rna_denovo can be run from the command line, e.g.:
 
@@ -21,41 +25,48 @@ To run rna_denovo, Rosetta must be installed:
 rna_denovo -fasta my_rna_sequence.fasta -nstruct 100 -minimize_rna -out::file::silent my_rna_structures.out
 ```
 
-- The helper script rna_denovo_setup.py, also found within Rosetta, may be useful in setting up rna_denovo runs, see documentation [**here**](https://www.rosettacommons.org/docs/latest/application_documentation/rna/rna-denovo-setup)
+- The helper script rna_denovo_setup.py, also found within Rosetta, may be useful in setting up rna_denovo runs, see documentation at [**rosettacommons**](https://www.rosettacommons.org/docs/latest/application_documentation/rna/rna-denovo-setup).
 
 <hr/>
 ## Documentation
 
-* Documentation is available at: [**https://www.rosettacommons.org/docs/latest/application_documentation/rna/rna-denovo/**](www.rosettacommons.org/docs/latest/application_documentation/rna/rna-denovo/).
+* Documentation is available at: [**rosettacommons**](www.rosettacommons.org/docs/latest/application_documentation/rna/rna-denovo/).
 
 <hr/>
 ## License
 
-Copyright &copy; of **rna_denovo** _Source Code_ is described in [**license-and-download**](https://www.rosettacommons.org/software/license-and-download)
+Copyright &copy; of **RNA _de novo_** _Source Code_ is described in [**license-and-download**](https://www.rosettacommons.org/software/license-and-download).
 
 <hr/>
 ## References
-Das, R. and Baker, D. (2007), "Automated de novo prediction of native-like RNA tertiary structures", PNAS 104: 14664-14669. [for fragment assembly]. [**Paper**](http://web.stanford.edu/~rhiju/Das_Baker_PNAS_2007.pdf) [**Link**](http://www.pnas.org/content/104/37/14664.long)
 
-Das, R., Kudaravalli, M., et al. (2007) "Structural inference of native and partially folded RNA by high throughput contact mapping", PNAS, 4144-4149. [for modeling large RNAs with constraints]. [**Paper**](http://web.stanford.edu/~rhiju/das_MOHCA08.pdf) [**Link**](http://www.pnas.org/content/105/11/4144.long)
+>Sripakdeevong, P., Kladwang, W., and Das, R. (**2011**)<br/>
+>**An enumerative stepwise ansatz enables atomic-accuracy RNA loop modeling**{: style="color:#3399cc"}<br/>
+>*Proceedings of the National Academy of Sciences U.S.A.* **108 (51)**: 20573 - 20578. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2012_Sripakdeevong_PNAS.pdf) | [Link](http://www.pnas.org/content/108/51/20573)
 
-Das, R., Karanicolas, J., and Baker, D. (2010), "Atomic accuracy in predicting and designing noncanonical RNA structure". Nature Methods 7:291-294. [for high resolution refinement]. [**Paper**](http://web.stanford.edu/~rhiju/DasKaranicolasBaker2010ALL.pdf) [**Link**](http://www.nature.com/nmeth/journal/v7/n4/abs/nmeth.1433.html)
+>Das, R., Karanicolas, J., and Baker, D. (**2010**)<br/>
+>**Atomic accuracy in predicting and designing noncanonical RNA structure**{: style="color:#3399cc"}<br/>
+>*Nature Methods* **7**: 291 - 294. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2010_Das_NatMeth.pdf) | [Link](http://www.nature.com/nmeth/journal/v7/n4/abs/nmeth.1433.html)
 
-Sripakdeevong, P., Kladwang, W., and Das, R. (2011) "An enumerative stepwise ansatz enables atomic-accuracy RNA loop modeling", PNAS 108:20573-20578. [for loop modeling]. [**Paper**](http://web.stanford.edu/~rhiju/Sripakdeevong_StepwiseAnsatz_2011.pdf) [**Link**](http://www.pnas.org/content/108/51/20573)
+>Das, R. and Baker, D. (**2007**)<br/>
+>**Automated de novo prediction of native-like RNA tertiary structures**{: style="color:#3399cc"}<br/>
+>*Proceedings of the National Academy of Sciences U.S.A.* **104 (37)**: 14664 - 14669. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2007_Das_PNAS.pdf) | [Link](http://www.pnas.org/content/104/37/14664.long)
+
+>Das, R., Kudaravalli, M., Jonikas, M., Laederach, A., Fong, R., Schwans, J.P., Baker, D., Piccirilli, J.A., Altman, R.B., and Herschlag, D. (**2008**)<br/>
+>**Structural inference of native and partially folded RNA by high throughput contact mapping**{: style="color:#3399cc"}<br/>
+>*Proceedings of the National Academy of Sciences U.S.A.* **105 (11)**: 4144 - 4149. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2008_Das_PNAS.pdf) | [Link](http://www.pnas.org/content/105/11/4144.long)
 
 <hr/>
 ## Related Packages
 
-* [**Stepwise**](http://ribokit.github.io/Stepwise/)
-* [**rna_design**](http://ribokit.github.io/RNADesign/)
-* [**ERRASER**](http://ribokit.github.io/ERRASER/)
-* [**RNAmake**](http://ribokit.github.io/RNAMake/)
-* [**RiboVis**](http://ribokit.github.io/RiboVis/)
-
-
+* [**Stepwise**](/Stepwise/)
+* [**RNAdesign**](/RNAdesign/)
+* [**ERRASER**](/ERRASER/)
+* [**RNAMake**](/RNAMake/)
+* [**RiboVis**](/RiboVis/)
 
 <hr/>
-Developed by **Rosetta Commons**
+Developed by **Rosetta Commons**.
 
-README by kkappel, *May 2016*.
+README by [**Kalli Kappel**](https://github.com/kkappel1), *May 2016*.
 
