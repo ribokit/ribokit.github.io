@@ -40,6 +40,10 @@ RNA sequences often form multiple secondary structures, some of which are functi
 >**RNA structure through multidimensional chemical mapping**{: style="color:#3399cc"}<br/>
 >*Quarterly Review of Biophysics* **49 (e7)**: 1 - 30. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2016_Tian_QRB.pdf) | [Link](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=10242118&fulltextType=RV&fileId=S0033583516000020)
 
+>Cordero, P., and Das, R. (**2015**)<br/>
+>**Rich structure landscapes in both natural and artificial RNAs revealed by mutate-and-map analysis**{: style="color:#3399cc"}<br/>
+>*PLOS Computational Biology* **11 (11)**: e1004473. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2015_Cordero_PLOSComptBiol.pdf) | [Link](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004473)
+
 >Tian, S., Cordero, P., Kladwang, W., and Das, R. (**2014**)<br/> 
 >**High-throughput mutate-map-rescue evaluates SHAPE-directed RNA structure and uncovers excited states**{: style="color:#3399cc"}<br/>
 >*RNA* **20 (11)**: 1815 - 1826. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2014_Tian_RNA.pdf) | [Link](http://rnajournal.cshlp.org/content/20/11/1815)
