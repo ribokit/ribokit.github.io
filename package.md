@@ -16,7 +16,6 @@ description: "RiboKit Software Packages"
 | [**Biers**](/Biers/) | From MCM (MOHCA) to 3D | `MATLAB` |
 | [**HiTRACE**](/HiTRACE/) | The standard tool for MCM analysis of CE | `MATLAB` |
 | [**LIFFT**](/LIFFT/) | The standard tool for titration analysis | `MATLAB` |
-| [**MaP2D**](/MaP2D/) | The standard tool for MCM analysis of RING-MaP | `Python` |
 | [**MAPseeker**](/MAPseeker/) | The standard tool for MCM analysis of NGS | `MATLAB` / `C++` |
 | [**Primerize**](/Primerize/) | First stop for assembling templates for RNA synthesis | `Python` |
 | [**RDATKit**](/RDATKit/) | Utils for anyone working with MCM data | `Python` |
