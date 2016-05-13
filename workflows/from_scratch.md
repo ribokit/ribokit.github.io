@@ -1,6 +1,7 @@
 ---
 permalink: /workflows/from_scratch/
 description: "From Scratch Workflow"
+next: 2D_modeling/
 ---
 
 # I have just discovered an RNA molecule
@@ -27,19 +28,17 @@ Examples of successful application include solving numerous structures _de novo_
 
 4. Does your secondary structure model have high bootstrap confidence for all helices? 
 
- + __Yes__. Then you've likely achieved the answer! You can feel ultra-confident if you carry out [compensatory mutation/rescue experiments](/workflows/mutation_rescue/). If you think your RNA has a stereotyped 3D structure, check out the RiboKit [workflow for 3D modeling](/workflows/3D_modeling/)
+    * __Yes__. Then you've likely achieved the answer! You can feel ultra-confident if you carry out [compensatory mutation/rescue experiments](/workflows/mutation_rescue/). If you think your RNA has a stereotyped 3D structure, check out the RiboKit [workflow for 3D modeling](/workflows/3D_modeling/).
 
- + __No__. You don't have the answer. Carry out multidimensional chemical mapping to [nail the RNA secondary structure](/workflows/2D_modeling/) and/or look for multiple secondary structures.
+    * __No__. You don't have the answer. Carry out multidimensional chemical mapping to [nail the RNA secondary structure](/workflows/2D_modeling/) and/or look for multiple secondary structures.
 
  
 ## References
-
->Kladwang, W., VanLang, C.C., Cordero P., and Das, R.  (**2011**) <br/>
->**Understanding the errors of SHAPE-directed RNA structure modeling**{: style="color:#3399cc"}<br/>
->*Biochemistry* **50 (37)**: 8049 - 8056. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2011_Kladwang_Biochem.pdf) | [Link](http://pubs.acs.org/doi/abs/10.1021/bi200524n)
 
 >Miao, Z., Adamiak, R.W., Blanchet, M-F., Boniecki, M., Bujnicki, J.M., Chen, S-J., _et al._ (**2015**) <br/>
 >**RNA-Puzzles Round II: Assessment of RNA structure prediction programs applied to three large RNA structures**{: style="color:#3399cc"}<br/>
 >*RNA* **21 (6)**: 1066 - 1084. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2015_Miao_RNA.pdf) | [Link](http://rnajournal.cshlp.org/content/21/6/1066)
 
-
+>Kladwang, W., VanLang, C.C., Cordero P., and Das, R.  (**2011**) <br/>
+>**Understanding the errors of SHAPE-directed RNA structure modeling**{: style="color:#3399cc"}<br/>
+>*Biochemistry* **50 (37)**: 8049 - 8056. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2011_Kladwang_Biochem.pdf) | [Link](http://pubs.acs.org/doi/abs/10.1021/bi200524n)

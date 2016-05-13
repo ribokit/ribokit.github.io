@@ -1,6 +1,8 @@
 ---
 permalink: /workflows/alternative_states/
 description: "Alternative States (Multi-State) Workflow"
+prev: mutation_rescue/
+next: 3D_modeling/
 ---
 
 # I think my RNA has interesting alternative states
@@ -15,7 +17,7 @@ RNA sequences often form multiple secondary structures, some of which are functi
 
 1. **Carry out the mutate-and-map** experiment described in this [workflow](/workflows/2D_modeling/). 
 
-2. **Model sets of possible base pairs** in [REEFFIT](/REEFFIT) and <b>determine which single mutants</b> might stabilize putative alternative structures. *[Coming soon: fast cluster analysis in [Biers](/Biers)]*
+2. **Model sets of possible base pairs** in [REEFFIT](/REEFFIT/) and <b>determine which single mutants</b> might stabilize putative alternative structures. *[Coming soon: fast cluster analysis in [Biers](/Biers/)]*
 
 3. **Test alternative structures** through compensatory mutation/rescue, read out through chemical mapping. See notes at [Primerize](/Primerize/).
 

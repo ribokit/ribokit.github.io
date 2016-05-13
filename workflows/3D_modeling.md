@@ -1,6 +1,8 @@
 ---
 permalink: /workflows/3D_modeling/
 description: "3D Modeling Workflow"
+prev: alternative_states/
+next: structure_refinement/
 ---
 
 # I think my RNA has a 3D structure
@@ -13,11 +15,11 @@ While many RNA segments do not form stereotyped 3D structures, for the ones that
 
 ## Workflow
 
-1. Make sure you can *synthesize* your RNA using this [basic workflow](/workflows/from-scratch/)
+1. Make sure you can *synthesize* your RNA using this [basic workflow](/workflows/from-scratch/).
 
-2. You may want to confirm your RNA's *secondary structure* using [mutate-and-map](/workflows/2d_modeling/) or [compensatory mutation-rescue](/workflows/mutation_rescue). 
+2. You may want to confirm your RNA's *secondary structure* using [mutate-and-map](/workflows/2d_modeling/) or [compensatory mutation-rescue](/workflows/mutation_rescue/). 
 
-3. Carry out the [MOHCA-seq](MOHCA_seq/) measurement to infer tertiary proximities present in solution.
+3. Carry out the **MOHCA-seq** measurement to infer tertiary proximities present in solution.
 
 4. Carry out 3D Rosetta modeling with [FARFAR](/RNAdenovo/), guided by these secondary structure and tertiary proximity data.
 

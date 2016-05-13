@@ -1,6 +1,7 @@
 ---
 permalink: /workflows/design/
 description: "3D Design workflow"
+prev: folding_energetics/
 ---
 
 # I want to design a new RNA molecule
@@ -11,18 +12,17 @@ description: "3D Design workflow"
 
 *[Under construction]* This workflow is being developed to allow creation of complex 3D RNA structures, built out of motifs and tertiary contacts drawn from natural molecules. The main use case at the moment is to design tethers connecting from one helix to another helix position, to stabilize existing 3D RNA structures.
 
-
 ## Workflow
 
 1. **Design tertiary structure**. Do you already have a motif or tertiary contact structure that you want to stabilize? 
 
- + __Yes__. Use Rosetta [RNA Redesign](/RNAdesign). 
+    * __Yes__. Use Rosetta [RNA Redesign](/RNAdesign/). 
 
- + __No__. Design a new RNA tether or nanostructure in [RNAMake](/RNAMake/). The sequences of the internal junctions and tertiary contacts will be defined by the motifs, but the helices will be arbitrary. 
+    * __No__. Design a new RNA tether or nanostructure in [RNAMake](/RNAMake/). The sequences of the internal junctions and tertiary contacts will be defined by the motifs, but the helices will be arbitrary. 
 
-2. **Design secondary structure**  to optimize the sequences of the helices that are least likely to misfold with your motif sequences.  Use the [EternaBot server](http://eternabot.cmu.edu/) or its implementation within [RNAMake](/RNAMake/)
+2. **Design secondary structure**  to optimize the sequences of the helices that are least likely to misfold with your motif sequences.  Use the [EternaBot server](http://eternabot.cmu.edu/) or its implementation within [RNAMake](/RNAMake/).
 
-3. **Experimentally test** that your designs are forming the correct structure, specifically checking for chemical protection of any tertiary contacts. Follow this [Workflow](/workflows/from_scratch/)
+3. **Experimentally test** that your designs are forming the correct structure, specifically checking for chemical protection of any tertiary contacts. Follow this [Workflow](/workflows/from_scratch/).
 
 ## Limitations
 

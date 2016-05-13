@@ -1,6 +1,8 @@
 ---
 permalink: /workflows/mutation_rescue/
 description: "Compensatory Mutation/Rescue Workflow"
+prev: 2D_modeling/
+next: alternative_states/
 ---
 
 # I want to test an RNA secondary structure model
@@ -8,6 +10,7 @@ description: "Compensatory Mutation/Rescue Workflow"
 <hr/>
 
 ## About this workflow
+
 Compensatory mutation/rescue is a classic methodology that can give strong confidence in modeled Watson/Crick base pairs. Chemical mapping offers a general readout for this method that does not require having a functional assay to readout rescue.
 
 ## Workflow

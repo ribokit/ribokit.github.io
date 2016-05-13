@@ -1,6 +1,8 @@
 ---
 permalink: /workflows/2D_modeling/
 description: "Mutate-and-Map 2D Modeling Workflow"
+prev: from_scratch/
+next: mutation_rescue/
 ---
 
 # I want to learn an RNA's secondary structure
@@ -17,7 +19,7 @@ The mutate-and-map experimental protocol gives rich data on an RNA's structure b
 
 2. **Design primer plates** for mutate-and-map experiments with [Primerize](/Primerize/).
 
-3. Carry out the **[mutate-and-map](/protocols/)** measurements.  
+3. Carry out the **[mutate-and-map](/protocol/)** measurements.  
 4. **Analyze** the data to infer a dominant secondary structure, with bootstrapping, with [Biers](/Biers/).
 
 5. Does your secondary structure model have high bootstrap confidence for all helices? 
@@ -26,13 +28,13 @@ The mutate-and-map experimental protocol gives rich data on an RNA's structure b
 
  + __No__. Carry out compensatory mutation/rescue experiments to test each base pair possibility, using [this workflow](/workflows/mutation_rescue/).
 
-6. Do several of the mutations dramatically change the RNA's chemical profile?  These may be revealing alternative states present at low frequency (but of possible biological interest) in the starting sequence. Check out the [workflow for probing alternative states](/workflows/alternative_states)
+6. Do several of the mutations dramatically change the RNA's chemical profile?  These may be revealing alternative states present at low frequency (but of possible biological interest) in the starting sequence. Check out the [workflow for probing alternative states](/workflows/alternative_states/)
 
 ## Limitations
 
  + The edge base pairs of helices remain difficult to capture with mutate-and-map analysis (see references, including blind tests, below).  
 
- + The current protocol requires PCR assembly of your RNA, which works well for molecules up to about 200 nucleotides. A 'one-pot' protocol is under development which should allow mutate-and-map data on longer transcripts *E-mail us if interested.* In addition, the [MOHCA-seq](/workflows/3D_modeling) experimental protocol can still detect stable secondary structure.
+ + The current protocol requires PCR assembly of your RNA, which works well for molecules up to about 200 nucleotides. A 'one-pot' protocol is under development which should allow mutate-and-map data on longer transcripts *E-mail us if interested.* In addition, the [MOHCA-seq](/workflows/3D_modeling/) experimental protocol can still detect stable secondary structure.
  
 ## References
 
