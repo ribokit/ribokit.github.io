@@ -13,6 +13,8 @@ next: 3D_modeling/
 
 RNA sequences often form multiple secondary structures, some of which are functionally important, and others that need to be avoided in the biological milieu. Evidence for alternative structures often comes from single-molecule biophysics measurements or NMR, but it's hard to model the structures, even at nucleotide resolution. This new workflow allows for rapid detection and structure modeling of secondary structure ensembles.
 
+<br/>
+
 ## Workflow
 
 1. **Carry out the mutate-and-map** experiment described in this [workflow](/workflows/2D_modeling/). 
@@ -23,12 +25,15 @@ RNA sequences often form multiple secondary structures, some of which are functi
 
 4. Make predictions or the behavior of **the structure-stabilizing mutants** in your alternative functional assay (e.g., single molecule FRET measurements), and **test them**.
 
+<br/>
+
 ## Limitations
 
 + REEFFIT is computationall expensive. It is not yet well optimized for RNAs beyond about 50-100 nts in length; computations for molecules of that size or with numerous mutants remain challenging, even on high-performance clusters.
 
 + REEFFIT typically detects helices that are present at >10% population in the starting sequence. Make sure to get bootstrapping error estimates to evaluate the significance of low population helices. 
 
+<hr/>
 ## References
 
 >Tian, S., and Das, R. (**2016**)<br/>

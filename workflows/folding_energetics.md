@@ -13,18 +13,23 @@ next: design/
 
 Calculation of the folding energies and flexibilities of RNA structures is less well-developed than modeling the dominant (usually lowest energy) structure of a molecule. While Ribokit does not yet have a workflow *per se*, here are some things to try.
 
+<br/>
+
 ## Workflow
 
- * **For single-molecule force spectroscopists**, the [HelixMC](/HelixMC/) package allows prediction of mechanical properties of long double-stranded RNA and DNA using base-pair-level models derived from RNA crystallography.
+* **For single-molecule force spectroscopists**, the [HelixMC](/HelixMC/) package allows prediction of mechanical properties of long double-stranded RNA and DNA using base-pair-level models derived from RNA crystallography.
 
- * **For 3D RNA folders**, the [RNAMake](/RNAMake/) package includes predictive models for estimating free energies of folding of tertiary assembly. As with [HelixMC](/HelixMC/), contributions of helix flexibility, including large effects from helix sequence, are assessed through base-pair-level models.
+* **For 3D RNA folders**, the [RNAMake](/RNAMake/) package includes predictive models for estimating free energies of folding of tertiary assembly. As with [HelixMC](/HelixMC/), contributions of helix flexibility, including large effects from helix sequence, are assessed through base-pair-level models.
 
- * **For molecular dynamicists and epitranscriptomicists**, the [RECCES](/RECCES/) module in Rosetta allows estimation of nearest-neighbor parameters for helix stacked pairs and dangling ends, including chemically modified nucleotides.
- 
+* **For molecular dynamicists and epitranscriptomicists**, the [RECCES](/RECCES/) module in Rosetta allows estimation of nearest-neighbor parameters for helix stacked pairs and dangling ends, including chemically modified nucleotides.
+
+<br/>
+
 ## Limitations
 
 + These packages are only recently being tested in blind predictions, and are not well integrated with each other yet. 
 
+<hr/>
 ## References
 
 >Chou, F.-C., Echols, N., Terwilliger, T.C., and Das, R. (**2016**) <br/>

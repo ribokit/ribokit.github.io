@@ -13,6 +13,8 @@ next: structure_refinement/
 
 While many RNA segments do not form stereotyped 3D structures, for the ones that do, the tertiary folds define the molecules' functions. Multidimensional chemical mapping offers a rapid approach to nucleotide-resolution fold determination as well as to detection of transient tertiary proximities in, e.g., ligand-free states of riboswitch aptamers.
 
+<br/>
+
 ## Workflow
 
 1. Make sure you can *synthesize* your RNA using this [basic workflow](/workflows/from-scratch/).
@@ -24,13 +26,16 @@ While many RNA segments do not form stereotyped 3D structures, for the ones that
 4. Carry out 3D Rosetta modeling with [FARFAR](/RNAdenovo/), guided by these secondary structure and tertiary proximity data.
 
 5. Make sure to assess uncertainties based on intra-cluster RMSD; these can range from 0.5 to 2 nm, depending on the size of the RNA and the number of tertiary proximities.
- 
+
+<br/>
+
 ## Limitations
 
 + Unlike secondary structure modeling, there are not yet ways to prospectively and rapidly test tertiary contacts inferred from MOHCA-seq.
 
 + For RNA states that involve heterogenuous tertiary structures, the model ensembles above do not provide rigorous portraits of the solution flexibility of the RNA. Consider them initial visualizations to aid, e.g., further mutational experiments. 
- 
+
+<hr/>
 ## References
 
 >Tian, S., and Das, R. (**2016**)<br/>

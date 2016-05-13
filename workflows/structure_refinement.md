@@ -13,6 +13,8 @@ next: folding_energetics/
 
 Stereochemical & backbone building errors are common in medium-resolution experimental structures of RNAs due to the difficulty and tedium of manually fitting coordinates into density maps. We maintain tools to help correct these errors automatically.
 
+<br/>
+
 ## Workflow
 
 1. **Prepare** your map from cryoEM or crystallography and starting coordinates. 
@@ -21,12 +23,15 @@ Stereochemical & backbone building errors are common in medium-resolution experi
 
 3. *[Coming soon: Test that your structure are consistent with one-dimensional chemical accessibility data easily acquired with this [basic workflow](/workflows/from-scratch/). E-mail us if interested.]*
 
+<br/>
+
 ## Limitations
 
 + The publicly available version of ERRASER does not handle RNA interfaces with proteins, ions, and small molecules & nonnatural nucleotides and does not take advantage of multiple processes for speed, but these functionalities are coming soon. *E-mail us if you are interested in testing.*
 
 + ERRASER carries out one-at-a-time remodeling of each nucleotide in the structure, and cannot refine stretches of nucleotides that have major errors. Again, we are working on updates to handle such cases. *E-mail us if you have an interesting test case.*
 
+<hr/>
 ## References
 
 >Chou, F.-C., Echols, N., Terwilliger, T.C., and Das, R. (**2016**) <br/>

@@ -18,6 +18,8 @@ This workflow is similar to excellent methods developed by other labs for SHAPE-
 
 Examples of successful application include solving numerous structures _de novo_ for the community-wide blind trials RNA-puzzles, inferring structures for new RNA regulons that allow for _in vivo_ compensatory rescue, and testing sequences designed to form target secondary structures in the [Eterna project](http://www.eternagame.org).
 
+<br/>
+
 ## Workflow
 
 1. <b>Synthesize</b> your RNA using the instructions in [Primerize](/Primerize/). 
@@ -32,7 +34,7 @@ Examples of successful application include solving numerous structures _de novo_
 
     * __No__. You don't have the answer. Carry out multidimensional chemical mapping to [nail the RNA secondary structure](/workflows/2D_modeling/) and/or look for multiple secondary structures.
 
- 
+<hr/>
 ## References
 
 >Miao, Z., Adamiak, R.W., Blanchet, M-F., Boniecki, M., Bujnicki, J.M., Chen, S-J., _et al._ (**2015**) <br/>

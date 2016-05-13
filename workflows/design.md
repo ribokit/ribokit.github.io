@@ -12,6 +12,8 @@ prev: folding_energetics/
 
 *[Under construction]* This workflow is being developed to allow creation of complex 3D RNA structures, built out of motifs and tertiary contacts drawn from natural molecules. The main use case at the moment is to design tethers connecting from one helix to another helix position, to stabilize existing 3D RNA structures.
 
+<br/>
+
 ## Workflow
 
 1. **Design tertiary structure**. Do you already have a motif or tertiary contact structure that you want to stabilize? 
@@ -24,12 +26,15 @@ prev: folding_energetics/
 
 3. **Experimentally test** that your designs are forming the correct structure, specifically checking for chemical protection of any tertiary contacts. Follow this [Workflow](/workflows/from_scratch/).
 
+<br/>
+
 ## Limitations
 
 + Automatic algorithms for 3D design are currently being tested through extensive experiments, but are not published yet.
 
 + Confidence estimation in 3D design is not available yet. 
  
+<hr/>
 ## References
 
 >Lee, J., Kladwang, W., Lee, M., Cantu, D., Azizyan, M., Kim, H., Limpaecher, A., Yoon, S., Treuille, A., Das, R., and EteRNA Participants (**2014**) <br/>
