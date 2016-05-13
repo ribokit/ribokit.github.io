@@ -1,34 +1,29 @@
 ---
 permalink: /RNAMake/
+repo: jyesselm/RNAMake
 title: RNAMake
+description: "Design and Optimize RNA 3D Structure"
 author: Joseph Yesselman
 ---
 
 # <samp>RNAMake</samp>
 
-**RNAMake** is a toolkit for designing and optimizing RNA 3D structure. It allows the alignment
- between RNA motifs. These motif are small modular peices of RNA that are believed to fold
- independently, thus attaching them together with helix flanking both sides allows users of
- RNAMake to build large segments of RNA with a high success rate of forming the predicted
- structure in vitro.
+**RNAMake** is a toolkit for designing and optimizing RNA 3D structure. It allows the alignment between RNA motifs. These motif are small modular peices of RNA that are believed to fold independently, thus attaching them together with helix flanking both sides allows users of **RNAMake** to build large segments of RNA with a high success rate of forming the predicted structure in vitro.
 
 [![Aligning Motifs with RNAMake](/repos/rnamake/res/rnamake_aligning.png "Aligning Motifs with RNAMake"){: .full}](/repos/rnamake/res/rnamake_aligning.png)
 {: .center}
 
-
-
 <hr/>
-
 ## Dependencies 
 
 * Python Dependencies: The required dependencies to build the software are Python >= 2.7, Numpy >= 1.6, Matplotlib >= 1.1.0, simplejson >= 3.8.
 
 * C++ Dependencies: Either g++ or clang installed on system and also Ninja (https://ninja-build.org/) and CMake (https://cmake.org/)
 	
-	
 <hr/>
+## Installation 
 
-## Installation of Python Module
+#### Python Module
 
 To install **RNAMake**, simply:
 
@@ -58,7 +53,7 @@ To make sure everything is working run the first example module
 python <RNAMake Path>/examples/example_motif.py
 ```
 
-## Compiling C++ Programs (Optional)
+#### Compiling C++ Programs (Optional)
 
 An additional optional step is to compile the c++ verision of RNAMake. All the functionality
 is redundant but it is significantly faster. Performing large design jobs, its recommended to 
@@ -85,18 +80,19 @@ everything is working properly.
 ## Documentation
 
 * #### *Python* Documentation is available at: [**http://jyesselm.github.io/RNAMake/**](http://jyesselm.github.io/RNAMake/).
+
 * #### *C++* Documentation is available at: [**http://jyesselm.github.io/RNAMake/html_cpp/index.html**](http://jyesselm.github.io/RNAMake/html_cpp/index.html).
 
 
 <hr/>
 ## License
 
-Copyright &copy; of **RNAMake** _Source Code_ is described in [LICENSE.md](https://github.com/ribokit/RiboVis/blob/master/LICENSE.md).
+Copyright &copy; of **RNAMake** _Source Code_ is described in [LICENSE.md](https://github.com/jyesselm/RNAMake/blob/master/LICENSE.md).
 
 <hr/>
 ## Related Packages
 
-* [**HiTRACE**](https://hitrace.github.io/HiTRACE/)
+* [**HiTRACE**](/HiTRACE/)
 
 
 <hr/>
