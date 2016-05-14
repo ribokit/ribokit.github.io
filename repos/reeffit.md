@@ -15,12 +15,12 @@ author: Siqi Tian
 
 **REEFFIT** can be downloaded for non-commercial use at the [**RMDB**](https://rmdb.stanford.edu/tools/). Commercial users, please [**contact us**](https://rmdb.stanford.edu/help/about/#contact).
 
-For instructions, see [daslab.github.io](https://daslab.github.io/REEFFIT/install/).
+For instructions, see [daslab.github.io](https://daslab.github.io/REEFFIT/install).
 
 <hr/>
 ## Documentation
 
-* #### *Python* Documentation is available [**here**](https://daslab.github.io/REEFFIT/).
+* #### *Python* Tutorial is available [**here**](https://daslab.github.io/REEFFIT/run).
 
 <hr/>
 ## License
