@@ -74,6 +74,13 @@ erraser.py -pdb 1U8D_cut.pdb -map 1U8D_cell.ccp4 -map_reso 1.95 -fixed_res A33-3
 
 * *Phenix* Documentation is available at [**rosettacommons**](https://www.phenix-online.org/documentation/reference/erraser.html).
 
+
+<hr/>
+## Demo
+
+For a minimal demonstration of **ERRASER**, see: `Rosetta/demos/public/erraser/`. Example input files for the demo can be found at: `Rosetta/demos/public/erraser/rosetta_inputs/`, and example output files can be found at: `Rosetta/demos/public/erraser/example_output/`.
+
+
 <hr/>
 ## License
 
