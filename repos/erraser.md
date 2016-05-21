@@ -108,6 +108,11 @@ Copyright &copy; of **ERRASER** _Source Code_ is described in [license-and-downl
 * [**RiboVis**](/RiboVis/)
 
 <hr/>
+## Workflows
+
+* [I have crystallographic/cryoEM data](/workflow/structure_refinement/)
+
+<hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.
 
 README by [**Caleb Geniesse**](https://github.com/calebgeniesse), *May 2016*.

@@ -41,6 +41,11 @@ Copyright &copy; of **REEFFIT** _Source Code_ is described in [LICENSE.md](https
 * [**RDATKit**](/RDATKit/)
 
 <hr/>
+## Workflows
+
+* [I think my RNA has interesting alternative states](/workflow/alternative_states/)
+
+<hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.
 
 README by [**t47**](http://t47.io/), *May 2016*.

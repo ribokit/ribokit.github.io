@@ -94,6 +94,11 @@ Copyright &copy; of **RNAMake** _Source Code_ is described in [LICENSE.md](https
 
 * [**HiTRACE**](/HiTRACE/)
 
+<hr/>
+## Workflows
+
+* [I want to model RNA folding energetics](/workflow/folding_energetics/)
+* [I want to design a new RNA molecule](/workflow/design/)
 
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.

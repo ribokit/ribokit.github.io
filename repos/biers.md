@@ -56,6 +56,13 @@ Copyright &copy; of **Biers** _Source Code_ is described in [LICENSE.md](https:/
 * [**RDATKit**](/RDATKit/)
 
 <hr/>
+## Workflows
+
+* [I have just discovered an RNA molecule](/workflow/from_scratch/)
+* [I want to learn an RNA’s secondary structure](/workflow/2D_modeling/)
+* [I think my RNA has interesting alternative states](/workflow/alternative_states/)
+
+<hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.
 
 README by [**t47**](http://t47.io/), *April 2016*.

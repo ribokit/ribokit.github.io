@@ -2,7 +2,7 @@
 permalink: /RiboVis/
 ---
 
-# <samp>RiboVis</samp>
+# RiboVis
 
 [![1q9a Example Image](https://raw.github.com/ribokit/RiboVis/master/1q9a.png "1q9a Example Image"){: .half}](https://raw.github.com/ribokit/RiboVis/master/1q9a.png)
 {: .center}

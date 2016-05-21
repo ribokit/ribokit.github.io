@@ -66,6 +66,11 @@ Copyright &copy; of **RNA _de novo_** _Source Code_ is described in [**license-a
 * [**RiboVis**](/RiboVis/)
 
 <hr/>
+## Workflows
+
+* [I think my RNA has a 3D structure](/workflow/3D_modeling/)
+
+<hr/>
 Developed by **Rosetta Commons**.
 
 README by [**Kalli Kappel**](https://github.com/kkappel1), *May 2016*.
