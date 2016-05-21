@@ -110,7 +110,7 @@ Copyright &copy; of **ERRASER** _Source Code_ is described in [license-and-downl
 <hr/>
 ## Workflows
 
-* [I have crystallographic/cryoEM data](/workflow/structure_refinement/)
+* [I have crystallographic/cryoEM data](/workflows/structure_refinement/)
 
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.

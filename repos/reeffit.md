@@ -43,7 +43,7 @@ Copyright &copy; of **REEFFIT** _Source Code_ is described in [LICENSE.md](https
 <hr/>
 ## Workflows
 
-* [I think my RNA has interesting alternative states](/workflow/alternative_states/)
+* [I think my RNA has interesting alternative states](/workflows/alternative_states/)
 
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.

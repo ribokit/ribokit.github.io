@@ -62,7 +62,7 @@ Copyright &copy; of **RNAdesign** _Source Code_ is described in [**license-and-d
 <hr/>
 ## Workflows
 
-* [I want to design a new RNA molecule](/workflow/design/)
+* [I want to design a new RNA molecule](/workflows/design/)
 
 <hr/>
 Developed by **Rosetta Commons**.

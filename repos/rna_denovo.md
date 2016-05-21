@@ -68,7 +68,7 @@ Copyright &copy; of **RNA _de novo_** _Source Code_ is described in [**license-a
 <hr/>
 ## Workflows
 
-* [I think my RNA has a 3D structure](/workflow/3D_modeling/)
+* [I think my RNA has a 3D structure](/workflows/3D_modeling/)
 
 <hr/>
 Developed by **Rosetta Commons**.

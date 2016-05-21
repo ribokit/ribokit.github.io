@@ -48,10 +48,10 @@ Copyright &copy; of **Primerize** _Source Code_ is described in [LICENSE.md](htt
 <hr/>
 ## Workflows
 
-* [I have just discovered an RNA molecule](/workflow/from_scratch/)
-* [I want to learn an RNA’s secondary structure](/workflow/2D_modeling/)
-* [I want to test an RNA secondary structure model](/workflow/mutation_rescue/)
-* [I think my RNA has interesting alternative states](/workflow/alternative_states/)
+* [I have just discovered an RNA molecule](/workflows/from_scratch/)
+* [I want to learn an RNA’s secondary structure](/workflows/2D_modeling/)
+* [I want to test an RNA secondary structure model](/workflows/mutation_rescue/)
+* [I think my RNA has interesting alternative states](/workflows/alternative_states/)
 
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.
