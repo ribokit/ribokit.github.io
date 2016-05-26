@@ -14,10 +14,11 @@ DNA/RNA helices through numerical simulations.
 
 ## Dependencies 
 
-* Python Dependencies: The required dependencies to build the software are Python >= 2.7, Numpy >= 1.6, Matplotlib >= 1.1.0, simplejson >= 3.8.
+Python (2.7.3)
+Numpy (1.6.1)
+Matplotlib (1.1.0)
+A working C/C++ compiler. Here we used GCC (4.6.3)
 
-* C++ Dependencies: Either g++ or clang installed on system and also Ninja (https://ninja-build.org/) and CMake (https://cmake.org/)
-	
 	
 <hr/>
 
