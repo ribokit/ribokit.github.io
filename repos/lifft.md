@@ -42,11 +42,7 @@ help lifft
 Copyright &copy; of **LIFFT** _Source Code_ is described in [LICENSE.md](https://github.com/DasLab/LIFFT/blob/master/LICENSE.md).
 
 <hr/>
-## Reference
-
->Frederiksen, J.K., Li, N.S., Das, R., Herschlag, D., and Piccirilli, J.A. (**2012**)<br/>
->**Metal-ion rescue revisited: Biochemical detection of site-bound metal ions important for RNA folding**{: style="color:#3399cc"}<br/>
->*RNA* **18 (6)**: 1123 - 1141. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2012_Frederiksen_RNA.pdf) | [Link](http://rnajournal.cshlp.org/content/18/6/1123)
+## References
 
 >Lee, J., Kladwang, W., Lee, M., Cantu, D., Azizyan, M., Kim, H., Limpaecher, A., Yoon, S., Treuille, A., Das, R., and EteRNA Participants (**2014**)<br/>
 >**RNA design rules from a massive open laboratory**{: style="color:#3399cc"}<br/>
@@ -56,10 +52,17 @@ Copyright &copy; of **LIFFT** _Source Code_ is described in [LICENSE.md](https:/
 >**Automated RNA structure prediction uncovers a kink-turn linker in double glycine riboswitches**{: style="color:#3399cc"}<br/>
 >*Journal of the American Chemical Society* **134 (3)**: 1404 - 1407 | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2012_Kladwang_JACS.pdf) | [Link](http://pubs.acs.org/doi/abs/10.1021/ja2093508)
 
+>Frederiksen, J.K., Li, N.S., Das, R., Herschlag, D., and Piccirilli, J.A. (**2012**)<br/>
+>**Metal-ion rescue revisited: Biochemical detection of site-bound metal ions important for RNA folding**{: style="color:#3399cc"}<br/>
+>*RNA* **18 (6)**: 1123 - 1141. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2012_Frederiksen_RNA.pdf) | [Link](http://rnajournal.cshlp.org/content/18/6/1123)
+
 <hr/>
 ## Related Packages
 
 * [**HiTRACE**](/HiTRACE/)
+
+## Workflows
+* [I want to model RNA folding energetics](/workflows/folding_energetics/)
 
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.
