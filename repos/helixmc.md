@@ -1,4 +1,4 @@
-ermalink: /helixmc/
+permalink: /helixmc/
 title: RNAMake
 author: Joseph Yesselman
 ---
