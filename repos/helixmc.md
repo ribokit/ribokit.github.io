@@ -70,7 +70,7 @@ Now you should be all set. To test the install, simply run::
 <hr/>
 ## License
 
-Copyright &copy; of **RNAMake** _Source Code_ is described in [LICENSE.md](https://github.com/ribokit/RiboVis/blob/master/LICENSE.md).
+Copyright &copy; of **HelixMC** _Source Code_ is described in [LICENSE.md](https://github.com/ribokit/RiboVis/blob/master/LICENSE.md).
 
 <hr/>
 ## Related Packages
