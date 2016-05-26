@@ -61,6 +61,9 @@ Copyright &copy; of **LIFFT** _Source Code_ is described in [LICENSE.md](https:/
 
 * [**HiTRACE**](/HiTRACE/)
 
+## Workflows
+* [I want to model RNA folding energetics](/workflows/folding_energetics/)
+
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.
 
