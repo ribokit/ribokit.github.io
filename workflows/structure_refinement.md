@@ -27,9 +27,9 @@ Stereochemical & backbone building errors are common in medium-resolution experi
 
 ## Limitations
 
-+ The publicly available version of ERRASER does not handle RNA interfaces with proteins, ions, and small molecules & nonnatural nucleotides and does not take advantage of multiple processes for speed, but these functionalities are coming soon. *E-mail us if you are interested in testing.*
++ The publicly available version of ERRASER does not handle RNA interfaces with proteins, ions, and small molecules & nonnatural nucleotides and does not take advantage of multiple processes for speed, but these functionalities are coming soon. *E-mail us if you are interested in testing ERRASER2.*
 
-+ ERRASER carries out one-at-a-time remodeling of each nucleotide in the structure, and cannot refine stretches of nucleotides that have major errors. Again, we are working on updates to handle such cases. *E-mail us if you have an interesting test case.*
++ ERRASER carries out one-at-a-time remodeling of each nucleotide in the structure, and cannot refine stretches of nucleotides that have major errors. Again, we are working on updates to handle such cases. *E-mail us if you have an interesting test case for ERRASER2.*
 
 <hr/>
 ## References
