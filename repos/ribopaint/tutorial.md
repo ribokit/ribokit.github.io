@@ -2,7 +2,7 @@
 permalink: /RiboPaint/tutorial/
 level: 2
 prev: https://daslab.github.io/Biers/varna/
-next: /RiboVis/tutorial/
+next: ../RiboVis/tutorial/
 ---
 
 # Color Secondary Structure Diagram

@@ -50,6 +50,7 @@ rr()
 ## Documentation
 
 * #### *Python* Documentation is available at: [**docs/**](docs/).
+* #### *Python* Tutorial is available at: [**tutorial/**](tutorial/).
 
 <hr/>
 ## License
