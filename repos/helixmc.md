@@ -1,66 +1,74 @@
 ---
-permalink: /helixmc/
-title: HelixMC
+permalink: /HelixMC/
+repo: DasLab/HelixMC
+title: "HelixMC"
+description: "<u>M</u>onte-<u>C</u>arlo Simulation of DNA/RNA <u>Helices</u>"
+author: Joseph Yesselman
 ---
 
-# <samp>HelixMC</samp>
+# HelixMC
 
-**HelixMC** is a software package for Monte-Carlo (MC) simulations of DNA/RNA helices 
-using the base-pair level model. It provides a powerful tool to understand the flexibility of
-DNA/RNA helices through numerical simulations.
-
+**HelixMC** is a software package for Monte-Carlo (MC) simulations of DNA/RNA helices using the base-pair level model. It provides a powerful tool to understand the flexibility of DNA/RNA helices through numerical simulations.
 
 <hr/>
-
 ## Dependencies 
 
-Python (2.7.3)
-Numpy (1.6.1)
-Matplotlib (1.1.0)
-A working C/C++ compiler. Here we used GCC (4.6.3)
+* A working C/C++ compiler. Here we used `gcc` (4.6.3)
 
+* Python (2.7.3) with packages:
+
+```js
+numpy >= 1.6.1
+matplotlib >= 1.1.0
+```
 	
 <hr/>
-
 ## Installation
 
-The easiest way to install is to use pip install::
+The easiest way to install is to use `pip`:
 
-    $ pip install helixmc
+```bash
+pip install helixmc
+```
 
 Alternatively, one can download the source code from the latest GitHub
-repository. Simply run::
+repository. Simply run:
 
-    $ git clone https://github.com/fcchou/HelixMC.git
+```bash
+git clone https://github.com/DasLab/HelixMC.git
+```
 
-Or you can go to https://github.com/fcchou/HelixMC/ and download the source
-code by clicking the "Download ZIP" button.
+After this, you can instal **HelixMC** using `setup.py`::
 
-After this, you can instal HelixMC using `setup.py`::
+```bash
+python setup.py build
+sudo python setup.py install
+```
 
-    $ python setup.py build
-    $ sudo python setup.py install
+Instead of installing using `setup.py`, you can just add your **HelixMC** folder into the system's `$PATH` and `$PYTHONPATH`. In bash this can be done by adding the following lines to your `~/.bashrc`:
 
-Instead of installing using setup.py, you can just add your HelixMC folder
-into the system's ``$PATH`` and ``$PYTHONPATH``. In bash this can be done by
-adding the following lines to your ``~/.bashrc``::
+```bash
+export PATH=$PATH:/path/to/HelixMC/
+export PYTHONPATH=$PYTHONPATH:/path/to/HelixMC/
+```
 
-    export PATH=$PATH:<HelixMC Path>
-    export PYTHONPATH=$PYTHONPATH:<HelixMC Path>
+Then build the Cython extension. Under the `helixmc/` folder, run::
 
-Then build the Cython extension. Under the ``helixmc/`` folder, run::
+```bash
+python _cython_build.py build_ext --inplace
+```
 
-    $ python _cython_build.py build_ext --inplace
+Note that this requires you to have Cython installed. Otherwise you can choose to build the c source file, then you do not need Cython:
 
-Note that this requires you to have Cython installed. Otherwise you can choose
-to build the c source file, then you do not need Cython::
-
-    $ python _c_build.py build_ext --inplace
+```bash
+python _c_build.py build_ext --inplace
+```
 
 Now you should be all set. To test the install, simply run::
 
-    $ helixmc-run --help
-
+```
+helixmc-run --help
+```
 
 <hr/>
 ## Documentation
@@ -70,13 +78,12 @@ Now you should be all set. To test the install, simply run::
 <hr/>
 ## License
 
-Copyright &copy; of **HelixMC** _Source Code_ is described in [LICENSE.md](https://github.com/ribokit/RiboVis/blob/master/LICENSE.md).
+Copyright &copy; of **HelixMC** _Source Code_ is described in [LICENSE.md](https://github.com/DasLab/HelixMC/blob/master/LICENSE.md).
 
 <hr/>
 ## Related Packages
 
 * [**HiTRACE**](https://hitrace.github.io/HiTRACE/)
-
 
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.

@@ -27,7 +27,7 @@ description: "RiboKit Software Packages"
 | Package | Description | Language |
 | --- | --- | ---: |
 | [**ERRASER**](/ERRASER/) | High-resolution refinement of crystallographic/cryoEM structures | `Python` |
-| ~~**HelixMC**~~ | Modeling optical tweezers experiments | `Python` |
+| [**HelixMC**](/HelixMC/) | Modeling optical tweezers experiments | `Python` |
 | [**RNAMake**](/RNAMake/) | 3D RNA design and folding energetics | `Python` / `C++` |
 | [**Rosetta RNA _de novo_**](/RNAdenovo/) | 3D modeling of complex RNA folds  | `C++` |
 | [**Rosetta RNAdesign**](/RNAdesign/) | Fast generator of RNA design hypotheses | `C++` |
