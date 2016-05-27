@@ -44,10 +44,19 @@ defaults:
       path: "repos/ribovis"
     values:
       title: "RiboVis"
-      description: "PyMol Commands by the Das Lab Style"
+      description: "PyMOL Commands by the Das Lab Style"
       repo: "ribokit/RiboVis"
       author: "Siqi Tian"
       root: "/RiboVis/"
+  -
+    scope:
+      path: "repos/ribopaint"
+    values:
+      title: "RiboPaint"
+      description: "Paint Secondary Structure Diagrams"
+      repo: "ribokit/RiboPaint"
+      author: "Siqi Tian"
+      root: "/RiboPaint/"
 
 # Build settings
 markdown: kramdown
