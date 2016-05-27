@@ -38,7 +38,7 @@ Copyright &copy; of **RiboPaint** _Source Code_ is described in [LICENSE.md](htt
 ## Related Packages
 
 * [**HiTRACE**](https://hitrace.github.io/HiTRACE/)
-
+* [**RiboVis**](/RiboVis/)
 
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.

@@ -35,7 +35,6 @@ description: Research Tools for RNA Modeling &amp; Design
 
 * ##### [Modeling &amp; Design](/package/#modeling--design)
 
+* ##### [Graphics](/package/#graphics)
+
 * ##### [Experiment Protocol](/protocol/)
-
-* ##### [Miscellaneous](/package/#miscellaneous)
-
