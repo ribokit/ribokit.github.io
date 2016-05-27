@@ -34,7 +34,7 @@ description: "RiboKit Software Packages"
 | [**Rosetta Stepwise**](/Stepwise/) | High-resolution RNA motif modeling/design | `C++` |
 
 <hr/>
-## Miscellaneous
+## Graphics
 
 | Package | Description | Language |
 | --- | --- | ---: |
