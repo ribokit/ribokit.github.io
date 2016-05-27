@@ -38,4 +38,5 @@ description: "RiboKit Software Packages"
 
 | Package | Description | Language |
 | --- | --- | ---: |
+| [**RiboPaint**](/RiboPaint/) | Publication-quality secondary structure diagram painter | `MATLAB` |
 | [**RiboVis**](/RiboVis/) | Easy-to-install PyMOL utilities for RNA visualization | `Python` |
