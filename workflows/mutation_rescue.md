@@ -19,7 +19,7 @@ Compensatory mutation/rescue is a classic methodology that can give strong confi
 
 1. **Design primers** for each candidate base pair with [Primerize](/Primerize/).
 
-2. Carry out the **chemical mapping** measurements.  
+2. Carry out the **chemical mapping** measurements, using [HiTRACE](/HiTRACE/) and [RDATKit](/RDATKit/).  
 
 3. Look to see if single mutants exhibit distorted chemical mapping profiles compared to the starter sequence, and if double mutants restore the original profile.
 

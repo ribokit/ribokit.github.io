@@ -21,7 +21,7 @@ While many RNA segments do not form stereotyped 3D structures, for the ones that
 
 2. You may want to confirm your RNA's *secondary structure* using [mutate-and-map](/workflows/2d_modeling/) or [compensatory mutation-rescue](/workflows/mutation_rescue/). 
 
-3. Carry out the **MOHCA-seq** measurement to infer tertiary proximities present in solution.
+3. Carry out the **MOHCA-seq** measurement to infer tertiary proximities present in solution; using [MAPseeker](/MAPseeker/).
 
 4. Carry out 3D Rosetta modeling with [FARFAR](/RNAdenovo/), guided by these secondary structure and tertiary proximity data.
 

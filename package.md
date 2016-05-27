@@ -38,4 +38,4 @@ description: "RiboKit Software Packages"
 
 | Package | Description | Language |
 | --- | --- | ---: |
-| [**RiboVis**](/RiboVis/) | Easy-to-install pymol utilities for RNA visualization | `Python` |
+| [**RiboVis**](/RiboVis/) | Easy-to-install PyMOL utilities for RNA visualization | `Python` |
