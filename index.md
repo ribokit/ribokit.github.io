@@ -3,9 +3,11 @@ level: 0
 description: Research Tools for RNA Modeling &amp; Design
 ---
 
-## Choose Your Workflow 
+[![RiboKit Logo](/assets/ribokit_logo_lg.png "RiboKit Logo"){: .full}](/assets/ribokit_logo_lg.png)
+{: .center}
 
-<br/>
+<hr/>
+## Choose Your Workflow 
 
 * ##### [I have just discovered an RNA molecule](/workflows/from_scratch/)
 
