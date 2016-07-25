@@ -31,7 +31,7 @@ Copyright &copy; of **REEFFIT** _Source Code_ is described in [LICENSE.md](https
 ## Reference
 
 >Cordero, P., and Das, R. (**2015**)<br/>
->**Rich structure landscapes in both natural and artificial RNAs revealed by mutate-and-map analysis**{: style="color:#3399cc"}<br/>
+>**Rich RNA structure landscapes revealed by mutate-and-map analysis**{: style="color:#3399cc"}<br/>
 >*PLOS Computational Biology* **11 (11)**: e1004473. | [Paper](https://daslab.stanford.edu/site_data/pub_pdf/2015_Cordero_PLOSComptBiol.pdf) | [Link](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004473)
 
 <hr/>
