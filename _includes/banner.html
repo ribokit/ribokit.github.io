@@ -3,20 +3,20 @@
     <span id="logo"><span class="octicon octicon-mark-github"></span></span>
 
     {% if page.repo %}
-      <a href="https://github.com/{{ page.repo }}" target="_blank" class="button fork"><strong>View On GitHub</strong></a>
+      <a href="https://github.com/{{ page.repo }}" target="_blank" rel="noopener noreferrer external" class="button fork"><strong>View On GitHub</strong></a>
     {% endif %}
 
     <div class="downloads">
       {% if page.level == 0 %}
         <span>Visit</span>
         <ul>
-          <li><a href="https://daslab.stanford.edu/" target="_blank" class="button"><strong>Das Lab</strong></a></li>
+          <li><a href="https://daslab.stanford.edu/" target="_blank" rel="noopener noreferrer external" class="button"><strong>Das Lab</strong></a></li>
         </ul>
       {% elsif page.level == 1 %}
         <span>Downloads</span>
         <ul>
-          <li><a href="https://github.com/{{ page.repo }}/zipball/master" target="_blank" class="button">ZIP</a></li>
-          <li><a href="https://github.com/{{ page.repo }}/tarball/master" target="_blank" class="button">TAR</a></li>
+          <li><a href="https://github.com/{{ page.repo }}/zipball/master" target="_blank" rel="noopener noreferrer external" class="button">ZIP</a></li>
+          <li><a href="https://github.com/{{ page.repo }}/tarball/master" target="_blank" rel="noopener noreferrer external" class="button">TAR</a></li>
         </ul>
       {% else %}
         <span style="text-transform: none; font-size: 120%;"><u>{{ page.permalink }}</u></span>
@@ -24,16 +24,16 @@
           <li><a href="../" class="button">&#x21E7;</a></li>
           {% if page.prev %}
             {% if page.prev contains '://' %}
-            <li><a href="{{ page.prev }}" class="button">&#x21E6;</a></li>
+            <li><a href="{{ page.prev }}" class="button" rel="prev">&#x21E6;</a></li>
             {% else %}
-            <li><a href="../{{ page.prev }}" class="button">&#x21E6;</a></li>
+            <li><a href="../{{ page.prev }}" class="button" rel="prev">&#x21E6;</a></li>
             {% endif %}
           {% endif %}
           {% if page.next %}
             {% if page.next contains '://' %}
-            <li><a href="{{ page.next }}" class="button">&#x21E8;</a></li>
+            <li><a href="{{ page.next }}" class="button" rel="next">&#x21E8;</a></li>
             {% else %}
-            <li><a href="../{{ page.next }}" class="button">&#x21E8;</a></li>
+            <li><a href="../{{ page.next }}" class="button" rel="next">&#x21E8;</a></li>
             {% endif %}
           {% endif %}
         </ul>
