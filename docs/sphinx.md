@@ -21,6 +21,14 @@ pip install sphinx
 
 * Command `sphinx-quickstart` should be available if properly installed.
 
+> For unknown reasons, you may not have `sphinx-quickstart` executable anywhere. No solution was found online for this case. As a temporary fix, go to the GitHub repository [Sphinx](https://github.com/sphinx-doc/sphinx), download the `sphinx-build.py` file to local, and manually link it by:
+
+```bash
+chmod +x /path/to/sphinx-build.py
+sudo ln -s /path/to/sphinx-build.py /usr/local/bin/sphinx-build
+```
+
+
 Now creates a `docs/` folder inside the directory tree:
 
 ```
