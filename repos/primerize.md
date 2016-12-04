@@ -10,7 +10,7 @@ author: Siqi Tian
 
 **Primerize** (previously named **NA_thermo**), is an archive of *Python* and *MATLAB* scripts for primer design and nucleic acid thermodynamic scripts developed by the [Das Lab](https://daslab.stanford.edu/) at Stanford University for high-throughput RNA synthesis and design.
 
-The algorithm designs *forward* (sense strand) and *reverse* (anti-sense strand) primers that minimize the total length, and therefore the total synthesis cost, of the oligonucleotides. Although developed independently, **Primerize** is a special case of the general ‘*Gapped Oligo Design*’ algorithm, optimizing the mispriming score and sequence span instead of *T<sub>m<sub>*.
+The algorithm designs *forward* (sense strand) and *reverse* (anti-sense strand) primers that minimize the total length, and therefore the total synthesis cost, of the oligonucleotides. Although developed independently, **Primerize** is a special case of the general ‘*Gapped Oligo Design*’ algorithm, optimizing the mispriming score and sequence span instead of _T_<sub>_m_<sub>.
 
 An online user-friendly GUI is available as the [**Primerize Server**](https://primerize.stanford.edu/).
 
@@ -24,9 +24,24 @@ For instructions, see [daslab.github.io](https://daslab.github.io/Primerize/inst
 <hr/>
 ## Documentation
 
-* #### *Python* Documentation is available [**here**](https://daslab.github.io/Primerize/).
+* *Python* Documentation is available [**here**](https://daslab.github.io/Primerize/).
 
-* #### *MATLAB* Documentation is available [**here**](https://daslab.github.io/Primerize/matlab).
+* *MATLAB* Documentation is available [**here**](https://daslab.github.io/Primerize/matlab).
+
+### Experimental Protocols
+
+Please visit the **Primerize** server for a complete guidance on primer designs and RNA synthesis:
+
+* [DNA template design](https://primerize.stanford.edu/protocol/#temp_design)
+
+* [IDT oligo ordering](https://primerize.stanford.edu/protocol/#IDT)
+
+* [PCR assembly](https://primerize.stanford.edu/protocol/#PCR)
+
+* [*in vitro* transcription](https://primerize.stanford.edu/protocol/#TX)
+
+* [Massively parallel preparation](https://primerize.stanford.edu/protocol/#par_prep)
+
 
 <hr/>
 ## License
