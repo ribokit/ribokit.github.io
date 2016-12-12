@@ -14,7 +14,7 @@ defaults:
     values:
       layout: "default"
       level: 1
-      title: 
+      title: ""
       author: "Siqi Tian"
       ga_tracker: UA-36037648-6
   -
