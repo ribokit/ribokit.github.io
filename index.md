@@ -1,6 +1,5 @@
 ---
 level: 0
-title: ""
 description: Research Tools for RNA Modeling &amp; Design
 ---
 
