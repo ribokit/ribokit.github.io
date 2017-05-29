@@ -2,7 +2,7 @@
 permalink: /Biers/
 repo: "DasLab/Biers"
 title: "Biers"
-description: "<u>B</u>est <u>I</u>nference <u>E</u>ngine for <u>R</u>NA <u>S</u>tructure"
+description: "<u>B</u>asic <u>I</u>nference <u>E</u>ngine for <u>R</u>NA <u>S</u>tructure"
 ---
 
 
