@@ -22,7 +22,15 @@ description: "RiboKit Software Packages"
 | [**REEFFIT**](/REEFFIT/) | Analysis of multi-state RNAs from MCM data | `Python` |
 
 <hr/>
-## Modeling &amp; Design
+## Graphics
+
+| Package | Description | Language |
+| --- | --- | ---: |
+| [**RiboPaint**](/RiboPaint/) | Publication-quality secondary structure diagram painter | `MATLAB` |
+| [**RiboVis**](/RiboVis/) | Easy-to-install PyMOL utilities for RNA visualization | `Python` |
+
+<hr/>
+## Modeling &amp; Design (external, but related to Ribokit)
 
 | Package | Description | Language |
 | --- | --- | ---: |
@@ -33,10 +41,3 @@ description: "RiboKit Software Packages"
 | [**Rosetta RNAdesign**](/RNAdesign/) | Fast generator of RNA design hypotheses | `C++` |
 | [**Rosetta Stepwise**](/Stepwise/) | High-resolution RNA motif modeling/design | `C++` |
 
-<hr/>
-## Graphics
-
-| Package | Description | Language |
-| --- | --- | ---: |
-| [**RiboPaint**](/RiboPaint/) | Publication-quality secondary structure diagram painter | `MATLAB` |
-| [**RiboVis**](/RiboVis/) | Easy-to-install PyMOL utilities for RNA visualization | `Python` |
