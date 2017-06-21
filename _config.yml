@@ -57,6 +57,22 @@ defaults:
       repo: "ribokit/RiboPaint"
       author: "Siqi Tian"
       root: "/RiboPaint/"
+  -
+    scope:
+      path: "repos/hitrace"
+    values:
+      title: "HiTRACE"
+      description: "<u>Hi</u>gh-<u>T</u>hroughput <u>R</u>obust <u>A</u>nalysis for <u>C</u>apillary <u>E</u>lectrophoresis"
+      repo: "hitrace/HiTRACE"
+      root: "/HiTRACE/"
+  -
+    scope:
+      path: "repos/rdatkit"
+    values:
+      title: "RDATKit"
+      description: "<u>R</u>NA <u>Dat</u>aset Tool<u>Kit</u>"
+      repo: "hitrace/RDATKit"
+      root: "/RDATKit/"
 
 # Build settings
 markdown: kramdown
