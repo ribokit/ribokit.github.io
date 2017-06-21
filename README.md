@@ -18,6 +18,12 @@ To run the test/dev server, use:
 jekyll serve
 ```
 
+To preview the server in your web browser, go to:
+
+http://localhost:4000/
+
+
+
 ## Contributing
 
 Please follow the instructions at https://ribokit.github.io/docs/ for contributing new contents. Format standard for text and images, as well as integration of `jekyll` or `sphinx` pages are described in detail.
