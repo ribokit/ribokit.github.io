@@ -35,8 +35,8 @@ description: Research Tools for RNA Modeling &amp; Design
 
 * ##### [Multidimensional Chemical Mapping](/package/#multidimensional-chemical-mapping)
 
-* ##### [Modeling &amp; Design](/package/#modeling--design)
-
 * ##### [Graphics](/package/#graphics)
+
+* ##### [Modeling &amp; Design](/package/#modeling--design)
 
 * ##### [Experiment Protocol](/protocol/)

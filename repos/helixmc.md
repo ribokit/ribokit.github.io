@@ -83,7 +83,7 @@ Copyright &copy; of **HelixMC** _Source Code_ is described in [LICENSE.md](https
 <hr/>
 ## Related Packages
 
-* [**HiTRACE**](https://hitrace.github.io/HiTRACE/)
+* [**HiTRACE**](https://ribokit.github.io/HiTRACE/)
 
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.

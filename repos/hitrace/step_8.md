@@ -23,7 +23,7 @@ It saves the current figure (`gcf`) to a **.eps** file in the current directory 
 
 ### Multi-Page Print-Outs
 
-It is rewarding to archive your sequence assignment since you spent so much time on it! **HiTRACE** provides a graphic function for figures like the [overview](/hitrace/res/pfl_1D_xsel.pdf):
+It is rewarding to archive your sequence assignment since you spent so much time on it! **HiTRACE** provides a graphic function for figures like the [overview](/repos/hitrace/res/pfl_1D_xsel.pdf):
 
 ```matlab
 labels = data_types;
@@ -54,9 +54,9 @@ The above code first prepares the `labels` which includes `'(-)'` and `'(+)'` fo
 
 > The arguments on _second_ and _third_ lines are totally optional. It offers finer adjustments on the image, borders, and texts. Checkout `help print_xsel_split` for detail specs.
 
-[![print_xsel_split Figure 1](/hitrace/res/pfl_1D_seq_1.png "print_xsel_split Figure 1"){: .half}](/hitrace/res/pfl_1D_seq_1.png)
-[![print_xsel_split Figure 2](/hitrace/res/pfl_1D_seq_2.png "print_xsel_split Figure 2"){: .half}](/hitrace/res/pfl_1D_seq_2.png)
-[![print_xsel_split Figure 3](/hitrace/res/pfl_1D_seq_3.png "print_xsel_split Figure 3"){: .half}](/hitrace/res/pfl_1D_seq_3.png)
+[![print_xsel_split Figure 1](/repos/hitrace/res/pfl_1D_seq_1.png "print_xsel_split Figure 1"){: .half}](/repos/hitrace/res/pfl_1D_seq_1.png)
+[![print_xsel_split Figure 2](/repos/hitrace/res/pfl_1D_seq_2.png "print_xsel_split Figure 2"){: .half}](/repos/hitrace/res/pfl_1D_seq_2.png)
+[![print_xsel_split Figure 3](/repos/hitrace/res/pfl_1D_seq_3.png "print_xsel_split Figure 3"){: .half}](/repos/hitrace/res/pfl_1D_seq_3.png)
 {: .center}
 
 For the **2D** data, we often need to find interesting features by eye, e.g. to discover mutants that perturb a certain region. This also requires printing the entire data (`d_align`) larger than a single page. We have a command to do this:
@@ -71,10 +71,10 @@ print_CE_split(d_align, d_rdat, [], [], xsel, [], [], area_pred, ...
 
 Similar to `print_xsel_split()`, the command `print_CE_split()` takes a lot of options too. Note that you need an _RDAT_ object `d_rdat` before calling this function. Saving _RDAT_ files is explained in [**Step #9**](../step_9/). We blanked the bad lane for print-out here.
 
-[![print_CE_split Figure 1](/hitrace/res/pfl_2D_seq_1.png "print_CE_split Figure 1"){: .half}](/hitrace/res/pfl_2D_seq_1.png)
-[![print_CE_split Figure 3](/hitrace/res/pfl_2D_seq_3.png "print_CE_split Figure 3"){: .half}](/hitrace/res/pfl_2D_seq_3.png)
-[![print_CE_split Figure 2](/hitrace/res/pfl_2D_seq_2.png "print_CE_split Figure 2"){: .half}](/hitrace/res/pfl_2D_seq_2.png)
-[![print_CE_split Figure 4](/hitrace/res/pfl_2D_seq_4.png "print_CE_split Figure 4"){: .half}](/hitrace/res/pfl_2D_seq_4.png)
+[![print_CE_split Figure 1](/repos/hitrace/res/pfl_2D_seq_1.png "print_CE_split Figure 1"){: .half}](/repos/hitrace/res/pfl_2D_seq_1.png)
+[![print_CE_split Figure 3](/repos/hitrace/res/pfl_2D_seq_3.png "print_CE_split Figure 3"){: .half}](/repos/hitrace/res/pfl_2D_seq_3.png)
+[![print_CE_split Figure 2](/repos/hitrace/res/pfl_2D_seq_2.png "print_CE_split Figure 2"){: .half}](/repos/hitrace/res/pfl_2D_seq_2.png)
+[![print_CE_split Figure 4](/repos/hitrace/res/pfl_2D_seq_4.png "print_CE_split Figure 4"){: .half}](/repos/hitrace/res/pfl_2D_seq_4.png)
 {: .center}
 
 Now you can splice them together into one giant print-out!
@@ -110,12 +110,12 @@ It makes an image for a part of `d_align` in black/white heatmap, and draw lines
 
 > The **HiTRACE** package includes a handy function `make_lines()` that can make vertical lines with styles. Also check out `make_lines_horizontal()`.
 
-[![Data Visualization Figure](/hitrace/res/pfl_1D_vis_ce.png "[Data Visualization Figure"){: .full}](/hitrace/res/pfl_1D_vis_ce.png)
+[![Data Visualization Figure](/repos/hitrace/res/pfl_1D_vis_ce.png "[Data Visualization Figure"){: .full}](/repos/hitrace/res/pfl_1D_vis_ce.png)
 {: .center}
 
 As mentioend in [**Step #7**](../step_7/), here is the script for making a figure like this:
 
-[![Data Visualization Figure](/hitrace/res/pfl_1D_vis_rx.png "[Data Visualization Figure"){: .full}](/hitrace/res/pfl_1D_vis_rx.png)
+[![Data Visualization Figure](/repos/hitrace/res/pfl_1D_vis_rx.png "[Data Visualization Figure"){: .full}](/repos/hitrace/res/pfl_1D_vis_rx.png)
 {: .center}
 
 The code is here and we will break it down for you:

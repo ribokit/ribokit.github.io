@@ -38,7 +38,7 @@ author: Siqi Tian
 | Key | Value |
 | --- | --- |
 | `layout` | The layout template for the page. Use `default` for all pages; use `redirect` for redirecting a `permalink` to a new address (with a 301 page, see `redirect_to`). |
-| `level` | The level for the page. This controls the navigation banner: `0` displays "Visit Lab" button; used for domain index page only (e.g. `https://ribokit.github.io`). `1` displays "View GitHub" and download package for repository; used for landing page of each package (e.g. `https://ribokit.github.io/RiboVis/`). `2` displays "up", "prev", "next" navigation buttons; used for tutorial series (e.g. `https://hitrace.github.io/HiTRACE/tutorial/step_0/`). |
+| `level` | The level for the page. This controls the navigation banner: `0` displays "Visit Lab" button; used for domain index page only (e.g. `https://ribokit.github.io`). `1` displays "View GitHub" and download package for repository; used for landing page of each package (e.g. `https://ribokit.github.io/RiboVis/`). `2` displays "up", "prev", "next" navigation buttons; used for tutorial series (e.g. `https://ribokit.github.io/HiTRACE/tutorial/step_0/`). |
 | `permalink` | The URL that the page responds to. Always start and end with `/`. |
 
 * **Descriptive Fields**:
@@ -120,7 +120,7 @@ The GitHub Pages are hosted either at organization level via a `organization/org
 <hr/>
 ## Integration
 
-Depending on your repository, it might go under `hitrace/hitrace.github.io`, `DasLab/daslab.github.io`, or other places.
+Depending on your repository, it might go under `hitrace/ribokit.github.io`, `DasLab/daslab.github.io`, or other places.
 
 > The repository is organized that each package has its own folder. Use lower case with underscores (`_`) for folder names. The landing page should be named as `index.md`. Please follow this rule when contributing!
 

@@ -1,6 +1,6 @@
 ---
 permalink: /Biers/
-repo: "DasLab/Biers"
+repo: "ribokit/Biers"
 title: "Biers"
 description: "<u>B</u>asic <u>I</u>nference <u>E</u>ngine for <u>R</u>NA <u>S</u>tructure"
 ---

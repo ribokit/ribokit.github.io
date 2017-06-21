@@ -17,7 +17,7 @@ Since we have done the hard work assigning where each band is, it is time to col
 
 It takes the `d_align` traces and the band positions in `xsel`, and fits electrophoretic traces to sums of Gaussians. It produces a figure:
 
-[![fit_to_gaussians Figure](/hitrace/res/pfl_1D_fig_fit.png "fit_to_gaussians Figure"){: .full}](/hitrace/res/pfl_1D_fig_fit.png)
+[![fit_to_gaussians Figure](/repos/hitrace/res/pfl_1D_fig_fit.png "fit_to_gaussians Figure"){: .full}](/repos/hitrace/res/pfl_1D_fig_fit.png)
 {: .center}
 
 You'll see the original data on the _left_, the fitted profiles in the _middle_, and residuals on the _right_. There is often a lot of noise (alternating black and white bars) at the top and bottom of the plot; the very large signals there are often saturated and not reproduced well by Gaussians. [That's OK, we'll ignore that data later.] 
@@ -45,5 +45,5 @@ darea_peak(:, 56) = 0;
 
 We erase lane 56 since it was bad data. This is to prevent accidental interpretation.
 
-[![fit_to_gaussians Figure](/hitrace/res/pfl_2D_fig_fit.png "fit_to_gaussians Figure"){: .full}](/hitrace/res/pfl_2D_fig_fit.png)
+[![fit_to_gaussians Figure](/repos/hitrace/res/pfl_2D_fig_fit.png "fit_to_gaussians Figure"){: .full}](/repos/hitrace/res/pfl_2D_fig_fit.png)
 {: .center}

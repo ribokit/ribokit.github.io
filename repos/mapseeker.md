@@ -1,6 +1,6 @@
 ---
 permalink: /MAPseeker/
-repo: DasLab/MAPseeker
+repo: ribokit/MAPseeker
 title: "MAPseeker"
 description: "Software for analysis of NGS chemical mapping experiments"
 author: Clarence Cheng

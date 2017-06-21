@@ -26,7 +26,7 @@ permalink: /RDATKit/
 <hr/>
 ## License
 
-Copyright &copy; of **RDATKit** _Source Code_ is described in [LICENSE.md](https://github.com/hitrace/RDATKit/blob/master/LICENSE.md).
+Copyright &copy; of **RDATKit** _Source Code_ is described in [LICENSE.md](https://github.com/RiboKit/RDATKit/blob/master/LICENSE.md).
 
 <hr/>
 ## Related Packages

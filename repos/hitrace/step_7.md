@@ -24,7 +24,7 @@ plot(normalized_reactivity(:, 3:6))
 
 > This step only concerns error estimates across **replicates**. If your experiment only involves one lane for each condition, you do not need to run this command. And use `normalized_error` directly instead.
 
-[![average_data_filter_outliers Figure](/hitrace/res/pfl_1D_fig_err.png "average_data_filter_outliers Figure"){: .full}](/hitrace/res/pfl_1D_fig_err.png)
+[![average_data_filter_outliers Figure](/repos/hitrace/res/pfl_1D_fig_err.png "average_data_filter_outliers Figure"){: .full}](/repos/hitrace/res/pfl_1D_fig_err.png)
 {: .center}
 
 We can see the first 2 (blue &amp; green) are in good agreement; so are the last 2 (red &amp; magenta). But they do not agree with each other. In our experiment, 2 different modifier concentration were tried. And in this case, we think the first condition (e.g. DMS _1.0%_) is better.
@@ -48,7 +48,7 @@ We can see the first 2 (blue &amp; green) are in good agreement; so are the last
 
 For simplicity, we created variables (e.g. `d_DMS_minus`) to hold individual reactivity values. We can now make a figure and evaluate the data (see [**Step #7**](../step_7/)).
 
-[![Data Visualization Figure](/hitrace/res/pfl_1D_vis_rx.png "[Data Visualization Figure"){: .full}](/hitrace/res/pfl_1D_vis_rx.png)
+[![Data Visualization Figure](/repos/hitrace/res/pfl_1D_vis_rx.png "[Data Visualization Figure"){: .full}](/repos/hitrace/res/pfl_1D_vis_rx.png)
 {: .center}
 
 Here are some checkpoints to go over:

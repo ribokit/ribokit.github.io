@@ -42,7 +42,7 @@ Next, we define the standard deviation to use as a cutoff for saturation in `uns
 sd_cutoff = 1.5;
 ```
 
-Now we need to split the dataset into a _diluted_ half and a _saturated_ (_undiluted_) half. We exclude any ddNTP lanes since we are not interested in quantitating them. For the DMS, CMCT, and SHAPE profiles, recall from the layout [here](/hitrace/res/pfl_1D_xsel.pdf). We know that:
+Now we need to split the dataset into a _diluted_ half and a _saturated_ (_undiluted_) half. We exclude any ddNTP lanes since we are not interested in quantitating them. For the DMS, CMCT, and SHAPE profiles, recall from the layout [here](/repos/hitrace/res/pfl_1D_xsel.pdf). We know that:
 
 ```matlab
 saturated_idx = [9, 10, 13, 14, 17 ,18 ,21, 22, 25, 26, 29, 30, 33, 34, 37, 38, 41, 42, 45, 46, 49, 50, 53, 54];
@@ -108,7 +108,7 @@ Finally, we can kick off the quantitation with:
 
 > Recall the numbers of nucleotides reactive in _GAGUA_ to DMS [2], CMCT [1], and SHAPE [5] are different. This information helps normalization step to scale up the profiles properly (by averaging among the right number of reactive nucleotides within _GAGUA_).
 
-To better clarify the confusing indices and rearrangments, please read this [illustration](/hitrace/res/pfl_1D_rx_matrix.png).
+To better clarify the confusing indices and rearrangments, please read this [illustration](/repos/hitrace/res/pfl_1D_rx_matrix.png).
 
 <hr/>
 
@@ -116,14 +116,14 @@ The run goes through the 4 processes, and waits you to continue between steps:
 
 * **Unsaturation**{:style="color:#ff5c2b;"}
 
-[![get_reactivities Figure Unsaturation](/hitrace/res/pfl_1D_rx_unsat.png "get_reactivities Figure (Unsaturation)"){: .full}](/hitrace/res/pfl_1D_rx_unsat.png)
+[![get_reactivities Figure Unsaturation](/repos/hitrace/res/pfl_1D_rx_unsat.png "get_reactivities Figure (Unsaturation)"){: .full}](/repos/hitrace/res/pfl_1D_rx_unsat.png)
 {: .center}
 
 The _saturated_ sample is on the _left_, _diluted_ sample (after scaling up to match _saturated_ sample) is in the _middle_, and the result after `unsaturate()` is on the _right_. The red lines show where a plateaued reactivity is found in _saturated_ sample (by comparing to scaled _diluted_ sample).
 
 * **Attenuation Correction**{:style="color:#ff5c2b;"}
 
-[![get_reactivities Figure Attenuation Correction](/hitrace/res/pfl_1D_rx_attcorr.png "get_reactivities Figure (Attenuation Correction)"){: .full}](/hitrace/res/pfl_1D_rx_attcorr.png)
+[![get_reactivities Figure Attenuation Correction](/repos/hitrace/res/pfl_1D_rx_attcorr.png "get_reactivities Figure (Attenuation Correction)"){: .full}](/repos/hitrace/res/pfl_1D_rx_attcorr.png)
 {: .center}
 
 The data is now plotted by `seqpos`: 5&prime; on the _top_. The attenuation (lighter from _bottom_ to _top_) is now corrected.
@@ -132,14 +132,14 @@ The data is now plotted by `seqpos`: 5&prime; on the _top_. The attenuation (lig
 
 * **Background Subtraction**{:style="color:#ff5c2b;"}
 
-[![get_reactivities Figure Background Subtraction](/hitrace/res/pfl_1D_rx_bkgsub.png "get_reactivities Figure (Background Subtraction)"){: .full}](/hitrace/res/pfl_1D_rx_bkgsub.png)
+[![get_reactivities Figure Background Subtraction](/repos/hitrace/res/pfl_1D_rx_bkgsub.png "get_reactivities Figure (Background Subtraction)"){: .full}](/repos/hitrace/res/pfl_1D_rx_bkgsub.png)
 {: .center}
 
 After subtracting the background, the data now looks cleaner. Of course the _nomod_lanes are completely blank now.
 
 * **Normalization**{:style="color:#ff5c2b;"}
 
-[![get_reactivities Figure Normalization](/hitrace/res/pfl_1D_rx_norm.png "get_reactivities Figure (Normalization)"){: .full}](/hitrace/res/pfl_1D_rx_norm.png)
+[![get_reactivities Figure Normalization](/repos/hitrace/res/pfl_1D_rx_norm.png "get_reactivities Figure (Normalization)"){: .full}](/repos/hitrace/res/pfl_1D_rx_norm.png)
 {: .center}
 
 > Reactive residues in _GAGUA_ reference loops are scaled to reactivity of 1.0 on average.

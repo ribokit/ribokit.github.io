@@ -1,6 +1,6 @@
 ---
 permalink: /HiTRACE/
-repo: "hitrace/HiTRACE"
+repo: "ribokit/HiTRACE"
 title: "HiTRACE"
 description: "<u>Hi</u>gh-<u>T</u>hroughput <u>R</u>obust <u>A</u>nalysis for <u>C</u>apillary <u>E</u>lectrophoresis"
 ---
@@ -15,12 +15,12 @@ An online user-friendly GUI is available at the [**HiTRACE Web**](http://hitrace
 <hr/>
 ## Installation
 
-**HiTRACE** requires *MATLAB* version `>= R2011a`. To install **HiTRACE**, see [hitrace.github.io](https://hitrace.github.io/HiTRACE/install/).
+**HiTRACE** requires *MATLAB* version `>= R2011a`. To install **HiTRACE**, see [ribokit.github.io](https://ribokit.github.io/HiTRACE/install/).
 
 <hr/>
 ## Documentation
 
-* #### *MATLAB* Tutorial is available at: [**tutorial/**](https://hitrace.github.io/HiTRACE/tutorial/).
+* #### *MATLAB* Tutorial is available at: [**tutorial/**](https://ribokit.github.io/HiTRACE/tutorial/).
 
 <hr/>
 ## License

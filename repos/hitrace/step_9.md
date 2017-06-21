@@ -91,8 +91,8 @@ We can read in the file for a visual check:
 d_rdat = show_rdat(filename);
 ```
 
-[![show_rdat Figure 1](/hitrace/res/pfl_1D_rdat_1.png "[show_rdat Figure 1"){: .half}](/hitrace/res/pfl_1D_rdat_1.png)
-[![show_rdat Figure 3](/hitrace/res/pfl_1D_rdat_3.png "[show_rdat Figure 3"){: .half}](/hitrace/res/pfl_1D_rdat_3.png)
+[![show_rdat Figure 1](/repos/hitrace/res/pfl_1D_rdat_1.png "[show_rdat Figure 1"){: .half}](/repos/hitrace/res/pfl_1D_rdat_1.png)
+[![show_rdat Figure 3](/repos/hitrace/res/pfl_1D_rdat_3.png "[show_rdat Figure 3"){: .half}](/repos/hitrace/res/pfl_1D_rdat_3.png)
 {: .center}
 
 Once finished, the `show_rdat()` function returns a _RDAT_ object:
@@ -155,5 +155,5 @@ output_workspace_to_rdat_file(filename, name, sequence, offset, seqpos, area_pea
 d_rdat = show_rdat(filename);
 ```
 
-[![show_rdat Figure](/hitrace/res/pfl_2D_rdat.png "[show_rdat Figure"){: .full}](/hitrace/res/pfl_2D_rdat.png)
+[![show_rdat Figure](/repos/hitrace/res/pfl_2D_rdat.png "[show_rdat Figure"){: .full}](/repos/hitrace/res/pfl_2D_rdat.png)
 {: .center}

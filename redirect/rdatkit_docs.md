@@ -1,4 +1,4 @@
 ---
 permalink: /rdatkit/docs/
-redirect_to:  https://hitrace.github.io/RDATKit/docs/
+redirect_to:  https://ribokit.github.io/RDATKit/docs/
 ---

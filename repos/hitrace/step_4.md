@@ -19,7 +19,7 @@ xsel = []; clf;
 
 > `clf` clears a figure. It makes sure the interactive interface will inherit a full-size figure window.
 
-The goal is to specify the _y_-coordinates for each sequence position on the CE trace matrix, like the one showed in the [overview](/hitrace/res/pfl_1D_xsel.pdf).
+The goal is to specify the _y_-coordinates for each sequence position on the CE trace matrix, like the one showed in the [overview](/repos/hitrace/res/pfl_1D_xsel.pdf).
 
 Let's start the interactive annotation. The core command is `annotate_sequence`. It brings up an interactive window, with your mouse as a crosshair.
 
@@ -27,7 +27,7 @@ Let's start the interactive annotation. The core command is `annotate_sequence`.
 [xsel, seqpos, area_pred] = annotate_sequence(d_align, xsel, sequence, offset, data_types, first_RT_nucleotide, structure);
 ```
 
-[![annotate_sequence Figure empty](/hitrace/res/pfl_1D_xsel_empty.png "annotate_sequence Figure (empty)"){: .full}](/hitrace/res/pfl_1D_xsel_empty.png)
+[![annotate_sequence Figure empty](/repos/hitrace/res/pfl_1D_xsel_empty.png "annotate_sequence Figure (empty)"){: .full}](/repos/hitrace/res/pfl_1D_xsel_empty.png)
 {: .center}
 
 Actions via keystrokes or mouse clicks are listed here:
@@ -71,12 +71,12 @@ You **only** need to click 2 bands for it!
 
 These 2 coordinates will be interpreted as the **first** and **last** band corresponding to your sequence. This helps the _auto-assign_ algorithm in narrowing down the search space. Now hit `x`.
 
-[![annotate_sequence Figure 2 bands](/hitrace/res/pfl_1D_xsel_2band.png "annotate_sequence Figure (2 bands)"){: .full}](/hitrace/res/pfl_1D_xsel_2band.png)
+[![annotate_sequence Figure 2 bands](/repos/hitrace/res/pfl_1D_xsel_2band.png "annotate_sequence Figure (2 bands)"){: .full}](/repos/hitrace/res/pfl_1D_xsel_2band.png)
 {: .center}
 
 Once it finishes the calculation, you will see sequence positions filled out for you:
 
-[![annotate_sequence Figure Auto-assign](/hitrace/res/pfl_1D_xsel_auto.png "annotate_sequence Figure (Auto-assign)"){: .full}](/hitrace/res/pfl_1D_xsel_auto.png)
+[![annotate_sequence Figure Auto-assign](/repos/hitrace/res/pfl_1D_xsel_auto.png "annotate_sequence Figure (Auto-assign)"){: .full}](/repos/hitrace/res/pfl_1D_xsel_auto.png)
 {: .center}
 
 The horizontal lines are colored based on sequence identity (<span style="color:#5496d7;">_A_</span>, <span style="color:#ffcc00;">_U_</span>, <span style="color:#9fc906;">_C_</span>, <span style="color:#f44336;">_G_</span>). The <span style="color:#f44336;">red</span> circles are where reactive bands are predicted to appear based on the combination of `sequence`, `structure`, and `data_types`. For example, an _A_ residue that is unpaired is predicted to be reactive in a DMS experiment; while any residue that is base-paired is predicted to be unreactive in a SHAPE experiment. For ddNTPs ladder lanes, the circles correspond to sequence identity as in an old-fasion sequencing gel.
@@ -111,8 +111,8 @@ As mentioned before, the _auto-assign_ result need to be double checked before a
 
 If you have the _GAGUA_ reference hairpin at both ends (or either end) of your RNA transcript, they serve as good checkpoints for your sequence assignment.
 
-[![annotate_sequence Figure GAGUA 5'](/hitrace/res/pfl_1D_xsel_GAGUA_5.png "annotate_sequence Figure (GAGUA 5')"){: .half}](/hitrace/res/pfl_1D_xsel_GAGUA_5.png)
-[![annotate_sequence Figure GAGUA 3'](/hitrace/res/pfl_1D_xsel_GAGUA_3.png "annotate_sequence Figure (GAGUA 3')"){: .half}](/hitrace/res/pfl_1D_xsel_GAGUA_3.png)
+[![annotate_sequence Figure GAGUA 5'](/repos/hitrace/res/pfl_1D_xsel_GAGUA_5.png "annotate_sequence Figure (GAGUA 5')"){: .half}](/repos/hitrace/res/pfl_1D_xsel_GAGUA_5.png)
+[![annotate_sequence Figure GAGUA 3'](/repos/hitrace/res/pfl_1D_xsel_GAGUA_3.png "annotate_sequence Figure (GAGUA 3')"){: .half}](/repos/hitrace/res/pfl_1D_xsel_GAGUA_3.png)
 {: .center}
 
 All 5 residues of **_GAGUA_** are reactive to SHAPE; (only) both **_A_**s are reactive to DMS; and only the **_U_** residue is reactive to CMCT.
@@ -125,8 +125,8 @@ Here are examples showing symptoms of incorrect sequence assignment.
 
 * _Right_: having 1 **extra** band somewhere before this region causing guide circles to shift _up_.
 
-[![annotate_sequence Missing 1 Band](/hitrace/res/pfl_1D_xsel_miss.png "annotate_sequence Missing 1 Band"){: .half}](/hitrace/res/pfl_1D_xsel_miss.png)
-[![annotate_sequence Having 1 Extra Band](/hitrace/res/pfl_1D_xsel_extra.png "annotate_sequence Having 1 Extra Band"){: .half}](/hitrace/res/pfl_1D_xsel_extra.png)
+[![annotate_sequence Missing 1 Band](/repos/hitrace/res/pfl_1D_xsel_miss.png "annotate_sequence Missing 1 Band"){: .half}](/repos/hitrace/res/pfl_1D_xsel_miss.png)
+[![annotate_sequence Having 1 Extra Band](/repos/hitrace/res/pfl_1D_xsel_extra.png "annotate_sequence Having 1 Extra Band"){: .half}](/repos/hitrace/res/pfl_1D_xsel_extra.png)
 {: .center}
 
 Once finished, the `annotate_sequence()` command returns the following variables:
@@ -147,7 +147,7 @@ Yes, for **2D** datasets, you should aim for **120/120**, excluding the _bottom_
 
 > In **Mutate-and-Map** data, we process it into *Z_score* as pseudo-free energy bonus instead of absolute reactivity. The calculation of *Z_score* is row by row (nucleotide by nucleotide), with the attenuation cancelled out. Thus, there is no need to include the full-length extended band for quantitation.
 
-[![annotate_sequence Figure 2D](/hitrace/res/pfl_2D_xsel.png "annotate_sequence Figure (2D)"){: .full}](/hitrace/res/pfl_2D_xsel.png)
+[![annotate_sequence Figure 2D](/repos/hitrace/res/pfl_2D_xsel.png "annotate_sequence Figure (2D)"){: .full}](/repos/hitrace/res/pfl_2D_xsel.png)
 {: .center}
 
 Because we are using number strings in `data_types`, the red circles mark where the predicted pertubation would show up based on `structure` and `mutpos`. It is obvious that these red circles form a main diagonal marking mutations (_bottom left_ -> _top right_), as well as cross-diagonals marking helices based on given `structure`.

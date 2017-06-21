@@ -1,6 +1,6 @@
 ---
 permalink: /RDATKit/
-repo: "hitrace/RDATKit"
+repo: "ribokit/RDATKit"
 title: "RDATKit"
 description: "<u>R</u>NA <u>Dat</u>aset Tool<u>Kit</u>"
 ---
@@ -15,19 +15,19 @@ description: "<u>R</u>NA <u>Dat</u>aset Tool<u>Kit</u>"
 <hr/>
 ## Installation
 
-See [hitrace.github.io](https://hitrace.github.io/RDATKit/install/).
+Installation directions are on the [RDATkit install page](/RDATKit/install/).
 
 <hr/>
 ## Documentation
 
-* #### *MATLAB* Tutorial is available [**here**](https://hitrace.github.io/HiTRACE/tutorial/step_9/).
+* #### *MATLAB* Tutorial is available [**here**](/HiTRACE/tutorial/step_9/).
 
-* #### *Python* Documentation is available at: [**docs/**](https://hitrace.github.io/RDATKit/docs/).
+* #### *Python* Documentation is available at: [**docs/**](/RDATKit/docs/).
 
 <hr/>
 ## License
 
-Copyright &copy; of **RDATKit** _Source Code_ is described in [LICENSE.md](https://github.com/hitrace/RDATKit/blob/master/LICENSE.md).
+Copyright &copy; of **RDATKit** _Source Code_ is described in [LICENSE.md](https://github.com/RiboKit/RDATKit/blob/master/LICENSE.md).
 
 <hr/>
 ## Related Packages

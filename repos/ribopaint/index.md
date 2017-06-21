@@ -37,7 +37,7 @@ Copyright &copy; of **RiboPaint** _Source Code_ is described in [LICENSE.md](htt
 <hr/>
 ## Related Packages
 
-* [**HiTRACE**](https://hitrace.github.io/HiTRACE/)
+* [**HiTRACE**](https://ribokit.github.io/HiTRACE/)
 * [**RiboVis**](/RiboVis/)
 
 <hr/>
