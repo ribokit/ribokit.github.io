@@ -8,8 +8,6 @@ next: tutorial/
 
 **HiTRACE** requires *MATLAB* version `>= R2011a`. 
 
-> ~~Later versions of *MATLAB* are incompatible with codes that involves interactive interface handling.~~
-
 > For *Mac OS X* users with version `>= 10.10`, you may need this [patch](https://www.mathworks.com/support/bugreports/1098655) to settle a *Java* exception.
 
 To install **HiTRACE**, simply:
