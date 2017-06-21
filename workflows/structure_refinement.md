@@ -21,7 +21,7 @@ Stereochemical & backbone building errors are common in medium-resolution experi
 
 2. Carry out **[ERRASER](/ERRASER/)** either via server, on your laptop with Rosetta, or as part of PHENIX.
 
-3. *[Coming soon: Test that your structure are consistent with one-dimensional chemical accessibility data easily acquired with this [basic workflow](/workflows/from-scratch/). E-mail us if interested.]*
+3. *[Coming soon: Test that your structure are consistent with one-dimensional chemical accessibility data easily acquired with this [basic workflow](/workflows/from_scratch/). E-mail us if interested.]*
 
 <br/>
 

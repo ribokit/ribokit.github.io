@@ -17,7 +17,7 @@ While many RNA segments do not form stereotyped 3D structures, for the ones that
 
 ## Workflow
 
-1. Make sure you can *synthesize* your RNA using this [basic workflow](/workflows/from-scratch/).
+1. Make sure you can *synthesize* your RNA using this [basic workflow](/workflows/from_scratch/).
 
 2. You may want to confirm your RNA's *secondary structure* using [mutate-and-map](/workflows/2d_modeling/) or [compensatory mutation-rescue](/workflows/mutation_rescue/). 
 
