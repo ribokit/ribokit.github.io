@@ -17,7 +17,7 @@ The mutate-and-map experimental protocol gives rich data on an RNA's structure b
 
 ## Workflow
 
-1. Do the **basic characterization** of your RNA with this [workflow](/workflows/2D_modeling/). 
+1. Do the **basic characterization** of your RNA with this [workflow](/workflows/from_scratch/). 
 
 2. **Design primer plates** for mutate-and-map experiments with [Primerize](/Primerize/).
 
