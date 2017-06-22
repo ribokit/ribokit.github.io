@@ -1,7 +1,7 @@
 ---
 permalink: /Biers/rnastructure/
 level: 2
-prev: https://hitrace.github.io/HiTRACE/tutorial/step_10/
+prev: /HiTRACE/tutorial/step_10/
 next: varna/
 ---
 

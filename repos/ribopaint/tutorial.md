@@ -13,9 +13,9 @@ Congratulations! You’ve made it this far. It is usually helpful to plot the nu
 
 Example scripts and data used in this tutorial are included in the **RiboPaint** [repository](https://github.com/ribokit/RiboPaint/):
 
-* _[MATLAB Script](https://github.com/hitrace/HiTRACE/blob/master/Examples/example_pfl_color.m)_
-* _[MATLAB Data](https://github.com/hitrace/HiTRACE/blob/master/Examples/pfl_1D.mat)_
-* _[TIFF Image](https://github.com/hitrace/HiTRACE/blob/master/Examples/pfl_secstr.tif)_
+* _[MATLAB Script](https://github.com/ribokit/HiTRACE/blob/master/Examples/example_pfl_color.m)_
+* _[MATLAB Data](https://github.com/ribokit/HiTRACE/blob/master/Examples/pfl_1D.mat)_
+* _[TIFF Image](https://github.com/ribokit/HiTRACE/blob/master/Examples/pfl_secstr.tif)_
 
 <hr/>
 

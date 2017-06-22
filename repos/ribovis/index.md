@@ -60,7 +60,7 @@ Copyright &copy; of **RiboVis** _Source Code_ is described in [LICENSE.md](https
 <hr/>
 ## Related Packages
 
-* [**HiTRACE**](https://ribokit.github.io/HiTRACE/)
+* [**HiTRACE**](/HiTRACE/)
 * [**RiboPaint**](/RiboPaint/)
 
 
