@@ -46,7 +46,7 @@ Copyright &copy; of **HiTRACE** _Source Code_ is described in [LICENSE.md](https
 <hr/>
 ## Related Packages
 
-* ### [**Biers**](https://daslab.github.io/Biers/)
+* ### [**Biers**](/Biers/)
 
 * ### [**RDATKit**](/RDATKit/)
 

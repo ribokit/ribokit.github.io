@@ -1,7 +1,7 @@
 ---
 permalink: /RiboPaint/tutorial/
 level: 2
-prev: https://daslab.github.io/Biers/varna/
+prev: /Biers/varna/
 next: ../RiboVis/tutorial/
 ---
 

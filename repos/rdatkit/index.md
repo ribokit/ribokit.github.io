@@ -33,7 +33,7 @@ Copyright &copy; of **RDATKit** _Source Code_ is described in [LICENSE.md](https
 
 * ### [**HiTRACE**](/HiTRACE/)
 
-* ### [**Biers**](https://daslab.github.io/Biers/)
+* ### [**Biers**](/Biers/)
 
 * [**MAPSeeker**](https://ribokit.github.io/MAPseeker/)
 

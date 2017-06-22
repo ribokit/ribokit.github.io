@@ -18,7 +18,7 @@ LIkelihood-based Fits of Folding Transitions (**LIFFT**) models thermodynamic re
 - From GitHub, download the zip or tar file of the repository and unpack; or 
 
 ```bash
-git clone https://github.com/DasLab/LIFFT.git
+git clone https://github.com/ribokit/LIFFT.git
 ```
 
 - In *MATLAB*, go to "**Set Path**". Then "**Add with Subfolders**" of the target `path/to/LIFFT/`.
@@ -26,9 +26,9 @@ git clone https://github.com/DasLab/LIFFT.git
 <hr/>
 ## Documentation
 
-* #### Documentation is available in: [**docs/README.md**](https://github.com/DasLab/LIFFT/blob/master/README.md).
+* #### Documentation is available in: [**docs/README.md**](https://github.com/ribokit/LIFFT/blob/master/README.md).
 
-* #### An example is available in: [**examples/eterna_fit_FMN_binding/**](https://github.com/DasLab/LIFFT/tree/master/examples/eterna_fit_FMN_binding).
+* #### An example is available in: [**examples/eterna_fit_FMN_binding/**](https://github.com/ribokit/LIFFT/tree/master/examples/eterna_fit_FMN_binding).
 
 * #### To get more detailed documentation, in *MATLAB* type:
 
@@ -39,7 +39,7 @@ help lifft
 <hr/>
 ## License
 
-Copyright &copy; of **LIFFT** _Source Code_ is described in [LICENSE.md](https://github.com/DasLab/LIFFT/blob/master/LICENSE.md).
+Copyright &copy; of **LIFFT** _Source Code_ is described in [LICENSE.md](https://github.com/ribokit/LIFFT/blob/master/LICENSE.md).
 
 <hr/>
 ## References

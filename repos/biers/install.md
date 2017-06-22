@@ -13,7 +13,7 @@ To install **Biers**, simply:
 - From GitHub or [**RMDB**](https://rmdb.stanford.edu/tools/), download the zip or tar file of the repository and unpack; or 
 
 ```bash
-git clone https://github.com/DasLab/Biers.git
+git clone https://github.com/ribokit/Biers.git
 ```
 
 - In *MATLAB*, go to "**Set Path**". Then "**Add with Subfolders**" of the target `path/to/Biers/Scripts/`.

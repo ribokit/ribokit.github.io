@@ -29,7 +29,7 @@ permalink: /Biers/
 <hr/>
 ## License
 
-Copyright &copy; of **Biers** _Source Code_ is described in [LICENSE.md](https://github.com/DasLab/biers/blob/master/LICENSE.md).
+Copyright &copy; of **Biers** _Source Code_ is described in [LICENSE.md](https://github.com/ribokit/Biers/blob/master/LICENSE.md).
 
 <hr/>
 ## Reference

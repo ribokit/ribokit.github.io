@@ -2,7 +2,7 @@
 permalink: /HiTRACE/tutorial/step_10/
 level: 2
 prev: step_9/
-next: https://daslab.github.io/Biers/rnastructure/
+next: /Biers/rnastructure/
 ---
 
 # Step 10: Calculate Z-score _<small>(for 2D data only)</small>_

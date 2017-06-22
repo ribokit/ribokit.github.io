@@ -38,8 +38,8 @@ output_varna_html('pfl_2D_Spkt_SHAPE.html', sequence, structure_2D_Spkt_SHAPE, s
 
 For example, the blue lines are helices that are predicted by RNAstructure using data, but are not present in the reference structure (_false positive_). The orange lines are _false negative_, i.e. helices not captured by prediction.
 
-[![output_varna_html Figure Fold SHAPE 1D plus](/biers/res/pfl_1D_pred_Fold_SHAPE_plus.png "output_varna_html Figure Fold SHAPE 1D plus"){: .half}](/biers/res/pfl_1D_pred_Fold_SHAPE_plus.png)
-[![output_varna_html Figure ShapeKnot SHAPE 1D plus](/biers/res/pfl_1D_pred_Spkt_SHAPE_plus.png "output_varna_html Figure ShapeKnot SHAPE 1D plus"){: .half}](/biers/res/pfl_1D_pred_Spkt_SHAPE_plus.png)
+[![output_varna_html Figure Fold SHAPE 1D plus](/repos/biers/res/pfl_1D_pred_Fold_SHAPE_plus.png "output_varna_html Figure Fold SHAPE 1D plus"){: .half}](/repos/biers/res/pfl_1D_pred_Fold_SHAPE_plus.png)
+[![output_varna_html Figure ShapeKnot SHAPE 1D plus](/repos/biers/res/pfl_1D_pred_Spkt_SHAPE_plus.png "output_varna_html Figure ShapeKnot SHAPE 1D plus"){: .half}](/repos/biers/res/pfl_1D_pred_Spkt_SHAPE_plus.png)
 {: .center}
 
 > Right click on the VARNA applet to bring out the menu. You can change the drawing algorithm, rotate the graph, and other functions. Save to **.png** or **.eps** files for future use. **.eps** is vectorized and more suitable for publications.
@@ -78,6 +78,6 @@ print_bpp_Z(bpp_2D_cutoff_mean, Z_cutoff_mean, -15, '2D_cutoff_mean');
 
 This command generates images of the `bpp` and `Z`. It asks for a scaling factor for the _Z-score_ figure. 
 
-[![print_bpp_Z Figure 2D Z](/biers/res/pfl_2D_pred_Z_2D_cutoff_mean.png "print_bpp_Z Figure 2D Z"){: .half}](/biers/res/pfl_2D_pred_Z_2D_cutoff_mean.png)
-[![print_bpp_Z Figure 2D bpp](/biers/res/pfl_2D_pred_bpp_2D_cutoff_mean.png "print_bpp_Z Figure 2D bpp"){: .half}](/biers/res/pfl_2D_pred_bpp_2D_cutoff_mean.png)
+[![print_bpp_Z Figure 2D Z](/repos/biers/res/pfl_2D_pred_Z_2D_cutoff_mean.png "print_bpp_Z Figure 2D Z"){: .half}](/repos/biers/res/pfl_2D_pred_Z_2D_cutoff_mean.png)
+[![print_bpp_Z Figure 2D bpp](/repos/biers/res/pfl_2D_pred_bpp_2D_cutoff_mean.png "print_bpp_Z Figure 2D bpp"){: .half}](/repos/biers/res/pfl_2D_pred_bpp_2D_cutoff_mean.png)
 {: .center}
