@@ -29,7 +29,7 @@ For a standard HiTRACE analysis, we recommend the following files as conclusive 
 
 * Annotated figures for raw (gel) data and sequence assignment (see `print_xsel_split` in [**Step #8**](../step_8/)).
 
-In other words, you should have the **.mat** workspace, **.m** script and **.eps** figures on your disk once you finished analysis, just like the ones from the provided [example](https://github.com/hitrace/HiTRACE/tree/master/Examples) and shown in this tutorial series.
+In other words, you should have the **.mat** workspace, **.m** script and **.eps** figures on your disk once you finished analysis, just like the ones from the provided [example](https://github.com/ribokit/HiTRACE/tree/master/Examples) and shown in this tutorial series.
 
 Thus please **save your work frequently!** Also organize your scripts. We recommend running `save` command often to save your workspace into **.mat** files in case of unexpected _MATLAB_ termination. Please familiarize with commands like `load`, `clear`, `close`, `which` too.
 
