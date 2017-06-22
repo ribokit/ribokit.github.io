@@ -48,5 +48,5 @@ Copyright &copy; of **REEFFIT** _Source Code_ is described in [LICENSE.md](https
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.
 
-README by [**t47**](http://t47.io/), *May 2016*.
+README by [**t47**](https://t47.io/), *May 2016*.
 
