@@ -1,8 +1,8 @@
 ---
 permalink: /workflows/mutation_rescue/
 description: "Compensatory Mutation/Rescue Workflow"
-prev: 2D_modeling/
-next: alternative_states/
+prev: ../2D_modeling/
+next: ../alternative_states/
 ---
 
 # I want to test an RNA secondary structure model

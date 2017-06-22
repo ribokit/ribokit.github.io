@@ -1,8 +1,8 @@
 ---
 permalink: /HiTRACE/tutorial/step_6/
 level: 2
-prev: step_5/
-next: step_7/
+prev: ../step_5/
+next: ../step_7/
 ---
 
 # Step 6: Data Corrections _<small>(for 1D data only)</small>_

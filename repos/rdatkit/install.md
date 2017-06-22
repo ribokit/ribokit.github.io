@@ -1,7 +1,7 @@
 ---
 permalink: /RDATKit/install/
 level: 2
-next: docs/
+next: ../docs/
 ---
 
 # Installation

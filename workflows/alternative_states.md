@@ -1,8 +1,8 @@
 ---
 permalink: /workflows/alternative_states/
 description: "Alternative States (Multi-State) Workflow"
-prev: mutation_rescue/
-next: 3D_modeling/
+prev: ../mutation_rescue/
+next: ../3D_modeling/
 ---
 
 # I think my RNA has interesting alternative states

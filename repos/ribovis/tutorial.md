@@ -1,7 +1,7 @@
 ---
 permalink: /RiboVis/tutorial/
 level: 2
-prev: ../RiboPaint/tutorial/
+prev: ../../RiboPaint/tutorial/
 ---
 
 # Color 3D Model

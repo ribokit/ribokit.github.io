@@ -2,7 +2,7 @@
 permalink: /RiboPaint/tutorial/
 level: 2
 prev: /Biers/varna/
-next: ../RiboVis/tutorial/
+next: /RiboVis/tutorial/
 ---
 
 # Color Secondary Structure Diagram

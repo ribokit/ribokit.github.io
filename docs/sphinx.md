@@ -1,7 +1,7 @@
 ---
 permalink: /docs/sphinx/
 level: 2
-prev: jekyll/
+prev: ../jekyll/
 ---
 
 # Sphinx

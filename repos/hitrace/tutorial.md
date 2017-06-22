@@ -1,7 +1,7 @@
 ---
 permalink: /HiTRACE/tutorial/
 level: 2
-prev: install/
+prev: ../install/
 ---
 
 ## Example Files

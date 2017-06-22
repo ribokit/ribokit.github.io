@@ -1,8 +1,8 @@
 ---
 permalink: /HiTRACE/tutorial/step_3/
 level: 2
-prev: step_2/
-next: step_4/
+prev: ../step_2/
+next: ../step_4/
 ---
 
 # Step 3: Parameter Input

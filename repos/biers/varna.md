@@ -1,8 +1,8 @@
 ---
 permalink: /Biers/varna/
 level: 2
-prev: rnastructure/
-next: https://ribokit.github.io/RiboPaint/tutorial/
+prev: ../rnastructure/
+next: /RiboPaint/tutorial/
 ---
 
 # Step 12: Visualize Secondary Structure _<small>(optional)</small>_

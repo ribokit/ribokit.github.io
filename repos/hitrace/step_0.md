@@ -1,7 +1,7 @@
 ---
 permalink: /HiTRACE/tutorial/step_0/
 level: 2
-next: step_1/
+next: ../step_1/
 ---
 
 # Step 0: Get Started

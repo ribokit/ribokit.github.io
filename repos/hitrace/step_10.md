@@ -1,7 +1,7 @@
 ---
 permalink: /HiTRACE/tutorial/step_10/
 level: 2
-prev: step_9/
+prev: ../step_9/
 next: /Biers/rnastructure/
 ---
 

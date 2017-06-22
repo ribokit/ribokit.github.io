@@ -2,7 +2,7 @@
 permalink: /Biers/rnastructure/
 level: 2
 prev: /HiTRACE/tutorial/step_10/
-next: varna/
+next: ../varna/
 ---
 
 # Step 11: Predict Secondary Structure

@@ -1,7 +1,7 @@
 ---
 permalink: /workflows/from_scratch/
 description: "From Scratch Workflow"
-next: 2D_modeling/
+next: ../2D_modeling/
 ---
 
 # I have just discovered an RNA molecule

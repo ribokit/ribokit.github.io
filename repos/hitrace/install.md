@@ -1,7 +1,7 @@
 ---
 permalink: /HiTRACE/install/
 level: 2
-next: tutorial/
+next: ../tutorial/
 ---
 
 # Installation

@@ -1,8 +1,8 @@
 ---
 permalink: /docs/jekyll/
 level: 2
-prev: image/
-next: sphinx/
+prev: ../image/
+next: ../sphinx/
 ---
 
 # Jekyll
@@ -21,8 +21,8 @@ In your **.md** file, use a header like this:
 layout: docs
 permalink: /HiTRACE/tutorial/bonus_2d/
 root: /HiTRACE/
-prev: ../../Biers/varna/
-next: bonus_3d/
+prev: ../../../Biers/varna/
+next: ../bonus_3d/
 
 title: HiTRACE
 description: "<u>Hi</u>gh-<u>T</u>hroughput <u>R</u>obust <u>A</u>nalysis for <u>C</u>apillary <u>E</u>lectrophoresis"

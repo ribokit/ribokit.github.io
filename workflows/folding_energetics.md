@@ -1,8 +1,8 @@
 ---
 permalink: /workflows/folding_energetics/
 description: "Folding Energetic Prediction Workflow"
-prev: structure_refinement/
-next: design/
+prev: ../structure_refinement/
+next: ../design/
 ---
 
 # I want to model RNA folding energetics

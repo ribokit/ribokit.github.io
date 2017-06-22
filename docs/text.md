@@ -1,7 +1,7 @@
 ---
 permalink: /docs/text/
 level: 2
-next: image/
+next: ../image/
 ---
 
 # Text Format

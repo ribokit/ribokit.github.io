@@ -1,7 +1,7 @@
 ---
 permalink: /Biers/install/
 level: 2
-next: dependency/
+next: ../dependency/
 ---
 
 # Installation
