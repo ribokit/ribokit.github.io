@@ -13,29 +13,25 @@ permalink: /RDATKit/
 ## Installation
 
 * #### [MATLAB instructions](install/#MATLAB)
-
 * #### [Python configuration](install/#Python)
 
 <hr/>
 ## Documentation
 
 * #### *MATLAB* Tutorial is available [**here**](/HiTRACE/tutorial/step_9/).
-
 * #### *Python* Documentation is available at: [**docs/**](docs/).
 
 <hr/>
 ## License
 
-Copyright &copy; of **RDATKit** _Source Code_ is described in [LICENSE.md](https://github.com/RiboKit/RDATKit/blob/master/LICENSE.md).
+Copyright &copy; of **RDATKit** _Source Code_ is described in [LICENSE.md](https://github.com/ribokit/RDATKit/blob/master/LICENSE.md).
 
 <hr/>
 ## Related Packages
 
-* ### [**HiTRACE**](/HiTRACE/)
-
-* ### [**Biers**](/Biers/)
-
-* [**MAPSeeker**](https://ribokit.github.io/MAPseeker/)
+* [**HiTRACE**](/HiTRACE/)
+* [**Biers**](/Biers/)
+* [**MAPSeeker**](/MAPseeker/)
 
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.
