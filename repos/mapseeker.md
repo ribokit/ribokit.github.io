@@ -40,7 +40,7 @@ Copyright &copy; of **MAPseeker** _Source Code_ is described in [LICENSE.md](htt
 * [**RDATKit**](/RDATKit/)
 * [**Biers**](/Biers/)
 * [**REEFFIT**](/REEFFIT/)
-* [**MaP2D**](/MaP2D/)
+* [**M2seq**](/M2seq/)
 
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.

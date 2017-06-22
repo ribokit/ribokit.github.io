@@ -3,7 +3,7 @@ title: RiboKit
 email: ribokit.info@gmail.com
 description: ""
 baseurl: ""
-url: "http://ribokit.github.io"
+url: "https://ribokit.github.io"
 github_username:  ribokit
 
 # Default variables
@@ -63,7 +63,7 @@ defaults:
     values:
       title: "HiTRACE"
       description: "<u>Hi</u>gh-<u>T</u>hroughput <u>R</u>obust <u>A</u>nalysis for <u>C</u>apillary <u>E</u>lectrophoresis"
-      repo: "hitrace/HiTRACE"
+      repo: "ribokit/HiTRACE"
       root: "/HiTRACE/"
   -
     scope:
@@ -71,7 +71,7 @@ defaults:
     values:
       title: "RDATKit"
       description: "<u>R</u>NA <u>Dat</u>aset Tool<u>Kit</u>"
-      repo: "hitrace/RDATKit"
+      repo: "ribokit/RDATKit"
       root: "/RDATKit/"
   -
     scope:

@@ -26,7 +26,7 @@ next: bonus_3d/
 
 title: HiTRACE
 description: "<u>Hi</u>gh-<u>T</u>hroughput <u>R</u>obust <u>A</u>nalysis for <u>C</u>apillary <u>E</u>lectrophoresis"
-repo: hitrace/HiTRACE
+repo: ribokit/HiTRACE
 author: Siqi Tian
 ---
 ```
@@ -38,7 +38,7 @@ author: Siqi Tian
 | Key | Value |
 | --- | --- |
 | `layout` | The layout template for the page. Use `default` for all pages; use `redirect` for redirecting a `permalink` to a new address (with a 301 page, see `redirect_to`). |
-| `level` | The level for the page. This controls the navigation banner: `0` displays "Visit Lab" button; used for domain index page only (e.g. `https://ribokit.github.io`). `1` displays "View GitHub" and download package for repository; used for landing page of each package (e.g. `https://ribokit.github.io/RiboVis/`). `2` displays "up", "prev", "next" navigation buttons; used for tutorial series (e.g. `https://ribokit.github.io/HiTRACE/tutorial/step_0/`). |
+| `level` | The level for the page. This controls the navigation banner: `0` displays "Visit Lab" button; used for domain index page only (e.g. `https://ribokit.github.io`). `1` displays "View GitHub" and download package for repository; used for landing page of each package (e.g. `https://ribokit.github.io/RiboVis/`). `2` displays "up", "prev", "next" navigation buttons; used for tutorial series (e.g. `/HiTRACE/tutorial/step_0/`). |
 | `permalink` | The URL that the page responds to. Always start and end with `/`. |
 
 * **Descriptive Fields**:
@@ -64,8 +64,8 @@ Example of link redirection:
 
 ```go
 ---
-permalink: /biers/
-redirect_to:  https://daslab.github.io/Biers/
+permalink: /primerize/
+redirect_to:  https://daslab.github.io/Primerize/
 ---
 ```
 

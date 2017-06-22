@@ -30,9 +30,9 @@ Please follow the instructions at https://ribokit.github.io/docs/ for contributi
 
 ## License
 
-**Copyright &copy; 2016: Das Lab, Stanford University. All Rights Reserved.**
+**Copyright &copy; 2016 - 2017: Das Lab, Stanford University. All Rights Reserved.**
 
 **RiboKit GitHub Pages** _Source Code_ is proprietary and confidential. Unauthorized copying of this repository, via any medium, is strictly prohibited.
 
 
-by [**t47**](http://t47.io/), *April 2016*.
+by [**t47**](https://t47.io/), *April 2016*.
