@@ -2,7 +2,7 @@
 
 <img src="assets/ribokit_logo.png" alt="RiboKit Logo" align="right" width="200px">
 
-This is the repository that powers **https://ribokit.github.io** Github Pages. It uses the [t47io/ribokit-Jekyll-theme](https://github.com/t47io/ribokit-Jekyll-theme) and [t47io/ribokit-Sphinx-theme](https://github.com/t47io/ribokit-Sphinx-theme).
+This is the repository that powers **https://ribokit.github.io** Github Pages. It uses the [ribokit/ribokit-Jekyll-theme](https://github.com/ribokit/ribokit-Jekyll-theme) and [ribokit/ribokit-Sphinx-theme](https://github.com/ribokit/ribokit-Sphinx-theme).
 
 ## Installation
 

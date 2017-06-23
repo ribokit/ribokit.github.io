@@ -105,11 +105,3 @@ kramdown:
   #   coderay_tab_width:         4
   #   coderay_bold_every:        10
   #   coderay_css:               style
-
-
-# Redirect url
-# gems:
-#   - jekyll-redirect-from
-
-# whitelist:
-#   - jekyll-redirect-from
