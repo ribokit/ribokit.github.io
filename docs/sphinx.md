@@ -72,7 +72,7 @@ Now you should have:
 <hr/>
 ## Theme
 
-* Clone or download the [**RiboKit Theme**](https://github.com/t47io/ribokit-Sphinx-theme) and place under your project directory. Create a `_theme/` folder:
+* Clone or download the [**RiboKit Theme**](https://github.com/ribokit/ribokit-Sphinx-theme) and place under your project directory. Create a `_theme/` folder:
 
 ```
 ├── docs/

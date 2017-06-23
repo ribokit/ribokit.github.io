@@ -56,8 +56,8 @@ author: Siqi Tian
 | Key | Value |
 | --- | --- |
 | `root` | The root parent of the page. This will be used by the _up arrow_ button. |
-| `prev` | The previous page, used for tutorial series. This will be used by the _left arrow_ button. The final (relative) URL is prepended with `../` (so you don't need to type it). |
-| `next` | The next page, used for tutorial series. This will be used by the _right arrow_ button. The final (relative) URL is prepended with `../` (so you don't need to type it). |
+| `prev` | The previous page, used for tutorial series. This will be used by the _left arrow_ button. Your relative or absolute path/URL is used as is. |
+| `next` | The next page, used for tutorial series. This will be used by the _right arrow_ button. Your relative or absolute path/URL is used as is. |
 | `redirect_to` | New address to redirect a page. Only works when `layout` is `redirect`. Either relative or absolute path works. |
 
 Example of link redirection:
