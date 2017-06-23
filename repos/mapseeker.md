@@ -21,7 +21,7 @@ Installation instructions and tutorials for analyzing MAP-seq and MOHCA-seq data
 <hr/>
 ## License
 
-Copyright &copy; of **MAPseeker** _Source Code_ is described in [LICENSE.md](https://github.com/DasLab/MAPseeker/blob/master/LICENSE.md).
+Copyright &copy; of **MAPseeker** _Source Code_ is described in [LICENSE.md](https://github.com/ribokit/MAPseeker/blob/master/LICENSE.md).
 
 <hr/>
 ## Reference

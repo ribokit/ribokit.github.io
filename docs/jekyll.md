@@ -21,7 +21,7 @@ In your **.md** file, use a header like this:
 layout: docs
 permalink: /HiTRACE/tutorial/bonus_2d/
 root: /HiTRACE/
-prev: ../../../Biers/varna/
+prev: /Biers/varna/
 next: ../bonus_3d/
 
 title: HiTRACE
@@ -119,8 +119,6 @@ The GitHub Pages are hosted either at organization level via a `organization/org
 
 <hr/>
 ## Integration
-
-Depending on your repository, it might go under `hitrace/ribokit.github.io`, `DasLab/daslab.github.io`, or other places.
 
 > The repository is organized that each package has its own folder. Use lower case with underscores (`_`) for folder names. The landing page should be named as `index.md`. Please follow this rule when contributing!
 

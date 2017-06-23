@@ -91,7 +91,7 @@ html_theme_path = ['_theme']
 html_theme_options = {
     'description': 'PCR Assembly Primer Design',
     'author': author.split(',')[0].strip(),
-    'github_repo': 'DasLab/Primerize',
+    'github_repo': 'ribokit/Primerize',
     'ga_tracker': 'UA-12345678-9'
 }
 html_additional_pages = {'404': '404.html'}
