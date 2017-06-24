@@ -1,8 +1,8 @@
 ---
 permalink: /HiTRACE/tutorial/step_5/
 level: 2
-prev: step_4/
-next: step_6/
+prev: ../step_4/
+next: ../step_6/
 ---
 
 # Step 5: Peak Fitting

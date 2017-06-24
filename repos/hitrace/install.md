@@ -1,7 +1,7 @@
 ---
 permalink: /HiTRACE/install/
 level: 2
-next: tutorial/
+next: ../tutorial/
 ---
 
 # Installation
@@ -15,7 +15,7 @@ To install **HiTRACE**, simply:
 - From GitHub or [**RMDB**](https://rmdb.stanford.edu/tools/), download the zip or tar file of the repository and unpack; or 
 
 ```bash
-git clone https://github.com/hitrace/HiTRACE.git
+git clone https://github.com/ribokit/HiTRACE.git
 ```
 
 - In *MATLAB*, go to "**Set Path**". Then "**Add with Subfolders**" of the target `path/to/HiTRACE/Scripts/`.

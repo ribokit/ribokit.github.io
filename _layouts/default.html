@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     {% if page.level != 0 and page.title %}
       <title>{{ page.title }} | RiboKit</title>
     {% else %}
@@ -12,12 +12,13 @@
 
     <link rel="shortcut icon" type="image/gif" href="/assets/ribokit_icon.png" />
     <link rel="icon" type="image/gif" href="/assets/ribokit_icon.png" />
-
     <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/github-dark.css">
 
     <script type="text/javascript">
-      if (window.location.protocol.indexOf('https') == -1 && window.location.hostname.indexOf('.github.io') != -1) { window.location.href = window.location.href.replace('http:', 'https:'); }
+      if (window.location.protocol.indexOf('https') == -1 && window.location.hostname.indexOf('.github.io') != -1){
+        window.location.href = window.location.href.replace('http:', 'https:');
+      }
     </script>
     <script type="text/javascript">
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -45,7 +46,7 @@
       <small>Built with</small>
       <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer external">Jekyll</a>
       <small>using a</small>
-      <a href="https://github.com/t47io/ribokit-Jekyll-theme" target="_blank" rel="noopener noreferrer external">RiboKit Theme</a>
+      <a href="https://github.com/ribokit/ribokit-Jekyll-theme" target="_blank" rel="noopener noreferrer external">RiboKit Theme</a>
       <small>. Hosted on</small> GitHub Pages.
     </p>
     {% include footer.html %}

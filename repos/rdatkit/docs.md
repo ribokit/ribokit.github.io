@@ -1,7 +1,7 @@
 ---
 permalink: /RDATKit/docs/
 level: 2
-prev: install/
+prev: ../install/
 ---
 
 ## _RDAT_ File Handling

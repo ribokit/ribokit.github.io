@@ -1,8 +1,8 @@
 ---
 permalink: /HiTRACE/tutorial/step_4/
 level: 2
-prev: step_3/
-next: step_5/
+prev: ../step_3/
+next: ../step_5/
 ---
 
 # Step 4: Sequence Assignment

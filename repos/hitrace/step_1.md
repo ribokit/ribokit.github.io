@@ -1,8 +1,8 @@
 ---
 permalink: /HiTRACE/tutorial/step_1/
 level: 2
-prev: step_0/
-next: step_2/
+prev: ../step_0/
+next: ../step_2/
 ---
 
 # Step 1: Load and Preview Data

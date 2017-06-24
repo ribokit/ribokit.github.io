@@ -1,8 +1,8 @@
 ---
 permalink: /workflows/2D_modeling/
 description: "Mutate-and-Map 2D Modeling Workflow"
-prev: from_scratch/
-next: mutation_rescue/
+prev: ../from_scratch/
+next: ../mutation_rescue/
 ---
 
 # I want to learn an RNA's secondary structure

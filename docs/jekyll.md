@@ -1,8 +1,8 @@
 ---
 permalink: /docs/jekyll/
 level: 2
-prev: image/
-next: sphinx/
+prev: ../image/
+next: ../sphinx/
 ---
 
 # Jekyll
@@ -21,12 +21,12 @@ In your **.md** file, use a header like this:
 layout: docs
 permalink: /HiTRACE/tutorial/bonus_2d/
 root: /HiTRACE/
-prev: ../../Biers/varna/
-next: bonus_3d/
+prev: /Biers/varna/
+next: ../bonus_3d/
 
 title: HiTRACE
 description: "<u>Hi</u>gh-<u>T</u>hroughput <u>R</u>obust <u>A</u>nalysis for <u>C</u>apillary <u>E</u>lectrophoresis"
-repo: hitrace/HiTRACE
+repo: ribokit/HiTRACE
 author: Siqi Tian
 ---
 ```
@@ -38,7 +38,7 @@ author: Siqi Tian
 | Key | Value |
 | --- | --- |
 | `layout` | The layout template for the page. Use `default` for all pages; use `redirect` for redirecting a `permalink` to a new address (with a 301 page, see `redirect_to`). |
-| `level` | The level for the page. This controls the navigation banner: `0` displays "Visit Lab" button; used for domain index page only (e.g. `https://ribokit.github.io`). `1` displays "View GitHub" and download package for repository; used for landing page of each package (e.g. `https://ribokit.github.io/RiboVis/`). `2` displays "up", "prev", "next" navigation buttons; used for tutorial series (e.g. `https://ribokit.github.io/HiTRACE/tutorial/step_0/`). |
+| `level` | The level for the page. This controls the navigation banner: `0` displays "Visit Lab" button; used for domain index page only (e.g. `https://ribokit.github.io`). `1` displays "View GitHub" and download package for repository; used for landing page of each package (e.g. `https://ribokit.github.io/RiboVis/`). `2` displays "up", "prev", "next" navigation buttons; used for tutorial series (e.g. `/HiTRACE/tutorial/step_0/`). |
 | `permalink` | The URL that the page responds to. Always start and end with `/`. |
 
 * **Descriptive Fields**:
@@ -56,16 +56,16 @@ author: Siqi Tian
 | Key | Value |
 | --- | --- |
 | `root` | The root parent of the page. This will be used by the _up arrow_ button. |
-| `prev` | The previous page, used for tutorial series. This will be used by the _left arrow_ button. The final (relative) URL is prepended with `../` (so you don't need to type it). |
-| `next` | The next page, used for tutorial series. This will be used by the _right arrow_ button. The final (relative) URL is prepended with `../` (so you don't need to type it). |
+| `prev` | The previous page, used for tutorial series. This will be used by the _left arrow_ button. Your relative or absolute path/URL is used as is. |
+| `next` | The next page, used for tutorial series. This will be used by the _right arrow_ button. Your relative or absolute path/URL is used as is. |
 | `redirect_to` | New address to redirect a page. Only works when `layout` is `redirect`. Either relative or absolute path works. |
 
 Example of link redirection:
 
 ```go
 ---
-permalink: /biers/
-redirect_to:  https://daslab.github.io/Biers/
+permalink: /primerize/
+redirect_to:  https://daslab.github.io/Primerize/
 ---
 ```
 
@@ -119,8 +119,6 @@ The GitHub Pages are hosted either at organization level via a `organization/org
 
 <hr/>
 ## Integration
-
-Depending on your repository, it might go under `hitrace/ribokit.github.io`, `DasLab/daslab.github.io`, or other places.
 
 > The repository is organized that each package has its own folder. Use lower case with underscores (`_`) for folder names. The landing page should be named as `index.md`. Please follow this rule when contributing!
 

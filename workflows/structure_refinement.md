@@ -1,8 +1,8 @@
 ---
 permalink: /workflows/structure_refinement/
 description: "3D Structure Refinement Workflow"
-prev: 3D_modeling/
-next: folding_energetics/
+prev: ../3D_modeling/
+next: ../folding_energetics/
 ---
 
 # I have crystallographic/cryoEM data

@@ -1,8 +1,5 @@
 ---
 permalink: /Biers/
-repo: "ribokit/Biers"
-title: "Biers"
-description: "<u>B</u>asic <u>I</u>nference <u>E</u>ngine for <u>R</u>NA <u>S</u>tructure"
 ---
 
 
@@ -11,31 +8,28 @@ description: "<u>B</u>asic <u>I</u>nference <u>E</u>ngine for <u>R</u>NA <u>S</u
 **Biers** is a set of *MATLAB* scripts that wrap around the [RNAstructure](http://rna.urmc.rochester.edu/RNAstructure.html) suite of executables to infer secondary structure models guided by chemical mapping data. Features include:
 
 - Secondary structure modeling guided by SHAPE and DMS probing, as well as data from mutate-and-map experiments.
-
 - Secondary structure modeling guided by MOHCA data.
-
 - Calculation of helix-wise confidence values using bootstrapping.
-
 - Plotting utilities using *MATLAB* and [VARNA](http://varna.lri.fr/).
 
 <hr/>
 ## Installation
 
-See [daslab.github.io](https://daslab.github.io/Biers/install/).
+* #### [Biers MATLAB instructions](install/)
+* #### [Dependency](dependency/)
 
 <hr/>
 ## Usage 
 
 #### *MATLAB* Tutorial is available for: 
 
-* [Predict Secondary Structure](https://daslab.github.io/Biers/rnastructure/)
-
-* [Visualize Secondary Structure](https://daslab.github.io/Biers/varna/)
+* [Predict Secondary Structure](rnastructure/)
+* [Visualize Secondary Structure](varna/)
 
 <hr/>
 ## License
 
-Copyright &copy; of **Biers** _Source Code_ is described in [LICENSE.md](https://github.com/DasLab/biers/blob/master/LICENSE.md).
+Copyright &copy; of **Biers** _Source Code_ is described in [LICENSE.md](https://github.com/ribokit/Biers/blob/master/LICENSE.md).
 
 <hr/>
 ## Reference
@@ -65,4 +59,4 @@ Copyright &copy; of **Biers** _Source Code_ is described in [LICENSE.md](https:/
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.
 
-README by [**t47**](http://t47.io/), *April 2016*.
+README by [**t47**](https://t47.io/), *April 2016*.

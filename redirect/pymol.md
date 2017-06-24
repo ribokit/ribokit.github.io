@@ -1,4 +1,4 @@
 ---
 permalink: /pymol_daslab/
-redirect_to:  /RiboVis/
+redirect_to: /RiboVis/
 ---

@@ -1,8 +1,8 @@
 ---
 permalink: /HiTRACE/tutorial/step_9/
 level: 2
-prev: step_8/
-next: step_10/
+prev: ../step_8/
+next: ../step_10/
 ---
 
 # Step 9: Output RDAT File

@@ -1,8 +1,8 @@
 ---
 permalink: /HiTRACE/tutorial/step_2/
 level: 2
-prev: step_1/
-next: step_3/
+prev: ../step_1/
+next: ../step_3/
 ---
 
 # Step 2: Further Alignment _<small>(optional)</small>_

@@ -1,8 +1,8 @@
 ---
 permalink: /workflows/3D_modeling/
 description: "3D Modeling Workflow"
-prev: alternative_states/
-next: structure_refinement/
+prev: ../alternative_states/
+next: ../structure_refinement/
 ---
 
 # I think my RNA has a 3D structure

@@ -23,18 +23,10 @@
         <ul>
           <li><a href="../" class="button">&#x21E7;</a></li>
           {% if page.prev %}
-            {% if page.prev contains '://' %}
             <li><a href="{{ page.prev }}" class="button" rel="prev">&#x21E6;</a></li>
-            {% else %}
-            <li><a href="../{{ page.prev }}" class="button" rel="prev">&#x21E6;</a></li>
-            {% endif %}
           {% endif %}
           {% if page.next %}
-            {% if page.next contains '://' %}
             <li><a href="{{ page.next }}" class="button" rel="next">&#x21E8;</a></li>
-            {% else %}
-            <li><a href="../{{ page.next }}" class="button" rel="next">&#x21E8;</a></li>
-            {% endif %}
           {% endif %}
         </ul>
       {% endif %}

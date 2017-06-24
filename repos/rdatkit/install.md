@@ -1,7 +1,7 @@
 ---
 permalink: /RDATKit/install/
 level: 2
-next: docs/
+next: ../docs/
 ---
 
 # Installation
@@ -11,7 +11,7 @@ next: docs/
 - From GitHub or [**RMDB**](https://rmdb.stanford.edu/tools/), download the zip or tar file of the repository and unpack; or 
 
 ```bash
-git clone https://github.com/RiboKit/RDATKit.git
+git clone https://github.com/ribokit/RDATKit.git
 ```
 
 - In *MATLAB*, go to "**Set Path**". Then "**Add with Subfolders**" of the target `path/to/RDATKit/MATLAB/`.

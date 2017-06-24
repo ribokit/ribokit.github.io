@@ -1,7 +1,7 @@
 ---
 permalink: /docs/sphinx/
 level: 2
-prev: jekyll/
+prev: ../jekyll/
 ---
 
 # Sphinx
@@ -72,7 +72,7 @@ Now you should have:
 <hr/>
 ## Theme
 
-* Clone or download the [**RiboKit Theme**](https://github.com/t47io/ribokit-Sphinx-theme) and place under your project directory. Create a `_theme/` folder:
+* Clone or download the [**RiboKit Theme**](https://github.com/ribokit/ribokit-Sphinx-theme) and place under your project directory. Create a `_theme/` folder:
 
 ```
 ├── docs/
@@ -91,7 +91,7 @@ html_theme_path = ['_theme']
 html_theme_options = {
     'description': 'PCR Assembly Primer Design',
     'author': author.split(',')[0].strip(),
-    'github_repo': 'DasLab/Primerize',
+    'github_repo': 'ribokit/Primerize',
     'ga_tracker': 'UA-12345678-9'
 }
 html_additional_pages = {'404': '404.html'}

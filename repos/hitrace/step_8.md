@@ -1,8 +1,8 @@
 ---
 permalink: /HiTRACE/tutorial/step_8/
 level: 2
-prev: step_7/
-next: step_9/
+prev: ../step_7/
+next: ../step_9/
 ---
 
 # Step 8: Save your Work

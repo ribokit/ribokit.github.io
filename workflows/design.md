@@ -1,7 +1,7 @@
 ---
 permalink: /workflows/design/
 description: "3D Design workflow"
-prev: folding_energetics/
+prev: ../folding_energetics/
 ---
 
 # I want to design a new RNA molecule

@@ -2,7 +2,7 @@
 
 <img src="assets/ribokit_logo.png" alt="RiboKit Logo" align="right" width="200px">
 
-This is the repository that powers **https://ribokit.github.io** Github Pages. It uses the [t47io/ribokit-Jekyll-theme](https://github.com/t47io/ribokit-Jekyll-theme) and [t47io/ribokit-Sphinx-theme](https://github.com/t47io/ribokit-Sphinx-theme).
+This is the repository that powers **https://ribokit.github.io** Github Pages. It uses the [ribokit/ribokit-Jekyll-theme](https://github.com/ribokit/ribokit-Jekyll-theme) and [ribokit/ribokit-Sphinx-theme](https://github.com/ribokit/ribokit-Sphinx-theme).
 
 ## Installation
 
@@ -30,9 +30,9 @@ Please follow the instructions at https://ribokit.github.io/docs/ for contributi
 
 ## License
 
-**Copyright &copy; 2016: Das Lab, Stanford University. All Rights Reserved.**
+**Copyright &copy; 2016 - 2017: Das Lab, Stanford University. All Rights Reserved.**
 
 **RiboKit GitHub Pages** _Source Code_ is proprietary and confidential. Unauthorized copying of this repository, via any medium, is strictly prohibited.
 
 
-by [**t47**](http://t47.io/), *April 2016*.
+by [**t47**](https://t47.io/), *April 2016*.

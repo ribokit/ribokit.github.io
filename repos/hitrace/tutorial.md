@@ -1,15 +1,15 @@
 ---
 permalink: /HiTRACE/tutorial/
 level: 2
-prev: install/
+prev: ../install/
 ---
 
 ## Example Files
-Example scripts and data are included in the **HiTRACE** [repository](https://github.com/hitrace/HiTRACE/). For a new analysis, start with these example scripts and replace relevant values with yours:
+Example scripts and data are included in the **HiTRACE** [repository](https://github.com/ribokit/HiTRACE/). For a new analysis, start with these example scripts and replace relevant values with yours:
 
-* 1D Analysis: _[Script](https://github.com/hitrace/HiTRACE/blob/master/Examples/example_pfl_1D.m), [CE Data](https://github.com/hitrace/HiTRACE/blob/master/Examples/data_pfl_1D.zip), [Workspace](https://github.com/hitrace/HiTRACE/blob/master/Examples/example_pfl_1D.mat)_
+* 1D Analysis: _[Script](https://github.com/ribokit/HiTRACE/blob/master/Examples/example_pfl_1D.m), [CE Data](https://github.com/ribokit/HiTRACE/blob/master/Examples/data_pfl_1D.zip), [Workspace](https://github.com/ribokit/HiTRACE/blob/master/Examples/example_pfl_1D.mat)_
 
-* 2D Analysis: _[Script](https://github.com/hitrace/HiTRACE/blob/master/Examples/example_pfl_2D.m), [CE Data](https://github.com/hitrace/HiTRACE/blob/master/Examples/data_pfl_2D.zip), [Workspace](https://github.com/hitrace/HiTRACE/blob/master/Examples/example_pfl_2D.mat)_
+* 2D Analysis: _[Script](https://github.com/ribokit/HiTRACE/blob/master/Examples/example_pfl_2D.m), [CE Data](https://github.com/ribokit/HiTRACE/blob/master/Examples/data_pfl_2D.zip), [Workspace](https://github.com/ribokit/HiTRACE/blob/master/Examples/example_pfl_2D.mat)_
 
 * [**NEW**{: style="color:#ff5c2b;"}] For further practice, we provide 12 more examples. They are previous 1D and 2D datasets annotated by our experts. Download [Script &amp; Data](https://rmdb.stanford.edu/site_data/HiTRACE_more_practice.zip), and follow these [instructions](practice/).
 
@@ -56,10 +56,10 @@ Write analyzed result to file in RDAT format, for use of _Z-score_ and predictio
 * ### #10: [Calculate Z-score](step_10/) <small>*(for 2D data only)*</small>
 Transfrom 2D chemical mapping data into _Z-score_ for use as 2D pseudo-free energy bonus for RNAstructure.
 
-* ### #11: [Predict Secondary Structure](https://daslab.github.io/Biers/rnastructure/)
+* ### #11: [Predict Secondary Structure](/Biers/rnastructure/)
 Run structural prediction using [RNAstructure](http://rna.urmc.rochester.edu/RNAstructure.html) based on chemical mapping reactivity data, with bootstrapping for helix-wise confidence score.
 
-* ### #12: [Visualize Secondary Structure](https://daslab.github.io/Biers/varna/) <small>*(optional)*</small>
+* ### #12: [Visualize Secondary Structure](/Biers/varna/) <small>*(optional)*</small>
 Draw secondary structure using [VARNA](http://varna.lri.fr/) with nucleotides color-coded by reactivity, and mark difference between secondary structure models.
 
 <hr/>

@@ -1,4 +1,4 @@
 ---
 permalink: /std/
-redirect_to:  /docs/
+redirect_to: /docs/
 ---
