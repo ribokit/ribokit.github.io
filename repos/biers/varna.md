@@ -13,33 +13,33 @@ This step requires proper setup of the package `biers`. Please follow the instal
 
 <hr/>
 
-We use the `output_varna_html()` command to render **.html** files that utilize the VARNA applet. It draws the RNA sequence into the secondary structure, with nucleotides colored with their reactivity values, and showing helix-wise confidence estimate based on bootstrap `bpp`.
+We use the `output_varna()` command to render files that utilize the VARNA applet. It draws the RNA sequence into the secondary structure, with nucleotides colored with their reactivity values, and shows helix-wise confidence estimate based on bootstrap `bpp`.
 
 ```matlab
-output_varna_html('pfl_NA.html', sequence, structure_NA, structure, structure_NA, offset, [], [], [], bpp_NA);
+output_varna('pfl_NA', sequence, structure_NA, structure, structure_NA, offset, [], [], [], bpp_NA);
 ```
 
 In the above code, the `structure_NA`, which is the result of the prediction run, is used as display. It also compares between `structure` (reference structure that has been used in sequence assignment) with `structure_NA` and draw the differences in lines. 
 
 > Since this run was using no data (thus no bootstrap), the values in `bpp_NA` are all 100%, and are not informative.
 
-We can create **.html** pages for all the runs we have in [**Step 11**](../rnastructure/):
+We can create **** pages for all the runs we have in [**Step 11**](../rnastructure/):
 
 ```matlab
-output_varna_html('pfl_1D_Fold_SHAPE_minus.html', sequence, structure_1D_Fold_SHAPE_minus, structure, structure_1D_Fold_SHAPE_minus, offset, [], [], [d_SHAPE_minus; zeros(20, 1)], bpp_1D_Fold_SHAPE_minus);
-output_varna_html('pfl_1D_Spkt_SHAPE_minus.html', sequence, structure_1D_Spkt_SHAPE_minus, structure, structure_1D_Spkt_SHAPE_minus, offset, [], [], [d_SHAPE_minus; zeros(20, 1)], bpp_1D_Spkt_SHAPE_minus);
+output_varna('pfl_1D_Fold_SHAPE_minus', sequence, structure_1D_Fold_SHAPE_minus, structure, structure_1D_Fold_SHAPE_minus, offset, [], [], [d_SHAPE_minus; zeros(20, 1)], bpp_1D_Fold_SHAPE_minus);
+output_varna('pfl_1D_Spkt_SHAPE_minus', sequence, structure_1D_Spkt_SHAPE_minus, structure, structure_1D_Spkt_SHAPE_minus, offset, [], [], [d_SHAPE_minus; zeros(20, 1)], bpp_1D_Spkt_SHAPE_minus);
 
-output_varna_html('pfl_1D_Fold_SHAPE_plus.html', sequence, structure_1D_Fold_SHAPE_plus, structure, structure_1D_Fold_SHAPE_plus, offset, [], [], [d_SHAPE_plus; zeros(20, 1)], bpp_1D_Fold_SHAPE_plus);
-output_varna_html('pfl_1D_Spkt_SHAPE_plus.html', sequence, structure_1D_Spkt_SHAPE_plus, structure, structure_1D_Spkt_SHAPE_plus, offset, [], [], [d_SHAPE_plus; zeros(20, 1)], bpp_1D_Spkt_SHAPE_plus);
+output_varna('pfl_1D_Fold_SHAPE_plus', sequence, structure_1D_Fold_SHAPE_plus, structure, structure_1D_Fold_SHAPE_plus, offset, [], [], [d_SHAPE_plus; zeros(20, 1)], bpp_1D_Fold_SHAPE_plus);
+output_varna('pfl_1D_Spkt_SHAPE_plus', sequence, structure_1D_Spkt_SHAPE_plus, structure, structure_1D_Spkt_SHAPE_plus, offset, [], [], [d_SHAPE_plus; zeros(20, 1)], bpp_1D_Spkt_SHAPE_plus);
 
-output_varna_html('pfl_2D_Fold_SHAPE.html', sequence, structure_2D_Fold_SHAPE, structure, structure_2D_Fold_SHAPE, offset, [], [], [], bpp_2D_Fold_SHAPE);
-output_varna_html('pfl_2D_Spkt_SHAPE.html', sequence, structure_2D_Spkt_SHAPE, structure, structure_2D_Spkt_SHAPE, offset, [], [], [], bpp_2D_Spkt_SHAPE);
+output_varna('pfl_2D_Fold_SHAPE', sequence, structure_2D_Fold_SHAPE, structure, structure_2D_Fold_SHAPE, offset, [], [], [], bpp_2D_Fold_SHAPE);
+output_varna('pfl_2D_Spkt_SHAPE', sequence, structure_2D_Spkt_SHAPE, structure, structure_2D_Spkt_SHAPE, offset, [], [], [], bpp_2D_Spkt_SHAPE);
 ```
 
 For example, the blue lines are helices that are predicted by RNAstructure using data, but are not present in the reference structure (_false positive_). The orange lines are _false negative_, i.e. helices not captured by prediction.
 
-[![output_varna_html Figure Fold SHAPE 1D plus](/repos/biers/res/pfl_1D_pred_Fold_SHAPE_plus.png "output_varna_html Figure Fold SHAPE 1D plus"){: .half}](/repos/biers/res/pfl_1D_pred_Fold_SHAPE_plus.png)
-[![output_varna_html Figure ShapeKnot SHAPE 1D plus](/repos/biers/res/pfl_1D_pred_Spkt_SHAPE_plus.png "output_varna_html Figure ShapeKnot SHAPE 1D plus"){: .half}](/repos/biers/res/pfl_1D_pred_Spkt_SHAPE_plus.png)
+[![output_varna Figure Fold SHAPE 1D plus](/repos/biers/res/pfl_1D_pred_Fold_SHAPE_plus.png "output_varna Figure Fold SHAPE 1D plus"){: .half}](/repos/biers/res/pfl_1D_pred_Fold_SHAPE_plus.png)
+[![output_varna Figure ShapeKnot SHAPE 1D plus](/repos/biers/res/pfl_1D_pred_Spkt_SHAPE_plus.png "output_varna Figure ShapeKnot SHAPE 1D plus"){: .half}](/repos/biers/res/pfl_1D_pred_Spkt_SHAPE_plus.png)
 {: .center}
 
 > Right click on the VARNA applet to bring out the menu. You can change the drawing algorithm, rotate the graph, and other functions. Save to **.png** or **.eps** files for future use. **.eps** is vectorized and more suitable for publications.

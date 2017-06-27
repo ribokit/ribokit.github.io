@@ -15,7 +15,7 @@ This step requires proper setup of the package `biers`. Please follow the instal
 
 We use the [RNAstructure](http://rna.urmc.rochester.edu/RNAstructure.html) package to perform data-driven secondary structure predictions. The **1D** and/or **2D** data are transformed into pseudo-free energies that provide information to guide folding, on top of the built-in Nearest Neighbor thermodynamic parameters.
 
-To estimate the confidence of the predicted result, we use nonparametric bootstrapping. In brief, it resamples the data with replacement to create mock datasets, and use these to run prediction again, and summarize the result of all mock runs. This resampling technique is relevant as experimental measurements may miss certain data points (imperfect dataset). It tests whether the prediction result is robust to (slight) data variations, e.g. if one nucleotide's reactivity dominates the outcome. For more information, see these papers:
+To estimate the confidence of the predicted result, we use nonparametric bootstrapping. In brief, this procedure resamples the data with replacement to create mock datasets, and use these to run prediction again, and summarize the result of all mock runs. This resampling technique is relevant as experimental measurements may miss certain data points (imperfect dataset). It tests whether the prediction result is robust to (slight) data variations, e.g. if one nucleotide's reactivity dominates the outcome. For more information, see these papers:
 
 >Tian, S., Cordero, P., Kladwang, W., and Das, R. (**2014**)<br/>
 >[High-throughput mutate-map-rescue evaluates SHAPE-directed RNA structure and uncovers excited states](http://rnajournal.cshlp.org/content/20/11/1815)<br/>
@@ -31,7 +31,7 @@ To run RNAstructure with bootstrapping, we use this command:
 [structure_pred, bpp_pred] = rna_structure(sequence, d_1D, offset, seqpos, d_2D, 100, 0);
 ```
 
-The arguments are described in `help rna_structure`.
+The arguments are described in `help rna_structure`. Actual example commands are given below.
 
 > You can feed it pseudo-free energy bonus of **1D** data, or **2D** data, or both. Make sure the dimensions of `sequence` match with `seqpos`, and `d_1D` or `d_2D`.
 
@@ -50,6 +50,8 @@ Once finished, the `rna_structure()` function returns the following variables:
 We will demonstrate how to visualize the results in _next_ step.
 
 <hr/>
+
+For the following, you can load up pre-existing example data available in the HiTRACE package: `load '/path/to/HiTRACE/Examples/example_pfl_1D.mat' and `load '/path/to/HiTRACE/Examples/example_pfl_2D.mat'.
 
 Here is an example script for running RNAstructure with different inputs:
 
