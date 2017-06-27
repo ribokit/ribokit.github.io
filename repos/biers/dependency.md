@@ -14,7 +14,7 @@ prev: ../install/
 
 We are using the **Command Line** (Text Interface) of RNAstructure. Based on our experience, we provide instructuions that is based on and in addtion to RNAstructure's [help page](http://rna.urmc.rochester.edu/Text/index.html).
 
-> **In mid 2017, RNAstructure 6.0 will be released and  `Biers` will be compatible with it.** In the meanwhile, we have only tested RNAstructure versions `5.6` and `5.7`. Other versions may utilize backward-incompatible formats that produce traceback errors at runtime. You can download our working version (`5.6`) from [here](https://rmdb.stanford.edu/site_data/RNAstructure.zip). You may need to re-compile via `make clean; make Fold ShapeKnots`; make sure to update `compiler.h` to point to `CXX=g++`; and you may need to also remove `-fsched-spec-load` from `CXXFLAGS`.
+> **In mid 2017, RNAstructure `6.0` will be released and  `Biers` will be compatible with it.** In the meanwhile, we have only tested RNAstructure versions `5.6` and `5.7`. Other versions may utilize backward-incompatible formats that produce traceback errors at runtime. You can download our working version (`5.6`) from [here](https://rmdb.stanford.edu/site_data/RNAstructure.zip). You may need to re-compile via `make clean; make Fold ShapeKnots`; make sure to update `compiler.h` to point to `CXX=g++`; and you may need to also remove `-fsched-spec-load` from `CXXFLAGS`.
 
 * #### Install a C compiler, preferably `gcc`. 
 
@@ -24,7 +24,9 @@ You may already have this compiler or (on Mac OS X) the `clang` compiler which r
 which gcc
 ```
 
-If you don't get a path, you can install `gcc`. We install it via `brew`, a handy package manager for _Mac OS X_. If you don't have `brew` installed, do:
+If you don't get a path, you can install `gcc`. One way to do it is through `Developer Tools`, available for free at the Apple Store.
+
+Alternatively, you can install `gcc` via `brew`, a handy package manager for _Mac OS X_. If you don't have `brew` installed, do:
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" # may need sudo
@@ -37,16 +39,16 @@ brew tap homebrew/versions
 brew install gcc49
 ```
 
-> We have only tested `gcc` version `4.x`. Newer version (e.g. `5.x`, `6.x`) may have issues with compiler flags. We have also tested `clang`.
+> We have only tested `gcc` version `4.x`. Newer version (e.g. `5.x`, `6.x`) may have issues with compiler flags. We have also tested `clang`, which is actually what runs instead of `gcc` on Max OS X.
 
-Test if `gcc` is the default C complier. You can say:
+Test if `gcc` is the default C compiler. You can say:
 
 ```bash
 which gcc
 gcc --version
 ```
 
-to check if `clang` (system default) occupies the namespace. To fix it, try:
+If you're trying to avoid using `clang` (system default) and instead really want to run this `gcc`, you may need to get rid of `clang`, which occupies the namespace. To fix it, try:
 
 ```bash
 brew unlink gcc49
@@ -103,7 +105,7 @@ Double-click on `VARNA.jar` – it may ask you to install Java runtime – just 
 > Note: we used to recommend running VARNA through a Web browser, but we are not aware of any browsers that still allow _Java_ applications to run.
 
 * #### Set up path to VARNA.
-Edit file ~/.bash_profile, add a line:
+Edit file `~/.bash_profile`, add a line:
 
 ```bash
 export VARNA=/path/to/VARNA.jar
