@@ -1,8 +1,8 @@
 ---
 permalink: /docs/image/
 level: 2
-prev: text/
-next: jekyll/
+prev: ../text/
+next: ../jekyll/
 ---
 
 # Image Format

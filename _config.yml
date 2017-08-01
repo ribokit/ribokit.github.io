@@ -1,9 +1,9 @@
 # Site settings
 title: RiboKit
-email: rhiju@stanford.edu
+email: ribokit.info@gmail.com
 description: ""
 baseurl: ""
-url: "http://ribokit.github.io"
+url: "https://ribokit.github.io"
 github_username:  ribokit
 
 # Default variables
@@ -14,7 +14,7 @@ defaults:
     values:
       layout: "default"
       level: 1
-      title: 
+      title: ""
       author: "Siqi Tian"
       ga_tracker: UA-36037648-6
   -
@@ -29,7 +29,8 @@ defaults:
       path: "workflows"
     values:
       title: "Workflow"
-      auhtor: "Rhiju Das"
+      level: 2
+      author: "Rhiju Das"
       root: "/"
   -
     scope:
@@ -43,10 +44,43 @@ defaults:
       path: "repos/ribovis"
     values:
       title: "RiboVis"
-      description: "PyMol Commands by the Das Lab Style"
+      description: "PyMOL Commands by the Das Lab Style"
       repo: "ribokit/RiboVis"
       author: "Siqi Tian"
       root: "/RiboVis/"
+  -
+    scope:
+      path: "repos/ribopaint"
+    values:
+      title: "RiboPaint"
+      description: "Paint Secondary Structure Diagrams"
+      repo: "ribokit/RiboPaint"
+      author: "Siqi Tian"
+      root: "/RiboPaint/"
+  -
+    scope:
+      path: "repos/hitrace"
+    values:
+      title: "HiTRACE"
+      description: "<u>Hi</u>gh-<u>T</u>hroughput <u>R</u>obust <u>A</u>nalysis for <u>C</u>apillary <u>E</u>lectrophoresis"
+      repo: "ribokit/HiTRACE"
+      root: "/HiTRACE/"
+  -
+    scope:
+      path: "repos/rdatkit"
+    values:
+      title: "RDATKit"
+      description: "<u>R</u>NA <u>Dat</u>aset Tool<u>Kit</u>"
+      repo: "ribokit/RDATKit"
+      root: "/RDATKit/"
+  -
+    scope:
+      path: "repos/biers"
+    values:
+      title: "Biers"
+      description: "<u>B</u>est <u>I</u>nference <u>E</u>ngine for <u>R</u>NA <u>S</u>tructure"
+      repo: "ribokit/Biers"
+      root: "/Biers/"
 
 # Build settings
 markdown: kramdown
@@ -64,18 +98,10 @@ kramdown:
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-  coderay:
-    coderay_wrap:              div
-    coderay_line_numbers:      inline
-    coderay_line_number_start: 1
-    coderay_tab_width:         4
-    coderay_bold_every:        10
-    coderay_css:               style
-
-
-# Redirect url
-# gems:
-#   - jekyll-redirect-from
-
-# whitelist:
-#   - jekyll-redirect-from
+  # coderay:
+  #   coderay_wrap:              div
+  #   coderay_line_numbers:      inline
+  #   coderay_line_number_start: 1
+  #   coderay_tab_width:         4
+  #   coderay_bold_every:        10
+  #   coderay_css:               style

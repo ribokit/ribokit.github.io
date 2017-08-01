@@ -60,6 +60,11 @@ Copyright &copy; of **RNAdesign** _Source Code_ is described in [**license-and-d
 * [**RiboVis**](/RiboVis/)
 
 <hr/>
+## Workflows
+
+* [I want to design a new RNA molecule](/workflows/design/)
+
+<hr/>
 Developed by **Rosetta Commons**.
 
 README by [**Kalli Kappel**](https://github.com/kkappel1), *May 2016*.

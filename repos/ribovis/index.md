@@ -2,7 +2,7 @@
 permalink: /RiboVis/
 ---
 
-# <samp>RiboVis</samp>
+# RiboVis
 
 [![1q9a Example Image](https://raw.github.com/ribokit/RiboVis/master/1q9a.png "1q9a Example Image"){: .half}](https://raw.github.com/ribokit/RiboVis/master/1q9a.png)
 {: .center}
@@ -50,6 +50,7 @@ rr()
 ## Documentation
 
 * #### *Python* Documentation is available at: [**docs/**](docs/).
+* #### *Python* Tutorial is available at: [**tutorial/**](tutorial/).
 
 <hr/>
 ## License
@@ -59,11 +60,12 @@ Copyright &copy; of **RiboVis** _Source Code_ is described in [LICENSE.md](https
 <hr/>
 ## Related Packages
 
-* [**HiTRACE**](https://hitrace.github.io/HiTRACE/)
+* [**HiTRACE**](/HiTRACE/)
+* [**RiboPaint**](/RiboPaint/)
 
 
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.
 
-README by [**t47**](http://t47.io/), *April 2016*, edits by **Clarence Cheng**, *May 2016*.
+README by [**t47**](https://t47.io/), *April 2016*, edits by **Clarence Cheng**, *May 2016*.
 

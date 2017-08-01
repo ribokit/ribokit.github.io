@@ -1,6 +1,6 @@
 ---
 permalink: /MAPseeker/
-repo: DasLab/MAPseeker
+repo: ribokit/MAPseeker
 title: "MAPseeker"
 description: "Software for analysis of NGS chemical mapping experiments"
 author: Clarence Cheng
@@ -21,7 +21,7 @@ Installation instructions and tutorials for analyzing MAP-seq and MOHCA-seq data
 <hr/>
 ## License
 
-Copyright &copy; of **MAPseeker** _Source Code_ is described in [LICENSE.md](https://github.com/DasLab/MAPseeker/blob/master/LICENSE.md).
+Copyright &copy; of **MAPseeker** _Source Code_ is described in [LICENSE.md](https://github.com/ribokit/MAPseeker/blob/master/LICENSE.md).
 
 <hr/>
 ## Reference
@@ -40,7 +40,7 @@ Copyright &copy; of **MAPseeker** _Source Code_ is described in [LICENSE.md](htt
 * [**RDATKit**](/RDATKit/)
 * [**Biers**](/Biers/)
 * [**REEFFIT**](/REEFFIT/)
-* [**MaP2D**](/MaP2D/)
+* [**M2seq**](/M2seq/)
 
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.

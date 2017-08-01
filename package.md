@@ -1,6 +1,7 @@
 ---
 permalink: /package/
 level: 2
+title: "Package"
 description: "RiboKit Software Packages"
 ---
 
@@ -12,34 +13,31 @@ description: "RiboKit Software Packages"
 
 | Package | Description | Language |
 | --- | --- | ---: |
-| [**Biers**](/Biers/) | From MCM (MOHCA) to 3D | `MATLAB` |
-| [**HiTRACE**](/HiTRACE/) | The standard tool for MCM analysis of CE | `MATLAB` |
-| [**LIFFT**](/LIFFT/) | The standard tool for titration analysis | `MATLAB` |
-| [**MaP2D**](/MaP2D/) | The standard tool for MCM analysis of RING-MaP | `Python` |
-| [**MAPseeker**](/MAPseeker/) | The standard tool for MCM analysis of NGS | `MATLAB` / `C++` |
-| [**Primerize**](/Primerize/) | First stop for assembling templates for RNA synthesis | `Python` |
-| [**RDATKit**](/RDATKit/) | Utils for anyone working with MCM data | `Python` |
-| [**REEFFIT**](/REEFFIT/) | The standard tool for MCM analysis of multi-state RNAs | `Python` |
+| [**Biers**](/Biers/) | Secondary structure analysis from MCM data  | `MATLAB` |
+| [**HiTRACE**](/HiTRACE/) | Quantitation of capillary electrophoresis MCM data | `MATLAB` |
+| [**LIFFT**](/LIFFT/) | Thermodynamic parameters from chemical mapping | `MATLAB` |
+| [**MAPseeker**](/MAPseeker/) | Quantitation of Illumina-based MCM data | `MATLAB` / `C++` |
+| [**Primerize**](/Primerize/) | Easy assembly of templates for RNA synthesis | `Python` |
+| [**RDATKit**](/RDATKit/) | Utilities for MCM data format | `Python` |
+| [**REEFFIT**](/REEFFIT/) | Analysis of multi-state RNAs from MCM data | `Python` |
 
 <hr/>
-## Modeling &amp; Design
+## Graphics
 
 | Package | Description | Language |
 | --- | --- | ---: |
-| [**ERRASER**](/ERRASER/) | Routine step in expt RNA structural biology | `Python` |
-| ~~**EternaBot**~~ | Standard RNA 2D design tool | `Python` |
-| ~~**HelixMC**~~ | Modeling optical tweezers experiments | `Python` |
-| ~~**RiboLogic**~~ | Standard RNA 2D design tool | `Python` |
-| [**RNAMake**](/RNAMake/) | "Vienna" for 3D RNA folding/design | `Python` / `C++` |
-| [**Rosetta RNA _de novo_**](/RNAdenovo/) | State-of-the-art solver for complex RNA 3D folds | `C++` |
+| [**RiboPaint**](/RiboPaint/) | Publication-quality secondary structure diagram painter | `MATLAB` |
+| [**RiboVis**](/RiboVis/) | Easy-to-install PyMOL utilities for RNA visualization | `Python` |
+
+<hr/>
+## Modeling &amp; Design (external)
+
+| Package | Description | Language |
+| --- | --- | ---: |
+| [**ERRASER**](/ERRASER/) | High-resolution refinement of crystallographic/cryoEM structures | `Python` |
+| [**HelixMC**](/HelixMC/) | Modeling optical tweezers experiments | `Python` |
+| [**RNAMake**](/RNAMake/) | 3D RNA design and folding energetics | `Python` / `C++` |
+| [**Rosetta RNA _de novo_**](/RNAdenovo/) | 3D modeling of complex RNA folds  | `C++` |
 | [**Rosetta RNAdesign**](/RNAdesign/) | Fast generator of RNA design hypotheses | `C++` |
-| [**Rosetta Stepwise**](/Stepwise/) | State-of-the-art solver for high-res motif modeling/design | `C++` |
+| [**Rosetta Stepwise**](/Stepwise/) | High-resolution RNA motif modeling/design | `C++` |
 
-<hr/>
-## Miscellaneous
-
-| Package | Description | Language |
-| --- | --- | ---: |
-| [**RiboVis**](/RiboVis/) | Utils for anyone working on RNA modeling | `Python` |
-| ~~**RiboBase**~~ | Base classes for handling RNA and data | `Python` |
-| ~~**RMDB API**~~ | "PDB" for MCM data | |

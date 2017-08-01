@@ -804,8 +804,11 @@ header a:hover {
   background-color: #FFE788;
 }
 #banner .downloads {
-  float: right;
-  margin: 0 45px 0 0;
+  /*float: right;*/
+  /*margin: 0 45px 0 0;*/
+  position: absolute;
+  right: 50%;
+  margin-right: -455px;
 }
 #banner .downloads span {
   float: left;
@@ -832,7 +835,8 @@ header a:hover {
   position: absolute;
   height: 36px;
   width: 36px;
-  right: 218px;
+  right: 50%;
+  margin-right: -500px;
   top: 7px;
   display: block;
   background: url(../images/octocat-logo.png);
@@ -938,10 +942,10 @@ footer {
     width: 100%;
   }
   #banner .downloads {
-    margin-right: 60px;
+    display: none;
   }
   #banner #logo {
-    margin-right: 15px;
+    margin-right: -220px;
   }
 
   section {
@@ -991,6 +995,14 @@ footer {
     margin-left: 0px;
     position: fixed;
     left: 20px;
+  }
+  #banner .downloads,
+  #banner #logo {
+    display: none;
+  }
+  #banner form {
+    float: right;
+    position: inherit;
   }
 
   section {

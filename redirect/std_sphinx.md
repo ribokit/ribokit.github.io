@@ -1,4 +1,4 @@
 ---
 permalink: /std/sphinx/
-redirect_to:  /docs/sphinx/
+redirect_to: /docs/sphinx/
 ---

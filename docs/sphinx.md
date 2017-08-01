@@ -1,7 +1,7 @@
 ---
 permalink: /docs/sphinx/
 level: 2
-prev: jekyll/
+prev: ../jekyll/
 ---
 
 # Sphinx
@@ -20,6 +20,14 @@ pip install sphinx
 ```
 
 * Command `sphinx-quickstart` should be available if properly installed.
+
+> For unknown reasons, you may not have `sphinx-quickstart` executable anywhere. No solution was found online for this case. As a temporary fix, go to the GitHub repository [Sphinx](https://github.com/sphinx-doc/sphinx), download the `sphinx-build.py` file to local, and manually link it by:
+
+```bash
+chmod +x /path/to/sphinx-build.py
+sudo ln -s /path/to/sphinx-build.py /usr/local/bin/sphinx-build
+```
+
 
 Now creates a `docs/` folder inside the directory tree:
 
@@ -64,7 +72,7 @@ Now you should have:
 <hr/>
 ## Theme
 
-* Clone or download the [**RiboKit Theme**](https://github.com/t47io/ribokit-Sphinx-theme) and place under your project directory. Create a `_theme/` folder:
+* Clone or download the [**RiboKit Theme**](https://github.com/ribokit/ribokit-Sphinx-theme) and place under your project directory. Create a `_theme/` folder:
 
 ```
 ├── docs/
@@ -83,7 +91,7 @@ html_theme_path = ['_theme']
 html_theme_options = {
     'description': 'PCR Assembly Primer Design',
     'author': author.split(',')[0].strip(),
-    'github_repo': 'DasLab/Primerize',
+    'github_repo': 'ribokit/Primerize',
     'ga_tracker': 'UA-12345678-9'
 }
 html_additional_pages = {'404': '404.html'}
