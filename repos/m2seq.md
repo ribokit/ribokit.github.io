@@ -19,17 +19,11 @@ Features include:
 - Creation of RDATs that can be analyzed by tools in [Biers](/Biers/rnastructure/#rnastructure-M2seq).
 
 <hr/>
-## Installation
+## Usage
 
-* #### [Getting started](https://github.com/ribokit/M2seq)
- describes BowTie2, SHAPEmapper, and other dependencies.
-
-<hr/>
-## Usage 
-
-#### Instructions and example data are available: 
-
-* [README.md](https://github.com/ribokit/M2seq)
+* [Getting started](https://github.com/ribokit/M2seq) describes installations & BowTie2, SHAPEmapper, and other dependencies.
+* Instructions and example data are available at [README.md](https://github.com/ribokit/M2seq)
+* Analyze the output M2seq data with special instructions described in [Biers](/Biers/rnastructure/#rnastructure-M2seq).
 
 <hr/>
 ## License
