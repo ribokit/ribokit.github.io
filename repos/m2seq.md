@@ -1,5 +1,9 @@
 ---
 permalink: /M2seq/
+repo: ribokit/M2seq
+title: "M2seq"
+description: "Software for mutate-and-map-seq experiments"
+author: Clarence Cheng
 ---
 
 
