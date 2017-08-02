@@ -16,7 +16,7 @@ Features include:
 - Separation of barcoded samples
 - Alignment to reference sequences, and extraction of mutations
 - Visualization of mutate-and-map signals in the resulting data
-- Creation of RDATs that can be analyzed by tools in [Biers](/Biers/).
+- Creation of RDATs that can be analyzed by tools in [Biers](/Biers/rnastructure/#rnastructure-M2seq).
 
 <hr/>
 ## Installation

@@ -110,7 +110,8 @@ The above code filters the _Z-score_ by the mean of each column (`seqpos`, not `
 
 <hr/>
 
-### How to model structure with M2-seq data <a name="rnastructure-M2seq"></a>
+<a name="rnastructure-M2seq"></a>
+### How to model structure with M2-seq data 
 
 Structure modeling with [M2-seq](M2seq) data can happen via two routes:
 
