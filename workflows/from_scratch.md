@@ -24,7 +24,7 @@ Examples of successful application include solving numerous structures _de novo_
 
 1. <b>Synthesize</b> your RNA using the instructions in [Primerize](/Primerize/). 
 
-2. <b>Carry out one-dimensional (1D) chemical mapping</b> using SHAPE, DMS, and CMCT probes; using [HiTRACE](/HiTRACE/) and [RDATKit](/RDATKit/). See [Protocols](/protocol/).
+2. <b>Carry out one-dimensional (1D) chemical mapping</b> using SHAPE, DMS, and CMCT probes; using [HiTRACE](/HiTRACE/) and [RDATKit](/RDATKit/). See [Protocols](/protocols/).
 
 3. <b>Carry out RNA secondary structure prediction</b> guided by these data, with bootstrapping, using [Biers](/Biers/). 
 

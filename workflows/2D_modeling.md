@@ -21,7 +21,7 @@ The mutate-and-map experimental protocol gives rich data on an RNA's structure b
 
 2. **Design primer plates** for mutate-and-map experiments with [Primerize](/Primerize/).
 
-3. Carry out the **[mutate-and-map](/protocol/)** measurements.  
+3. Carry out the **[mutate-and-map](/protocols/)** measurements.  
 
 4. **Analyze** the data to infer a dominant secondary structure, with bootstrapping, with [HiTRACE](/HiTRACE/), [RDATKit](/RDATKit/), and [Biers](/Biers/).
 
