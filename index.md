@@ -40,4 +40,6 @@ description: Tools for High-throughput RNA Structure Analysis
 | [**RiboPaint**](/RiboPaint/) | Publication-quality secondary structure diagram painter | `MATLAB` |
 | [**RiboVis**](/RiboVis/) | Easy-to-install PyMOL utilities for RNA visualization | `Python` |
 
+Experimental protocols that go with the tools above are compiled on the [Protocols page](/protocols/).
+
 <hr/>

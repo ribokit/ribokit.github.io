@@ -1,12 +1,12 @@
 ---
-permalink: /protocol/
+permalink: /protocols/
 level: 2
 
-title: Protocol
-description: Experiment Protocol
+title: Protocols
+description: Experimental Protocols
 ---
 
-# Experiment Protocol
+# Experimental Protocols
 
 <br/>
 
