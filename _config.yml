@@ -59,6 +59,15 @@ defaults:
       root: "/RiboPaint/"
   -
     scope:
+      path: "repos/lifft"
+    values:
+      title: "LIFFT"
+      description: "Fit RNA folding transitions"
+      repo: "ribokit/LIFFT"
+      author: "Rhiju Das"
+      root: "/LIFFT/"
+  -
+    scope:
       path: "repos/hitrace"
     values:
       title: "HiTRACE"

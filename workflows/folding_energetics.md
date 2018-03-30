@@ -21,8 +21,6 @@ Calculation of the folding energies and flexibilities of RNA structures is less 
 
 * **For single-molecule force spectroscopists**, the [HelixMC](/HelixMC/) package allows prediction of mechanical properties of long double-stranded RNA and DNA using base-pair-level models derived from RNA crystallography.
 
-* **For molecular dynamicists and epitranscriptomicists**, the [RECCES](/RECCES/) module in Rosetta allows estimation of nearest-neighbor parameters for helix stacked pairs and dangling ends, including chemically modified nucleotides.
-
 <br/>
 
 ## Limitations

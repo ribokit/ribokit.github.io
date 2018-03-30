@@ -8,10 +8,10 @@ author: Johan Andreasson
 
 # LIFFT
 
-LIkelihood-based Fits of Folding Transitions (**LIFFT**) models thermodynamic relationships vs. temperature, ionic, or ligand condition from chemical mapping measurement data. Using a likelihood function, no ad hoc assumptions are necessary for error estimation, normalizaion, or for the choice of residues to fit.
+LIkelihood-based Fits of Folding Transitions (**LIFFT**) models thermodynamic relationships vs. temperature, ionic, or ligand condition from chemical mapping measurement data. Using a likelihood function, assumptions that are necessary for error estimation, normalization, or for the choice of residues to fit are spelled out explicitly and applied systematically.
 
 <hr/>
-## Installation
+## Installation & Getting Started
 
 To install **LIFFT**, 
 
@@ -28,14 +28,17 @@ git clone https://github.com/ribokit/LIFFT.git
 
 - In *MATLAB*, go to "**Set Path**". Then "**Add with Subfolders**" of the target `path/to/LIFFT/`.
 
+- In *MATLAB*, get a demo by typing:
+```
+lifft_demo( 'all' )
+```
+
 <hr/>
 ## Documentation
 
-* #### Documentation is available in: [**docs/README.md**](https://github.com/ribokit/LIFFT/blob/master/README.md).
+* #### Documentation and examples are available in: [*docs/*](docs/)
 
-* #### An example is available in: [**examples/eterna_fit_FMN_binding/**](https://github.com/ribokit/LIFFT/tree/master/examples/eterna_fit_FMN_binding).
-
-* #### To get more detailed documentation, in *MATLAB* type:
+* #### To get documentation for LIFFT input/output in *MATLAB* type:
 
 ```matlab
 help lifft
@@ -72,5 +75,5 @@ Copyright &copy; of **LIFFT** _Source Code_ is described in [LICENSE.md](https:/
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.
 
-README by [**Johan Andreasson**](https://github.com/johanandreasson), *May 2016*.
+README updated by [**Rhiju Das**](https://github.com/rhiju), *March 2018*.
 
