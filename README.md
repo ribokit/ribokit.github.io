@@ -22,7 +22,7 @@ To preview the server in your web browser, go to:
 
 http://localhost:4000/
 
-
+* If you run into an issue with 301 redirects, we haven't yet solved it. The quick hack: temporarily move the folder `redirect/` out of the repository; remember to bring it back into the repo before committing. 
 
 ## Contributing
 
