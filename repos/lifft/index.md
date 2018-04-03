@@ -3,7 +3,7 @@ permalink: /LIFFT/
 repo: ribokit/LIFFT
 title: "LIFFT"
 description: "<u>LI</u>kelihood-based <u>F</u>its of <u>F</u>olding <u>T</u>ransitions"
-author: Johan Andreasson
+author: Rhiju Das
 ---
 
 # LIFFT
@@ -15,9 +15,7 @@ LIkelihood-based Fits of Folding Transitions (**LIFFT**) models thermodynamic re
 
 To install **LIFFT**, 
 
-• Download the latest release here:
-
-[https://github.com/DasLab/LIFFT/releases/](https://github.com/DasLab/LIFFT/releases/)
+• Download the latest release here: [https://github.com/DasLab/LIFFT/releases/](https://github.com/DasLab/LIFFT/releases/)
 
 or if you want the latest code through git:
 
@@ -71,6 +69,10 @@ Copyright &copy; of **LIFFT** _Source Code_ is described in [LICENSE.md](https:/
 
 ## Workflows
 * [I want to model RNA folding energetics](/workflows/folding_energetics/)
+
+<hr/>
+
+* Next: [Documentation ](/LIFFT/docs/)
 
 <hr/>
 Developed by **Das lab**, _Leland Stanford Junior University_.
