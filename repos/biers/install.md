@@ -18,12 +18,14 @@ git clone https://github.com/ribokit/Biers.git
 
 - In *MATLAB*, go to "**Set Path**". Then "**Add with Subfolders**" of the target `path/to/Biers/Scripts/`.
 
-- Make sure you have set in your environment the variables `DATAPATH` (for RNAstructure) and `VARNA` (for VARNA). If you are on a Mac or Linux, put lines like the following in your `.bashrc`:
+- Make sure you have set in your environment the variables `DATAPATH` (for RNAstructure) and `VARNA` (for VARNA). If you are on a Mac or Linux, put lines like the following in your `.bash_profile`:
 
 ```bash
 export DATAPATH=$HOME/src/RNAstructure/data_tables/
 export VARNA=$HOME/src/VARNA.jar
 ```
+See also the [Biers Dependencies](/Biers/dependency/) page.
+
 
 - Makes sure that you start MATLAB from terminal, as follows.
 
@@ -49,5 +51,11 @@ Again, restart your terminal to take effect. Now you only need to type `matlab` 
 
 <hr/>
 
-#### **A complete guide on the whole setup**{: style="color:#ff5c2b;"}, including `gcc`, RNAstructure, VARNA, is described [here](../dependency/).
+#### **A complete guide on the whole setup**{: style="color:#ff5c2b;"}, including **gcc**, RNAstructure, VARNA, is described at the [Biers dependencies page](../dependency/).
 
+<hr/>
+
+* Previous: [Biers](/Biers/)
+* Next: [Dependencies](/Biers/dependency/)
+
+<hr/>

@@ -10,11 +10,29 @@ prev: ../install/
 
 <hr/>
 
+## Setting up MATLAB
+
+You may need to launch MATLAB from command-line to make sure it finds all the paths for RNAstructure and VARNA, as outlined below. 
+
+>Simply double-clicking on the MATLAB icon may not work!
+
+Go into the `.bash_profile` in your home directory, and include a line like:
+
+```
+alias matlab=/Applications/MATLAB_R20XXa.app/bin/matlab
+```
+
+
+> Use any text editor you prefer, e.g. `vim`, `nano` (easiest), `emacs`.
+
+> Make sure you replace the version number (20xxa) with your 'real' version number!
+
 ## RNAstructure
 
-We are using the **Command Line** (Text Interface) of RNAstructure. Based on our experience, we provide instructuions that is based on and in addtion to RNAstructure's [help page](http://rna.urmc.rochester.edu/Text/index.html).
+We are using the **Command Line** (Text Interface) of RNAstructure. Following are instructions that are based on RNAstructure's [help page](http://rna.urmc.rochester.edu/Text/index.html). 
 
-> **In mid 2017, RNAstructure `6.0` will be released and  `Biers` will be compatible with it.** In the meanwhile, we have only tested RNAstructure versions `5.6` and `5.7`. Other versions may utilize backward-incompatible formats that produce traceback errors at runtime. You can download our working version (`5.6`) from [here](https://rmdb.stanford.edu/site_data/RNAstructure.zip). You may need to re-compile via `make clean; make Fold ShapeKnots`; make sure to update `compiler.h` to point to `CXX=g++`; and you may need to also remove `-fsched-spec-load` from `CXXFLAGS`.
+* #### Biers is compatible only with RNA structure 6.0 and later. 
+RNAstructure versions earlier than 6.0 have bugs in treatment of DMS data.
 
 * #### Install a C compiler, preferably `gcc`. 
 
@@ -100,9 +118,12 @@ Now close the terminal window and start a new one. (This allows the `~/.bash_pro
 
 > Any of the _types_ listed on the [download page](http://varna.lri.fr/index.php?lang=en&page=downloads&css=varna) works. The minimal _Binaries_ suffices.
 
-Double-click on `VARNA.jar` – it may ask you to install Java runtime – just follow the instructions. 
+Double-click on `VARNA.jar` 
+
+> `VARNA.jar` may ask you to install Java runtime – just follow the instructions.  If you see blank data or do not see chemical mapping data, install the latest JDK: [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 > Note: we used to recommend running VARNA through a Web browser, but we are not aware of any browsers that still allow _Java_ applications to run.
+
 
 * #### Set up path to VARNA.
 Edit file `~/.bash_profile`, add a line:
@@ -119,8 +140,26 @@ Now close the terminal window and start a new one. (This allows the `~/.bash_pro
 
 <br/>
 
+
+## Summary of what should be in your **.bash_profile**
+
+After all the installation, check that your home directory's `.bash_profile` should have four lines like the following.
+
+```
+export PATH=/usr/local/bin:$PATH
+export DATAPATH=/path/to/RNAstructure/data_tables/
+export VARNA=/path/to/VARNA.jar
+alias matlab=/Applications/MATLAB_R20XXa.app/bin/matlab
+```
+
+> Early versions of Biers recommended that these lines be placed in `.bashrc`. If you are using `.bashrc`, make sure your `.bash_profile` has a line like `source ~/.bashrc`
+
 <hr/>
 
+* Previous: [MATLAB installation](/Biers/install/)
+* Next: [Predict secondary structure](/Biers/rnastructure/)
+
+<hr/>
 
 
 

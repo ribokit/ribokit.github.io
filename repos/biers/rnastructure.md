@@ -209,7 +209,11 @@ Example output from RNAstructure/VARNA:
 [![gir1_m2seq_rnastructure](/repos/biers/res/GIR1_test_structure.png "gir1 m2seq structure")](/repos/biers/res/GIR1_test_structure.png)
 
 
+<hr/>
 
+* Previous: [HiTRACE analysis](/HiTRACE/tutorial/step_10/)
+* Previous: [Biers dependencies](/Biers/dependency/)
+* Next: [Visualize secondary structure](/Biers/varna/)
 
 
 

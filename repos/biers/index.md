@@ -60,3 +60,8 @@ Copyright &copy; of **Biers** _Source Code_ is described in [LICENSE.md](https:/
 Developed by **Das lab**, _Leland Stanford Junior University_.
 
 README by [**t47**](https://t47.io/), *April 2016*.
+
+<hr/>
+
+* Next: [MATLAB installation](/Biers/install/)
+
