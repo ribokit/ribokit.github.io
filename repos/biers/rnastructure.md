@@ -121,7 +121,7 @@ Structure modeling with [M2-seq](M2seq) data can happen via two routes:
 Here's an example:
 
 #### Example data
-First get the data set. Let's use data based on background mutations incorporated into the P4-P6 RNA during its DNA synthesis (by PCR assembly) and RNA synthesis (by T7 polymerase) and DMS mapping, [TRP4P6\_DMS\_0005.rdat](https://rmdb.stanford.edu/site_data/file/TRP4P6_DMS_0005/TRP4P6_DMS_0005.rdat). A no-DMS data set is also available  [TRP4P6\_DMS\_0006.rdat](https://rmdb.stanford.edu/site_data/file/TRP4P6_DMS_0006/TRP4P6_DMS_0006.rdat)
+First get the data set. Let's use data based on background mutations incorporated into the P4-P6 RNA during its DNA synthesis (by PCR assembly) and RNA synthesis (by T7 polymerase) and DMS mapping, [TRP4P6\_DMS\_0005.rdat](https://github.com/DasLab/rmdb.github.io/releases/download/data-rna-structures/TRP4P6_DMS_0005.rdat). A no-DMS data set is also available  [TRP4P6\_DMS\_0006.rdat](https://github.com/DasLab/rmdb.github.io/releases/download/data-rna-structures/TRP4P6_DMS_0006.rdat)
 
 Read these into MATLAB:
 
@@ -180,7 +180,7 @@ Example output:
 
 
 #### What if I don't have no-mod? What if the RNA is thought to have pseudoknots?
-Don't worry, for the above analysis the no-mod data are not super important, and you can model pseudoknots. Here are example instructions with DMS M2-seq data from the GIR1 lariat-capping ribozyme, downloaded from [GIR1RZ\_DMS\_0001.rdat](https://rmdb.stanford.edu/site_data/file/GIR1RZ_DMS_0001/GIR1RZ_DMS_0001.rdat).
+Don't worry, for the above analysis the no-mod data are not super important, and you can model pseudoknots. Here are example instructions with DMS M2-seq data from the GIR1 lariat-capping ribozyme, downloaded from [GIR1RZ\_DMS\_0001.rdat](https://github.com/DasLab/rmdb.github.io/releases/download/data-general/GIR1RZ_DMS_0001.rdat).
 
 ```
 r_m2seq_GIR1   = read_rdat_file( 'GIR1RZ_DMS_0001.rdat' ); 
