@@ -11,7 +11,7 @@ Example scripts and data are included in the **HiTRACE** [repository](https://gi
 
 * 2D Analysis: _[Script](https://github.com/ribokit/HiTRACE/blob/master/Examples/example_pfl_2D.m), [CE Data](https://github.com/ribokit/HiTRACE/blob/master/Examples/data_pfl_2D.zip), [Workspace](https://github.com/ribokit/HiTRACE/blob/master/Examples/example_pfl_2D.mat)_
 
-* [**NEW**{: style="color:#ff5c2b;"}] For further practice, we provide 12 more examples. They are previous 1D and 2D datasets annotated by our experts. Download [Script &amp; Data](https://rmdb.stanford.edu/site_data/HiTRACE_more_practice.zip), and follow these [instructions](practice/).
+* [**NEW**{: style="color:#ff5c2b;"}] For further practice, we provide 12 more examples. They are previous 1D and 2D datasets annotated by our experts. Download [Script &amp; Data](https://github.com/ribokit/HiTRACE/releases/download/2.3.0/HiTRACE_more_practice.zip), and follow these [instructions](practice/).
 
 > Workspace files are provided for comparison only, when you want to double check if your results are the same (especially for [**Step #4**](step_4/)). They are not needed for trying out and starting fresh.
 

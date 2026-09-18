@@ -12,7 +12,7 @@ To practice your skills, you need to do the sequence assignment on your own, and
 
 ## Instructions
 
-- Download the additional files provided from this [link](https://rmdb.stanford.edu/site_data/HiTRACE_more_practice.zip).
+- Download the additional files provided from this [link](https://github.com/ribokit/HiTRACE/releases/download/2.3.0/HiTRACE_more_practice.zip).
 
 - Unpack the _.zip_ file, and open *MATLAB* in that folder.
 
