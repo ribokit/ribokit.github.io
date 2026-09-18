@@ -8,7 +8,7 @@ next: ../docs/
 
 ## MATLAB
 
-- From GitHub or [**RMDB**](https://rmdb.stanford.edu/tools/), download the zip or tar file of the repository and unpack; or 
+- From [**GitHub Releases**](https://github.com/ribokit/RDATKit/releases), download the zip or tar file of the repository and unpack; or 
 
 ```bash
 git clone https://github.com/ribokit/RDATKit.git

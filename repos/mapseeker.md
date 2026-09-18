@@ -14,7 +14,7 @@ It includes an executable for performing sequence alignment and reverse transcri
 <hr/>
 ## Installation &amp; Documentation
 
-**MAPseeker** can be downloaded for non-commercial use at the [**RMDB**](https://rmdb.stanford.edu/tools/). Commercial users, please [**contact us**](https://rmdb.stanford.edu/help/about/#contact).
+**MAPseeker** can be downloaded for non-commercial use from [**GitHub Releases**](https://github.com/ribokit/MAPseeker/releases). Commercial users, please [**contact us**](https://rmdb.stanford.edu/about/#contact).
 
 Installation instructions and tutorials for analyzing MAP-seq and MOHCA-seq data are provided in the README.md file in the package. The package also includes example MAP-seq and MOHCA-seq data.
 
